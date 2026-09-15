@@ -1,0 +1,20 @@
+# 编译产物（可执行文件，无扩展名）
+std
+brute
+gen
+gen_data
+check
+*.o
+a.out
+
+# macOS
+.DS_Store
+._*
+
+# 编译错误日志
+compile_err
+
+# 临时文件
+*.tmp
+*.swp
+*~
