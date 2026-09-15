@@ -1,0 +1,65 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+// Blancmange curve: y = sum_{n=0}^{N-1} s(2^n * x) / 2^n
+// where s(x) = distance from x to nearest integer
+// Circle C: center (0.25, 0.5), radius 0.25
+// Find area of region that is BOTH under the curve AND inside the circle
+
+double s(double x) {
+    double frac = x - floor(x);
+    return min(frac, 1.0 - frac);
+}
+
+double blancmange(double x, int N) {
+    double y = 0.0;
+    double pow2 = 1.0;
+    for (int n = 0; n < N; n++) {
+        y += s(pow2 * x) / pow2;
+        pow2 *= 2.0;
+    }
+    return y;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int N;
+    cin >> N;
+
+    const int STEPS = 1000000; // numerical integration steps
+    double dx = 1.0 / STEPS;
+    double area = 0.0;
+
+    // Circle: center (0.25, 0.5), radius 0.25
+    // Circle exists for x in [0, 0.5]
+    double cx = 0.25, cy = 0.5, r = 0.25, r2 = r * r;
+
+    for (int i = 0; i < STEPS; i++) {
+        double x = (i + 0.5) * dx;
+        if (x > cx + r) break; // circle ends at x=0.5
+
+        double y_curve = blancmange(x, N);
+
+        // Circle boundaries at this x:
+        double dx_c = x - cx;
+        if (fabs(dx_c) > r) continue;
+        double half_chord = sqrt(r2 - dx_c * dx_c);
+        double y_lo = cy - half_chord; // bottom of circle at this x
+        double y_hi = cy + half_chord; // top of circle at this x
+
+        // Region under curve AND inside circle at this x:
+        // [max(0, y_lo), min(y_curve, y_hi)]
+        // But y_lo >= 0 always here
+        double h = 0.0;
+        if (y_curve >= y_lo) {
+            h = min(y_curve, y_hi) - y_lo;
+        }
+        area += h * dx;
+    }
+
+    cout << fixed << setprecision(8) << area << "\n";
+    return 0;
+}
