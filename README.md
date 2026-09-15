@@ -1,6 +1,25 @@
-# ProjectEuler 
+# ProjectEuler 题目改编集
 
-本文件包含Project Euler中1～10题改编的OJ试题示例，旨在探讨试题改编的规范和策略。
+本项目将 Project Euler 题目改编为更符合 ACM/OJ 风格的试题：输入参数化、支持多组测试数据，每题包含题面、题解、标准解、暴力解、对拍与正式数据。目前已覆盖第 1 ～ 968 题。项目最初以第 1 ～ 10 题作为示例探讨改编规范（见下文），后按题号顺序批量推进。
+
+## 仓库结构
+
+```
+PE_problem_sets/
+├── 001/ ~ 968/       每题一个目录（题面 statement.md、题解 NNN.md、改编说明 README.md、
+│                     code/ 标准解与暴力解、data/ 测试数据、scripts/ 对拍脚本、Makefile、eval.sh）
+├── _template/        最小题目文件结构模板（新题以此为准）
+├── _tools/           构建 / 验证 / 测试脚本（含 _tools/verify/ 各批次验证脚本）
+├── docs/
+│   ├── reports/      分批进度报告与阶段总结（SUMMARY*、RUN_REPORT* 等）
+│   └── Skill.md      题目生成流程说明
+├── source/           网站源文件（题目页面、文章、资源）
+└── _archive/         历史遗留存档（未穷举核对，暂不删除）
+    ├── PE_alias/     PE 前缀别名目录（多数为对应数字目录的旧版/残缺副本，
+    │                 但含少量独有文件，如 PE0315 的 data/、PE0687 的探索代码）
+    ├── shortname_dup/  41/42/43 无前导零重复目录（与 041~043 内容有差异）
+    └── misc/         临时脚本、日志、归档包等杂项
+```
 
 ## 文件说明
 
