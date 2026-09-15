@@ -18,3 +18,6 @@ compile_err
 *.tmp
 *.swp
 *~
+
+# 审计脚本编译产物
+_tools/audit/_work/

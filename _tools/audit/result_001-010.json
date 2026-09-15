@@ -1,0 +1,555 @@
+[
+ {
+  "problem": "001",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "01.in",
+    "result": "AC",
+    "time": 0.046
+   },
+   {
+    "case": "02.in",
+    "result": "AC",
+    "time": 0.014
+   },
+   {
+    "case": "03.in",
+    "result": "AC",
+    "time": 0.011
+   },
+   {
+    "case": "04.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "05.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "06.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "07.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "08.in",
+    "result": "AC",
+    "time": 0.013
+   },
+   {
+    "case": "09.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.011
+   }
+  ],
+  "data_max_time": 0.046,
+  "extra": []
+ },
+ {
+  "problem": "002",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "01.in",
+    "result": "AC",
+    "time": 0.041
+   },
+   {
+    "case": "02.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "03.in",
+    "result": "AC",
+    "time": 0.011
+   },
+   {
+    "case": "04.in",
+    "result": "WA",
+    "time": 0.011
+   },
+   {
+    "case": "05.in",
+    "result": "WA",
+    "time": 0.011
+   },
+   {
+    "case": "06.in",
+    "result": "WA",
+    "time": 0.012
+   },
+   {
+    "case": "07.in",
+    "result": "WA",
+    "time": 0.011
+   },
+   {
+    "case": "08.in",
+    "result": "WA",
+    "time": 0.011
+   },
+   {
+    "case": "09.in",
+    "result": "WA",
+    "time": 0.011
+   },
+   {
+    "case": "10.in",
+    "result": "WA",
+    "time": 0.012
+   }
+  ],
+  "data_max_time": 0.041,
+  "extra": []
+ },
+ {
+  "problem": "003",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "01.in",
+    "result": "AC",
+    "time": 0.043
+   },
+   {
+    "case": "02.in",
+    "result": "AC",
+    "time": 0.011
+   },
+   {
+    "case": "03.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "04.in",
+    "result": "AC",
+    "time": 0.013
+   },
+   {
+    "case": "05.in",
+    "result": "AC",
+    "time": 0.013
+   },
+   {
+    "case": "06.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "07.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "08.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "09.in",
+    "result": "AC",
+    "time": 0.013
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.012
+   }
+  ],
+  "data_max_time": 0.043,
+  "extra": []
+ },
+ {
+  "problem": "004",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "01.in",
+    "result": "AC",
+    "time": 0.041
+   }
+  ],
+  "data_max_time": 0.041,
+  "extra": []
+ },
+ {
+  "problem": "005",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.043
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.287
+   },
+   {
+    "case": "2.in",
+    "result": "AC",
+    "time": 0.043
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 0.349
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 0.203
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 0.202
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 0.204
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 0.2
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 0.2
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 0.205
+   }
+  ],
+  "data_max_time": 0.349,
+  "extra": []
+ },
+ {
+  "problem": "006",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.041
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.028
+   },
+   {
+    "case": "2.in",
+    "result": "AC",
+    "time": 0.03
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 0.029
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 0.031
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 0.029
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 0.03
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 0.03
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 0.03
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 0.03
+   }
+  ],
+  "data_max_time": 0.041,
+  "extra": [
+   {
+    "label": "K=1e5 上界（疑 long long 溢出）",
+    "input": "1\n100000\n",
+    "time": 0.011,
+    "returncode": 0,
+    "output": "6553422590457098384",
+    "expected": "25000166664166650000",
+    "match": false
+   }
+  ]
+ },
+ {
+  "problem": "007",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.045
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 1.935
+   },
+   {
+    "case": "2.in",
+    "result": "WA",
+    "time": 0.014
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 1.973
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 1.877
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 1.876
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 1.825
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 1.929
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 1.818
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 1.886
+   }
+  ],
+  "data_max_time": 1.973,
+  "extra": [
+   {
+    "label": "K=1e7 上界（疑筛表 1.9e8 超时/内存）",
+    "input": "1\n10000000\n",
+    "time": 1.847,
+    "returncode": 0,
+    "output": "179424673"
+   }
+  ]
+ },
+ {
+  "problem": "008",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.048
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.628
+   },
+   {
+    "case": "2.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 0.654
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 0.381
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 0.389
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 0.382
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 0.382
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 0.386
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 0.384
+   }
+  ],
+  "data_max_time": 0.654,
+  "extra": []
+ },
+ {
+  "problem": "009",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.053
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.015
+   },
+   {
+    "case": "2.in",
+    "result": "AC",
+    "time": 0.011
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 0.011
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 0.012
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 0.014
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 0.014
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 0.014
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 0.014
+   }
+  ],
+  "data_max_time": 0.053,
+  "extra": []
+ },
+ {
+  "problem": "010",
+  "compile": "OK",
+  "data": [
+   {
+    "case": "1.in",
+    "result": "AC",
+    "time": 0.055
+   },
+   {
+    "case": "10.in",
+    "result": "AC",
+    "time": 0.044
+   },
+   {
+    "case": "2.in",
+    "result": "AC",
+    "time": 0.022
+   },
+   {
+    "case": "3.in",
+    "result": "AC",
+    "time": 0.026
+   },
+   {
+    "case": "4.in",
+    "result": "AC",
+    "time": 0.044
+   },
+   {
+    "case": "5.in",
+    "result": "AC",
+    "time": 0.043
+   },
+   {
+    "case": "6.in",
+    "result": "AC",
+    "time": 0.045
+   },
+   {
+    "case": "7.in",
+    "result": "AC",
+    "time": 0.044
+   },
+   {
+    "case": "8.in",
+    "result": "AC",
+    "time": 0.043
+   },
+   {
+    "case": "9.in",
+    "result": "AC",
+    "time": 0.042
+   }
+  ],
+  "data_max_time": 0.055,
+  "extra": []
+ }
+]
