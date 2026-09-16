@@ -15,7 +15,7 @@ using ll = long long;
 // Given: c(100, 40) ≡ 986699437 (mod 10^9+7).
 // Find: c(10^7, 4*10^6) mod (10^9+7).
 //
-// PE answer: 269496760810803
+// PE answer: 269496760
 //
 // Analysis:
 // Let T = number of rounds before Alice's Head.

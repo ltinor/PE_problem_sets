@@ -5,7 +5,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.045,
    "bad": [],
    "n_bad": 0
   },
@@ -18,7 +18,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -33,7 +33,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.077,
+   "max_time": 0.045,
    "bad": [],
    "n_bad": 0
   },
@@ -46,7 +46,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.162,
+   "max_time": 0.15,
    "bad": [],
    "n_bad": 0
   },
@@ -61,7 +61,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.053,
+   "max_time": 0.058,
    "bad": [],
    "n_bad": 0
   },
@@ -74,7 +74,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.085,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -87,7 +87,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.054,
    "bad": [],
    "n_bad": 0
   },
@@ -100,7 +100,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.064,
    "bad": [],
    "n_bad": 0
   },
@@ -115,7 +115,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.064,
+   "max_time": 0.068,
    "bad": [],
    "n_bad": 0
   },
@@ -130,7 +130,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.061,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -145,7 +145,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.07,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -158,7 +158,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.073,
+   "max_time": 0.084,
    "bad": [],
    "n_bad": 0
   },
@@ -171,7 +171,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.143,
+   "max_time": 0.136,
    "bad": [],
    "n_bad": 0
   },
@@ -184,7 +184,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -197,7 +197,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.705,
+   "max_time": 1.636,
    "bad": [],
    "n_bad": 0
   },
@@ -210,7 +210,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.41,
+   "max_time": 0.399,
    "bad": [],
    "n_bad": 0
   },
@@ -223,7 +223,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.077,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -236,7 +236,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -249,7 +249,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.113,
+   "max_time": 0.076,
    "bad": [],
    "n_bad": 0
   },
@@ -262,7 +262,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.049,
    "bad": [],
    "n_bad": 0
   },
@@ -275,7 +275,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.085,
+   "max_time": 0.058,
    "bad": [],
    "n_bad": 0
   },
@@ -288,7 +288,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.566,
+   "max_time": 0.563,
    "bad": [],
    "n_bad": 0
   },
@@ -301,7 +301,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -314,7 +314,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.064,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -327,7 +327,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.075,
+   "max_time": 0.072,
    "bad": [],
    "n_bad": 0
   },
@@ -340,7 +340,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.102,
+   "max_time": 0.079,
    "bad": [],
    "n_bad": 0
   },
@@ -353,7 +353,7 @@
   "data": {
    "total": 1,
    "ac": 1,
-   "max_time": 0.081,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -366,7 +366,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.058,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -379,7 +379,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.056,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -392,7 +392,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.053,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -405,7 +405,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.047,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -420,7 +420,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.049,
+   "max_time": 0.066,
    "bad": [],
    "n_bad": 0
   },
@@ -435,7 +435,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.108,
+   "max_time": 0.085,
    "bad": [],
    "n_bad": 0
   },
@@ -450,7 +450,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.147,
+   "max_time": 0.125,
    "bad": [],
    "n_bad": 0
   },
@@ -463,7 +463,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.079,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -474,44 +474,11 @@
   "problem": 46,
   "compile": "OK",
   "data": {
-   "total": 10,
-   "ac": 1,
-   "max_time": 10.024,
-   "bad": [
-    [
-     "02.in",
-     "TLE"
-    ],
-    [
-     "03.in",
-     "TLE"
-    ],
-    [
-     "04.in",
-     "TLE"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ],
-    [
-     "09.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 9
+   "total": 2,
+   "ac": 2,
+   "max_time": 0.079,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -522,7 +489,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -535,7 +502,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.321,
+   "max_time": 0.325,
    "bad": [],
    "n_bad": 0
   },
@@ -548,7 +515,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.077,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -561,7 +528,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.066,
    "bad": [],
    "n_bad": 0
   },
@@ -574,7 +541,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.09,
+   "max_time": 0.093,
    "bad": [],
    "n_bad": 0
   },
@@ -587,7 +554,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.092,
+   "max_time": 0.073,
    "bad": [],
    "n_bad": 0
   },
@@ -600,7 +567,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.052,
    "bad": [],
    "n_bad": 0
   },
@@ -612,43 +579,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.066,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -659,7 +593,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -671,43 +605,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.29,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -717,43 +618,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 1,
-   "max_time": 0.077,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ],
-    [
-     "09.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 9
+   "ac": 10,
+   "max_time": 0.078,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -763,15 +631,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 9,
-   "max_time": 0.321,
-   "bad": [
-    [
-     "10.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 1
+   "ac": 10,
+   "max_time": 1.203,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -781,43 +644,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.076,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "010.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.06,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -828,7 +658,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.032,
+   "max_time": 1.121,
    "bad": [],
    "n_bad": 0
   },
@@ -841,7 +671,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.082,
+   "max_time": 0.051,
    "bad": [],
    "n_bad": 0
   },
@@ -854,7 +684,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.097,
+   "max_time": 0.072,
    "bad": [],
    "n_bad": 0
   },
@@ -867,7 +697,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.066,
    "bad": [],
    "n_bad": 0
   },
@@ -880,7 +710,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.052,
    "bad": [],
    "n_bad": 0
   },
@@ -893,7 +723,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.063,
    "bad": [],
    "n_bad": 0
   },
@@ -906,7 +736,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.067,
    "bad": [],
    "n_bad": 0
   },
@@ -919,7 +749,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.053,
+   "max_time": 0.051,
    "bad": [],
    "n_bad": 0
   },
@@ -932,7 +762,7 @@
   "data": {
    "total": 1,
    "ac": 1,
-   "max_time": 0.101,
+   "max_time": 0.074,
    "bad": [],
    "n_bad": 0
   },
@@ -947,7 +777,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.085,
+   "max_time": 0.071,
    "bad": [],
    "n_bad": 0
   },
@@ -960,7 +790,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.537,
+   "max_time": 1.422,
    "bad": [],
    "n_bad": 0
   },
@@ -973,7 +803,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -986,7 +816,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.082,
+   "max_time": 0.078,
    "bad": [],
    "n_bad": 0
   },
@@ -999,7 +829,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.613,
+   "max_time": 0.602,
    "bad": [],
    "n_bad": 0
   },
@@ -1012,7 +842,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.294,
+   "max_time": 0.23,
    "bad": [],
    "n_bad": 0
   },
@@ -1025,7 +855,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.115,
+   "max_time": 0.071,
    "bad": [],
    "n_bad": 0
   },
@@ -1038,7 +868,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.056,
+   "max_time": 0.053,
    "bad": [],
    "n_bad": 0
   },
@@ -1051,7 +881,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.073,
+   "max_time": 0.052,
    "bad": [],
    "n_bad": 0
   },
@@ -1066,7 +896,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 3.159,
+   "max_time": 3.199,
    "bad": [],
    "n_bad": 0
   },
@@ -1081,7 +911,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.079,
+   "max_time": 0.049,
    "bad": [],
    "n_bad": 0
   },
@@ -1094,7 +924,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.08,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1107,7 +937,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.07,
+   "max_time": 0.044,
    "bad": [],
    "n_bad": 0
   },
@@ -1120,7 +950,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.052,
+   "max_time": 0.051,
    "bad": [],
    "n_bad": 0
   },
@@ -1133,7 +963,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.096,
+   "max_time": 0.051,
    "bad": [],
    "n_bad": 0
   },
@@ -1146,7 +976,7 @@
   "data": {
    "total": 4,
    "ac": 4,
-   "max_time": 0.405,
+   "max_time": 0.399,
    "bad": [],
    "n_bad": 0
   },
@@ -1159,7 +989,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.07,
+   "max_time": 0.351,
    "bad": [],
    "n_bad": 0
   },
@@ -1172,7 +1002,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -1185,7 +1015,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.808,
+   "max_time": 0.679,
    "bad": [],
    "n_bad": 0
   },
@@ -1198,7 +1028,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.08,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1211,7 +1041,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.053,
    "bad": [],
    "n_bad": 0
   },
@@ -1224,7 +1054,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.075,
+   "max_time": 0.068,
    "bad": [],
    "n_bad": 0
   },
@@ -1239,7 +1069,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.057,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1252,7 +1082,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.113,
+   "max_time": 0.117,
    "bad": [],
    "n_bad": 0
   },
@@ -1265,7 +1095,7 @@
   "data": {
    "total": 1,
    "ac": 1,
-   "max_time": 0.846,
+   "max_time": 0.781,
    "bad": [],
    "n_bad": 0
   },
@@ -1278,7 +1108,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.073,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -1291,7 +1121,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.211,
+   "max_time": 0.193,
    "bad": [],
    "n_bad": 0
   },
@@ -1304,7 +1134,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.046,
    "bad": [],
    "n_bad": 0
   },
@@ -1317,7 +1147,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.075,
+   "max_time": 0.05,
    "bad": [],
    "n_bad": 0
   },
@@ -1330,7 +1160,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.058,
    "bad": [],
    "n_bad": 0
   },
@@ -1343,7 +1173,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.069,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -1356,7 +1186,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1369,7 +1199,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.127,
+   "max_time": 0.068,
    "bad": [],
    "n_bad": 0
   },
@@ -1382,7 +1212,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.068,
+   "max_time": 0.069,
    "bad": [],
    "n_bad": 0
   },
@@ -1395,7 +1225,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.09,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -1408,7 +1238,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.081,
+   "max_time": 0.112,
    "bad": [],
    "n_bad": 0
   },
@@ -1421,7 +1251,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.042,
    "bad": [],
    "n_bad": 0
   },
@@ -1434,7 +1264,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.073,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1447,7 +1277,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.082,
+   "max_time": 0.05,
    "bad": [],
    "n_bad": 0
   },
@@ -1460,7 +1290,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.053,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -1473,7 +1303,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.089,
    "bad": [],
    "n_bad": 0
   },
@@ -1486,7 +1316,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.082,
    "bad": [],
    "n_bad": 0
   },
@@ -1499,7 +1329,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.086,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -1512,7 +1342,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.079,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -1525,7 +1355,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.077,
+   "max_time": 0.063,
    "bad": [],
    "n_bad": 0
   },
@@ -1538,7 +1368,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.079,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -1551,7 +1381,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.05,
    "bad": [],
    "n_bad": 0
   },
@@ -1564,7 +1394,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.076,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -1577,7 +1407,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.082,
+   "max_time": 0.076,
    "bad": [],
    "n_bad": 0
   },
@@ -1590,7 +1420,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 3.963,
+   "max_time": 3.847,
    "bad": [],
    "n_bad": 0
   },
@@ -1616,7 +1446,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -1629,7 +1459,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.061,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -1642,7 +1472,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.069,
    "bad": [],
    "n_bad": 0
   },
@@ -1655,7 +1485,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.086,
+   "max_time": 0.078,
    "bad": [],
    "n_bad": 0
   },
@@ -1668,7 +1498,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.051,
    "bad": [],
    "n_bad": 0
   },
@@ -1681,7 +1511,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.048,
    "bad": [],
    "n_bad": 0
   },
@@ -1729,7 +1559,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.069,
+   "max_time": 0.058,
    "bad": [],
    "n_bad": 0
   },
@@ -1742,7 +1572,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.077,
+   "max_time": 0.07,
    "bad": [],
    "n_bad": 0
   },
@@ -1754,43 +1584,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.068,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.074,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -1801,7 +1598,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.123,
+   "max_time": 0.12,
    "bad": [],
    "n_bad": 0
   },
@@ -1814,7 +1611,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.078,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -1827,7 +1624,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 2.107,
+   "max_time": 2.064,
    "bad": [],
    "n_bad": 0
   },
@@ -1840,7 +1637,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.067,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -1853,7 +1650,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.074,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -1866,7 +1663,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.475,
+   "max_time": 0.467,
    "bad": [],
    "n_bad": 0
   },
@@ -1879,7 +1676,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.074,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -1931,7 +1728,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 6.404,
+   "max_time": 6.334,
    "bad": [],
    "n_bad": 0
   },
@@ -1940,52 +1737,6 @@
  },
  {
   "problem": 147,
-  "compile": "OK",
-  "data": {
-   "total": 10,
-   "ac": 1,
-   "max_time": 1.975,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ],
-    [
-     "09.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 9
-  },
-  "probe": null,
-  "stmt_flags": []
- },
- {
-  "problem": 148,
   "compile": "OK",
   "data": {
    "total": 10,
@@ -1998,12 +1749,25 @@
   "stmt_flags": []
  },
  {
+  "problem": 148,
+  "compile": "OK",
+  "data": {
+   "total": 10,
+   "ac": 10,
+   "max_time": 0.061,
+   "bad": [],
+   "n_bad": 0
+  },
+  "probe": null,
+  "stmt_flags": []
+ },
+ {
   "problem": 149,
   "compile": "OK",
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.207,
+   "max_time": 0.202,
    "bad": [],
    "n_bad": 0
   },
@@ -2016,7 +1780,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.364,
+   "max_time": 0.382,
    "bad": [],
    "n_bad": 0
   },
@@ -2063,43 +1827,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.083,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -2110,7 +1841,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.064,
+   "max_time": 0.07,
    "bad": [],
    "n_bad": 0
   },
@@ -2123,7 +1854,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.068,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -2136,7 +1867,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.285,
+   "max_time": 1.253,
    "bad": [],
    "n_bad": 0
   },
@@ -2148,43 +1879,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.066,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.075,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -2195,7 +1893,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.127,
+   "max_time": 0.117,
    "bad": [],
    "n_bad": 0
   },
@@ -2208,7 +1906,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.065,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -2221,7 +1919,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -2234,7 +1932,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.053,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -2247,7 +1945,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 6.933,
+   "max_time": 6.576,
    "bad": [],
    "n_bad": 0
   },
@@ -2319,43 +2017,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.079,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": [
@@ -2377,7 +2042,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.062,
    "bad": [],
    "n_bad": 0
   },
@@ -2386,11 +2051,21 @@
  },
  {
   "problem": 177,
-  "compile": "FAIL",
-  "data": null,
+  "compile": "OK",
+  "data": {
+   "total": 1,
+   "ac": 0,
+   "max_time": 10.064,
+   "bad": [
+    [
+     "01.in",
+     "TLE"
+    ]
+   ],
+   "n_bad": 1
+  },
   "probe": null,
-  "stmt_flags": [],
-  "compile_err": "ect\\PE_problem_sets\\177\\code\\std.cpp: In function 'int main()':\nF:\\Project\\PE_problem_sets\\177\\code\\std.cpp:12:54: error: 'M_PI' was not declared in this scope\n   12 |     double s[181]; for(int i=1;i<180;i++) s[i]=sin(i*M_PI/180.0);\n      |                                                      ^~~~\n"
+  "stmt_flags": []
  },
  {
   "problem": 178,
@@ -2398,7 +2073,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.063,
    "bad": [],
    "n_bad": 0
   },
@@ -2411,7 +2086,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 2.101,
+   "max_time": 1.934,
    "bad": [],
    "n_bad": 0
   },
@@ -2424,7 +2099,7 @@
   "data": {
    "total": 10,
    "ac": 0,
-   "max_time": 0.085,
+   "max_time": 0.084,
    "bad": [
     [
      "01.in",
@@ -2470,7 +2145,7 @@
   "data": {
    "total": 10,
    "ac": 1,
-   "max_time": 0.081,
+   "max_time": 0.071,
    "bad": [
     [
      "01.in",
@@ -2516,7 +2191,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.447,
+   "max_time": 0.416,
    "bad": [],
    "n_bad": 0
   },
@@ -2529,7 +2204,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.068,
    "bad": [],
    "n_bad": 0
   },
@@ -2542,7 +2217,7 @@
   "data": {
    "total": 10,
    "ac": 0,
-   "max_time": 0.079,
+   "max_time": 0.082,
    "bad": [
     [
      "01.in",
@@ -2588,7 +2263,7 @@
   "data": {
    "total": 10,
    "ac": 0,
-   "max_time": 10.075,
+   "max_time": 10.072,
    "bad": [
     [
      "01.in",
@@ -2634,7 +2309,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.556,
+   "max_time": 0.549,
    "bad": [],
    "n_bad": 0
   },
@@ -2647,7 +2322,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.186,
+   "max_time": 0.99,
    "bad": [],
    "n_bad": 0
   },
@@ -2660,7 +2335,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.127,
+   "max_time": 0.066,
    "bad": [],
    "n_bad": 0
   },
@@ -2672,43 +2347,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.092,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.074,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -2719,7 +2361,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.07,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -2739,7 +2381,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.066,
+   "max_time": 0.067,
    "bad": [],
    "n_bad": 0
   },
@@ -2772,43 +2414,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 2,
-   "max_time": 0.058,
-   "bad": [
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ],
-    [
-     "09.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 8
+   "ac": 10,
+   "max_time": 0.065,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -2819,7 +2428,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.067,
    "bad": [],
    "n_bad": 0
   },
@@ -2832,7 +2441,7 @@
   "data": {
    "total": 10,
    "ac": 2,
-   "max_time": 10.017,
+   "max_time": 10.007,
    "bad": [
     [
      "01.in",
@@ -2880,7 +2489,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.056,
+   "max_time": 0.058,
    "bad": [],
    "n_bad": 0
   },
@@ -2892,35 +2501,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 4,
-   "max_time": 0.389,
-   "bad": [
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ],
-    [
-     "09.in",
-     "WA"
-    ],
-    [
-     "10.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 6
+   "ac": 10,
+   "max_time": 0.061,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -2965,43 +2549,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 8.789,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -3012,7 +2563,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.061,
+   "max_time": 0.048,
    "bad": [],
    "n_bad": 0
   },
@@ -3025,7 +2576,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 4.437,
+   "max_time": 4.293,
    "bad": [],
    "n_bad": 0
   },
@@ -3036,24 +2587,11 @@
   "problem": 209,
   "compile": "OK",
   "data": {
-   "total": 10,
+   "total": 7,
    "ac": 7,
-   "max_time": 0.071,
-   "bad": [
-    [
-     "08.in",
-     "WA"
-    ],
-    [
-     "09.in",
-     "WA"
-    ],
-    [
-     "10.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 3
+   "max_time": 0.06,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -3064,7 +2602,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.066,
    "bad": [],
    "n_bad": 0
   },
@@ -3077,7 +2615,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.82,
+   "max_time": 0.778,
    "bad": [],
    "n_bad": 0
   },
@@ -3090,7 +2628,7 @@
   "data": {
    "total": 10,
    "ac": 9,
-   "max_time": 10.01,
+   "max_time": 10.022,
    "bad": [
     [
      "10.in",
@@ -3108,7 +2646,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.127,
+   "max_time": 0.11,
    "bad": [],
    "n_bad": 0
   },
@@ -3121,7 +2659,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.471,
+   "max_time": 0.422,
    "bad": [],
    "n_bad": 0
   },
@@ -3134,7 +2672,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.069,
+   "max_time": 0.052,
    "bad": [],
    "n_bad": 0
   },
@@ -3147,7 +2685,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.119,
+   "max_time": 0.116,
    "bad": [],
    "n_bad": 0
   },
@@ -3160,7 +2698,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.053,
    "bad": [],
    "n_bad": 0
   },
@@ -3173,7 +2711,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.346,
+   "max_time": 1.329,
    "bad": [],
    "n_bad": 0
   },
@@ -3186,7 +2724,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.066,
+   "max_time": 0.05,
    "bad": [],
    "n_bad": 0
   },
@@ -3247,7 +2785,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.094,
+   "max_time": 0.096,
    "bad": [],
    "n_bad": 0
   },
@@ -3260,7 +2798,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.371,
+   "max_time": 0.351,
    "bad": [],
    "n_bad": 0
   },
@@ -3273,7 +2811,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.093,
+   "max_time": 0.087,
    "bad": [],
    "n_bad": 0
   },
@@ -3286,7 +2824,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.195,
+   "max_time": 0.183,
    "bad": [],
    "n_bad": 0
   },
@@ -3299,7 +2837,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.066,
+   "max_time": 0.068,
    "bad": [],
    "n_bad": 0
   },
@@ -3312,7 +2850,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.163,
+   "max_time": 0.143,
    "bad": [],
    "n_bad": 0
   },
@@ -3325,7 +2863,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.068,
+   "max_time": 0.093,
    "bad": [],
    "n_bad": 0
   },
@@ -3338,7 +2876,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.055,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -3350,43 +2888,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.073,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.068,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -3396,39 +2901,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 3,
-   "max_time": 0.067,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "10.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 7
+   "ac": 10,
+   "max_time": 0.061,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -3495,12 +2971,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.091,
    "rc": 0,
    "got": "96356848",
-   "embedded": "96356848",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -3512,12 +2988,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.058,
    "rc": 0,
    "got": "288084712410001",
-   "embedded": "288084712410001",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -3525,11 +3001,10 @@
  },
  {
   "problem": 246,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
   "probe": null,
-  "stmt_flags": [],
-  "compile_err": "F:\\Project\\PE_problem_sets\\246\\code\\std.cpp: In function 'int main()':\nF:\\Project\\PE_problem_sets\\246\\code\\std.cpp:30:23: error: 'M_PI' was not declared in this scope\n   30 |     double half = D * M_PI / 360.0;\n      |                       ^~~~\n"
+  "stmt_flags": []
  },
  {
   "problem": 247,
@@ -3688,7 +3163,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 4.061,
+   "max_time": 4.09,
    "bad": [],
    "n_bad": 0
   },
@@ -3701,7 +3176,7 @@
   "data": {
    "total": 10,
    "ac": 7,
-   "max_time": 0.06,
+   "max_time": 0.086,
    "bad": [
     [
      "04.in",
@@ -3745,7 +3220,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.067,
    "rc": 0,
    "got": "82282080",
    "embedded": null,
@@ -3762,7 +3237,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.054,
+   "max_time": 0.061,
    "bad": [],
    "n_bad": 0
   },
@@ -3855,43 +3330,10 @@
   "compile": "OK",
   "data": {
    "total": 9,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 9
+   "ac": 9,
+   "max_time": 0.058,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -3919,11 +3361,10 @@
  },
  {
   "problem": 285,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
   "probe": null,
-  "stmt_flags": [],
-  "compile_err": "F:\\Project\\PE_problem_sets\\285\\code\\std.cpp: In function 'int main()':\nF:\\Project\\PE_problem_sets\\285\\code\\std.cpp:23:23: error: 'M_PI' was not declared in this scope\n   23 |         double area = M_PI / 4.0 * (r2 * r2 - r1 * r1);\n      |                       ^~~~\n"
+  "stmt_flags": []
  },
  {
   "problem": 286,
@@ -3965,43 +3406,19 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
+   "ac": 8,
+   "max_time": 10.055,
    "bad": [
     [
      "01.in",
-     "NO_OUT"
+     "TLE"
     ],
     [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
+     "10.in",
+     "TLE"
     ]
    ],
-   "n_bad": 10
+   "n_bad": 2
   },
   "probe": null,
   "stmt_flags": []
@@ -4012,7 +3429,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.068,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -4024,43 +3441,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.154,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -4078,7 +3462,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 6.866,
+   "max_time": 6.776,
    "bad": [],
    "n_bad": 0
   },
@@ -4097,43 +3481,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.062,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": [
@@ -4171,7 +3522,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -4184,7 +3535,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 1.67,
+   "max_time": 1.661,
    "bad": [],
    "n_bad": 0
   },
@@ -4197,7 +3548,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.325,
+   "max_time": 0.316,
    "bad": [],
    "n_bad": 0
   },
@@ -4210,7 +3561,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.546,
+   "max_time": 0.537,
    "bad": [],
    "n_bad": 0
   },
@@ -4223,7 +3574,7 @@
   "data": {
    "total": 10,
    "ac": 8,
-   "max_time": 10.012,
+   "max_time": 10.015,
    "bad": [
     [
      "09.in",
@@ -4245,7 +3596,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -4257,23 +3608,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 7,
-   "max_time": 0.07,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "10.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 3
+   "ac": 10,
+   "max_time": 0.055,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -4356,7 +3694,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.121,
+   "max_time": 0.099,
    "bad": [],
    "n_bad": 0
   },
@@ -4369,7 +3707,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.065,
    "bad": [],
    "n_bad": 0
   },
@@ -4390,7 +3728,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.063,
+   "max_time": 0.055,
    "bad": [],
    "n_bad": 0
   },
@@ -4403,7 +3741,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -4416,7 +3754,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.133,
+   "max_time": 0.115,
    "bad": [],
    "n_bad": 0
   },
@@ -4429,7 +3767,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.069,
+   "max_time": 0.054,
    "bad": [],
    "n_bad": 0
   },
@@ -4442,7 +3780,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.062,
+   "max_time": 0.06,
    "bad": [],
    "n_bad": 0
   },
@@ -4454,43 +3792,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.061,
-   "bad": [
-    [
-     "01.in",
-     "WA"
-    ],
-    [
-     "02.in",
-     "WA"
-    ],
-    [
-     "03.in",
-     "WA"
-    ],
-    [
-     "04.in",
-     "WA"
-    ],
-    [
-     "05.in",
-     "WA"
-    ],
-    [
-     "06.in",
-     "WA"
-    ],
-    [
-     "07.in",
-     "WA"
-    ],
-    [
-     "08.in",
-     "WA"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.064,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": {
    "has_pe": true,
@@ -4509,7 +3814,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.916,
+   "max_time": 0.913,
    "bad": [],
    "n_bad": 0
   },
@@ -4522,7 +3827,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.056,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -4813,7 +4118,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.056,
+   "time": 0.078,
    "rc": 0,
    "got": "3284144505",
    "embedded": "3284144505",
@@ -4839,7 +4144,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.052,
+   "time": 0.061,
    "rc": 0,
    "got": "878825614395842992",
    "embedded": "878825614395842992",
@@ -4915,7 +4220,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.068,
    "rc": 0,
    "got": "253.6135092068",
    "embedded": "253.6135092068",
@@ -4930,7 +4235,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.073,
    "rc": 0,
    "got": "880917276",
    "embedded": "8624002",
@@ -4992,43 +4297,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.074,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -5038,43 +4310,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.071,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -5084,43 +4323,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.07,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -5130,6 +4336,24 @@
   "compile": "OK",
   "data": {
    "total": 10,
+   "ac": 9,
+   "max_time": 0.065,
+   "bad": [
+    [
+     "10.in",
+     "NO_OUT"
+    ]
+   ],
+   "n_bad": 1
+  },
+  "probe": null,
+  "stmt_flags": []
+ },
+ {
+  "problem": 380,
+  "compile": "OK",
+  "data": {
+   "total": 10,
    "ac": 0,
    "max_time": 0.0,
    "bad": [
@@ -5172,55 +4396,14 @@
   "stmt_flags": []
  },
  {
-  "problem": 380,
-  "compile": "FAIL",
-  "data": null,
-  "probe": null,
-  "stmt_flags": [],
-  "compile_err": "oject\\PE_problem_sets\\380\\code\\std.cpp: In function 'int main()':\nF:\\Project\\PE_problem_sets\\380\\code\\std.cpp:32:44: error: 'M_PI' was not declared in this scope\n   32 |                 double val = 4.0 - 2.0*cos(M_PI*j/m) - 2.0*cos(M_PI*k/n);\n      |                                            ^~~~\n"
- },
- {
   "problem": 381,
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.065,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -5304,7 +4487,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.061,
    "rc": 0,
    "got": "61029882288.0000000000",
    "embedded": null,
@@ -5319,7 +4502,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.06,
    "rc": 0,
    "got": "3.1486734435",
    "embedded": null,
@@ -5334,7 +4517,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.051,
+   "time": 0.063,
    "rc": 0,
    "got": "112398351350823112.0000000000",
    "embedded": null,
@@ -5364,7 +4547,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.054,
+   "time": 0.06,
    "rc": 0,
    "got": "28.2453753155",
    "embedded": null,
@@ -5380,43 +4563,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.073,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -5662,7 +4812,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.076,
    "rc": 0,
    "got": "1059760019628",
    "embedded": "1059760019628",
@@ -5805,7 +4955,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.172,
+   "time": 0.157,
    "rc": 0,
    "got": "968697378680021",
    "embedded": null,
@@ -5822,7 +4972,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.047,
    "rc": 0,
    "got": "970746056",
    "embedded": null,
@@ -5937,7 +5087,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.067,
    "rc": 0,
    "got": "153651073760956",
    "embedded": "153651073760956",
@@ -5954,7 +5104,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.091,
+   "time": 0.057,
    "rc": 0,
    "got": "345558983",
    "embedded": "345558983",
@@ -5988,7 +5138,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.061,
    "rc": 0,
    "got": "5435004633092",
    "embedded": "5435004633092",
@@ -6005,7 +5155,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.069,
    "rc": 0,
    "got": "450186511399999",
    "embedded": "450186511399999",
@@ -6038,7 +5188,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.075,
    "rc": 0,
    "got": "4233418411752484521",
    "embedded": null,
@@ -6055,7 +5205,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.081,
+   "time": 0.064,
    "rc": 0,
    "got": "3996390106631",
    "embedded": null,
@@ -6089,7 +5239,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 30.067,
+   "time": 30.048,
    "rc": -1,
    "got": "",
    "embedded": null,
@@ -6106,7 +5256,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.055,
    "rc": 0,
    "got": "5.5350769703e1512",
    "embedded": null,
@@ -6123,7 +5273,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.06,
    "rc": 0,
    "got": "808981553",
    "embedded": null,
@@ -6140,7 +5290,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.047,
+   "time": 0.062,
    "rc": 0,
    "got": "198775297232878",
    "embedded": "198775297232878",
@@ -6157,7 +5307,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.088,
+   "time": 0.062,
    "rc": 0,
    "got": "585965659",
    "embedded": "585965659",
@@ -6174,7 +5324,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.093,
+   "time": 0.07,
    "rc": 0,
    "got": "258381958195474745",
    "embedded": "258381958195474745",
@@ -6191,7 +5341,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.064,
    "rc": 0,
    "got": "775181359",
    "embedded": "775181359",
@@ -6208,7 +5358,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.073,
    "rc": 0,
    "got": "852950321297",
    "embedded": "852950321297",
@@ -6225,7 +5375,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.056,
+   "time": 0.063,
    "rc": 0,
    "got": "0.567667992618",
    "embedded": "0.567667992618",
@@ -6242,7 +5392,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.055,
    "rc": 0,
    "got": "147668794",
    "embedded": "147668794",
@@ -6439,7 +5589,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.062,
    "rc": 0,
    "got": "30531024",
    "embedded": "30531024",
@@ -6456,7 +5606,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.063,
    "rc": 0,
    "got": "2425869629239289",
    "embedded": "2425869629239289",
@@ -6473,7 +5623,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.06,
    "rc": 0,
    "got": "6.458740616",
    "embedded": "6.458740616",
@@ -6490,7 +5640,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.056,
    "rc": 0,
    "got": "28800671344",
    "embedded": "28800671344",
@@ -6507,7 +5657,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.064,
    "rc": 0,
    "got": "789107601",
    "embedded": "789107601",
@@ -6524,7 +5674,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.056,
    "rc": 0,
    "got": "666577909",
    "embedded": "666577909",
@@ -6541,7 +5691,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.065,
    "rc": 0,
    "got": "684901360",
    "embedded": "684901360",
@@ -6558,7 +5708,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.062,
    "rc": 0,
    "got": "4722948372011400",
    "embedded": "4722948372011400",
@@ -6575,7 +5725,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.067,
    "rc": 0,
    "got": "0.00097874",
    "embedded": "0.00097874",
@@ -6592,7 +5742,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.069,
    "rc": 0,
    "got": "35407281",
    "embedded": "35407281",
@@ -6609,7 +5759,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.051,
+   "time": 0.07,
    "rc": 0,
    "got": "197912312715",
    "embedded": "197912312715",
@@ -6626,7 +5776,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.053,
+   "time": 0.064,
    "rc": 0,
    "got": "1201932627",
    "embedded": "1201932627",
@@ -6643,7 +5793,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.064,
    "rc": 0,
    "got": "3.8694550145",
    "embedded": "3.8694550145",
@@ -6660,7 +5810,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.066,
    "rc": 0,
    "got": "694687",
    "embedded": "694687",
@@ -6686,7 +5836,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.065,
    "rc": 0,
    "got": "18934502",
    "embedded": "18934502",
@@ -6703,7 +5853,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.066,
    "rc": 0,
    "got": "316558047002627160",
    "embedded": "316558047002627160",
@@ -6720,7 +5870,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.061,
    "rc": 0,
    "got": "891874596",
    "embedded": "891874596",
@@ -6737,7 +5887,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.077,
    "rc": 0,
    "got": "151725678",
    "embedded": "151725678",
@@ -6754,7 +5904,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.063,
    "rc": 0,
    "got": "315306518862563689",
    "embedded": "315306518862563689",
@@ -6771,7 +5921,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.067,
    "rc": 0,
    "got": "935247012",
    "embedded": "935247012",
@@ -6788,7 +5938,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.066,
    "rc": 0,
    "got": "5066059188205026",
    "embedded": "5066059188205026",
@@ -6805,7 +5955,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.065,
    "rc": 0,
    "got": "2925619196",
    "embedded": "2925619196",
@@ -6822,7 +5972,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.06,
    "rc": 0,
    "got": "8986.86665",
    "embedded": "8986.86665",
@@ -6839,7 +5989,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.057,
    "rc": 0,
    "got": "448552909",
    "embedded": "448552909",
@@ -6856,7 +6006,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.093,
+   "time": 0.055,
    "rc": 0,
    "got": "939087315",
    "embedded": "939087315",
@@ -6873,7 +6023,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.061,
    "rc": 0,
    "got": "581468882950687",
    "embedded": "581468882950687",
@@ -6890,7 +6040,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.067,
    "rc": 0,
    "got": "100315739215943",
    "embedded": "100315739215943",
@@ -6907,7 +6057,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.056,
    "rc": 0,
    "got": "804739330",
    "embedded": "804739330",
@@ -6924,7 +6074,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.057,
    "rc": 0,
    "got": "238413705354785",
    "embedded": "238413705354785",
@@ -6941,7 +6091,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.064,
    "rc": 0,
    "got": "44389811",
    "embedded": "44389811",
@@ -6958,7 +6108,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.062,
    "rc": 0,
    "got": "96772715",
    "embedded": "96772715",
@@ -6975,7 +6125,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.056,
+   "time": 0.062,
    "rc": 0,
    "got": "37125450.44",
    "embedded": "37125450.44",
@@ -6992,7 +6142,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.06,
    "rc": 0,
    "got": "560744502",
    "embedded": "560744502",
@@ -7009,7 +6159,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.068,
    "rc": 0,
    "got": "30.22902550",
    "embedded": "30.22902550",
@@ -7026,7 +6176,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.072,
    "rc": 0,
    "got": "496011842867",
    "embedded": "496011842867",
@@ -7043,7 +6193,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.063,
    "rc": 0,
    "got": "11.49284729",
    "embedded": "11.49284729",
@@ -7060,7 +6210,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.075,
    "rc": 0,
    "got": "779027988",
    "embedded": "779027988",
@@ -7077,7 +6227,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.067,
    "rc": 0,
    "got": "23624465366",
    "embedded": "23624465366",
@@ -7094,7 +6244,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.218,
+   "time": 0.245,
    "rc": 0,
    "got": "258416372748",
    "embedded": "258416372748",
@@ -7111,7 +6261,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.066,
    "rc": 0,
    "got": "4515432351156203105",
    "embedded": "4515432351156203105",
@@ -7145,7 +6295,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.054,
+   "time": 0.055,
    "rc": 0,
    "got": "45374713",
    "embedded": "45374713",
@@ -7162,7 +6312,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.065,
    "rc": 0,
    "got": "11726115562784664",
    "embedded": "11726115562784664",
@@ -7179,7 +6329,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.075,
    "rc": 0,
    "got": "611778626",
    "embedded": "611778626",
@@ -7196,7 +6346,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.061,
    "rc": 0,
    "got": "75874595",
    "embedded": "75874595",
@@ -7213,7 +6363,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.055,
+   "time": 0.069,
    "rc": 0,
    "got": "779429131",
    "embedded": "779429131",
@@ -7230,7 +6380,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.061,
    "rc": 0,
    "got": "224728253679477182",
    "embedded": "224728253679477182",
@@ -7247,7 +6397,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.064,
    "rc": 0,
    "got": "134426190",
    "embedded": "134426190",
@@ -7264,7 +6414,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.062,
    "rc": 0,
    "got": "500000000210",
    "embedded": "500000000210",
@@ -7281,7 +6431,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "4580726482872451",
    "embedded": "4580726482872451",
@@ -7298,7 +6448,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.055,
    "rc": 0,
    "got": "85867114",
    "embedded": "85867114",
@@ -7315,7 +6465,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.069,
    "rc": 0,
    "got": "1990075970818614370",
    "embedded": "1990075970818614370",
@@ -7332,7 +6482,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.078,
    "rc": 0,
    "got": "640432376",
    "embedded": "640432376",
@@ -7349,7 +6499,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.065,
    "rc": 0,
    "got": "921107572",
    "embedded": "921107572",
@@ -7366,7 +6516,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.057,
    "rc": 0,
    "got": "215656873",
    "embedded": "215656873",
@@ -7383,7 +6533,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.073,
    "rc": 0,
    "got": "11730879.0027",
    "embedded": null,
@@ -7400,7 +6550,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.052,
    "rc": 0,
    "got": "121440001719294385",
    "embedded": "121440001719294385",
@@ -7417,7 +6567,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.061,
    "rc": 0,
    "got": "2926823600",
    "embedded": "2926823600",
@@ -7434,7 +6584,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.059,
    "rc": 0,
    "got": "328104836",
    "embedded": "328104836",
@@ -7451,7 +6601,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.603,
+   "time": 0.577,
    "rc": 0,
    "got": "73567276",
    "embedded": "73567276",
@@ -7468,7 +6618,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.066,
    "rc": 0,
    "got": "326227335",
    "embedded": "326227335",
@@ -7485,7 +6635,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.069,
    "rc": 0,
    "got": "57717171",
    "embedded": "57717171",
@@ -7502,7 +6652,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.081,
+   "time": 0.066,
    "rc": 0,
    "got": "89539872",
    "embedded": "89539872",
@@ -7519,7 +6669,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.069,
    "rc": 0,
    "got": "208517717451208252",
    "embedded": "208517717451208252",
@@ -7553,7 +6703,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.063,
    "rc": 0,
    "got": "108878932306682434",
    "embedded": "108878932306682434",
@@ -7570,7 +6720,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.054,
    "rc": 0,
    "got": "226754885",
    "embedded": "226754885",
@@ -7587,7 +6737,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.068,
    "rc": 0,
    "got": "684463067",
    "embedded": "684463067",
@@ -7604,7 +6754,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.067,
    "rc": 0,
    "got": "994345168",
    "embedded": "994345168",
@@ -7621,13 +6771,13 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.069,
+   "max_time": 0.083,
    "bad": [],
    "n_bad": 0
   },
   "probe": {
    "has_pe": true,
-   "time": 0.023,
+   "time": 0.019,
    "rc": 0,
    "got": "45248099998823554",
    "embedded": "45248099998823554",
@@ -7657,7 +6807,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.063,
    "rc": 0,
    "got": "27186308211734760",
    "embedded": "27186308211734760",
@@ -7687,7 +6837,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.063,
    "rc": 0,
    "got": "29924808519531668",
    "embedded": null,
@@ -7702,7 +6852,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.051,
    "rc": 0,
    "got": "238736755204627",
    "embedded": "238736755204627",
@@ -7719,7 +6869,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.072,
    "rc": 0,
    "got": "75.44817535",
    "embedded": "75.44817535",
@@ -7736,7 +6886,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.055,
    "rc": 0,
    "got": "4228020",
    "embedded": "4228020",
@@ -7753,7 +6903,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.062,
    "rc": 0,
    "got": "21079460",
    "embedded": "21079460",
@@ -7770,7 +6920,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.065,
    "rc": 0,
    "got": "271197030",
    "embedded": "271197030",
@@ -7787,7 +6937,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.063,
    "rc": 0,
    "got": "3051039070197896",
    "embedded": "3051039070197896",
@@ -7804,7 +6954,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.071,
    "rc": 0,
    "got": "197376647192681",
    "embedded": "197376647192681",
@@ -7821,7 +6971,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.06,
    "rc": 0,
    "got": "1252.9809",
    "embedded": "1252.9809",
@@ -7838,7 +6988,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.058,
    "rc": 0,
    "got": "57804459920512",
    "embedded": "57804459920512",
@@ -7851,13 +7001,20 @@
  },
  {
   "problem": 575,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.062,
+   "rc": 0,
+   "got": "0.000989684",
+   "embedded": "0.000989684",
+   "via": "PE_BRANCH",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "F:\\Project\\PE_problem_sets\\575\\code\\std.cpp: In function 'ld G_approx(int)':\nF:\\Project\\PE_problem_sets\\575\\code\\std.cpp:70:20: error: 'M_PI' was not declared in this scope\n   70 |             ld f = M_PI * i / logl(max(2.0L, (ld)i));\n      |                    ^~~~\n"
+  ]
  },
  {
   "problem": 576,
@@ -7865,7 +7022,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.077,
    "rc": 0,
    "got": "398149376813293",
    "embedded": "398149376813293",
@@ -7882,7 +7039,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.051,
    "rc": 0,
    "got": "265695031399260211",
    "embedded": "265695031399260211",
@@ -7899,7 +7056,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.066,
    "rc": 0,
    "got": "345972989065552",
    "embedded": "345972989065552",
@@ -7916,7 +7073,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.063,
    "rc": 0,
    "got": "380552632087080",
    "embedded": "380552632087080",
@@ -7933,7 +7090,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.076,
    "rc": 0,
    "got": "2327213148095366",
    "embedded": "2327213148095366",
@@ -7950,7 +7107,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.059,
    "rc": 0,
    "got": "2227616372734",
    "embedded": "2227616372734",
@@ -7967,7 +7124,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.065,
    "rc": 0,
    "got": "199029329684864",
    "embedded": "199029329684864",
@@ -7984,7 +7141,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.058,
    "rc": 0,
    "got": "11741372990012608",
    "embedded": "11741372990012608",
@@ -8001,7 +7158,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.066,
    "rc": 0,
    "got": "32.83822408",
    "embedded": null,
@@ -8018,7 +7175,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.071,
    "rc": 0,
    "got": "177144240686192069",
    "embedded": "177144240686192069",
@@ -8035,7 +7192,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.066,
    "rc": 0,
    "got": "82490213",
    "embedded": "82490213",
@@ -8052,7 +7209,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.065,
    "rc": 0,
    "got": "2240",
    "embedded": "2240",
@@ -8069,7 +7226,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.068,
    "rc": 0,
    "got": "11651914152793763",
    "embedded": "11651914152793763",
@@ -8095,7 +7252,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.068,
    "rc": 0,
    "got": "834171904",
    "embedded": "834171904",
@@ -8112,11 +7269,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.072,
    "rc": 0,
    "got": "526007984592979520",
    "embedded": "526007984592979520",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8129,11 +7286,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "1343142131621850738",
    "embedded": "1343142131621850738",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8142,20 +7299,13 @@
  },
  {
   "problem": 593,
-  "compile": "OK",
+  "compile": "FAIL",
   "data": null,
-  "probe": {
-   "has_pe": true,
-   "time": 0.065,
-   "rc": 0,
-   "got": "96632320042.5",
-   "embedded": "96632320042",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
-  },
+  "probe": null,
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ]
+  ],
+  "compile_err": "xpression before 'if'\n  138 |     if (query == \"verify\") {\n      |     ^~\nF:\\Project\\PE_problem_sets\\593\\code\\std.cpp:148:2: error: expected '}' at end of input\n  148 | }\n      |  ^\nF:\\Project\\PE_problem_sets\\593\\code\\std.cpp:129:12: note: to match this '{'\n  129 | int main() {\n      |            ^\n"
  },
  {
   "problem": 594,
@@ -8163,11 +7313,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.054,
    "rc": 0,
    "got": "47067598",
    "embedded": "47067598",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8180,12 +7330,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.054,
    "rc": 0,
    "got": "54.17529329",
-   "embedded": "54",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "54.17529329",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8197,11 +7347,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.062,
    "rc": 0,
    "got": "734582049",
    "embedded": "734582049",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8214,12 +7364,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.053,
    "rc": 0,
    "got": "372810188163.3615",
-   "embedded": "372810188163",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "372810188163.3615",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8231,7 +7381,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.083,
+   "time": 0.061,
    "rc": 0,
    "got": "543194779342233060",
    "embedded": "543194779342233060",
@@ -8248,11 +7398,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.064,
    "rc": 0,
    "got": "26032424610",
    "embedded": "26032424610",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8265,11 +7415,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.058,
    "rc": 0,
    "got": "7105371060687586",
    "embedded": "7105371060687586",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8282,11 +7432,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.054,
    "rc": 0,
    "got": "1617243",
    "embedded": "1617243",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8299,12 +7449,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.068,
    "rc": 0,
    "got": "269496760",
-   "embedded": "269496760",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": "269496760810803",
+   "via": "COMMENT",
+   "verdict": "EMBED_MISMATCH"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8316,11 +7466,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.07,
    "rc": 0,
    "got": "879476477",
    "embedded": "879476477",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8333,11 +7483,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.066,
    "rc": 0,
    "got": "1170060",
    "embedded": "1170060",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8350,11 +7500,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.062,
    "rc": 0,
    "got": "59992576",
    "embedded": "59992576",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8367,11 +7517,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.07,
    "rc": 0,
    "got": "158452642",
    "embedded": "158452642",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8384,12 +7534,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.06,
    "rc": 0,
    "got": "13.1265108586",
-   "embedded": "13",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "13.1265108586",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8405,7 +7555,7 @@
    "rc": 0,
    "got": "439689828",
    "embedded": "439689828",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8418,11 +7568,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.065,
    "rc": 0,
    "got": "172023848",
    "embedded": "172023848",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8435,12 +7585,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.07,
    "rc": 0,
    "got": "319.30207833",
-   "embedded": "319",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "319.30207833",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8452,11 +7602,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.059,
    "rc": 0,
    "got": "49283254100",
    "embedded": "49283254100",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8469,11 +7619,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.064,
    "rc": 0,
    "got": "819963842",
    "embedded": "819963842",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8482,13 +7632,20 @@
  },
  {
   "problem": 613,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.059,
+   "rc": 0,
+   "got": "0.3916721504",
+   "embedded": "0.3916721504",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "F:\\Project\\PE_problem_sets\\613\\code\\std.cpp: In function 'double monte_carlo_prob(int)':\nF:\\Project\\PE_problem_sets\\613\\code\\std.cpp:65:41: error: 'M_PI' was not declared in this scope\n   65 |         double theta = dis(gen) * 2.0 * M_PI;\n      |                                         ^~~~\n"
+  ]
  },
  {
   "problem": 614,
@@ -8496,11 +7653,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.059,
    "rc": 0,
    "got": "130694090",
    "embedded": "130694090",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8513,11 +7670,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.058,
    "rc": 0,
    "got": "108424772",
    "embedded": "108424772",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8530,11 +7687,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.059,
    "rc": 0,
    "got": "310884668312456458",
    "embedded": "310884668312456458",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8547,11 +7704,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.06,
    "rc": 0,
    "got": "1001133757",
    "embedded": "1001133757",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8564,11 +7721,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "634212216",
    "embedded": "634212216",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8581,11 +7738,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.064,
    "rc": 0,
    "got": "3268573801",
    "embedded": "3268573801",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8598,11 +7755,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.063,
    "rc": 0,
    "got": "1470339999",
    "embedded": "1470339999",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8615,11 +7772,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.063,
    "rc": 0,
    "got": "11429712",
    "embedded": "11429712",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8632,11 +7789,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.058,
    "rc": 0,
    "got": "3010983666182123972",
    "embedded": "3010983666182123972",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8649,11 +7806,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.057,
    "rc": 0,
    "got": "3999787880",
    "embedded": "3999787880",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8666,11 +7823,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.066,
    "rc": 0,
    "got": "984568441",
    "embedded": "984568441",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8683,11 +7840,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.072,
    "rc": 0,
    "got": "551614306",
    "embedded": "551614306",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8700,11 +7857,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.053,
    "rc": 0,
    "got": "6955777866634773",
    "embedded": "6955777866634773",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8721,7 +7878,7 @@
    "rc": 0,
    "got": "1619163",
    "embedded": "1619163",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8734,11 +7891,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.07,
    "rc": 0,
    "got": "210286684",
    "embedded": "210286684",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8751,11 +7908,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.068,
    "rc": 0,
    "got": "626616617",
    "embedded": "626616617",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8772,7 +7929,7 @@
    "rc": 0,
    "got": "9669182880384",
    "embedded": "9669182880384",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8830,11 +7987,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.116,
    "rc": 0,
    "got": "888315",
    "embedded": "888315",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8847,11 +8004,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.061,
    "rc": 0,
    "got": "490006329594",
    "embedded": "490006329594",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8864,11 +8021,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.059,
    "rc": 0,
    "got": "18423394",
    "embedded": "18423394",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8881,11 +8038,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.064,
    "rc": 0,
    "got": "806257",
    "embedded": "806257",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8898,12 +8055,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.059,
    "rc": 0,
    "got": "50.317928",
-   "embedded": "50",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "50.317928",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8915,11 +8072,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "793525366",
    "embedded": "793525366",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8932,11 +8089,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.054,
    "rc": 0,
    "got": "631499044201325",
    "embedded": "631499044201325",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8949,11 +8106,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.059,
    "rc": 0,
    "got": "968274181",
    "embedded": "968274181",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -8966,12 +8123,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.073,
    "rc": 0,
    "got": "20.21203679",
-   "embedded": "20",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "20.21203679",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -8983,11 +8140,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.064,
    "rc": 0,
    "got": "488895204",
    "embedded": "488895204",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9000,11 +8157,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.064,
    "rc": 0,
    "got": "845218467",
    "embedded": "845218467",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9017,11 +8174,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.057,
    "rc": 0,
    "got": "563132994",
    "embedded": "563132994",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9034,11 +8191,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.067,
    "rc": 0,
    "got": "30148308",
    "embedded": "30148308",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9051,11 +8208,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.067,
    "rc": 0,
    "got": "924668016",
    "embedded": "924668016",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9068,11 +8225,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.085,
+   "time": 0.063,
    "rc": 0,
    "got": "538319652",
    "embedded": "538319652",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9085,11 +8242,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.062,
    "rc": 0,
    "got": "448233151",
    "embedded": "448233151",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9102,11 +8259,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.068,
    "rc": 0,
    "got": "983358497",
    "embedded": "983358497",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9119,11 +8276,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.061,
    "rc": 0,
    "got": "1130671207",
    "embedded": "1130671207",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9136,11 +8293,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.076,
    "rc": 0,
    "got": "815868280",
    "embedded": "815868280",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9153,11 +8310,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.056,
    "rc": 0,
    "got": "2000008332",
    "embedded": "2000008332",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9170,11 +8327,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.067,
    "rc": 0,
    "got": "8888730",
    "embedded": "8888730",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9187,11 +8344,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.064,
    "rc": 0,
    "got": "219493139",
    "embedded": "219493139",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9204,11 +8361,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.062,
    "rc": 0,
    "got": "958280177",
    "embedded": "958280177",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9221,11 +8378,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.064,
    "rc": 0,
    "got": "796144972",
    "embedded": "796144972",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9238,11 +8395,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.079,
+   "time": 0.062,
    "rc": 0,
    "got": "400107221768",
    "embedded": "400107221768",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9255,11 +8412,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.06,
    "rc": 0,
    "got": "64623107552738",
    "embedded": "64623107552738",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9272,11 +8429,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.057,
    "rc": 0,
    "got": "860873810",
    "embedded": "860873810",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9289,11 +8446,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.07,
    "rc": 0,
    "got": "1884138010064755360",
    "embedded": "1884138010064755360",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9306,11 +8463,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.05,
    "rc": 0,
    "got": "35295862",
    "embedded": "35295862",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9323,11 +8480,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.054,
+   "time": 0.061,
    "rc": 0,
    "got": "11541685717053880",
    "embedded": "11541685717053880",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9340,11 +8497,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.056,
    "rc": 0,
    "got": "480641715",
    "embedded": "480641715",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9357,12 +8514,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.056,
+   "time": 0.07,
    "rc": 0,
    "got": "4982.199083",
-   "embedded": "4982",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "4982.199083",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -9374,11 +8531,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.057,
    "rc": 0,
    "got": "2811077773",
    "embedded": "2811077773",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9391,11 +8548,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.056,
    "rc": 0,
    "got": "197912312715",
    "embedded": "197912312715",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9408,11 +8565,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.062,
    "rc": 0,
    "got": "480040715688783",
    "embedded": "480040715688783",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9425,11 +8582,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.062,
    "rc": 0,
    "got": "946106780",
    "embedded": "946106780",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9442,11 +8599,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.061,
    "rc": 0,
    "got": "91627537",
    "embedded": "91627537",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9459,11 +8616,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.07,
    "rc": 0,
    "got": "70032538033373",
    "embedded": "70032538033373",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9476,11 +8633,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.064,
    "rc": 0,
    "got": "416678753",
    "embedded": "416678753",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9493,11 +8650,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.077,
    "rc": 0,
    "got": "41653068862124600",
    "embedded": "41653068862124600",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9510,11 +8667,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.068,
    "rc": 0,
    "got": "2668608479740672",
    "embedded": "2668608479740672",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9527,11 +8684,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.061,
    "rc": 0,
    "got": "984183023",
    "embedded": "984183023",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9544,11 +8701,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.058,
    "rc": 0,
    "got": "1986065",
    "embedded": "1986065",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9561,11 +8718,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.071,
    "rc": 0,
    "got": "644997092988678",
    "embedded": "644997092988678",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9582,7 +8739,7 @@
    "rc": 0,
    "got": "563420605084",
    "embedded": "563420605084",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9595,11 +8752,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.066,
    "rc": 0,
    "got": "26112239",
    "embedded": "26112239",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9612,11 +8769,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.065,
    "rc": 0,
    "got": "290872710",
    "embedded": "290872710",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9629,11 +8786,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.069,
    "rc": 0,
    "got": "2.38955315e11",
-   "embedded": "2",
-   "via": "PE_ANSWER",
+   "embedded": "2.38955315",
+   "via": "PE_BRANCH",
    "verdict": "EMBED_MISMATCH"
   },
   "stmt_flags": [
@@ -9646,11 +8803,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.068,
    "rc": 0,
    "got": "922058210",
    "embedded": "922058210",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9663,11 +8820,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.057,
    "rc": 0,
    "got": "662878443",
    "embedded": "662878443",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9680,11 +8837,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.072,
    "rc": 0,
    "got": "193060223",
    "embedded": "193060223",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9697,11 +8854,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.053,
    "rc": 0,
    "got": "621073558",
-   "embedded": "0",
-   "via": "PE_ANSWER",
+   "embedded": "0.621073558",
+   "via": "COMMENT",
    "verdict": "EMBED_MISMATCH"
   },
   "stmt_flags": [
@@ -9714,11 +8871,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.059,
    "rc": 0,
    "got": "110941813",
    "embedded": "110941813",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9731,11 +8888,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.128,
+   "time": 0.137,
    "rc": 0,
    "got": "565437863",
-   "embedded": "0",
-   "via": "PE_ANSWER",
+   "embedded": "0.565437863",
+   "via": "COMMENT",
    "verdict": "EMBED_MISMATCH"
   },
   "stmt_flags": [
@@ -9748,11 +8905,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.063,
    "rc": 0,
    "got": "415157690",
    "embedded": "415157690",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9765,11 +8922,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.061,
    "rc": 0,
    "got": "11570761",
    "embedded": "11570761",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9782,11 +8939,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.061,
    "rc": 0,
    "got": "842043391019219959",
    "embedded": "842043391019219959",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9799,11 +8956,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.069,
    "rc": 0,
    "got": "699161",
    "embedded": "699161",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9816,11 +8973,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.062,
    "rc": 0,
    "got": "1339784153569958487",
    "embedded": "1339784153569958487",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9833,12 +8990,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.056,
    "rc": 0,
    "got": "0.1017786859",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.1017786859",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -9850,11 +9007,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.058,
    "rc": 0,
    "got": "437639930612237491",
    "embedded": "437639930612237491",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9867,12 +9024,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.074,
    "rc": 0,
    "got": "4344921.87255719",
-   "embedded": "4344921",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "4344921.87255719",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -9884,11 +9041,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.057,
    "rc": 0,
    "got": "57808202",
    "embedded": "57808202",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9901,11 +9058,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.055,
    "rc": 0,
    "got": "37010438774467572",
    "embedded": "37010438774467572",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9918,11 +9075,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.055,
    "rc": 0,
    "got": "1517926517777556",
    "embedded": "1517926517777556",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9935,12 +9092,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.066,
    "rc": 0,
    "got": "13.51099836",
-   "embedded": "13",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "13.51099836",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -9952,11 +9109,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.071,
    "rc": 0,
    "got": "62230560818495448",
    "embedded": "62230560818495448",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9969,11 +9126,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.044,
+   "time": 0.058,
    "rc": 0,
    "got": "843437991",
    "embedded": "843437991",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -9986,11 +9143,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.059,
    "rc": 0,
    "got": "501985601188027",
    "embedded": "501985601188027",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10003,11 +9160,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.062,
    "rc": 0,
    "got": "480440153",
    "embedded": "480440153",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10065,11 +9222,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.067,
    "rc": 0,
    "got": "541510990",
    "embedded": "541510990",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10082,11 +9239,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.062,
    "rc": 0,
    "got": "4130210",
    "embedded": "4130210",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10099,11 +9256,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "788626351539895",
    "embedded": "788626351539895",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10116,7 +9273,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.063,
    "rc": 0,
    "got": "2.452353775700e15",
    "embedded": "2.452353775700",
@@ -10133,11 +9290,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.112,
    "rc": 0,
    "got": "883188017",
    "embedded": "883188017",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10150,12 +9307,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.062,
    "rc": 0,
    "got": "23817519",
-   "embedded": "23817519",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10167,12 +9324,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.052,
+   "time": 0.072,
    "rc": 0,
    "got": "1603036763131",
-   "embedded": "1603036763131",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10184,12 +9341,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.061,
    "rc": 0,
    "got": "228490116",
-   "embedded": "228490116",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10201,12 +9358,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.069,
    "rc": 0,
    "got": "128088830547982",
-   "embedded": "128088830547982",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10218,12 +9375,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.055,
    "rc": 0,
    "got": "688394659003509",
-   "embedded": "688394659003509",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10235,7 +9392,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.08,
    "rc": 0,
    "got": "700792959",
    "embedded": "700792959",
@@ -10252,7 +9409,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.081,
+   "time": 0.075,
    "rc": 0,
    "got": "3.376792776",
    "embedded": "3.376792776",
@@ -10269,12 +9426,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.07,
    "rc": 0,
    "got": "1390820171",
-   "embedded": "1390820171",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10286,11 +9443,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.069,
    "rc": 0,
    "got": "18128201710",
    "embedded": "18128201710",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10303,11 +9460,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.06,
    "rc": 0,
    "got": "4598797036650685",
    "embedded": "4598797036650685",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10323,9 +9480,9 @@
    "time": 0.07,
    "rc": 0,
    "got": "57804030",
-   "embedded": "57804030",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10337,12 +9494,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.08,
+   "time": 0.076,
    "rc": 0,
    "got": "3.64026184",
-   "embedded": "3",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10354,12 +9511,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.062,
    "rc": 0,
    "got": "709537650",
-   "embedded": "709537650",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10371,12 +9528,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.06,
    "rc": 0,
    "got": "3085833.7242",
-   "embedded": "3085833",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10388,11 +9545,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.06,
    "rc": 0,
    "got": "0",
-   "embedded": "0",
-   "via": "PE_ANSWER",
+   "embedded": null,
+   "via": null,
    "verdict": "PLACEHOLDER"
   },
   "stmt_flags": [
@@ -10405,7 +9562,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.061,
    "rc": 0,
    "got": "2.12685887",
    "embedded": "2.12685887",
@@ -10422,11 +9579,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.061,
    "rc": 0,
    "got": "45609",
    "embedded": "45609",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10439,11 +9596,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.056,
    "rc": 0,
    "got": "574368578",
    "embedded": "574368578",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10456,11 +9613,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.053,
    "rc": 0,
    "got": "128088830560082",
    "embedded": "128088830560082",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10473,11 +9630,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.079,
+   "time": 0.063,
    "rc": 0,
    "got": "21295121502511",
    "embedded": "21295121502511",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10490,12 +9647,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.058,
    "rc": 0,
    "got": "25332747903959076",
-   "embedded": "25332747903959076",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10507,12 +9664,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.051,
    "rc": 0,
    "got": "75779467",
-   "embedded": "75779467",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10524,11 +9681,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.053,
+   "time": 0.057,
    "rc": 0,
    "got": "143155974",
    "embedded": "143155974",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10541,11 +9698,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.062,
    "rc": 0,
    "got": "7113990164573665086",
    "embedded": "7113990164573665086",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10558,7 +9715,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.061,
    "rc": 0,
    "got": "0.01887408",
    "embedded": "0.01887408",
@@ -10575,11 +9732,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.359,
    "rc": 0,
    "got": "512895223",
    "embedded": "512895223",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10592,11 +9749,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.055,
+   "time": 0.054,
    "rc": 0,
    "got": "18397727",
    "embedded": "18397727",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10609,11 +9766,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.06,
    "rc": 0,
    "got": "259158998",
    "embedded": "259158998",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10626,7 +9783,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.062,
    "rc": 0,
    "got": "8.56605648",
    "embedded": "8.56605648",
@@ -10643,11 +9800,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.058,
    "rc": 0,
    "got": "94586478",
    "embedded": "94586478",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10660,11 +9817,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.057,
    "rc": 0,
    "got": "8671505",
    "embedded": "8671505",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10677,11 +9834,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.088,
+   "time": 0.051,
    "rc": 0,
    "got": "681813395",
    "embedded": "681813395",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10694,11 +9851,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.069,
    "rc": 0,
    "got": "276402862",
    "embedded": "276402862",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10711,11 +9868,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.064,
    "rc": 0,
    "got": "13459471903176422",
    "embedded": "13459471903176422",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10728,11 +9885,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.061,
+   "time": 0.054,
    "rc": 0,
    "got": "160640",
    "embedded": "160640",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10745,7 +9902,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.067,
    "rc": 0,
    "got": "2.18922322",
    "embedded": null,
@@ -10762,11 +9919,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.058,
    "rc": 0,
    "got": "56158650",
    "embedded": "56158650",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10779,11 +9936,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.139,
    "rc": 0,
    "got": "4714126766770661623",
    "embedded": "4714126766770661623",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10796,11 +9953,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.064,
    "rc": 0,
    "got": "1999092",
    "embedded": "1999092",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10813,11 +9970,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.062,
    "rc": 0,
    "got": "2877071595975576960",
    "embedded": "2877071595975576960",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -10830,12 +9987,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.061,
    "rc": 0,
    "got": "607238.610661",
-   "embedded": "607238",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10847,7 +10004,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.063,
    "rc": 0,
    "got": "75737353",
    "embedded": "75737353",
@@ -10864,12 +10021,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.076,
    "rc": 0,
    "got": "331196951",
-   "embedded": "331196951",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -10881,7 +10038,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.096,
+   "time": 0.067,
    "rc": 0,
    "got": "282771304",
    "embedded": null,
@@ -10898,7 +10055,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.053,
    "rc": 0,
    "got": "172747503",
    "embedded": null,
@@ -10923,43 +10080,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 4.496,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -10997,11 +10121,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.066,
    "rc": 0,
    "got": "26137442150",
    "embedded": "26137442150",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11014,11 +10138,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.074,
    "rc": 0,
    "got": "783976161",
    "embedded": "783976161",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11031,11 +10155,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.104,
+   "time": 0.068,
    "rc": 0,
    "got": "789215551",
    "embedded": "789215551",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11044,13 +10168,20 @@
  },
  {
   "problem": 769,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.056,
+   "rc": 0,
+   "got": "0.53568305",
+   "embedded": "0.53568305",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "                ^~~~\nF:\\Project\\PE_problem_sets\\769\\code\\std.cpp: In function 'void compute_binary_game()':\nF:\\Project\\PE_problem_sets\\769\\code\\std.cpp:203:31: error: 'M_PI' was not declared in this scope\n  203 |     cout << \"  2/π = \" << 2.0/M_PI << \"\\n\";\n      |                               ^~~~\n"
+  ]
  },
  {
   "problem": 770,
@@ -11058,11 +10189,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.058,
    "rc": 0,
    "got": "1273112231728726740",
    "embedded": "1273112231728726740",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11075,11 +10206,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.071,
    "rc": 0,
    "got": "205836930055736842",
    "embedded": "205836930055736842",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11092,12 +10223,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.088,
    "rc": 0,
    "got": "83985379",
-   "embedded": "83985379",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11109,11 +10240,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.08,
+   "time": 0.076,
    "rc": 0,
    "got": "55620670",
    "embedded": "55620670",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11126,11 +10257,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.066,
    "rc": 0,
    "got": "1064883765",
    "embedded": "1064883765",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11143,11 +10274,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.07,
    "rc": 0,
    "got": "946791106",
    "embedded": "946791106",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11160,11 +10291,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.065,
    "rc": 0,
    "got": "201773590",
    "embedded": "201773590",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11173,13 +10304,20 @@
  },
  {
   "problem": 777,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.096,
+   "rc": 0,
+   "got": "0.000238077",
+   "embedded": "0.000238077",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "F:\\Project\\PE_problem_sets\\777\\code\\std.cpp: In function 'void compute_lcm_sigma_large()':\nF:\\Project\\PE_problem_sets\\777\\code\\std.cpp:135:14: error: 'M_PI' was not declared in this scope\n  135 |          << (M_PI * M_PI / 12.0) << \" * N²\\n\";\n      |              ^~~~\n"
+  ]
  },
  {
   "problem": 778,
@@ -11187,11 +10325,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.065,
    "rc": 0,
    "got": "146133880",
    "embedded": "146133880",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11200,23 +10338,37 @@
  },
  {
   "problem": 779,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.084,
+   "rc": 0,
+   "got": "0.54732610",
+   "embedded": "0.54732610",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "ct\\PE_problem_sets\\779\\code\\std.cpp: In function 'void compute_prime_factor_exponent()':\nF:\\Project\\PE_problem_sets\\779\\code\\std.cpp:171:36: error: 'M_PI' was not declared in this scope\n  171 |     cout << \"  6/π² = \" << (6.0 / (M_PI * M_PI)) << \"\\n\";\n      |                                    ^~~~\n"
+  ]
  },
  {
   "problem": 780,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.059,
+   "rc": 0,
+   "got": "314079.9802",
+   "embedded": "314079.9802",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "Project\\PE_problem_sets\\780\\code\\std.cpp: In function 'void compute_triangle_system()':\nF:\\Project\\PE_problem_sets\\780\\code\\std.cpp:130:35: error: 'M_PI' was not declared in this scope\n  130 |     cout << \"  π × 100000 = \" << (M_PI * 100000.0) << \"\\n\";\n      |                                   ^~~~\n"
+  ]
  },
  {
   "problem": 781,
@@ -11224,11 +10376,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.051,
    "rc": 0,
    "got": "322512059",
    "embedded": "322512059",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11241,11 +10393,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.088,
+   "time": 0.072,
    "rc": 0,
    "got": "325499120",
    "embedded": "325499120",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11258,11 +10410,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.061,
    "rc": 0,
    "got": "506132494",
    "embedded": "506132494",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11275,7 +10427,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.089,
+   "time": 0.078,
    "rc": 0,
    "got": "5834231041212316",
    "embedded": "5834231041212316",
@@ -11292,11 +10444,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.062,
    "rc": 0,
    "got": "295269766",
    "embedded": "295269766",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11309,11 +10461,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.086,
    "rc": 0,
    "got": "18999616",
    "embedded": "18999616",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11326,11 +10478,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.088,
+   "time": 0.062,
    "rc": 0,
    "got": "202676543",
    "embedded": "202676543",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11343,11 +10495,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.069,
    "rc": 0,
    "got": "471745499",
    "embedded": "471745499",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11360,7 +10512,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.069,
    "rc": 0,
    "got": "174047818579065",
    "embedded": "174047818579065",
@@ -11377,7 +10529,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.06,
    "rc": 0,
    "got": "73597483551591773",
    "embedded": "73597483551591773",
@@ -11394,11 +10546,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.08,
    "rc": 0,
    "got": "40454087",
    "embedded": "40454087",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11411,11 +10563,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.087,
    "rc": 0,
    "got": "475019340",
    "embedded": "475019340",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11428,7 +10580,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.072,
    "rc": 0,
    "got": "4758086501311202972",
    "embedded": "4758086501311202972",
@@ -11445,11 +10597,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.068,
    "rc": 0,
    "got": "56375722",
    "embedded": "56375722",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11462,7 +10614,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.086,
+   "time": 0.058,
    "rc": 0,
    "got": "955892601788276",
    "embedded": "955892601788276",
@@ -11479,12 +10631,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.05,
    "rc": 0,
    "got": "42.52546609",
-   "embedded": "42",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "42.52546609",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11496,11 +10648,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.079,
+   "time": 0.061,
    "rc": 0,
    "got": "16436913",
    "embedded": "16436913",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11513,12 +10665,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.064,
    "rc": 0,
    "got": "19.16212503",
-   "embedded": "19",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "19.16212503",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11530,11 +10682,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.058,
    "rc": 0,
    "got": "209566086",
    "embedded": "209566086",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11547,11 +10699,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.079,
+   "time": 0.067,
    "rc": 0,
    "got": "1412403576",
    "embedded": "1412403576",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11564,11 +10716,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.07,
    "rc": 0,
    "got": "7937995",
    "embedded": "7937995",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11581,11 +10733,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.064,
    "rc": 0,
    "got": "139786440370676700",
    "embedded": "139786440370676700",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11598,11 +10750,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.065,
    "rc": 0,
    "got": "150056452701858318",
    "embedded": "150056452701858318",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11615,11 +10767,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.065,
    "rc": 0,
    "got": "721014409585053",
    "embedded": "721014409585053",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11632,11 +10784,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.065,
    "rc": 0,
    "got": "7007143846988468270",
    "embedded": "7007143846988468270",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11649,11 +10801,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.06,
    "rc": 0,
    "got": "773410946",
    "embedded": "773410946",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11662,13 +10814,20 @@
  },
  {
   "problem": 807,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.06,
+   "rc": 0,
+   "got": "240.6377473",
+   "embedded": "240.6377473",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "F:\\Project\\PE_problem_sets\\807\\code\\std.cpp: In function 'void rotate_rod(Rod&)':\nF:\\Project\\PE_problem_sets\\807\\code\\std.cpp:44:30: error: 'M_PI' was not declared in this scope\n   44 |     r.angle = fmod(r.angle + M_PI, 2 * M_PI);\n      |                              ^~~~\n"
+  ]
  },
  {
   "problem": 808,
@@ -11676,11 +10835,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.07,
    "rc": 0,
    "got": "380750427699465",
    "embedded": "380750427699465",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11693,11 +10852,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.06,
    "rc": 0,
    "got": "152246599",
    "embedded": "152246599",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11710,11 +10869,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.069,
    "rc": 0,
    "got": "12413689438106832",
    "embedded": "12413689438106832",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11727,11 +10886,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.054,
+   "time": 0.063,
    "rc": 0,
    "got": "268760823",
    "embedded": "268760823",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11744,11 +10903,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.063,
    "rc": 0,
    "got": "979856593",
    "embedded": "979856593",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11761,11 +10920,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.134,
+   "time": 0.065,
    "rc": 0,
    "got": "42867443257356715",
    "embedded": "42867443257356715",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11778,11 +10937,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.055,
    "rc": 0,
    "got": "5432077145175621",
    "embedded": "5432077145175621",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11795,7 +10954,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.091,
+   "time": 0.062,
    "rc": 0,
    "got": "2.63959319",
    "embedded": "263959319",
@@ -11812,12 +10971,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.094,
+   "time": 0.064,
    "rc": 0,
    "got": "20.880613018",
-   "embedded": "20",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "20.880613018",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11829,11 +10988,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.136,
+   "time": 0.054,
    "rc": 0,
    "got": "253868223968",
    "embedded": "253868223968",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11846,11 +11005,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.126,
+   "time": 0.079,
    "rc": 0,
    "got": "17423445763272143",
    "embedded": "17423445763272143",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11863,11 +11022,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.102,
+   "time": 0.07,
    "rc": 0,
    "got": "336745654331992",
    "embedded": "336745654331992",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11880,12 +11039,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.063,
    "rc": 0,
    "got": "44967734",
-   "embedded": "44967734",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11897,11 +11056,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.085,
+   "time": 0.059,
    "rc": 0,
    "got": "139851300873331129",
    "embedded": "139851300873331129",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11914,11 +11073,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.108,
+   "time": 0.066,
    "rc": 0,
    "got": "1098139348878744681",
    "embedded": "1098139348878744681",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11931,12 +11090,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.095,
+   "time": 0.062,
    "rc": 0,
    "got": "5610899769.176",
-   "embedded": "5610899769",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "5610899769.176",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11948,12 +11107,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.067,
    "rc": 0,
    "got": "0.624433075018",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.624433075018",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11965,11 +11124,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.081,
+   "time": 0.072,
    "rc": 0,
    "got": "963329187",
    "embedded": "963329187",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -11982,12 +11141,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.088,
+   "time": 0.082,
    "rc": 0,
    "got": "23.77311635",
-   "embedded": "23",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "23.77311635",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -11999,11 +11158,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.097,
+   "time": 0.064,
    "rc": 0,
    "got": "34981821048",
    "embedded": "34981821048",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12016,11 +11175,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.094,
+   "time": 0.059,
    "rc": 0,
    "got": "764545780025915",
    "embedded": "764545780025915",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12033,11 +11192,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.081,
+   "time": 0.068,
    "rc": 0,
    "got": "883344930",
    "embedded": "883344930",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12050,11 +11209,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.097,
+   "time": 0.055,
    "rc": 0,
    "got": "6822681719333421",
    "embedded": "6822681719333421",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12067,11 +11226,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.071,
+   "time": 0.066,
    "rc": 0,
    "got": "223153684303778",
    "embedded": "223153684303778",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12084,11 +11243,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.066,
    "rc": 0,
    "got": "595318643547",
    "embedded": "595318643547",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12101,11 +11260,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.072,
    "rc": 0,
    "got": "928306910",
    "embedded": "928306910",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12118,11 +11277,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.069,
    "rc": 0,
    "got": "151813236553797599",
    "embedded": "151813236553797599",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12135,11 +11294,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.11,
+   "time": 0.07,
    "rc": 0,
    "got": "636431039",
    "embedded": "636431039",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12152,7 +11311,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.063,
    "rc": 0,
    "got": "apr2024",
    "embedded": null,
@@ -12169,12 +11328,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.068,
    "rc": 0,
    "got": "572410.960905",
-   "embedded": "572410",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "572410.960905",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12186,11 +11345,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.067,
    "rc": 0,
    "got": "3610283147900864",
    "embedded": "3610283147900864",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12203,11 +11362,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.051,
    "rc": 0,
    "got": "229260851949018",
    "embedded": "229260851949018",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12220,12 +11379,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.084,
+   "time": 0.065,
    "rc": 0,
    "got": "0.277319553",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.277319553",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12237,11 +11396,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.183,
+   "time": 0.051,
    "rc": 0,
    "got": "540610990902316",
    "embedded": "540610990902316",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12254,11 +11413,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.059,
    "rc": 0,
    "got": "299724841336576",
    "embedded": "299724841336576",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12267,23 +11426,37 @@
  },
  {
   "problem": 843,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.065,
+   "rc": 0,
+   "got": "1591033983566",
+   "embedded": "1591033983566",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "                               ^~~~\nF:\\Project\\PE_problem_sets\\843\\code\\std.cpp: In function 'void verify_periodic_circles()':\nF:\\Project\\PE_problem_sets\\843\\code\\std.cpp:159:17: error: 'M_PI' was not declared in this scope\n  159 |              << M_PI * R * R << \")\\n\";\n      |                 ^~~~\n"
+  ]
  },
  {
   "problem": 844,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.057,
+   "rc": 0,
+   "got": "280245879518483",
+   "embedded": "280245879518483",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "124 |         double err = fabs(M_E - (double)p / (double)q);\n      |                           ^~~\nF:\\Project\\PE_problem_sets\\844\\code\\std.cpp:134:28: error: 'M_E' was not declared in this scope\n  134 |         double diff = fabs(M_E - (double)p / (double)q);\n      |                            ^~~\n"
+  ]
  },
  {
   "problem": 845,
@@ -12291,11 +11464,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.055,
    "rc": 0,
    "got": "15705580991",
    "embedded": "15705580991",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12308,11 +11481,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.063,
    "rc": 0,
    "got": "159410499132",
    "embedded": "159410499132",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12325,11 +11498,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.055,
    "rc": 0,
    "got": "5090123",
    "embedded": "5090123",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12342,11 +11515,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.1,
+   "time": 0.063,
    "rc": 0,
    "got": "50500744",
    "embedded": "50500744",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12359,11 +11532,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.08,
+   "time": 0.069,
    "rc": 0,
    "got": "68321107",
    "embedded": "68321107",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12376,11 +11549,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.085,
+   "time": 0.059,
    "rc": 0,
    "got": "21469108",
    "embedded": "21469108",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12393,11 +11566,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.065,
    "rc": 0,
    "got": "169796973644",
    "embedded": "169796973644",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12410,11 +11583,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.068,
    "rc": 0,
    "got": "544106376",
    "embedded": "544106376",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12427,11 +11600,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.099,
+   "time": 0.055,
    "rc": 0,
    "got": "44511058204",
    "embedded": "44511058204",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12444,11 +11617,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.054,
    "rc": 0,
    "got": "566225932",
    "embedded": "566225932",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12461,11 +11634,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.109,
+   "time": 0.066,
    "rc": 0,
    "got": "999998093600",
    "embedded": "999998093600",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12478,7 +11651,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.126,
+   "time": 0.06,
    "rc": 0,
    "got": "2.59149127",
    "embedded": "2.59149127",
@@ -12495,11 +11668,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.108,
+   "time": 0.054,
    "rc": 0,
    "got": "697354363",
    "embedded": "697354363",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12512,11 +11685,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.092,
+   "time": 0.065,
    "rc": 0,
    "got": "930235231314",
    "embedded": "930235231314",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12529,11 +11702,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.105,
+   "time": 0.056,
    "rc": 0,
    "got": "18989964",
    "embedded": "18989964",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12546,12 +11719,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.112,
+   "time": 0.062,
    "rc": 0,
    "got": "71743330777707",
-   "embedded": "71743330777707",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12563,11 +11736,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.071,
    "rc": 0,
    "got": "1940527636228617032",
    "embedded": "1940527636228617032",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12580,11 +11753,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.064,
    "rc": 0,
    "got": "380463671",
    "embedded": "380463671",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12597,11 +11770,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.09,
+   "time": 0.057,
    "rc": 0,
    "got": "264577536823",
    "embedded": "264577536823",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12614,11 +11787,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.078,
+   "time": 0.064,
    "rc": 0,
    "got": "779724178",
    "embedded": "779724178",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12631,12 +11804,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.114,
+   "time": 0.062,
    "rc": 0,
    "got": "0.776767313",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.776767313",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12648,11 +11821,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.056,
    "rc": 0,
    "got": "370223510432700",
    "embedded": "370223510432700",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12665,11 +11838,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.065,
    "rc": 0,
    "got": "631682239",
    "embedded": "631682239",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12682,11 +11855,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.087,
+   "time": 0.052,
    "rc": 0,
    "got": "636384916",
    "embedded": "636384916",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12699,12 +11872,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.077,
    "rc": 0,
    "got": "14.97696693",
-   "embedded": "14",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "14.97696693",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12716,11 +11889,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.063,
    "rc": 0,
    "got": "84618346",
    "embedded": "84618346",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12733,12 +11906,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.061,
    "rc": 0,
    "got": "497300941",
-   "embedded": "497300941",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12750,11 +11923,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.063,
    "rc": 0,
    "got": "622370484708689",
    "embedded": "622370484708689",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12767,11 +11940,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.107,
+   "time": 0.067,
    "rc": 0,
    "got": "644288016",
    "embedded": "644288016",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12784,11 +11957,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.063,
    "rc": 0,
    "got": "75640242",
    "embedded": "75640242",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12801,12 +11974,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.057,
+   "time": 0.068,
    "rc": 0,
    "got": "130702327",
-   "embedded": "130702327",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -12818,11 +11991,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.107,
+   "time": 0.062,
    "rc": 0,
    "got": "316086996128331296",
    "embedded": "316086996128331296",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12835,11 +12008,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.074,
+   "time": 0.068,
    "rc": 0,
    "got": "178741697",
    "embedded": "178741697",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12852,11 +12025,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.058,
    "rc": 0,
    "got": "741406445589310",
    "embedded": "741406445589310",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12869,11 +12042,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.072,
    "rc": 0,
    "got": "395147478",
    "embedded": "395147478",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12882,13 +12055,20 @@
  },
  {
   "problem": 880,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.067,
+   "rc": 0,
+   "got": "0.587259697",
+   "embedded": "0.587259697",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "π    = \" << ans * M_PI << \"\\n\";\n      |                                           ^~~~\nF:\\Project\\PE_problem_sets\\880\\code\\std.cpp:212:43: error: 'M_E' was not declared in this scope\n  212 |     cout << \"  answer * e    = \" << ans * M_E << \"\\n\";\n      |                                           ^~~\n"
+  ]
  },
  {
   "problem": 881,
@@ -12896,11 +12076,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.081,
    "rc": 0,
    "got": "183182007700",
    "embedded": "183182007700",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12913,11 +12093,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.062,
    "rc": 0,
    "got": "245143924",
    "embedded": "245143924",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12930,11 +12110,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.07,
    "rc": 0,
    "got": "196246694",
    "embedded": "196246694",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12947,11 +12127,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.072,
    "rc": 0,
    "got": "966580193",
    "embedded": "966580193",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12964,11 +12144,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.066,
    "rc": 0,
    "got": "827759707",
    "embedded": "827759707",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12981,11 +12161,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.064,
    "rc": 0,
    "got": "178245463",
    "embedded": "178245463",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -12998,12 +12178,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.061,
    "rc": 0,
    "got": "60.9112535",
-   "embedded": "60",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "60.9112535",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13015,11 +12195,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.072,
    "rc": 0,
    "got": "350608994",
    "embedded": "350608994",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13032,12 +12212,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.072,
    "rc": 0,
    "got": "0.00801483",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.00801483",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13049,11 +12229,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.063,
    "rc": 0,
    "got": "120592557",
    "embedded": "120592557",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13066,11 +12246,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.054,
    "rc": 0,
    "got": "7541783",
    "embedded": "7541783",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13083,11 +12263,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.069,
+   "time": 0.063,
    "rc": 0,
    "got": "34683298",
    "embedded": "34683298",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13100,12 +12280,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.066,
+   "time": 0.085,
    "rc": 0,
    "got": "0.99993832",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.99993832",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13113,13 +12293,20 @@
  },
  {
   "problem": 894,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.066,
+   "rc": 0,
+   "got": "85516249",
+   "embedded": "85516249",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "x) * 180.0 / M_PI;\n      |                                              ^~~~\nF:\\Project\\PE_problem_sets\\894\\code\\std.cpp:128:50: error: 'M_PI' was not declared in this scope\n  128 |         double approx = approx_angle(N) / (2.0 * M_PI);\n      |                                                  ^~~~\n"
+  ]
  },
  {
   "problem": 895,
@@ -13127,11 +12314,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.07,
    "rc": 0,
    "got": "66687705",
    "embedded": "66687705",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13144,12 +12331,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.06,
+   "time": 0.063,
    "rc": 0,
    "got": "0.04860463",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.04860463",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13161,11 +12348,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.061,
    "rc": 0,
    "got": "460088576432531620",
    "embedded": "460088576432531620",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13178,12 +12365,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.066,
    "rc": 0,
    "got": "0.69233750",
-   "embedded": "0",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "0.69233750",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13191,23 +12378,37 @@
  },
  {
   "problem": 899,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.063,
+   "rc": 0,
+   "got": "0.13790397",
+   "embedded": "0.13790397",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "F:\\Project\\PE_problem_sets\\899\\code\\std.cpp: In function 'void analyze_squarefree(ll)':\nF:\\Project\\PE_problem_sets\\899\\code\\std.cpp:103:21: error: 'M_PI' was not declared in this scope\n  103 |          << (6.0 / (M_PI * M_PI)) << \"\\n\";\n      |                     ^~~~\n"
+  ]
  },
  {
   "problem": 900,
-  "compile": "FAIL",
+  "compile": "OK",
   "data": null,
-  "probe": null,
+  "probe": {
+   "has_pe": true,
+   "time": 0.072,
+   "rc": 0,
+   "got": "840282274715517044",
+   "embedded": "840282274715517044",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
+  },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
-  ],
-  "compile_err": "p: In function 'void compute_cumulative_totient_advanced()':\nF:\\Project\\PE_problem_sets\\900\\code\\std.cpp:202:54: error: 'M_PI' was not declared in this scope\n  202 |         double ratio = (double)val / (3.0 * N * N / (M_PI * M_PI));\n      |                                                      ^~~~\n"
+  ]
  },
  {
   "problem": 901,
@@ -13215,12 +12416,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.066,
    "rc": 0,
    "got": "2.364497769",
-   "embedded": "2",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "2.364497769",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13232,7 +12433,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.072,
    "rc": 0,
    "got": "0",
    "embedded": null,
@@ -13249,12 +12450,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.082,
    "rc": 0,
    "got": "3.87342933",
-   "embedded": "3",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_MISMATCH"
+   "embedded": "3.87342933",
+   "via": "COMMENT",
+   "verdict": "EMBED_OK"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13266,11 +12467,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.058,
+   "time": 0.055,
    "rc": 0,
    "got": "795638489",
    "embedded": "795638489",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13283,11 +12484,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.072,
+   "time": 0.059,
    "rc": 0,
    "got": "40489374",
    "embedded": "40489374",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13309,11 +12510,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.063,
    "rc": 0,
    "got": "31875000",
    "embedded": "31875000",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13326,11 +12527,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.056,
    "rc": 0,
    "got": "898438666",
    "embedded": "898438666",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13343,11 +12544,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.061,
    "rc": 0,
    "got": "463372544",
    "embedded": "463372544",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13360,11 +12561,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.059,
+   "time": 0.055,
    "rc": 0,
    "got": "128811200",
    "embedded": "128811200",
-   "via": "PE_ANSWER",
+   "via": "COMMENT",
    "verdict": "EMBED_OK"
   },
   "stmt_flags": [
@@ -13377,7 +12578,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.069,
    "rc": 0,
    "got": "21.303979",
    "embedded": "21.303979",
@@ -13394,7 +12595,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.064,
+   "time": 0.046,
    "rc": 0,
    "got": "562685338",
    "embedded": "562685338",
@@ -13411,7 +12612,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.064,
    "rc": 0,
    "got": "2101925115560555020",
    "embedded": "2101925115560555020",
@@ -13428,7 +12629,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.065,
+   "time": 0.057,
    "rc": 0,
    "got": "66514746",
    "embedded": "66514746",
@@ -13445,7 +12646,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.492,
+   "time": 0.061,
    "rc": 0,
    "got": "60112743",
    "embedded": "60112743",
@@ -13462,12 +12663,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.063,
+   "time": 0.065,
    "rc": 0,
    "got": "17636154",
-   "embedded": "17636154",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13479,12 +12680,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.066,
    "rc": 0,
    "got": "836245588",
-   "embedded": "836245588",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13513,11 +12714,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.067,
+   "time": 0.064,
    "rc": 0,
    "got": "0",
-   "embedded": "0",
-   "via": "PE_ANSWER",
+   "embedded": null,
+   "via": null,
    "verdict": "PLACEHOLDER"
   },
   "stmt_flags": [
@@ -13530,12 +12731,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.077,
+   "time": 0.066,
    "rc": 0,
    "got": "35060524",
-   "embedded": "35060524",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13547,12 +12748,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.058,
    "rc": 0,
    "got": "378401935",
-   "embedded": "378401935",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13564,12 +12765,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.073,
+   "time": 0.067,
    "rc": 0,
    "got": "76068739",
-   "embedded": "76068739",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13584,9 +12785,9 @@
    "time": 0.062,
    "rc": 0,
    "got": "337906707",
-   "embedded": "337906707",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13598,12 +12799,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.07,
+   "time": 0.065,
    "rc": 0,
    "got": "468465968",
-   "embedded": "468465968",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13615,12 +12816,12 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.075,
+   "time": 0.065,
    "rc": 0,
    "got": "275586123",
-   "embedded": "275586123",
-   "via": "PE_ANSWER",
-   "verdict": "EMBED_OK"
+   "embedded": null,
+   "via": null,
+   "verdict": "NO_EMBEDDED"
   },
   "stmt_flags": [
    "EMPTY_TEMPLATE"
@@ -13632,7 +12833,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.432,
+   "time": 0.411,
    "rc": 0,
    "got": "40410219",
    "embedded": null,
@@ -13649,7 +12850,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.868,
+   "time": 0.859,
    "rc": 0,
    "got": "60140",
    "embedded": null,
@@ -13666,7 +12867,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.062,
+   "time": 0.077,
    "rc": 0,
    "got": "56198223",
    "embedded": "56198223",
@@ -13683,7 +12884,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 15.219,
+   "time": 15.015,
    "rc": 0,
    "got": "680764543",
    "embedded": null,
@@ -13700,7 +12901,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.089,
+   "time": 0.086,
    "rc": 0,
    "got": "2.06086029",
    "embedded": "2.06086029",
@@ -13717,7 +12918,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 1.446,
+   "time": 1.438,
    "rc": 0,
    "got": "342945224",
    "embedded": null,
@@ -13734,7 +12935,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.099,
+   "time": 0.069,
    "rc": 0,
    "got": "183021750",
    "embedded": "183021750",
@@ -13751,7 +12952,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.056,
+   "time": 0.102,
    "rc": 0,
    "got": "Computation requires period detection",
    "embedded": null,
@@ -13768,7 +12969,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.079,
+   "time": 0.066,
    "rc": 0,
    "got": "72891062",
    "embedded": "72891062",
@@ -13785,7 +12986,7 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.076,
+   "time": 0.055,
    "rc": 0,
    "got": "Requires deeper geometric analysis",
    "embedded": null,
@@ -13832,7 +13033,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.079,
+   "max_time": 0.057,
    "bad": [],
    "n_bad": 0
   },
@@ -13847,7 +13048,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.059,
+   "max_time": 0.056,
    "bad": [],
    "n_bad": 0
   },
@@ -13862,7 +13063,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.1,
+   "max_time": 0.098,
    "bad": [],
    "n_bad": 0
   },
@@ -13877,7 +13078,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.065,
+   "max_time": 0.076,
    "bad": [],
    "n_bad": 0
   },
@@ -13892,7 +13093,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.06,
+   "max_time": 0.054,
    "bad": [],
    "n_bad": 0
   },
@@ -13906,43 +13107,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.145,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -13953,7 +13121,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.065,
+   "max_time": 0.059,
    "bad": [],
    "n_bad": 0
   },
@@ -13994,11 +13162,11 @@
   "data": null,
   "probe": {
    "has_pe": true,
-   "time": 0.068,
+   "time": 0.055,
    "rc": 0,
    "got": "0",
-   "embedded": "0",
-   "via": "PE_ANSWER",
+   "embedded": null,
+   "via": null,
    "verdict": "PLACEHOLDER"
   },
   "stmt_flags": [
@@ -14020,7 +13188,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.685,
+   "max_time": 0.678,
    "bad": [],
    "n_bad": 0
   },
@@ -14033,7 +13201,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.071,
+   "max_time": 0.077,
    "bad": [],
    "n_bad": 0
   },
@@ -14045,43 +13213,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 1.093,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -14092,7 +13227,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.072,
+   "max_time": 0.054,
    "bad": [],
    "n_bad": 0
   },
@@ -14104,43 +13239,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.061,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -14168,43 +13270,10 @@
   "compile": "OK",
   "data": {
    "total": 10,
-   "ac": 0,
-   "max_time": 0.0,
-   "bad": [
-    [
-     "01.in",
-     "NO_OUT"
-    ],
-    [
-     "02.in",
-     "NO_OUT"
-    ],
-    [
-     "03.in",
-     "NO_OUT"
-    ],
-    [
-     "04.in",
-     "NO_OUT"
-    ],
-    [
-     "05.in",
-     "NO_OUT"
-    ],
-    [
-     "06.in",
-     "NO_OUT"
-    ],
-    [
-     "07.in",
-     "NO_OUT"
-    ],
-    [
-     "08.in",
-     "NO_OUT"
-    ]
-   ],
-   "n_bad": 10
+   "ac": 10,
+   "max_time": 0.54,
+   "bad": [],
+   "n_bad": 0
   },
   "probe": null,
   "stmt_flags": []
@@ -14222,7 +13291,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.608,
+   "max_time": 0.603,
    "bad": [],
    "n_bad": 0
   },
@@ -14265,7 +13334,7 @@
   "data": {
    "total": 10,
    "ac": 10,
-   "max_time": 0.054,
+   "max_time": 0.046,
    "bad": [],
    "n_bad": 0
   },
