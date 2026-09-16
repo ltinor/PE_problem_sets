@@ -3,7 +3,7 @@ STD="./std"; DATA_DIR="data"; TIME_LIMIT=1
 for infile in "$DATA_DIR"/*.in; do
     base=$(basename "$infile" .in)
     echo "===== Timing $base ====="
-    python3 - <<PYEOF
+    python - <<PYEOF
 import subprocess, time
 try:
     start=time.time()

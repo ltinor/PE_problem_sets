@@ -75,7 +75,7 @@ def run(exe: str, stdin_bytes: bytes, timeout: float):
 
 
 def extract_embedded(src: str):
-    m = re.search(r'const\s+\w+\s+PE_ANSWER\s*=\s*([0-9]+)', src)
+    m = re.search(r'const\s+[\w\s]+?PE_ANSWER\w*\s*=\s*([0-9][0-9.eE]*)(?:[uUlLfF]*)', src)
     if m:
         return m.group(1), "PE_ANSWER"
     m = re.search(r'if\s*\([^)]*"PE"[^)]*\)\s*\{(.{0,400}?)\}', src, re.S)
@@ -83,7 +83,7 @@ def extract_embedded(src: str):
         m2 = re.search(r'cout\s*<<\s*"?([0-9][0-9.]*)"?', m.group(1))
         if m2:
             return m2.group(1), "PE_BRANCH"
-    m = re.search(r'PE\s*answer[:：]\s*([0-9][0-9.]*)', src)
+    m = re.search(r'PE\s*answer[:：]\s*([0-9][0-9.eE]*)', src)
     if m:
         return m.group(1), "COMMENT"
     return None, None

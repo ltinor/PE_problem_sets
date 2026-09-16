@@ -6,8 +6,8 @@ TIME_LIMIT=1
 for infile in "$DATA_DIR"/*.in; do
     base=$(basename "$infile" .in)
     echo "===== $base ====="
-    start=$(python3 -c "import time; print(int(time.time()*1000))")
-    python3 - <<EOF
+    start=$(python -c "import time; print(int(time.time()*1000))")
+    python - <<EOF
 import subprocess, time
 try:
     start = time.time()

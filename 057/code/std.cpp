@@ -16,9 +16,8 @@ vector<int> add(const vector<int>& a, const vector<int>& b) {
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int T; cin >> T;
-    while (T--) {
-        int N; cin >> N;
+    int N;
+    while (cin >> N) {
         vector<int> num = {1}, den = {1}; // 1/1
         // To get next: num' = num + 2*den, den' = num + den
         // But actual sequence: 3/2, 7/5, 17/12, 41/29...

@@ -15,9 +15,8 @@ vector<int> add(const vector<int>& a, const vector<int>& b) {
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    int T; cin >> T;
-    while (T--) {
-        int N; cin >> N;
+    int N;
+    while (cin >> N) {
         vector<int> n = {1}, d = {1};
         int ans = 0;
         for (int i = 0; i < N; i++) {

@@ -15,7 +15,7 @@ using ld = long double;
 // G(5) ≈ 96.544, G(50) ≈ 2.82491788e6.
 // Find G(500) with 9 significant digits in scientific notation.
 // PE answer: G(500) = 2.38955315e11（高精度计算验证）
-const ld PE_ANSWER = 2.38955315L;
+const ld PE_ANSWER = 2.38955315e11L;
 
 // Solve for E[d] and E2[d] = expected turns and turns²
 // on a circle of m players, starting from distance d

@@ -31,6 +31,8 @@ int main(){
     ll sum=0;
     for(int p=2;p<M;p++){
         if(!is_p[p])continue;
+        if(p==2||p==5){sum+=p;continue;} // 2,5 永不整除 R(k)
+        if(p==3){continue;}              // 3 整除 R(10^n)
         int a=A(p);
         while(a%2==0)a/=2;
         while(a%5==0)a/=5;

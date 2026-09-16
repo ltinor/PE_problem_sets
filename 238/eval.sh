@@ -9,9 +9,9 @@ for infile in "$DATA_DIR"/*.in; do
     base=$(basename "$infile" .in)
     echo "===== Timing $base ====="
 
-    start=$(python3 -c "import time; print(int(time.time()*1000))")
+    start=$(python -c "import time; print(int(time.time()*1000))")
 
-    python3 - <<EOF
+    python - <<EOF
 import subprocess, time, sys
 try:
     start=time.time()

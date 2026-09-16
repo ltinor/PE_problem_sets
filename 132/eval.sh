@@ -4,7 +4,7 @@ DATA_DIR="data"
 TIME_LIMIT=1
 for infile in "$DATA_DIR"/*.in; do
     base=$(basename "$infile" .in)
-    python3 - <<EOF
+    python - <<EOF
 import subprocess, time
 try:
     start=time.time()

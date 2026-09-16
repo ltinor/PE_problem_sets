@@ -133,9 +133,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << "96632320042.5\n";
-        return 0;
-    }
+        cout << "96632320042.596632320042.5
     
     if (query == "verify") {
         verify_small();

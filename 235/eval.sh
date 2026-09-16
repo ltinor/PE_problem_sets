@@ -8,7 +8,7 @@ for infile in "$DATA_DIR"/*.in; do
     base=$(basename "$infile" .in)
     echo "===== Timing $base ====="
 
-    python3 - <<EOF
+    python - <<EOF
 import subprocess, time, sys
 try:
     start=time.time()
