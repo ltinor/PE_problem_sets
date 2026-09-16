@@ -1,35 +1,49 @@
 // PE369: Badugi Poker
-// Count n-card hands (4 ≤ n ≤ 13) from 52-card deck containing a 4-card Badugi.
-// A Badugi = 4 cards, all distinct ranks and all distinct suits.
-// B = C(13,4) * 4! = 17160 Badugi 4-sets.
-// 
-// Approach: Count hands WITHOUT Badugi via vertex cover.
-// A hand lacks Badugi iff ∃ cover (R',S') with |R'|+|S'|≤3 covering all cards.
-// That is, all cards have rank in R' or suit in S'.
-//
-// For each cover type (a,b), the number of n-card hands that are subsets
-// of some cover of that type can be computed. Use PIE across cover types.
-// This yields f(n). Sum for n=4..13 gives PE answer 8624002.
-//
-// PE answer: 8624002 (precomputed)
-
-#include<bits/stdc++.h>
+// f(n) = 从 52 张牌中取 n 张、包含 4 张"百得之"(4 点数互异 + 4 花色互异)的取法数.
+// 无 Badugi <=> 点数-花色二部图最大匹配 <= 3 (Konig). 用 16 个花色子集的最大匹配状压 DP 精确计算.
+// 验证: f(5) = 514800 (题面给定), sum f(4..13) = 862400558448 (官方答案).
+#include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-
-// Precomputed f(n) values (sum = 8624002)
-const ll F[] = {0,0,0,0,17160,464880,4773324,26476992,87816672,181201344,238159920,201432960,107448840,33125184};
+typedef long long ll;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
+    // 13 轮 DP: 状态 = M[0..15] (16 个花色子集的最大匹配数), 计数按已取张数 n
+    map<pair<array<int,16>,int>, ll> dp;
+    array<int,16> start{}; start.fill(0);
+    dp[{start, 0}] = 1;
+    for (int rank = 0; rank < 13; rank++) {
+        map<pair<array<int,16>,int>, ll> ndp;
+        for (auto& [kv, c] : dp) {
+            auto st = kv.first; int n = kv.second;
+            for (int T = 0; T < 16; T++) {
+                int nn = n + __builtin_popcount(T);
+                if (nn > 13) continue;
+                array<int,16> nm;
+                for (int S = 0; S < 16; S++) {
+                    int best = st[S];
+                    for (int s = 0; s < 4; s++)
+                        if ((T >> s & 1) && (S >> s & 1))
+                            best = max(best, st[S ^ (1 << s)] + 1);
+                    nm[S] = best;
+                }
+                ndp[{nm, nn}] += c;
+            }
+        }
+        dp = move(ndp);
+    }
+    vector<ll> f(14, 0);
+    for (auto& [kv, c] : dp) if (kv.first[15] == 4) f[kv.second] += c;
+
     string first; cin >> first;
     if (first == "PE") {
         ll sum = 0;
-        for (int n = 4; n <= 13; n++) sum += F[n];
-        cout << sum << "\n";  // 8624002
+        for (int n = 4; n <= 13; n++) sum += f[n];
+        cout << sum << "\n";
         return 0;
     }
     int n = stoi(first);
     if (n < 4 || n > 13) { cout << "0\n"; return 0; }
-    cout << F[n] << "\n";
+    cout << f[n] << "\n";
 }

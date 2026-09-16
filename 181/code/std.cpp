@@ -43,9 +43,14 @@ int main() {
 
     precompute();
 
-    int B, W;
-    cin >> B >> W;
-    print_i128(dp[B][W]);
+    int T;
+    cin >> T;
+    while (T--) {
+        int B, W;
+        cin >> B >> W;
+        print_i128(dp[B][W]);
+        cout << endl;
+    }
     cout << "\n";
 
     return 0;

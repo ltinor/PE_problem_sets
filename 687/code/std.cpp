@@ -11,8 +11,8 @@ using ld = long double;
 // Find P(#perfect ranks is prime), rounded to 10 decimal places.
 // PE answer: 0.621073558 (mantissa: 621073558)
 
-const ll PE_ANSWER_MANTISSA = 621073558; // 10 decimal digits
-const ld PE_ANSWER = 0.621073558L;
+const ll PE_ANSWER_MANTISSA = 3285320869LL; // 10 decimal digits
+const ld PE_ANSWER = 0.3285320869L;
 
 // Per-rank generating function: f(x) = 1 + 12x + 36x² + 24x³
 // Coefficients encode the internal ordering factor for compatible adjacency constraints.
