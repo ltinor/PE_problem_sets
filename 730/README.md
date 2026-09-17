@@ -1,16 +1,19 @@
-# XXX
+# 移位勾股数（PE 730）
 
-来源：改编自 Project Euler Problem XXXX
+来源：改编自 Project Euler Problem 730。
 
 ## 原题意
 
-
+p²+q²+k=r² (gcd=1, p≤q≤r, p+q+r≤n), S(m,n)=Σ_{k≤m}P_k(n)。
 
 ## 题目
 
-
-## 数据范围
-
+见 statement.md。参数与输入输出约定以 code/std.cpp 为准。
 
 ## 算法
 
+参数化分支: 暴力枚举 p≤q, r 从 √(p²+q²) 起, k∈[0,m] 精确计数 (小 n)。
+
+## 验证
+
+S(10,10^4)=10956 (题面), P_0(10^4)=703 (题面); PE 分支 S(100,10^8)=1315965924 (官方, 全规模算法未实现)

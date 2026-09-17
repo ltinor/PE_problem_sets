@@ -1,16 +1,19 @@
-# XXX
+# 奇数长度分段组成（PE 929）
 
-来源：改编自 Project Euler Problem XXXX
+来源：改编自 Project Euler Problem 929。
 
 ## 原题意
 
-
+组成 n 的正整数序列, 每个极大相等段长度为奇数, 求 F(10^5) mod 1111124111。
 
 ## 题目
 
-
-## 数据范围
-
+见 statement.md。参数与输入输出约定以 code/std.cpp 为准。
 
 ## 算法
 
+Smirnov 变换: F = 1/(1-Σ C_v/(1+C_v)) 化为递推 F(n)=ΣW(m)F(n-m), W(m)=Σ_{d|m}(-1)^(d-1)Fib(d)。
+
+## 验证
+
+暴力枚举 n≤12 全吻合 (F(5)=10 题面); F(10^5)=57322484 (官方)
