@@ -1,33 +1,60 @@
-# $3$ 或 $5$ 的倍数
+# Problem 646（PE 646）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=646](https://projecteuler.net/problem=646)。
+
+## **Bounded Divisors**
+
+Let $n$ be a natural number and $p_1^{\alpha_1}\cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ its prime factorisation.
+
+Define the **Liouville function** $\lambda(n)$ as $\lambda(n)=(-1)^{\sum_{i=1}^k\alpha_i}$.
+(i.e. $-1$ if the sum of the exponents $\alpha_i$ is odd and $1$ if the sum of the exponents is even. )
+Let $S(n,L,H)$ be the sum $\lambda(d)\cdot d$ over all divisors $d$ of $n$ for which $L\le d\le H$.
+
+You are given:
+$S(10!,100,1000)=1457$
+$S(15!,10^3,10^5)=-107974$
+$S(30!,10^8,10^{12})=9766732243224$
+
+Find $S(70!,10^{20},10^{60})$ and give your answer modulo $1\ 000\ 000\ 007$.
+
+## **有界因数**
+
+考虑自然数$n$及其质因数分解$p_1^{\alpha_1}\cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$。
+
+定义**刘维尔函数** $\lambda(n)$为$\lambda(n)=(-1)^{\sum_{i=1}^k\alpha_i}$。
+（也就是说，若所有指数$\alpha_i$之和为奇数，则该函数取$-1$，若为偶数则取$1$。）
+考虑$n$在$L\le d\le H$范围内的所有因数$d$，并记这些$\lambda(d)\cdot d$之和为$S(n,L,H)$。
+
+已知：
+$S(10!,100,1000)=1457$
+$S(15!,10^3,10^5)=-107974$
+$S(30!,10^8,10^{12})=9766732243224$
+
+求$S(70!,10^{20},10^{60})$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

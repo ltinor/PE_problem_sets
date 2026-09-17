@@ -1,33 +1,66 @@
-# $3$ 或 $5$ 的倍数
+# Problem 900（PE 900）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=900](https://projecteuler.net/problem=900)。
+
+## **DistribuNim II**
+
+Two players play a game with at least two piles of stones. The players alternately take stones from one or more piles, subject to:
+1. the total number of stones taken is equal to the size of the smallest pile before the move;
+2. the move cannot take all the stones from a pile.
+
+The player that is unable to move loses.
+
+For example, if the piles are of sizes $2$, $2$ and $4$ then there are four possible moves.
+$$ (2,2,4)\xrightarrow{(1,1,0)}(1,1,4)\quad (2,2,4)\xrightarrow{(1,0,1)}(1,2,3)\quad
+(2,2,4)\xrightarrow{(0,1,1)}(2,1,3)\quad (2,2,4)\xrightarrow{(0,0,2)}(2,2,2)$$
+
+Let $t(n)$ be the smallest nonnegative integer $k$ such that the position with $n$ piles of $n$ stones and a single pile of $n+k$ stones is losing for the first player assuming optimal play. For example, $t(1) = t(2) = 0$ and $t(3) = 2$.
+
+Define $\displaystyle S(N) = \sum_{n=1}^{2^N} t(n)$. You are given $S(10) = 361522$.
+
+Find $S(10^4)$. Give your answer modulo $900497239$.
+
+## **分布式取石子游戏（二）**
+
+两位玩家在玩一个游戏，游戏开始时有至少两堆石子，玩家轮流从一堆或多堆中取石子，并需遵守以下规则：
+1. 取走的石子总数等于行动前最小堆的石子数量；
+2. 不能将任何一堆的石子全部取完。
+
+首先无法行动的玩家输掉游戏。
+
+例如，如果堆的大小分别为$2$、$2$和$4$，则有四种可能的移动：
+$$ (2,2,4)\xrightarrow{(1,1,0)}(1,1,4)\quad (2,2,4)\xrightarrow{(1,0,1)}(1,2,3)\quad
+(2,2,4)\xrightarrow{(0,1,1)}(2,1,3)\quad (2,2,4)\xrightarrow{(0,0,2)}(2,2,2)$$
+
+令$t(n)$为满足以下条件的最小非负整数$k$：假设双方都采用最优策略，若游戏开始时有$n$堆各$n$个石子和一堆$n+k$个石子，先手玩家必败。例如，$t(1) = t(2) = 0$，$t(3) = 2$。
+
+定义$\displaystyle S(N) = \sum_{n=1}^{2^N} t(n)$。已知$S(10) = 361522$。
+
+求$S(10^4)$，并对$900497239$取余作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

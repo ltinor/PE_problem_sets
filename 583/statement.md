@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 583（PE 583）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=583](https://projecteuler.net/problem=583)。
+
+## **Heron Envelopes**
+
+A standard envelope shape is a convex figure consisting of an isosceles triangle (the flap) placed on top of a rectangle.  An example of an envelope with integral sides is shown below.  Note that to form a sensible envelope, the perpendicular height of the flap (BCD) must be smaller than the height of the rectangle (ABDE).  
+
+<center><img src="/resources/images/0583_heron_envelope.gif" alt="p583_heron_envelope.gif"></center>
+
+In the envelope illustrated, not only are all the sides integral, but also all the diagonals (AC, AD, BD, BE and CE) are integral too. Let us call an envelope with these properties a <i>Heron envelope</i>.
+
+Let S($p$) be the sum of the perimeters of all the Heron envelopes with a perimeter less than or equal to $p$. 
+
+You are given that S(10<sup>4</sup>) = 884680. Find S(10<sup>7</sup>).
+
+## **海伦信封**
+
+一个标准信封是由一个在上的等腰三角形（翻折面）和一个在下的长方形组成的凸多边形。 如下所示是一个各边长均为整数的信封。注意，一个合理的信封，其翻折面（BCD）的高应当小于长方形（ABDE）的高。
+
+<center><img src="/resources/images/0583_heron_envelope.gif" alt="p583_heron_envelope.gif"></center>
+
+在展示的这个信封中，不仅各边长均为整数，而且所有对角线（AC，AD，BD，BE和CE）的长度也都是整数。我们将拥有这种性质的信封称为<i class=zh>海伦信封</i>。
+
+令S($p$)表示所有周长小于等于$p$的海伦信封的周长之和。
+
+已知S(10<sup>4</sup>) = 884680。求S(10<sup>7</sup>)。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

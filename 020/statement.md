@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 20（PE 20）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=20](https://projecteuler.net/problem=20)。
+
+## **Factorial Digit Sum**
+
+$n!$ means $n \times (n − 1) \times ... \times 3 \times 2 \times 1$.
+
+For example, $10! = 10 \times 9 \times ... \times 3 \times 2 \times 1 = 3628800$, and the sum of the digits in the number $10!$ is $3 + 6 + 2 + 8 + 8 + 0 + 0 = 27$.
+
+Find the sum of the digits in the number $100!$.
+
+## **阶乘数字和**
+
+$n!$ 的意思是 $n \times (n − 1) \times ... \times 3 \times 2 \times 1$。
+
+例如，$10! = 10 \times 9 \times ... \times 3 \times 2 \times 1 = 3628800$，所以$10!$的各位数字和是$3 + 6 + 2 + 8 + 8 + 0 + 0 = 27$。
+
+求$100!$的各位数字和。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
 ### 输入
 
-
+```
+10
+```
 
 ### 输出
 
-
+```
+23
+```
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

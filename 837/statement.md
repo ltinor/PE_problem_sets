@@ -1,33 +1,68 @@
-# $3$ 或 $5$ 的倍数
+# Problem 837（PE 837）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=837](https://projecteuler.net/problem=837)。
+
+## **Amidakuji**
+
+<a href="https://en.wikipedia.org/wiki/Amidakuji">Amidakuji</a> (Japanese: 阿弥陀籤) is a method for producing a random permutation of a set of objects.
+
+In the beginning, a number of parallel vertical lines are drawn, one for each object. Then a specified number of horizontal rungs are added, each lower than any previous rungs. Each rung is drawn as a line segment spanning a randomly select pair of adjacent vertical lines.
+
+For example, the following diagram depicts an Amidakuji with three objects ($A$, $B$, $C$) and six rungs:
+<div style="text-align:center;">
+<img src="/resources/images/0837_amidakuji.png" alt="0837_amidakuji.png">
+</div>
+
+The coloured lines in the diagram illustrate how to form the permutation. For each object, starting from the top of its vertical line, trace downwards but follow any rung encountered along the way, and record which vertical we end up on. In this example, the resulting permutation happens to be the identity: $A\mapsto A$, $B\mapsto B$, $C\mapsto C$.
+
+Let $a(m, n)$ be the number of different three-object Amidakujis that have $m$ rungs between $A$ and $B$, and $n$ rungs between $B$ and $C$, and whose outcome is the identity permutation. For example, $a(3, 3) = 2$, because the Amidakuji shown above and its mirror image are the only ones with the required property.
+
+You are also given that $a(123, 321) \equiv 172633303 \pmod{1234567891}$.
+
+Find $a(123456789, 987654321)$. Give your answer modulo $1234567891$.
+
+## **阿弥陀签**
+
+<a href="https://en.wikipedia.org/wiki/Amidakuji">阿弥陀签</a>是一种对物品进行随机重排的方法。
+
+首先，对每一个待排列的物品绘制一条竖线。然后，在这些竖线间自上向下随机地绘制一些横档，每个横档连接任意两条相邻的竖线。
+
+例如，下图绘制了对三个物品（$A$、$B$、$C$）进行重排的阿弥陀签，其中有六个横档：
+<div style="text-align:center;">
+<img src="/resources/images/0837_amidakuji.png" alt="0837_amidakuji.png">
+</div>
+
+图中的彩色折线展示了如何决定最终的重排结果。对于每个物品，首先从其对应的竖线顶端出发向下移动，每当遇到横档时则必须沿横档移动到另一竖线，直至抵达竖线底端。在这个例子中，最终的重排结果恰好保持不变：$A\mapsto A$，$B\mapsto B$，$C\mapsto C$。
+
+考虑所有不同的、对三个物品进行重排的阿弥陀签，记$a(m,n)$为其中在竖线$A$与竖线$B$之间有$m$个横档、在竖线$B$与竖线$C$之间有$n$个横档且最终重排结果不变的阿弥陀签的数量。例如，$a(3, 3) = 2$，对应的阿弥陀签为上图所展示的这种以及其左右翻转的镜像。
+
+已知$a(123, 321) \equiv 172633303 \pmod{1234567891}$。
+
+求$a(123456789, 987654321)$，并将你的答案对$1234567891$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

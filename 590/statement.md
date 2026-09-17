@@ -1,33 +1,62 @@
-# $3$ 或 $5$ 的倍数
+# Problem 590（PE 590）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=590](https://projecteuler.net/problem=590)。
+
+## **Sets with a given Least Common Multiple**
+
+Let H($n$) denote the number of sets of positive integers such that the least common multiple of the integers in the set equals $n$.
+E.g.:
+The integers in the following ten sets all have a least common multiple of 6:
+{2,3}, {1,2,3}, {6}, {1,6}, {2,6}, {1,2,6}, {3,6}, {1,3,6}, {2,3,6} and {1,2,3,6}.
+Thus H(6)=10.
+
+Let L($n$) denote the least common multiple of the numbers 1 through $n$.
+E.g. L(6) is the least common multiple of the numbers 1,2,3,4,5,6 and L(6) equals 60.
+
+Let HL($n$) denote H(L($n$)).
+You are given HL(4)=H(12)=44.
+
+Find HL(50000). Give your answer modulo 10<sup>9</sup>.
+
+## **给定最小公倍数的集合**
+
+记H($n$)表示各元素的最小公倍数为$n$的正整数集的数目。
+例如：
+下面这10个集合，其元素的最小公倍数都是6：
+{2,3}，{1,2,3}，{6}，{1,6}，{2,6}，{1,2,6}，{3,6}，{1,3,6}，{2,3,6}和{1,2,3,6}。
+因此H(6)=10。
+
+记L($n$)为1到$n$的所有整数的最小公倍数。
+例如，L(6)表示1，2，3，4，5，6的最小公倍数，因此L(6)等于60。
+
+记HL($n$)为H(L($n$))。
+已知HL(4)=H(12)=44。
+
+求HL(50000)。将你的答案对10<sup>9</sup>取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

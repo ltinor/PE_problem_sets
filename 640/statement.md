@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 640（PE 640）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=640](https://projecteuler.net/problem=640)。
+
+## **Shut the Box**
+
+Bob plays a single-player game of chance using two standard $6$-sided dice and twelve cards numbered $1$ to $12$. When the game starts, all cards are placed face up on a table.
+
+Each turn, Bob rolls both dice, getting numbers $x$ and $y$ respectively, each in the range $1,\ldots,6$. He must choose amongst three options: turn over card $x$, card $y$, or card $x+y$. (If the chosen card is already face down, it is turned to face up, and vice versa.)
+
+If Bob manages to have all twelve cards face down at the same time, he wins.
+
+Alice plays a similar game, except that instead of dice she uses two fair coins, counting heads as $2$ and tails as $1$, and that she uses four cards instead of twelve. Alice finds that, with the optimal strategy for her game, the expected number of turns taken until she wins is approximately $5.673651$.
+
+Assuming that Bob plays with an optimal strategy, what is the expected number of turns taken until he wins? Give your answer rounded to $6$ places after the decimal point.
+
+## **关上盒子**
+
+鲍勃在玩一种带有运气成分的单人游戏，这种游戏需要用到两个六面骰子和十二张标记有$1$至$12$的卡片。在游戏开始时，把所有的卡片正面朝上放在桌上。
+
+每一回合，鲍勃抛掷两枚骰子，得到的数字分别是$x$和$y$，显然这两个数字都在$1,\ldots,6$的范围内。他必须在以下三种操作中选择一种：翻转卡片$x$、翻转卡片$y$、翻转卡片$x+y$。（如果被翻转的卡片已经正面朝下，则翻转后变回正面朝上；反之亦然。）
+
+如果鲍勃成功地将所有十二张卡片都翻转至正面朝下，则获得胜利。
+
+爱丽丝则在玩一种类似的游戏，只是她用的不是骰子而是两枚标准硬币，并将正面视为$2$，反面视为$1$，此外她只用四张卡片而非十二张。爱丽斯发现，当她采用最优策略时，获得胜利所需回合数的期望约为$5.673651$。
+
+假设鲍勃采用最优策略，他获胜所需回合数的期望是多少？将你的答案保留小数点后$6$位小数。
+
+（注：标题指一种流行于英国的酒吧骰子游戏，本题题面对游戏规则有所修改。）
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,59 @@
-# $3$ 或 $5$ 的倍数
+# Problem 648（PE 648）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=648](https://projecteuler.net/problem=648)。
+
+## **Skipping Squares**
+
+For some fixed $\rho\in[0,1]$, we begin a sum $s$ at $0$ and repeatedly apply a process: With probability $\rho$, we add $1$ to $s$, otherwise we add $2$ to $s$.
+
+The process ends when either $s$ is a perfect square or $s$ exceeds $10^{18}$, whichever occurs first. For example, if $s$ goes through $0,2,3,5,7,9$, the process ends at $s=9$, and two squares $1$ and $4$ were skipped over.
+
+Let $f(\rho)$ be the expected number of perfect squares skipped over when the process finishes.
+
+It can be shown that the power series for $f(\rho)$ is $\sum_{k=0}^{\infty}a_k\rho^k$ for a suitable (unique) choice of coefficients $a_k$. Some of the first few coefficients are $a_0=1$,
+$a_1=0$, $a_5=-18$, $a_{10}=45176$.
+
+Let $F(n)=\sum_{k=0}^na_k$. You are given that $F(10)=53964$ and $F(50)\equiv 842418857\pmod{10^9}$.
+
+Find $F(1000)$, and give your answer modulo $10^9$.
+
+## **平方跳跃**
+
+对于给定的$\rho\in[0,1]$，我们对变量$s$从$0$开始进行如下操作：以概率$\rho$我们给$s$加$1$，否则我们给$s$加$2$。
+
+我们不断重复上述操作，直到$s$是一个完全平方数或者$s$超过了$10^{18}$。例如，如果$s$的取值依次为$0,2,3,5,7,9$，那么我们在$s=9$时停止操作，此时有两个完全平方数$1$和$4$被跳过了。
+
+记$f(\rho)$为在操作结束前，被跳过的完全平方数的期望数目。
+
+可以证明，$f(\rho)$可以唯一地表示成幂级数展开的形式$\sum_{k=0}^{\infty}a_k\rho^k$，其中系数的前几项分别是$a_0=1$，$a_1=0$，$a_5=-18$，$a_{10}=45176$。
+
+记$F(n)=\sum_{k=0}^na_k$。已知$F(10)=53964$，$F(50)\equiv 842418857\pmod{10^9}$。
+
+求$F(1000)$，并将你的答案对$10^9$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

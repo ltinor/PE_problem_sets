@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 917（PE 917）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=917](https://projecteuler.net/problem=917)。
+
+## **Minimal Path Using Additive Cost**
+
+The sequence $s_n$ is defined by $s_1 = 102022661$ and $s_n = s_{n-1}^2 \bmod {998388889}$ for $n \gt 1$.
+
+Let $a_n = s_{2n - 1}$ and $b_n = s_{2n}$ for $n=1,2,...$
+
+Define an $N \times N$ matrix whose values are $M_{i,j} = a_i + b_j$.
+
+Let $A(N)$ be the minimal path sum from $M_{1,1}$ (top left) to $M_{N,N}$ (bottom right), where each step is either right or down.
+
+You are given $A(1) = 966774091$, $A(2) = 2388327490$ and $A(10) = 13389278727$.
+
+Find $A(10^7)$.
+
+## **代价为特定项相加时的最小路径和**
+
+序列$s_n$的定义为：$s_1 = 102022661$；对于$n \gt 1$，$s_n = s_{n-1}^2 \bmod {998388889}$。
+
+对于$n=1,2,...$，令$a_n = s_{2n - 1}$，$b_n = s_{2n}$。
+
+考虑一个$N \times N$矩阵，其元素值为$M_{i,j} = a_i + b_j$。
+
+令$A(N)$为从$M_{1,1}$（左上角）移动到$M_{N,N}$（右下角）的最小路径和，每一步只能向右或向下移动。
+
+已知$A(1) = 966774091$，$A(2) = 2388327490$，$A(10) = 13389278727$。
+
+求$A(10^7)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 808（PE 808）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=808](https://projecteuler.net/problem=808)。
+
+## **Reversible prime squares**
+
+Both $169$ and $961$ are the square of a prime. $169$ is the reverse of $961$.
+
+We call a number a <i>reversible prime square </i> if:
+1. It is not a palindrome, and
+2. It is the square of a prime, and
+3. Its reverse is also the square of a prime.
+
+$169$ and $961$ are not palindromes, so both are reversible prime squares.
+
+Find the sum of the first $50$ reversible prime squares.
+
+## **可反转质数平方**
+
+$169$和$961$都是质数的平方，且将$169$的数字反转即可得到$961$。
+
+我们称一个数为<i class=zh>可反转质数平方</i>，若其满足以下条件：
+1. 它不是回文数，且
+2. 它是质数的平方，且
+3. 将它的数字反转所得的数也是质数的平方。
+
+$169$和$961$都不是回文数，因此它们都是可反转质数平方。
+
+求前$50$个可反转质数平方的和。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

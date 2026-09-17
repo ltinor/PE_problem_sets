@@ -1,33 +1,66 @@
-# $3$ 或 $5$ 的倍数
+# Problem 820（PE 820）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=820](https://projecteuler.net/problem=820)。
+
+## **$N$<sup>th</sup> digit of Reciprocals**
+
+Let $d_n(x)$ be the $n$<sup>th</sup> decimal digit of the fractional part of $x$, or $0$ if the fractional part has fewer than $n$ digits.
+
+For example:
+- $d_7 \left( 1 \right) = d_7 \left( \frac 1 2 \right) = d_7 \left( \frac 1 4 \right) = d_7 \left( \frac 1 5 \right) = 0$
+- $d_7 \left( \frac 1 3 \right) = 3$ since $\frac 1 3 = 0.333333{\color{red}3}333\ldots$
+- $d_7 \left( \frac 1 6 \right) = 6$ since $\frac 1 6 = 0.166666{\color{red}6}666\ldots$
+- $d_7 \left( \frac 1 7 \right) = 1$ since $\frac 1 7 = 0.142857{\color{red}1}428\ldots$
+
+Let $\displaystyle  S(n) = \sum_{k=1}^n d_n \left( \frac 1 k \right)$.
+
+You are given:
+- $S(7) = 0 + 0 + 3 + 0 + 0 + 6 + 1 = 10$
+- $S(100) = 418$
+
+Find $S(10^7)$.
+
+## **倒数的第$N$位数字**
+
+记$d_n(x)$为$x$的小数点后第$n$位数字；若其小数部分不满$n$位则记为$0$。
+
+例如：
+- $d_7 \left( 1 \right) = d_7 \left( \frac 1 2 \right) = d_7 \left( \frac 1 4 \right) = d_7 \left( \frac 1 5 \right) = 0$
+- $d_7 \left( \frac 1 3 \right) = 3$，因为$\frac 1 3 = 0.333333{\color{red}3}333\ldots$
+- $d_7 \left( \frac 1 6 \right) = 6$，因为$\frac 1 6 = 0.166666{\color{red}6}666\ldots$
+- $d_7 \left( \frac 1 7 \right) = 1$，因为$\frac 1 7 = 0.142857{\color{red}1}428\ldots$
+
+记$\displaystyle  S(n) = \sum_{k=1}^n d_n \left( \frac 1 k \right)$。
+
+已知：
+- $S(7) = 0 + 0 + 3 + 0 + 0 + 6 + 1 = 10$
+- $S(100) = 418$
+
+求$S(10^7)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

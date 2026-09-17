@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 578（PE 578）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=578](https://projecteuler.net/problem=578)。
+
+## **Integers with decreasing prime powers**
+
+Any positive integer can be written as a product of prime powers: $p_1^{a_1} \times p_2^{a_2} \times \cdots \times p_k^{a_k}$,
+where $p_i$ are distinct prime integers, $a_i > 0$ and $p_i<p_j$ if $i<j$.
+
+A <i>decreasing prime power</i> positive integer is one for which $a_i \ge a_j$ if $i\lt j$.
+For example, 1, 2, 15=3×5, 360=2<sup>3</sup>×3<sup>2</sup>×5 and 1000=2<sup>3</sup>×5<sup>3</sup> are decreasing prime power integers.
+
+Let C($n$) be the count of decreasing prime power positive integers not exceeding $n$.
+C(100) = 94 since all positive integers not exceeding 100 have decreasing prime powers except 18, 50, 54, 75, 90 and 98.
+You are given C(10<sup>6</sup>) = 922052.
+
+Find C(10<sup>13</sup>).
+
+## **质因数幂次下降的整数**
+
+任意正整数可以写成一系列质数的幂的乘积:$p_1^{a_1} \times p_2^{a_2} \times \cdots \times p_k^{a_k}$,
+其中$p_i$是不同的质数，$a_i > 0$，且对于任意$i<j$都有$p_i<p_j$。
+
+若一个正整数满足，对于任意$i \lt j$都有$a_i \ge a_j$，则称之为<i class=zh>质因数幂次下降</i>的正整数。
+例如，1，2，15=3×5，360=2<sup>3</sup>×3<sup>2</sup>×5和1000=2<sup>3</sup>×5<sup>3</sup>都是质因数幂次下降的整数。
+
+记C($n$)为所有不超过$n$且质因数幂次下降的整数的数目。
+C(100) = 94，因为除了18，50，54，75，90和98外，其它所有不超过100的正整数都是质因数幂次下降的。
+此外，还已知C(10<sup>6</sup>) = 922052。
+
+求C(10<sup>13</sup>)。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 887（PE 887）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=887](https://projecteuler.net/problem=887)。
+
+## **Bounded Binary Search**
+
+Consider the problem of determining a secret number from a set $\\\{1, \ldots, N\\\}$ by repeatedly choosing a number $y$ and asking "Is the secret number greater than $y$?".
+
+If $N=1$ then no questions need to be asked. If $N=2$ then only one question needs to be asked. If $N=64$ then six questions need to be asked. However, in the latter case if the secret number is $1$ then six questions still need to be asked. We want to restrict the number of questions asked for small values.
+
+Let $Q(N, d)$ be the least number of questions needed for a strategy that can find any secret number from the set $\\\{1, \ldots, N\\\}$ where no more than $x + d$ questions are needed to find the secret value $x$.
+
+It can be proved that $Q(N, 0) = N - 1$. You are also given $Q(7, 1) = 3$ and $Q(777, 2) = 10$.
+
+Find $\displaystyle \sum_{d=0}^7 \sum_{N=1}^{7^{10}} Q(N, d)$.
+
+## **有界二分搜索**
+
+考虑如下问题：现需从集合$\\\{1, \ldots, N\\\}$中确定一个秘密数值，每次可以选择一个数$y$，并询问“秘密数值是否大于$y$？”。
+
+如果$N=1$，则无需提问。如果$N=2$，则只需要问一个问题。如果$N=64$，则需要问六个问题，但采取这种策略时，即使秘密数值是$1$，也仍然需要问六个问题。相反，本题希望寻找一种尽可能减少秘密数值较小时所需提问数量的策略。
+
+考虑所有从集合$\\\{1, \ldots, N\\\}$中找出任意秘密数值$x$所需的问题数不超过$x + d$的策略，记这种策略所需的最少提问次数为$Q(N,d)$。
+
+可以证明$Q(N, 0) = N - 1$。已知$Q(7, 1) = 3$，$Q(777, 2) = 10$。
+
+求$\displaystyle \sum_{d=0}^7 \sum_{N=1}^{7^{10}} Q(N, d)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

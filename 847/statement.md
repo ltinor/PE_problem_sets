@@ -1,33 +1,60 @@
-# $3$ 或 $5$ 的倍数
+# Problem 847（PE 847）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=847](https://projecteuler.net/problem=847)。
+
+## **Jack's Bean**
+
+Jack has three plates in front of him. The giant has $N$ beans that he distributes to the three plates. All the beans look the same, but one of them is a magic bean. Jack doesn't know which one it is, but the giant knows.
+
+Jack can ask the giant questions of the form: "Does this subset of the beans contain the magic bean?" In each question Jack may choose any subset of beans from a single plate, and the giant will respond truthfully.
+
+If the three plates contain $a$, $b$ and $c$ beans respectively, we let $h(a, b, c)$ be the minimal number of questions Jack needs to ask in order to guarantee he locates the magic bean. For example, $h(1, 2, 3) = 3$ and $h(2, 3, 3) = 4$.
+
+Let $H(N)$ be the sum of $h(a, b, c)$ over all triples of non-negative integers $a$, $b$, $c$ with $1 \leq a + b + c \leq N$.<br />
+You are given: $H(6) = 203$ and $H(20) = 7718$.
+
+A <strong>repunit</strong>, $R_n$, is a number made up with $n$ digits all '$1$'. For example, $R_3 = 111$ and $H(R_3) = 1634144$.
+
+Find $H(R_{19})$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **杰克的魔法豆子**
+
+杰克面前有三个盘子，巨人将$N$颗豆子分在三个盘子中。这些豆子看起来都一样，但其中有一颗是魔法豆子。杰克不知道哪一颗才是魔法豆子，但巨人知道。
+
+杰克可以从任意一个盘子中选择任意一部分豆子，并向巨人提问：“在这些豆子中有魔法豆子吗？”巨人总是如实回答。
+
+若三个盘子中分别由$a$、$b$、$c$颗豆子，记$h(a, b, c)$为杰克能够保证找到魔法豆子最少需要提问的次数。例如，$h(1, 2, 3) = 3$，$h(2, 3, 3) = 4$。
+
+记$H(N)$为所有满足$1\le a+b+c \le N$的非负整数三元组$a$、$b$、$c$对应的$h(a,b,c)$之和。<br />
+已知：$H(6) = 203$，$H(20) = 7718$。
+
+**循环单位数**$R_n$是指由$n$个数字$1$组成的数。例如，$R_3 = 111$，$H(R_3) = 1634144$。
+
+求$H(R_{19})$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

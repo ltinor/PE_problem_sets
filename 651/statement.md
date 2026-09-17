@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 651（PE 651）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=651](https://projecteuler.net/problem=651)。
+
+## **Patterned Cylinders**
+
+An infinitely long cylinder has its curved surface fully covered with different coloured but otherwise identical rectangular stickers, without overlapping. The stickers are aligned with the cylinder, so two of their edges are parallel with the cylinder's axis, with four stickers meeting at each corner.
+
+Let $a>0$ and suppose that the colouring is periodic along the cylinder, with the pattern repeating every $a$ stickers. (The period is allowed to be any divisor of $a$.) Let $b$ be the number of stickers that fit round the circumference of the cylinder.
+
+Let $f(m,a,b)$ be the number of different such periodic patterns that use *exactly* $m$ distinct colours of stickers. Translations along the axis, reflections in any plane, rotations in any axis, (or combinations of such operations) applied to a pattern are to be counted as the same as the original pattern.
+
+You are given that $f(2,2,3)=11$, $f(3,2,3)=56$, and $f(2,3,4)=156$. Furthermore, $f(8,13,21)\equiv 49718354\pmod{1\ 000\ 000\ 007}$, and $f(13,144,233) \equiv 907081451 \pmod{1\ 000\ 000\ 007}$.
+
+Find $\sum_{i=4}^{40}f(i,F_{i-1},F_i)\mod 1\ 000\ 000\ 007$, where $F_i$ are the Fibonacci numbers starting at $F_0=0$, $F_1=1$.
+
+## **有规律的圆柱**
+
+一根无限长圆柱体的侧面被长方形贴纸完全贴满，这些贴纸除了颜色不同之外没有任何区别，相互间也没有重叠。这些贴纸都与圆柱体对齐，有两条边平行于圆柱体的轴，而且每个角都与另外三张贴纸相邻。
+
+沿着圆柱体看，贴纸的颜色呈现周期性变化，每隔$a$张贴纸，颜色模式会重复一次，其中$a>0$。（颜色模式的最小周期可以是$a$的任意因数。）记$b$为环绕圆柱一周能够贴上的贴纸数目。
+
+记$f(m,a,b)$为<i class=zh>恰好</i>使用了$m$种不同颜色的贴纸的颜色模式数目。经过移动、旋转、翻转（或这三者的任意组合）之后能够重叠的颜色模式，均视为相同的模式，只计算一次。
+
+已知$f(2,2,3)=11$，$f(3,2,3)=56$，$f(2,3,4)=156$。此外，$f(8,13,21)\equiv 49718354\pmod{1\ 000\ 000\ 007}$，$f(13,144,233) \equiv 907081451 \pmod{1\ 000\ 000\ 007}$。
+
+求$\sum_{i=4}^{40}f(i,F_{i-1},F_i)\mod 1\ 000\ 000\ 007$，其中$F_i$表示由$F_0=0$和$F_1=1$起始的斐波那契数列。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

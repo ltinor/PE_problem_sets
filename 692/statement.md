@@ -1,33 +1,64 @@
-# $3$ 或 $5$ 的倍数
+# Problem 692（PE 692）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=692](https://projecteuler.net/problem=692)。
+
+## **Siegbert and Jo**
+
+Siegbert and Jo take turns playing a game with a heap of $N$ pebbles:
+1. Siegbert is the first to take some pebbles. He can take as many pebbles as he wants. (Between $1$ and $N$ inclusive.)
+2. In each of the following turns the current player must take at least one pebble and at most twice the amount of pebbles taken by the previous player.
+3. The player who takes the last pebble wins.
+
+Although Siegbert can always win by taking all the pebbles on his first turn, to make the game more interesting he chooses to take the smallest number of pebbles that guarantees he will still win (assuming both Siegbert and Jo play optimally for the rest of the game).
+
+Let $H(N)$ be that minimal amount for a heap of $N$ pebbles.
+$H(1)=1$, $H(4)=1$, $H(17)=1$, $H(8)=8$ and $H(18)=5$ .
+
+Let $G(n)$ be $\displaystyle{\sum_{k=1}^n H(k)}$.
+$G(13)=43$.
+
+Find $G(23416728348467685)$.
+
+## **西格贝特和乔**
+
+西格贝特和乔在玩一个游戏，这个游戏需要一堆共$N$枚石子，两人轮流行动：
+1. 西格贝特先行，他可以从堆中取$1$到$N$之间任意数目的石子。
+2. 接下来的每一轮，当前行动的玩家最少取一枚石子，最多取前一轮行动的玩家所取数目两倍的石子。
+3. 拿走最后一枚石子的玩家获胜。
+
+虽然西格贝特总是能够在第一轮拿走所有的石子从而获胜，为了让这个游戏更有趣，他在第一轮在保证获胜的基础上取走最少数目的石子（假设西格贝特和乔在接下来的行动中总是采取最优行动）。
+
+记$H(N)$为有$N$枚石子时，第一轮所必需取走的最少石子数目。
+已知$H(1)=1$，$H(4)=1$，$H(17)=1$，$H(8)=8$，$H(18)=5$。
+
+记$G(n)$为$\displaystyle{\sum_{k=1}^n H(k)}$。
+已知$G(13)=43$。
+
+求$G(23416728348467685)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 920（PE 920）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=920](https://projecteuler.net/problem=920)。
+
+## **Tau Numbers**
+
+For a positive integer $n$ we define $\tau(n)$ to be the count of the divisors of $n$. For example, the divisors of $12$ are $\\\{1,2,3,4,6,12\\\}$ and so $\tau(12) = 6$.
+
+A positive integer $n$ is a <b>tau number</b> if it is divisible by $\tau(n)$. For example $\tau(12)=6$ and $6$ divides $12$ so $12$ is a tau number.
+
+Let $m(k)$ be the smallest tau number $x$ such that $\tau(x) = k$. For example, $m(8) = 24$, $m(12)=60$ and $m(16)=384$.
+
+Further define $M(n)$ to be the sum of all $m(k)$ whose values do not exceed $10^n$. You are given $M(3) = 3189$.
+
+Find $M(16)$.
+
+## **陶数**
+
+对于正整数$n$，定义$\tau(n)$为$n$的约数个数。例如，$12$的约数为$\\\{1,2,3,4,6,12\\\}$，因此$\tau(12) = 6$。
+
+如果一个正整数$n$能被$\tau(n)$整除，则称之为<b>陶数</b>。例如，$\tau(12)=6$，且$6$能整除$12$，所以$12$是一个陶数。
+
+记$m(k)$为满足$\tau(x) = k$的最小陶数$x$。例如，$m(8) = 24$，$m(12)=60$，$m(16)=384$。
+
+另记$M(n)$为所有不超过$10^n$的$m(k)$之和。已知$M(3) = 3189$。
+
+求$M(16)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

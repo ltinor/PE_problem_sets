@@ -1,33 +1,67 @@
-# $3$ 或 $5$ 的倍数
+# Problem 750（PE 750）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=750](https://projecteuler.net/problem=750)。
+
+## **Optimal Card Stacking**
+
+Card Stacking is a game on a computer starting with an array of $N$ cards labelled $1,2,\ldots,N$.
+A stack of cards can be moved by dragging horizontally with the mouse to another stack but only when the resulting stack is in sequence. The goal of the game is to combine the cards into a single stack using minimal total drag distance.
+
+![](/resources/images/0750_optimal_card_stacking.png)
+
+For the given arrangement of $6$ cards the minimum total distance is $1 + 3 + 1 + 1 + 2 = 8$.
+
+For $N$ cards, the cards are arranged so that the card at position $n$ is $3^n\bmod(N+1), 1\le n\le N$.
+
+We define $G(N)$ to be the minimal total drag distance to arrange these cards into a single sequence.
+For example, when $N = 6$ we get the sequence $3,2,6,4,5,1$ and $G(6) = 8$.
+You are given $G(16) = 47$.
+
+Find $G(976)$.
+
+Note: $G(N)$ is not defined for all values of $N$.
+
+## **最优卡牌堆叠**
+
+卡牌堆叠是一款电脑游戏，初始状态为$N$张标记有$1,2,\ldots,N$并随机排列的卡牌，每一张卡牌视为一堆。每次行动时，可以将一堆卡牌横向移动到另一堆卡牌上，但移动后组成的新一堆卡牌必须从大到小有序排列。游戏的目标是将所有卡牌合并为一堆，且总的移动距离最小。
+
+![](/resources/images/0750_optimal_card_stacking.png)
+
+对如上图所示的$6$张卡牌，最小总移动距离为$1 + 3 + 1 + 1 + 2 = 8$。
+
+对于$N$张卡牌，我们要求位于第$n$位的卡牌标记为$3^n\bmod(N+1), 1\le n\le N$。
+
+记$G(N)$为将这些卡牌合并为一堆所需的最小总移动距离。
+例如，当$N = 6$时，卡牌标记依次为$3,2,6,4,5,1$，因此$G(6) = 8$。
+已知$G(16) = 47$。
+
+求$G(976)$。
+
+注：并非所有的$N$都有对应的$G(N)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

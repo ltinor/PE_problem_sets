@@ -1,33 +1,52 @@
-# $3$ 或 $5$ 的倍数
+# Problem 743（PE 743）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=743](https://projecteuler.net/problem=743)。
+
+## **Window into a Matrix**
+
+A window into a matrix is a contiguous sub matrix.
+
+Consider a $2\times n$ matrix where every entry is either $0$ or $1$.
+Let $A(k,n)$ be the total number of these matrices such that the sum of the entries in every $2\times k$ window is $k$.
+
+You are given that $A(3,9) = 560$ and $A(4,20) = 1060870$.
+
+Find $A(10^8,10^{16})$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **矩阵窗口**
+
+矩阵的窗口是指矩阵中一个连续的子矩阵。
+
+考虑一个$2\times n$的矩阵，其中的元素均为$0$或$1$。
+若矩阵中任意一个$2\times k$的窗口中元素之和都为$k$，记所有这样的矩阵数目为$A(k,n)$。
+
+已知$A(3,9) = 560$，$A(4,20) = 1060870$。
+
+求$A(10^8,10^{16})$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

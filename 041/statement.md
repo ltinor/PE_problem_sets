@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 41（PE 41）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=41](https://projecteuler.net/problem=41)。
+
+﻿title: Problem 41
+date: 2003/04/12 01:00:00
+---
+
+## **Pandigital Prime**
+
+We shall say that an $n$-digit number is pandigital if it makes use of all the digits $1$ to $n$ exactly once. For example, $2143$ is a $4$-digit pandigital and is also prime.
+
+What is the largest $n$-digit pandigital prime that exists?
+
+## **全数字素数**
+
+如果一个$n$位数恰好使用了$1$至$n$每个数字各一次，则称为全数字数。例如，$2143$就是一个$4$位全数字数，同时它也是一个素数。
+
+最大的全数字素数是多少？
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
 ### 输入
 
-
+```
+1
+```
 
 ### 输出
 
-
+```
+-1
+```
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

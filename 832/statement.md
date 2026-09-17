@@ -1,33 +1,60 @@
-# $3$ 或 $5$ 的倍数
+# Problem 832（PE 832）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=832](https://projecteuler.net/problem=832)。
+
+## **Mex Sequence**
+
+In this problem $\oplus$ is used to represent the bitwise **exclusive or** of two numbers.
+Starting with blank paper repeatedly do the following:
+1. Write down the smallest positive integer $a$ which is currently not on the paper;
+2. Find the smallest positive integer $b$ such that neither $b$ nor $(a \oplus b)$ is currently on the paper. Then write down both $b$ and $(a \oplus b)$.
+
+After the first round $\{1,2,3\}$ will be written on the paper. In the second round $a=4$ and because $(4 \oplus 5)$, $(4 \oplus 6)$ and $(4 \oplus 7)$ are all already written $b$ must be $8$.
+
+After $n$ rounds there will be $3n$ numbers on the paper. Their sum is denoted by $M(n)$.<br />
+For example, $M(10) = 642$ and $M(1000) = 5432148$.
+
+Find $M(10^{18})$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **最小排除值序列**
+
+在本题中，符号$\oplus$被用于表示两个数的按位**异或**。
+请拿一张空白的纸，并不断重复如下操作：
+1. 写下最小的、未被写在纸上的正整数$a$；
+2. 求最小的、使得$b$和$(a \oplus b)$都未被写在纸上的正整数$b$，并将$b$和$(a \oplus b)$都写在纸上。
+
+经过第一轮操作，$\{1,2,3\}$将被写在纸上。在第二轮中$a=4$，同时因为$(4 \oplus 5)$、$(4 \oplus 6)$和$(4 \oplus 7)$都已经写在纸上了，因此$b$只能是$8$。
+
+经过$n$轮操作，纸上将会有$3n$个数，记这些数之和为$M(n)$。<br />
+例如，$M(10) = 642$，$M(1000) = 5432148$。
+
+求$M(10^{18})$，并将你的答案对$1\ 000\ 000\ 007$取余。
+
+<i class=zh>译注：原标题中的“Mex”是“Minimum Excluded Value”的简写，因此翻译为“最小排除值”。</i>
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

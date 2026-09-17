@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 715（PE 715）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=715](https://projecteuler.net/problem=715)。
+
+## **Sextuplet Norms**
+
+Let $f(n)$ be the number of $6$-tuples $(x_1,x_2,x_3,x_4,x_5,x_6)$ such that:
+- All $x_i$ are integers with $0 \leq x_i < n$
+- $\gcd(x_1^2+x_2^2+x_3^2+x_4^2+x_5^2+x_6^2,\ n^2)=1$
+
+Let $\displaystyle G(n)=\displaystyle\sum_{k=1}^n \frac{f(k)}{k^2\varphi(k)}$
+where $\varphi(n)$ is Euler's totient function.
+
+For example, $G(10)=3053$ and $G(10^5) \equiv 157612967 \pmod{1\ 000\ 000\ 007}$.
+
+Find $G(10^{12})\bmod 1\ 000\ 000\ 007$.
+
+## **六元范数**
+
+记$f(n)$为满足以下条件的$6$元组$(x_1,x_2,x_3,x_4,x_5,x_6)$的数目：
+- 所有$x_i$均为$0 \leq x_i < n$内的整数
+- $\gcd(x_1^2+x_2^2+x_3^2+x_4^2+x_5^2+x_6^2,\ n^2)=1$
+
+记$\displaystyle G(n)=\displaystyle\sum_{k=1}^n \frac{f(k)}{k^2\varphi(k)}$
+其中$\varphi(n)$代表欧拉总计函数。
+
+例如，$G(10)=3053$，$G(10^5) \equiv 157612967 \pmod{1\ 000\ 000\ 007}$。
+
+求$G(10^{12})\bmod 1\ 000\ 000\ 007$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

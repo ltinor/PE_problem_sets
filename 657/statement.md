@@ -1,33 +1,52 @@
-# $3$ 或 $5$ 的倍数
+# Problem 657（PE 657）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=657](https://projecteuler.net/problem=657)。
+
+## **Incomplete words**
+
+In the context of **formal languages**, any finite sequence of letters of a given **alphabet** $\Sigma$ is called a **word** over $\Sigma$. We call a word <i>incomplete</i> if it does not contain every letter of $\Sigma$.
+
+For example, using the alphabet $\Sigma=\{a,b,c\}$, '$ab$', '$abab$' and ' ' (the empty word) are incomplete words over $\Sigma$, while '$abac$' is a complete word over $\Sigma$.
+
+Given an alphabet $\Sigma$ of $\alpha$ letters, we define $I(\alpha,n)$ to be the number of incomplete words over $\Sigma$ with a length not exceeding $n$.
+For example, $I(3,0)=1$, $I(3,2)=13$ and $I(3,4)=79$.
+
+Find $I(10^7,10^{12})$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **不完整的单词**
+
+在**形式语言**中，由给定**字母表**$\Sigma$中的字母构成的有限序列被称为$\Sigma$上的**单词**。如果一个单词不包含$\Sigma$中的全部字母，我们称这个单词是<i class=zh>不完整的</i>。
+
+例如，对于字母表$\Sigma=\{a,b,c\}$，$\Sigma$上的单词'$ab$'，'$abab$'和' '（空单词）都是不完整的，而'$abac$'则是完整的。
+
+若字母表$\Sigma$包含有$\alpha$个字母，我们记$I(\alpha,n)$为$\Sigma$上长度不超过$n$的不完整单词的数目。
+例如，$I(3,0)=1$，$I(3,2)=13$，$I(3,4)=79$。
+
+求$I(10^7,10^{12})$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,50 @@
-# $3$ 或 $5$ 的倍数
+# Problem 641（PE 641）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=641](https://projecteuler.net/problem=641)。
+
+## **A Long Row of Dice**
+
+Consider a row of $n$ dice all showing $1$.
+
+First turn every second die,$(2,4,6,\ldots)$, so that the number showing is increased by $1$. Then turn every third die. The sixth die will now show a $3$. Then turn every fourth die and so on until every $n$th die (only the last die) is turned. If the die to be turned is showing a $6$ then it is changed to show a $1$.
+
+Let $f(n)$ be the number of dice that are showing a $1$ when the process finishes. You are given $f(100)=2$ and $f(10^8)=69$.
+
+Find $f(10^{36})$.
+
+## **一长排骰子**
+
+将共$n$个骰子排成一排，均翻至$1$点朝上。
+
+从头开始，每数到第二个骰子（也即第$2,4,6,\ldots$个骰子），就将其翻动至点数加$1$。然后再从头开始，每数到第三个骰子，就将其翻动至点数加$1$；此时第六个骰子的点数应该是$3$点。如此循环，在最后一轮，每数到第$n$个骰子才将其翻动至点数加$1$（也就是说，只翻动最后一个骰子）。在每次翻动前，如果骰子当前是$6$点朝上，则翻动后变为$1$点朝上。
+
+令$f(n)$表示在全部翻动完毕后$1$点朝上的骰子数目。已知$f(100)=2$， $f(10^8)=69$。
+
+求$f(10^{36})$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

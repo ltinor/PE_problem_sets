@@ -1,33 +1,50 @@
-# $3$ 或 $5$ 的倍数
+# Problem 788（PE 788）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=788](https://projecteuler.net/problem=788)。
+
+## **Dominating Numbers**
+
+A <i>dominating number</i> is a positive integer that has more than half of its digits equal.
+
+For example, $2022$ is a dominating number because three of its four digits are equal to $2$. But $2021$ is not a dominating number.
+
+Let $D(N)$ be how many dominating numbers are less than $10^N$. For example, $D(4) = 603$ and $D(10) = 21893256$.
+
+Find $D(2022)$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **支配数**
+
+<i class=zh>支配数</i>是指有一半以上数字相同的正整数。
+
+例如，$2022$是支配数，因为其四个数字中有三个是$2$。反之，$2021$不是一个支配数。
+
+记$D(N)$为小于$10^N$的支配数的数目。例如，$D(4) = 603$，$D(10) = 21893256$。
+
+求$D(2022)$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

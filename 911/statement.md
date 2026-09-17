@@ -1,33 +1,66 @@
-# $3$ 或 $5$ 的倍数
+# Problem 911（PE 911）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=911](https://projecteuler.net/problem=911)。
+
+## **Khinchin Exceptions**
+
+An irrational number $x$ can be uniquely expressed as a <b>continued fraction</b> $[a_0; a_1,a_2,a_3,\dots]$:
+$$x=a_{0}+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+{_\ddots}}}}$$
+where $a_0$ is an integer and $a_1,a_2,a_3,\dots$ are positive integers.
+
+Define $k_j(x)$ to be the <b>geometric mean</b> of $a_1,a_2,\dots,a_j$.<br/>
+That is, $k_j(x)=(a_1a_2 \cdots a_j)^{1/j}$.<br/>
+Also define $k_\infty(x)=\lim_{j\to \infty} k_j(x)$.
+
+Khinchin proved that <b>almost all</b> irrational numbers $x$ have the same value of $k_\infty(x)\approx2.685452\dots$ known as <b>Khinchin's constant</b>. However, there are some exceptions to this rule.
+
+For $n\geq 0$ define
+$$\rho_n = \sum_{i=0}^{\infty} \frac{2^n}{2^{2^i}}$$
+For example $\rho_2$, with continued fraction beginning $[3; 3, 1, 3, 4, 3, 1, 3,\dots]$, has $k_\infty(\rho_2)\approx2.059767$.
+
+Find the geometric mean of $k_{\infty}(\rho_n)$ for $0\leq n\leq 50$, giving your answer rounded to six digits after the decimal point.
+
+## **辛钦例外**
+
+任意无理数$x$可以被唯一地表示为连分数$[a_0; a_1,a_2,a_3,\dots]$》
+$$x=a_{0}+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+{_\ddots}}}}$$
+其中$a_0$是整数，$a_1,a_2,a_3,\dots$都是正整数。
+
+定义$k_j(x)$为$a_1,a_2,\dots,a_j$的**几何平均值**。
+换言之，$k_j(x)=(a_1a_2 \cdots a_j)^{1/j}$。<br/>
+同时定义$k_\infty(x)=\lim_{j\to \infty} k_j(x)$。
+
+辛钦证明了，**几乎所有**无理数$x$对应的$k_\infty(x)$值都相同，约等于$2.685452\dots$，这个值被称为**辛钦常数**。然而，这个规则存在一些例外。
+
+对于$n\geq 0$，定义
+$$\rho_n = \sum_{i=0}^{\infty} \frac{2^n}{2^{2^i}}$$
+例如，$\rho_2$的连分数表示的初始部分是$[3; 3, 1, 3, 4, 3, 1, 3,\dots]$，对应的$k_\infty(\rho_2)\approx2.059767$。
+
+求$0\leq n\leq 50$范围内所有$k_{\infty}(\rho_n)$的几何平均值，并将你的答案四舍五入保留小数点后六位。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

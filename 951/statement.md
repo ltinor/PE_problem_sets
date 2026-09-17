@@ -1,33 +1,59 @@
-# $3$ 或 $5$ 的倍数
+# Problem 951（PE 951）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=951](https://projecteuler.net/problem=951)。
+
+## **A Game of Chance** 
+
+Two players play a game using a deck of $2n$ cards: $n$ red and $n$ black. Initially the deck is shuffled into one of the $\binom{2n}{n}$ possible starting configurations. Play then proceeds, alternating turns, where a player follows two steps on each turn:
+1. Remove the top card from the deck, taking note of its colour.
+2. If there is a next card and it is the same colour as the previous card they toss a fair coin. If the coin lands on heads they remove that card as well; otherwise leave it on top of the deck.
+
+The player who removes the final card from the deck wins the game.
+
+Some starting configurations give an advantage to one of the players; while some starting configurations are **fair**, in which both players have exactly $50\\\%$ chance to win the game. For example, if $n=2$ there are four starting configurations which are fair: RRBB, BBRR, RBBR, BRRB. The remaining two, RBRB and BRBR, result in a guaranteed win for the second player.
+
+Define $F(n)$ to be the number of starting configurations which are fair. Therefore $F(2)=4$. You are also given $F(8)=11892$.
+
+Find $F(26)$.
+
+*** 
+## **机会游戏**
+
+两位玩家使用一副包含$2n$张牌的牌组进行游戏，其中包括$n$张红牌和$n$张黑牌。游戏开始前，牌组被洗成$\binom{2n}{n}$种可能的初始局面之一；之后两位玩家轮流行动，每位玩家在其回合中进行以下两个步骤：
+1. 从牌组顶部移除一张牌，并记下其颜色。
+2. 如果牌组中还有牌，且当前牌组顶部的牌与刚才被移除的牌颜色相同，则抛掷一枚公平硬币：如果硬币正面朝上，则移除当前牌组顶部的牌；否则将其留在牌组顶部。
+
+从牌组中移除最后一张牌的玩家获胜。
+
+有一些初始局面对其中一位玩家有利，而另一些初始配置则是<i class=zh>公平的</i>，即两位玩家都有恰好$50\\\%$的机会获胜。例如，当$n=2$时，有四种初始局面是公平的：RRBB、BBRR、RBBR、BRRB；在剩下的两种局面RBRB和BRBR下，后手玩家必胜。
+
+定义$F(n)$为公平的初始局面数量，因此$F(2)=4$；此外已知$F(8)=11892$。
+
+求$F(26)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

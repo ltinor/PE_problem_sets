@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 884（PE 884）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=884](https://projecteuler.net/problem=884)。
+
+## **Removing Cubes**
+
+Starting from a positive integer $n$, at each step we subtract from $n$ the largest perfect cube not exceeding $n$, until $n$ becomes $0$.<br>
+For example, with $n = 100$ the procedure ends in $4$ steps:
+$$100 \xrightarrow{-4^3} 36 \xrightarrow{-3^3} 9 \xrightarrow{-2^3} 1 \xrightarrow{-1^3} 0.$$
+Let $D(n)$ denote the number of steps of the procedure. Thus $D(100) = 4$.
+
+Let $S(N)$ denote the sum of $D(n)$ for all positive integers $n$ <b>strictly less</b> than $N$.<br>
+For example, $S(100) = 512$.
+
+Find $S(10^{17})$.
+
+## **扣除立方数**
+
+从任意正整数$n$开始，每一步依次扣除不超过$n$的最大立方数，直到$n$变为$0$。<br>
+例如，从$n = 100$开始需要$4$步：
+$$100 \xrightarrow{-4^3} 36 \xrightarrow{-3^3} 9 \xrightarrow{-2^3} 1 \xrightarrow{-1^3} 0$$
+记$D(n)$为从$n$开始所需要的步数，因此$D(100) = 4$。
+
+记$S(N)$为所有<b>严格小于</b>$N$的正整数$n$所对应的$D(n)$之和。<br>
+例如，$S(100) = 512$。
+
+求$S(10^{17})$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

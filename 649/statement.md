@@ -1,33 +1,62 @@
-# $3$ 或 $5$ 的倍数
+# Problem 649（PE 649）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=649](https://projecteuler.net/problem=649)。
+
+## **Low-Prime Chessboard Nim**
+
+Alice and Bob are taking turns playing a game consisting of $c$ different coins on a chessboard of size $n$ by $n$.
+
+The game may start with any arrangement of $c$ coins in squares on the board. It is possible at any time for more than one coin to occupy the same square on the board at the same time. The coins are distinguishable, so swapping two coins gives a different arrangement if (and only if) they are on different squares.
+
+On a given turn, the player must choose a coin and move it either left or up $2$, $3$, $5$, or $7$ spaces in a single direction. The only restriction is that the coin cannot move off the edge of the board.
+
+The game ends when a player is unable to make a valid move, thereby granting the other player the victory.
+
+Assuming that Alice goes first and that both players are playing optimally, let $M(n,c)$ be the number of possible starting arrangements for which Alice can ensure her victory, given a board of size $n$ by $n$ with $c$ distinct coins.
+
+For example, $M(3,1)=4$, $M(3,2)=40$, and $M(9,3)=450304$.
+
+What are the last $9$ digits of $M(10\ 000\ 019,100)$?
+
+## **小质数棋盘取石子游戏**
+
+爱丽丝和鲍勃正在玩一个双方交替行动的游戏，这个游戏需要一张$n$乘$n$的棋盘和$c$枚不同的硬币。
+
+游戏开始时，将$c$枚硬币任意地摆放在棋盘的空格内。在游戏进行中的任意时刻，可以有多枚硬币同时摆放在同一个棋盘格内。因为硬币是不同的，所以当（且仅当）两枚硬币在不同的棋盘格内时，交换这两枚硬币会被视为改变了棋盘布局。
+
+在每一轮行动中，玩家必须选择一枚硬币，并将其向左或向上移动$2$、 $3$、 $5$或$7$格，移动期间不能转弯，也不能移出棋盘。
+
+如果轮到一名玩家时不存在合法行动，则对手获胜。
+
+假设爱丽丝先行动，而且双方都采用最优策略，对于给定的棋盘大小$n$和硬币数目$c$，记$M(n,c)$为爱丽丝能够确保获胜的起始布局数目。
+
+已知，$M(3,1)=4$，$M(3,2)=40$，$M(9,3)=450304$。
+
+求问，$M(10\ 000\ 019,100)$的末$9$位数字是多少？
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

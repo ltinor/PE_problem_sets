@@ -1,33 +1,68 @@
-# $3$ 或 $5$ 的倍数
+# Problem 737（PE 737）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=737](https://projecteuler.net/problem=737)。
+
+## **Coin Loops**
+
+A game is played with many identical, round coins on a flat table.
+
+Consider a line perpendicular to the table.
+The first coin is placed on the table touching the line.
+Then, one by one, the coins are placed horizontally on top of the previous coin and touching the line.
+The complete stack of coins must be balanced after every placement.
+
+The diagram below [not to scale] shows a possible placement of $8$ coins where point $P$ represents the line.
+
+![](/resources/images/0737_coinloop.jpg)
+
+It is found that a minimum of $31$ coins are needed to form a <i>coin loop</i> around the line, i.e. if in the projection of the coins on the table the centre of the $n$th coin is rotated $\theta_n$, about the line, from the centre of the $(n-1)$th coin then the sum of $\displaystyle\sum_{k=2}^n \theta_k$ is first larger than $360^\circ$ when $n=31$. In general, to loop $k$ times, $n$ is the smallest number for which the sum is greater than $360^\circ k$.
+
+Also, $154$ coins are needed to loop two times around the line, and $6947$ coins to loop ten times.
+
+Calculate the number of coins needed to loop $2020$ times around the line.
+
+## **硬币环绕**
+
+如下游戏需要一张平整的桌子和许多相同大小的圆形硬币。
+
+想象在桌面上有一条竖直的线。
+紧贴竖直线，在桌面上平放第一枚硬币。
+接着，不断地在上一枚硬币上平放一枚硬币，新的硬币也必须紧贴竖直线。
+在每次放上新的硬币时，堆叠的硬币必须始终保持平衡。
+
+如下图展示了摆放$8$枚硬币的俯视示意图（并未精确绘制，仅供参考），其中点$P$表示竖直线。
+
+![](/resources/images/0737_coinloop.jpg)
+
+已知，为了沿着竖直线让<i class=zh>硬币环绕</i>一整圈，至少需要$31$枚硬币，也就是说，在俯视图中，记第$n$枚硬币的圆心相对第$n-1$枚硬币绕着竖直线转过的角度为$\theta_n$，则当$n=31$时，$\displaystyle\sum_{k=2}^n \theta_k$第一次大于$360^\circ$。一般地，说需要$n$枚硬币以环绕竖直线$k$圈，表示$n$是使上述求和第一次大于$360^\circ k$的整数。
+
+又已知，环绕竖直线两圈需要$154$枚硬币，环绕竖直线十圈需要$6947$枚硬币。
+
+求环绕竖直线$2020$圈需要的硬币数目。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

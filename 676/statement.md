@@ -1,33 +1,46 @@
-# $3$ 或 $5$ 的倍数
+# Problem 676（PE 676）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=676](https://projecteuler.net/problem=676)。
+
+## **Matching Digit Sums**
+
+Let $d(i,b)$ be the **digit sum** of the number $i$ in base $b$. For example $d(9,2)=2$, since $9=1001_2$. When using different bases, the respective digit sums most of the time deviate from each other, for example $d(9,4)=3 \ne d(9,2)$.
+
+However, for some numbers $i$ there will be a match, like $d(17,4)=d(17,2)=2$. Let $ M(n,b_1,b_2)$ be the sum of all natural numbers $i \le n$ for which $d(i,b_1)=d(i,b_2)$. For example, $M(10,8,2)=18$, $M(100,8,2)=292$ and $M(10^6,8,2)=19173952$.
+
+Find $\displaystyle \sum_{k=3}^6 \sum_{l=1}^{k-2}M(10^{16},2^k,2^l)$, giving the last $16$ digits as the answer.
+
+## **相同数字和**
+
+记$d(i,b)$为数$i$在$b$进制下的**数字和**。例如，$d(9,2)=2$，因为$9=1001_2$。不同进制下的数字和通常是不同的，例如$d(9,4)=3 \ne d(9,2)$。
+
+然而，对于某些数$i$，在不同进制下的数字和可能会相同，比如$d(17,4)=d(17,2)=2$。记$M(n,b_1,b_2)$为所有满足$i \le n$且$d(i,b_1)=d(i,b_2)$的自然数$i$之和。例如，$M(10,8,2)=18$，$M(100,8,2)=292$，$M(10^6,8,2)=19173952$。
+
+求$\displaystyle \sum_{k=3}^6 \sum_{l=1}^{k-2}M(10^{16},2^k,2^l)$，并给出其最后$16$位数字作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,74 @@
-# $3$ 或 $5$ 的倍数
+# Problem 902（PE 902）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=902](https://projecteuler.net/problem=902)。
+
+## **Permutation Powers**
+
+A permutation $\pi$ of $\\\{1, \dots, n\\\}$ can be represented in <b>one-line notation</b> as $\pi(1),\ldots,\pi(n) $. If all $n!$ permutations are written in lexicographic order then $\textrm{rank}(\pi)$ is the position of $\pi$ in this $1$-based list.
+
+For example, $\text{rank}(2,1,3) = 3$ because the six permutations of $\\\{1, 2, 3\\\}$ in lexicographic order are:
+$$1, 2, 3\quad 1, 3, 2 \quad 2, 1, 3 \quad 2, 3, 1 \quad 3, 1, 2 \quad 3, 2, 1$$
+
+For a positive integer $m$, we define the following permutation of $\\\{1, \dots, n\\\}$ with $n = \frac{m(m+1)}2$:
+$$
+\begin{aligned}
+\sigma(i) & = \begin{cases} \frac{k(k-1)}2 + 1 & \textrm{if } i = \frac{k(k + 1)}2\textrm{ for }k\in\\\{1, \dots, m\\\};\\\\ i + 1 & \textrm{otherwise};\end{cases}\\\\
+\tau(i) & = ((10^9 + 7)i \bmod n) + 1\\\\
+\pi(i) & = \tau^{-1}(\sigma(\tau(i)))
+\end{aligned}
+$$
+where $\tau^{-1}$ is the inverse permutation of $\tau$.
+
+Define $\displaystyle P(m) = \sum_{k=1}^{m!} \text{rank}(\pi^k)$, where $\pi^k$ is the permutation arising from applying $\pi$ $k$ times.<br/>
+For example, $P(2) = 4$, $P(3) = 780$ and $P(4) = 38810300$.
+
+Find $P(100)$. Give your answer modulo $(10^9 + 7)$.
+
+## **置换的幂**
+
+集合$\\\{1, \dots, n\\\}$的任意置换$\pi$可以用<b>一行记法</b>表示为$\pi(1),\ldots,\pi(n)$。如果将所有$n!$个置换按字典序排列，那么$\textrm{rank}(\pi)$即是置换$\pi$在这个排列中的位置（从$1$开始计数）。
+
+例如，$\text{rank}(2,1,3) = 3$，因为$\\\{1, 2, 3\\\}$的六个置换按字典序排列为：
+$$1, 2, 3\quad 1, 3, 2 \quad 2, 1, 3 \quad 2, 3, 1 \quad 3, 1, 2 \quad 3, 2, 1$$
+
+对于正整数$m$，令$n = \frac{m(m+1)}2$，并定义如下$\\\{1, \dots, n\\\}$的置换：
+$$
+\begin{aligned}
+\sigma(i) & = \begin{cases} \frac{k(k-1)}2 + 1 & \textrm{若存在} k\in\\\{1, \dots, m\\\}\textrm{使得}i = \frac{k(k + 1)}2;\\\\ i + 1 & \textrm{其它情形};\end{cases}\\\\
+\tau(i) & = ((10^9 + 7)i \bmod n) + 1\\\\
+\pi(i) & = \tau^{-1}(\sigma(\tau(i)))
+\end{aligned}
+$$
+其中$\tau^{-1}$表示$\tau$的逆置换。
+
+定义$\displaystyle P(m) = \sum_{k=1}^{m!} \text{rank}(\pi^k)$，其中$\pi^k$是指将置换$\pi$应用$k$次得到的置换。<br/>
+已知$P(2) = 4$，$P(3) = 780$，$P(4) = 38810300$。
+
+求$P(100)$，并对$(10^9 + 7)$取余作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

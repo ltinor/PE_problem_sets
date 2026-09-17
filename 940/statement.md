@@ -1,33 +1,92 @@
-# $3$ 或 $5$ 的倍数
+# Problem 940（PE 940）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=940](https://projecteuler.net/problem=940)。
+
+## **Two-Dimensional Recurrence**
+
+The **Fibonacci sequence** $(f_i)$ is the unique sequence such that
+- $f_0=0$
+- $f_1=1$
+- $f_{i+1}=f_i+f_{i-1}$
+
+Similarly, there is a unique function $A(m,n)$ such that
+- $A(0,0)=0$
+- $A(0,1)=1$
+- $A(m+1,n)=A(m,n+1)+A(m,n)$
+- $A(m+1,n+1)=2A(m+1,n)+A(m,n)$
+
+Define $S(k)=\displaystyle\sum_{i=2}^k\sum_{j=2}^k A(f_i,f_j)$. For example
+$$
+\begin{aligned}
+S(3)&=A(1,1)+A(1,2)+A(2,1)+A(2,2)\\\\
+&=2+5+7+16\\\\
+&=30
+\end{aligned}
+$$
+
+You are also given $S(5)=10396$.
+
+Find $S(50)$, giving your answer modulo $1123581313$.
+
+## **二维递归**
+
+**斐波那契数列**$(f_i)$是指满足以下条件的唯一数列：
+- $f_0=0$
+- $f_1=1$
+- $f_{i+1}=f_i+f_{i-1}$
+
+类似地，存在唯一的函数$A(m,n)$满足：
+- $A(0,0)=0$
+- $A(0,1)=1$
+- $A(m+1,n)=A(m,n+1)+A(m,n)$
+- $A(m+1,n+1)=2A(m+1,n)+A(m,n)$
+
+定义$S(k)=\displaystyle\sum_{i=2}^k\sum_{j=2}^k A(f_i,f_j)$。例如：
+$$
+\begin{aligned}
+S(3)&=A(1,1)+A(1,2)+A(2,1)+A(2,2)\\\\
+&=2+5+7+16\\\\
+&=30
+\end{aligned}
+$$
+
+已知$S(5)=10396$。
+
+求$S(50)$，并对$1123581313$取余作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
 ### 输入
 
-
+```
+2
+```
 
 ### 输出
 
-
+```
+2
+```
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

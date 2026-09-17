@@ -93,9 +93,13 @@ def check_statement(pid: str):
     f = os.path.join(REPO, pid, "statement.md")
     if not os.path.exists(f):
         return ["NO_STATEMENT"]
-    size = os.path.getsize(f)
+    text = open(f, encoding="utf-8", errors="replace").read()
+    content = [l.strip() for l in text.split("
+")
+               if l.strip() and not l.strip().startswith("#")
+               and l.strip() != "---" and not l.strip().startswith("```")]
     flags = []
-    if size < 400:
+    if len(content) <= 1:
         flags.append("EMPTY_TEMPLATE")
         return flags
     text = open(f, encoding="utf-8", errors="replace").read()

@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 843（PE 843）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=843](https://projecteuler.net/problem=843)。
+
+## **Periodic Circles**
+
+This problem involves an iterative procedure that begins with a circle of $n\ge 3$ integers. At each step every number is simultaneously replaced with the absolute difference of its two neighbours.
+
+For any initial values, the procedure eventually becomes periodic.
+
+Let $S(N)$ be the sum of all possible periods for $3\le n \le N$. For example, $S(6) = 6$, because the possible periods for $3\le n \le 6$ are $1, 2, 3$. Specifically, $n=3$ and $n=4$ can each have period $1$ only, while $n=5$ can have period $1$ or $3$, and $n=6$ can have period $1$ or $2$.
+
+You are also given $S(30) = 20381$.
+
+Find $S(100)$.
+
+## **周期性的环形数列**
+
+从一个包含$n\ge3$个整数的环形数列开始，不断重复以下过程：在每一步中，同时将每一个数替换为与其相邻的两个数之差的绝对值。
+
+无论初始数列的取值，这一过程最终都会进入周期性的循环。
+
+记$S(N)$为所有$3\le n \le N$的环形数列可能进入的循环周期之和。例如，$S(6) = 6$，因为对于所有$3 \le n \le 6$的环形数列，其可能进入的循环周期只有$1$、$2$、$3$。具体来说，$n=3$和$n=4$时只会进入周期为$1$的循环，$n=5$时可能进入周期为$1$或$3$的循环，而$n=6$时可能进入周期为$1$或$2$的循环。
+
+已知$S(30) = 20381$。
+
+求$S(100)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

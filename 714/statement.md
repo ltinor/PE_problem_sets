@@ -1,33 +1,48 @@
-# $3$ 或 $5$ 的倍数
+# Problem 714（PE 714）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=714](https://projecteuler.net/problem=714)。
+
+## **Duodigits**
+
+We call a natural number a <i>duodigit</i> if its decimal representation uses no more than two different digits. For example, $12$, $110$ and $33333$ are duodigits, while $102$ is not.
+It can be shown that every natural number has duodigit multiples. Let $d(n)$ be the smallest (positive) multiple of the number $n$ that happens to be a duodigit. For example, $d(12)=12$, $d(102)=1122$, $d(103)=515$, $d(290)=11011010$ and $d(317)=211122$.
+
+Let $\displaystyle D(k)=\sum_{n=1}^k d(n)$. You are given $D(110)=11\ 047$, $D(150)=53\ 312$ and $D(500)=29\ 570\ 988$.
+
+Find $D(50\ 000)$. Give your answer in scientific notation rounded to $13$ significant digits ($12$ after the decimal point). If, for example, we had asked for $D(500)$ instead, the answer format would have been $2.957098800000e7$.
+
+## **双字数**
+
+如果一个自然数的十进制表示使用了不超过两种不同的数字，则称这个数为<i class=zh>双字数</i>。例如，$12$、$110$和$33333$都是双字数，而$102$则不是。
+可以证明，任何自然数都存在一个为双字数的倍数。记$d(n)$为$n$的正倍数中最小的双字数。例如，$d(12)=12$，$d(102)=1122$，$d(103)=515$，$d(290)=11011010$，$d(317)=211122$。
+
+记$\displaystyle D(k)=\sum_{n=1}^k d(n)$。已知$D(110)=11\ 047$，$D(150)=53\ 312$，$D(500)=29\ 570\ 988$。
+
+求$D(50\ 000)$，并将你的答案用科学计数法表示，保留$13$位有效数字（也即小数点后$12$位）。例如，若我们要求的答案是$D(500)$，则答案应当写作$2.957098800000e7$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

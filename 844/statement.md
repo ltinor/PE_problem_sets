@@ -1,33 +1,63 @@
-# $3$ 或 $5$ 的倍数
+# Problem 844（PE 844）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=844](https://projecteuler.net/problem=844)。
+
+## **$k$-Markov Numbers**
+
+Consider positive integer solutions to
+$$a^2+b^2+c^2 = 3abc$$
+
+For example, $(1,5,13)$ is a solution. We define a $3$-Markov number to be any part of a solution, so $1$, $5$ and $13$ are all $3$-Markov numbers. Adding distinct $3$-Markov numbers $\le 10^3$ would give $2797$.
+
+Now we define a $k$-Markov number to be a positive integer that is part of a solution to:
+$$\displaystyle \sum_{i=1}^{k}x_i^2=k\prod_{i=1}^{k}x_i,\quad x_i\text{ are positive integers}$$
+
+Let $M_k(N)$ be the sum of $k$-Markov numbers $\le N$. Hence $M_3(10^{3})=2797$, also $M_8(10^8) = 131493335$.
+
+Define $\displaystyle S(K,N)=\sum_{k=3}^{K}M_k(N)$. You are given $S(4, 10^2)=229$ and $S(10, 10^8)=2383369980$.
+
+Find $S(10^{18}, 10^{18})$. Give your answer modulo $1\ 405\ 695\ 061$.
+
+## **$k$-马尔科夫数**
+
+考虑如下方程的正整数解：
+$$a^2+b^2+c^2 = 3abc$$
+
+例如，其中一组解是$(1,5,13)$。定义$3$-马尔科夫数为上述解中的任意一个数，因此$1$、$5$和$13$都是$3$-马尔科夫数。
+所有不同的、小于等于$10^3$的$3$-马尔科夫数之和为$2797$。
+
+进一步定义$k$-马尔科夫数为下列方程的解中的任意一个数：
+$$\displaystyle \sum_{i=1}^{k}x_i^2=k\prod_{i=1}^{k}x_i,\quad x_i\text{为正整数}$$
+
+记$M_k(N)$为所有小于等于$N$的$k$-马尔科夫数之和。因此，$M_3(10^{3})=2797$，$M_8(10^8) = 131493335$。
+
+定义$\displaystyle S(K,N)=\sum_{k=3}^{K}M_k(N)$。已知$S(4, 10^2)=229$，$S(10, 10^8)=2383369980$。
+
+求$S(10^{18}, 10^{18})$，并将你的答案对$1\ 405\ 695\ 061$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

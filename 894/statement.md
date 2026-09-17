@@ -1,33 +1,52 @@
-# $3$ 或 $5$ 的倍数
+# Problem 894（PE 894）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=894](https://projecteuler.net/problem=894)。
+
+## **Spiral of Circles**
+
+Consider a <strong><a title="circle with radius 1">unit circle</a></strong> $C_0$ on the plane that does not enclose the origin. For $k\ge 1$, a circle $C_k$ is created by scaling and rotating $C_{k - 1}$ <b>with respect to the origin</b>. That is, both the radius and the distance to the origin are scaled by the same factor, and the centre of rotation is the origin. The scaling factor is positive and strictly less than one. Both it and the rotation angle remain constant for each $k$.
+
+It is given that $C_0$ is externally tangent to $C_1$, $C_7$ and $C_8$, as shown in the diagram below, and no two circles overlap.
+
+<div style="text-align:center;"><img src="/resources/images/0894_circle_spiral.jpg?1714305246" alt="0894_circle_spiral.jpg"></div>
+
+Find the total area of all the <strong><a title="A circular triangle is a triangle with circular arc edges">circular triangles</a></strong> in the diagram, i.e. the area painted green above.
+Give your answer rounded to $10$ places after the decimal point.
+
+## **圆形螺旋**
+
+考虑平面上一个不包含原点的<strong><a title="半径为1的圆">单位圆</a></strong>$C_0$。对于任意$k\ge 1$，通过对 $C_{k - 1}$进行<b>相对于原点</b>的缩放和旋转来得到圆$C_k$。也就是说，圆的半径和圆心到原点的距离都按相同的比例缩放，且旋转中心是原点。缩放因子为正且严格小于$1$。该缩放因子和旋转角度对每个$k$都保持不变。
+
+如下图所示，已知$C_0$与$C_1$、$C_7$和$C_8$均外切，且任意两个圆不重叠。
+
+<div style="text-align:center;"><img src="/resources/images/0894_circle_spiral.jpg?1714305246" alt="0894_circle_spiral.jpg"></div>
+
+求图中所有<strong><a title="圆弧三角形是指由圆弧构成的三角形">圆弧三角形</a></strong>的总面积，即上图中绿色区域的总面积。
+将你的答案四舍五入保留$10$位小数。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

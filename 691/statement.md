@@ -1,33 +1,60 @@
-# $3$ 或 $5$ 的倍数
+# Problem 691（PE 691）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=691](https://projecteuler.net/problem=691)。
+
+## **Long substring with many repetitions**
+
+Given a character string $s$, we define $L(k,s)$ to be the length of the longest substring of $s$ which appears at least $k$ times in $s$, or $0$ if such a substring does not exist. For example, $L(3,\text{“bbabcabcabcacba”})=4$ because of the three occurrences of the substring $\text{“abca”}$, and $L(2,\text{“bbabcabcabcacba”})=7$ because of the repeated substring $\text{“abcabca”}$. Note that the occurrences can overlap.
+
+Let $a_n$, $b_n$ and $c_n$ be the $0/1$ sequences defined by:
+- $a_0 = 0$
+- $a_{2n} = a_{n}$
+- $a_{2n+1} = 1-a_{n}$
+- $b_n = \lfloor\frac{n+1}{\varphi}\rfloor - \lfloor\frac{n}{\varphi}\rfloor$ (where $\varphi$ is the golden ratio)
+- $c_n = a_n + b_n - 2a_nb_n$
+
+and $S_n$ the character string $c_0\ldots c_{n-1}$. You are given that $L(2,S_{10})=5$, $L(3,S_{10})=2$, $L(2,S_{100})=14$, $L(4,S_{100})=6$, $L(2,S_{1000})=86$, $L(3,S_{1000}) = 45$, $L(5,S_{1000}) = 31$, and that the sum of non-zero $L(k,S_{1000})$ for $k\ge 1$ is $2460$.
+
+Find the sum of non-zero $L(k,S_{5000000})$ for $k\ge 1$.
+
+## **多次重复的长子串**
+
+给定字符串$s$，记$L(k,s)$为在$s$中至少重复出现$k$次的子串中最长子串的长度，如果这样的子串不存在则取$0$。例如，$L(3,\text{“bbabcabcabcacba”})=4$，因为子串$\text{“abca”}$重复出现了三次；而$L(2,\text{“bbabcabcabcacba”})=7$因为子串$\text{“abcabca”}$重复出现了两次。注意子串的多次出现之间允许重复使用字符。
+
+记$a_n$、$b_n$和$c_n$为由如下规则生成的$0/1$序列：
+- $a_0 = 0$
+- $a_{2n} = a_{n}$
+- $a_{2n+1} = 1-a_{n}$
+- $b_n = \lfloor\frac{n+1}{\varphi}\rfloor - \lfloor\frac{n}{\varphi}\rfloor$（其中$\varphi$表示黄金比$\frac{1+\sqrt{5}}{2}$）
+- $c_n = a_n + b_n - 2a_nb_n$
+
+记$S_n$为字符串$c_0\ldots c_{n-1}$。已知$L(2,S_{10})=5$，$L(3,S_{10})=2$，$L(2,S_{100})=14$，$L(4,S_{100})=6$，$L(2,S_{1000})=86$，$L(3,S_{1000}) = 45$，$L(5,S_{1000}) = 31$，而对于任意$k\ge 1$，所有非零的$L(k,S_{1000})$之和为$2460$。
+
+对于任意$k\ge 1$，求所有非零的$L(k,S_{5000000})$之和。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

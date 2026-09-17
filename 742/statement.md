@@ -1,33 +1,64 @@
-# $3$ 或 $5$ 的倍数
+# Problem 742（PE 742）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=742](https://projecteuler.net/problem=742)。
+
+## **Minimum area of a convex grid polygon**
+
+A <i>symmetrical convex grid polygon</i> is a polygon such that:
+- All its vertices have integer coordinates.
+- All its internal angles are strictly smaller than $180^\circ$.
+- It has both horizontal and vertical symmetry.
+
+For example, the left polygon is a convex grid polygon which has neither horizontal nor vertical symmetry, while the right one is a valid symmetrical convex grid polygon with six vertices:
+
+![](/resources/images/0742_hexagons.jpg)
+
+Define $A(N)$, the minimum area of a symmetrical convex grid polygon with $N$ vertices.
+
+You are given $A(4) = 1$, $A(8) = 7$, $A(40) = 1039$ and $A(100) = 17473$.
+
+Find $A(1000)$.
+
+## **格点凸多边形的最小面积**
+
+<i class=zh>对称格点凸多边形</i>是指满足以下条件的多边形：
+- 所有顶点的坐标均为整数。
+- 所有内角严格小于$180^\circ$。
+- 在水平和竖直方向上对称。
+
+例如，下图左的多边形是格点凸多边形，但是在水平和竖直方向上均不对称；而下图右的多边形则是一个有六个顶点的对称格点凸多边形：
+
+![](/resources/images/0742_hexagons.jpg)
+
+记$A(N)$为所有有$N$个顶点的对称格点凸多边形的最小面积。
+
+已知$A(4) = 1$，$A(8) = 7$，$A(40) = 1039$，$A(100) = 17473$。
+
+求$A(1000)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

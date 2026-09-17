@@ -1,33 +1,52 @@
-# $3$ 或 $5$ 的倍数
+# Problem 754（PE 754）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=754](https://projecteuler.net/problem=754)。
+
+## **Product of Gauss Factorials**
+
+The <b>Gauss Factorial</b> of a number $n$ is defined as the product of all positive numbers $\leq n$ that are relatively prime to $n$. For example $g(10)=1\times 3\times 7\times 9 = 189$. 
+
+Also we define
+$$\displaystyle G(n) = \prod_{i=1}^{n}g(i)$$
+
+You are given $G(10) = 23044331520000$.
+
+Find $G(10^8)$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **高斯阶乘之积**
+
+整数$n$的<b>高斯阶乘</b>是指所有小于等于$n$且与$n$互质的正整数的乘积。例如，$g(10)=1\times 3\times 7\times 9 = 189$。
+
+记
+$$\displaystyle G(n) = \prod_{i=1}^{n}g(i)$$
+
+已知$G(10) = 23044331520000$。
+
+求$G(10^8)$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

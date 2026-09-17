@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 637（PE 637）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=637](https://projecteuler.net/problem=637)。
+
+## **Flexible digit sum**
+
+Given any positive integer $n$, we can construct a new integer by inserting plus signs between some of the digits of the base $B$ representation of $n$, and then carrying out the additions.
+
+For example, from $n=123_{10}$ ($n$ in base $10$) we can construct the four base $10$ integers $123_{10}$, $1+23 =24_{10}$, $12+3=15_{10}$ and $1+2+3=6_{10}$. 
+
+Let $f(n,B)$ be the smallest number of steps needed to arrive at a single-digit number in base $B$. For example, $f(7,10)=0$ and $f(123,10)=1$.
+
+Let $g(n,B_1,B_2)$ be the sum of the positive integers $i$ not exceeding $n$ such that $f(i,B_1)=f(i,B_2)$.
+
+You are given $g(100,10,3)=3302$.
+
+Find $g(10^7,10,3)$.
+
+## **灵活的数字和**
+
+给定任意正整数$n$，我们可以通过在$n$的$B$进制表示中插入加号，并计算加法的结果，来构造新的整数。
+
+例如，从$n=123_{10}$ ($10$进制表示的$n$)出发，我们能够构造四个$10$进制整数：$123_{10}$，$1+23 =24_{10}$，$12+3=15_{10}$和$1+2+3=6_{10}$。
+
+记$f(n,B)$为将$B$进制下的$n$变为一位数所需的最少步数。例如，$f(7,10)=0$而$f(123,10)=1$。
+
+记$g(n,B_1,B_2)$为所有小于等于$n$且满足$f(i,B_1)=f(i,B_2)$的正整数$i$之和。
+
+已知$g(100,10,3)=3302$。
+
+求$g(10^7,10,3)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

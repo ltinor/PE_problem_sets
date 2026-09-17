@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 682（PE 682）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=682](https://projecteuler.net/problem=682)。
+
+## **$5$-Smooth Pairs**
+
+$5$-smooth numbers are numbers whose largest prime factor doesn't exceed $5$.
+$5$-smooth numbers are also called Hamming numbers.
+
+Let $\Omega(a)$ be the count of prime factors of $a$ (counted with multiplicity).
+Let $s(a)$ be the sum of the prime factors of $a$ (with multiplicity).
+For example, $\Omega(300) = 5$ and $s(300) = 2+2+3+5+5 = 17$.
+
+Let $f(n)$ be the number of pairs, $(p,q)$, of Hamming numbers such that $\Omega(p)=\Omega(q)$ and $s(p)+s(q)=n$.
+You are given $f(10)=4$ (the pairs are $(4,9),(5,5),(6,6),(9,4)$) and $f(10^2)=3629$.
+
+Find $f(10^7) \bmod 1\ 000\ 000\ 007$.
+
+## **$5$-光滑数对**
+
+$5$-光滑数是指最大质因数不超过$5$的数。
+$5$-光滑数也被称为汉明数。
+
+记$\Omega(a)$为$a$的质因数数目（包括重复的质因数）。
+记$s(a)$为$a$的质因数之和（包括重复的质因数）。
+例如，$\Omega(300) = 5$，$s(300) = 2+2+3+5+5 = 17$。
+
+记$f(n)$为所有满足$\Omega(p)=\Omega(q)$和$s(p)+s(q)=n$的汉明数对$(p,q)$的数目。
+已知$f(10)=4$（包括$(4,9),(5,5),(6,6),(9,4)$），$f(10^2)=3629$。
+
+求$f(10^7) \bmod 1\ 000\ 000\ 007$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

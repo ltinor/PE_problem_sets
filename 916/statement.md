@@ -1,33 +1,50 @@
-# $3$ 或 $5$ 的倍数
+# Problem 916（PE 916）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=916](https://projecteuler.net/problem=916)。
+
+## **Restricted Permutations**
+
+Let $P(n)$ be the number of permutations of $\\\{1,2,3,\ldots,2n\\\}$ such that:
+1. There is no ascending subsequence with more than $n+1$ elements, and
+2. There is no descending subsequence with more than two elements.
+
+Note that subsequences need not be contiguous. For example, the permutation $(4,1,3,2)$ is not counted because it has a descending subsequence of three elements: $(4,3,2)$. You are given $P(2)=13$ and $P(10) \equiv 45265702 \pmod{10^9 + 7}$.
+
+Find $P(10^8)$ and give your answer modulo $10^9 + 7$.
+
+## **有限制排列**
+
+令$P(n)$为满足以下条件的$\\\{1,2,3,\ldots,2n\\\}$的排列的数量：
+1. 不存在长度超过$n+1$的递增子序列，且
+2. 不存在长度超过$2$的递减子序列。
+
+注意子序列不必连续。例如，排列$(4,1,3,2)$不符合条件，因为它有一个长度为$3$的递减子序列：$(4,3,2)$。已知$P(2)=13$，$P(10) \equiv 45265702 \pmod{10^9 + 7}$。
+
+求$P(10^8)$，并对$10^9 + 7$取余作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

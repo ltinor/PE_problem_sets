@@ -1,33 +1,54 @@
-# $3$ 或 $5$ 的倍数
+# Problem 603（PE 603）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=603](https://projecteuler.net/problem=603)。
+
+## **Substring sums of prime concatenations**
+
+Let $S(n)$ be the sum of all contiguous integer-substrings that can be formed from the integer $n$. The substrings need not be distinct. 
+
+For example, $S(2024) = 2 + 0 + 2 + 4 + 20 + 02 + 24 + 202 + 024 + 2024 = 2304$.
+
+Let $P(n)$ be the integer formed by concatenating the first $n$ primes together. For example, $P(7) = 2357111317$.
+
+Let $C(n, k)$ be the integer formed by concatenating $k$ copies of $P(n)$ together. For example, $C(7, 3) = 235711131723571113172357111317$.
+
+Evaluate $S(C(10^6, 10^{12}))$ mod $(10^9 + 7)$.
+
+## **素数拼接的子串和**
+
+记$S(n)$为整数$n$所能组成的全部连续整数子串的和。从不同位置和顺序得到的相同子串被视为不同的。
+
+例如，$S(2024) = 2 + 0 + 2 + 4 + 20 + 02 + 24 + 202 + 024 + 2024 = 2304$。
+
+记$P(n)$为将前$n$个素数拼接成的整数。例如，$P(7) = 2357111317$。
+
+记$C(n, k)$为将$k$份$P(n)$拼接成的整数。例如，$C(7, 3) = 235711131723571113172357111317$。
+
+试计算$S(C(10^6, 10^{12}))$ mod $(10^9 + 7)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

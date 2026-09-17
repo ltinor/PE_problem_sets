@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 805（PE 805）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=805](https://projecteuler.net/problem=805)。
+
+## **Shifted Multiples**
+
+For a positive integer $n$, let $s(n)$ be the integer obtained by shifting the leftmost digit of the decimal representation of $n$ to the rightmost position.<br />
+For example, $s(142857)=428571$ and $s(10)=1$.
+
+For a positive rational number $r$, we define $N(r)$ as the smallest positive integer $n$ such that $s(n)=r\cdot n$.<br />
+If no such integer exists, then $N(r)$ is defined as zero.<br />
+For example, $N(3)=142857$, $N(\tfrac 1{10})=10$ and $N(2) = 0$.
+
+Let $T(M)$ be the sum of $N(u^3/v^3)$ where $(u,v)$ ranges over all ordered pairs of coprime positive integers not exceeding $M$.<br />
+For example, $T(3)\equiv 262429173 \pmod {1\ 000\ 000\ 007}$.
+
+Find $T(200)$. Give your answer modulo $1\ 000\ 000\ 007$. 
+
+## **数字轮转倍数**
+
+对于正整数$n$，记$s(n)$为将$n$的十进制表示下最左侧数字移到最右侧所得到的数。<br />
+例如，$s(142857)=428571$，$s(10)=1$。
+
+对于正有理数$r$，定义$N(r)$为满足$s(n)=r\cdot n$的最小正整数$n$。<br />
+若不存在这样的正整数，则$N(r)$取零。<br />
+例如，$N(3)=142857$，$N(\tfrac 1{10})=10$，$N(2) = 0$。
+
+对于所有不超过$M$的互质正整数对$(u,v)$，记$T(M)$为所有$N(u^3/v^3)$之和。<br />
+例如，$T(3)\equiv 262429173 \pmod {1\ 000\ 000\ 007}$。
+
+求$T(200)$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

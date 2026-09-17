@@ -1,33 +1,78 @@
-# $3$ 或 $5$ 的倍数
+# Problem 732（PE 732）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=732](https://projecteuler.net/problem=732)。
+
+## **Standing on the shoulders of trolls**
+
+$N$ trolls are in a hole that is $D_N$ cm deep. The $n$-th troll is characterized by:
+- the distance from his feet to his shoulders in cm, $h_n$
+- the length of his arms in cm, $l_n$
+- his IQ (Irascibility Quotient), $q_n$.
+
+Trolls can pile up on top of each other, with each troll standing on the shoulders of the one below him. A troll can climb out of the hole and escape if his hands can reach to the surface. Once a troll escapes he cannot participate any further in the escaping effort.
+
+The trolls execute an optimal strategy for maximizing the total IQ of the escaping trolls, defined as $Q(N)$.
+
+Let
+$r_n = \left[ \left( 5^n \bmod (10^9 + 7) \right) \bmod 101 \right] + 50$
+$h_n = r_{3n}$
+$l_n = r_{3n+1}$
+$q_n = r_{3n+2}$
+$D_N = \frac{1}{\sqrt{2}} \sum_{n=0}^{N-1} h_n$.
+
+For example, the first troll ($n=0$) is $51$cm tall to his shoulders, has $55$cm long arms, and has an IQ of $75$.
+
+You are given that $Q(5) = 401$ and $Q(15)=941$.
+
+Find $Q(1000)$.
+
+## **站在巨魔的肩膀上**
+
+$N$只巨魔（编号为$0$至$N-1$）掉进了深度为$D_N$厘米的洞中，其中编号为$n$的巨魔有三项特征：
+- 他的肩高为$h_n$厘米；
+- 他的臂长为$l_n$厘米；
+- 他的怒商（怒气商数，简称IQ）为$q_n$。
+
+巨魔们可以通过站在别的巨魔的肩膀上来搭起人梯，只要人梯最上方的巨魔的手臂能够够到地表，这只巨魔就能逃生。已经逃生的巨魔不能回洞中继续帮助其他巨魔逃生。
+
+假设巨魔采用了能够使得所有逃出巨魔的IQ之和最高的策略，并记该策略下IQ之和为$Q(N)$。
+
+记
+$r_n = \left[ \left( 5^n \bmod (10^9 + 7) \right) \bmod 101 \right] + 50$
+$h_n = r_{3n}$
+$l_n = r_{3n+1}$
+$q_n = r_{3n+2}$
+$D_N = \frac{1}{\sqrt{2}} \sum_{n=0}^{N-1} h_n$.
+
+例如，第一只（编号为$n=0$）巨魔的肩高为$51$厘米，臂长为$55$厘米，IQ为$75$。
+
+已知$Q(5) = 401$，$Q(15)=941$。
+
+求$Q(1000)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

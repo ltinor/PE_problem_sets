@@ -1,33 +1,77 @@
-# $3$ 或 $5$ 的倍数
+# Problem 810（PE 810）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=810](https://projecteuler.net/problem=810)。
+
+## **XOR-Primes**
+
+We use $x\oplus y$ for the bitwise XOR of $x$ and $y$.
+
+Define the <i>XOR-product</i> of $x$ and $y$, denoted by $x \otimes y$, similar to a long multiplication in base $2$, except that the intermediate results are XORed instead of the usual integer addition.
+
+For example, $7 \otimes 3 = 9$, or in base $2$, $111_2 \otimes 11_2 = 1001_2$:
+
+$$
+\begin{aligned}
+\phantom{\otimes 111} 111_2 \\\\
+\otimes \phantom{1111} 11_2 \\\\
+\hline
+\phantom{\otimes 111} 111_2 \\\\
+\oplus \phantom{11} 111_2  \phantom{9} \\\\
+\hline
+\phantom{\otimes 11} 1001_2 \\\\
+\end{aligned}
+$$
+
+An <i>XOR-prime</i> is an integer $n$ greater than $1$ that is not an XOR-product of two integers greater than $1$. The above example shows that $9$ is not an XOR-prime. Similarly, $5 = 3 \otimes 3$ is not an XOR-prime. The first few XOR-primes are $2, 3, 7, 11, 13, ...$ and the $10$th XOR-prime is $41$.
+
+Find the $5\ 000\ 000$th XOR-prime.
+
+## **异或质数**
+
+记$x\oplus y$为$x$和$y$按位异或的结果。
+
+我们定义一种新运算，称为$x$和$y$的<i class=zh>异或积</i>并记作$x \otimes y$。这种运算类似于对$x$和$y$的二进制表示做长乘法，但是将其中的相加替换为异或。
+
+例如，$7 \otimes 3 = 9$，或用二进制表示写作$111_2 \otimes 11_2 = 1001_2$：
+$$
+\begin{aligned}
+\phantom{\otimes 111} 111_2 \\\\
+\otimes \phantom{1111} 11_2 \\\\
+\hline
+\phantom{\otimes 111} 111_2 \\\\
+\oplus \phantom{11} 111_2  \phantom{9} \\\\
+\hline
+\phantom{\otimes 11} 1001_2 \\\\
+\end{aligned}
+$$
+
+若大于$1$的整数$n$不是任意两个大于$1$的整数的异或积，则称之为<i class=zh>异或质数</i>。上面的例子说明$9$不是一个异或质数。类似地，$5 = 3 \otimes 3$也不是一个异或质数。较小的异或质数包括$2, 3, 7, 11, 13, ...$，而第$10$个异或质数是$41$。
+
+求第$5\ 000\ 000$个异或质数。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

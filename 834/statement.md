@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 834（PE 834）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=834](https://projecteuler.net/problem=834)。
+
+## **Add and Divide**
+
+A sequence is created by starting with a positive integer $n$ and incrementing by $(n+m)$ at the $m$th step. If $n=10$, the resulting sequence will be $21,33,46,60,75,91,108,126,\ldots$.
+
+Let $S(n)$ be the set of indices $m$, for which the $m$th term in the sequence is divisible by $(n+m)$.<br />
+For example, $S(10)=\{5,8,20,35,80\}$.
+
+Define $T(n)$ to be the sum of the indices in $S(n)$. For example, $T(10) = 148$ and $T(10^2)=21828$.
+
+Let $\displaystyle U(N)=\sum_{n=3}^{N}T(n)$. You are given, $U(10^2)=612572$.
+
+Find $U(1234567)$.
+
+## **相加与整除**
+
+构造如下数列：选择任意正整数$n$，在第$m$步时给当前的整数增加$(n+m)$并作为数列的第$m$项。例如，若$n=10$，则构造的数列为$21,33,46,60,75,91,108,126,\ldots$
+
+集合$S(n)$包含所有满足下列条件的下标$m$：数列的第$m$项能够被$(n+m)$整除。<br />
+例如，$S(10)=\{5,8,20,35,80\}$。
+
+记$T(n)$为$S(n)$中所有下标之和。例如，$T(10) = 148$，$T(10^2)=21828$。
+
+记$\displaystyle U(N)=\sum_{n=3}^{N}T(n)$。已知$U(10^2)=612572$。
+
+求$U(1234567)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

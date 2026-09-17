@@ -1,33 +1,64 @@
-# $3$ 或 $5$ 的倍数
+# Problem 876（PE 876）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=876](https://projecteuler.net/problem=876)。
+
+## **Triplet Tricks**
+
+Starting with three numbers $a, b, c$, at each step do one of the three operations:
+- change $a$ to $2(b + c) - a$;
+- change $b$ to $2(c + a) - b$;
+- change $c$ to $2(a + b) - c$.
+
+Define $f(a, b, c)$ to be the minimum number of steps required for one number to become zero. If this is not possible then $f(a, b, c)=0$.
+
+For example, $f(6,10,35)=3$:
+$$(6,10,35) \to (6,10,-3) \to (8,10,-3) \to (8,0,-3).$$
+However, $f(6,10,36)=0$ as no series of operations leads to a zero number.
+
+Also define $F(a, b)=\sum_{c=1}^\infty f(a,b,c)$. You are given $F(6,10)=17$ and $F(36,100)=179$.
+
+Find $\displaystyle\sum_{k=1}^{18}F(6^k,10^k)$.
+
+## **三元戏法**
+
+从三个数$a, b, c$开始，每一步进行以下三种操作之一：
+- 将$a$替换为$2(b + c) - a$；
+- 将$b$替换为$2(c + a) - b$；
+- 将$c$替换为$2(a + b) - c$。
+
+定义$f(a, b, c)$为使其中一个数变为零所需的最少步数。如果无法做到这一点，则$f(a, b, c)=0$。
+
+例如，$f(6,10,35)=3$：
+$$(6,10,35) \to (6,10,-3) \to (8,10,-3) \to (8,0,-3).$$
+而$f(6,10,36)=0$，因为不存在使得其中一个数变为零的操作序列。
+
+再定义$F(a, b)=\sum_{c=1}^\infty f(a,b,c)$。已知$F(6,10)=17$，$F(36,100)=179$。
+
+求$\displaystyle\sum_{k=1}^{18}F(6^k,10^k)$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

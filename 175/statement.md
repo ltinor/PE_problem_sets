@@ -1,33 +1,70 @@
-# $3$ 或 $5$ 的倍数
+# Problem 175（PE 175）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=175](https://projecteuler.net/problem=175)。
+
+## **Fractions involving the number of different ways a number can be expressed as a sum of powers of 2**
+
+Define $f(0)=1$ and $f(n)$ to be the number of ways to write $n$ as a sum of powers of $2$ where no power occurs more than twice. 
+
+For example, $f(10)=5$ since there are five different ways to express $10$:
+$10 = 8+2 = 8+1+1 = 4+4+2 = 4+2+2+1+1 = 4+4+1+1$
+
+It can be shown that for every fraction $p/q (p>0, q>0)$ there exists at least one integer $n$ such that $f(n)/f(n-1)=p/q$.
+
+For instance, the smallest $n$ for which $f(n)/f(n-1)=13/17$ is $241$.
+
+The binary expansion of $241$ is $11110001$.
+
+Reading this binary number from the most significant bit to the least significant bit there are $4$ one's, $3$ zeroes and $1$ one. We shall call the string $4,3,1$ the <i>Shortened Binary Expansion</i> of $241$.
+
+Find the Shortened Binary Expansion of the smallest $n$ for which
+$f(n)/f(n-1)=123456789/987654321$.
+
+Give your answer as comma separated integers, without any whitespaces.
+
+## **与幂和表示有关的分数**
+
+记$f(0)=1$，$f(n)$为将$n$写成$2$的幂次的和且任意幂次出现不超过两次的方式数。
+
+例如，$f(10)=5$，因为$10$恰好有$5$种不同的表示方式：
+$10 = 8+2 = 8+1+1 = 4+4+2 = 4+2+2+1+1 = 4+4+1+1$
+
+对于任意分数$p/q$（其中整数$p>0$，整数$q>0$），我们都能找到至少一个整数$n$，使得$f(n)/f(n-1)=p/q$。
+
+例如，使得$f(n)/f(n-1)=13/17$的最小的$n$是$241$。
+
+$241$的二进制表示为$11110001$。
+
+从左往右读这个二进制串我们得到$4$个$1$，$3$个$0$，再$1$个$1$。因此，我们称数字串$4,3,1$是$241$的<i class=zh>简式二进制表示</i>。
+
+找出满足下式的最小的$n$的简式二进制表示：
+$f(n)/f(n-1)=123456789/987654321$.
+
+你的答案应当用半角逗号“,”隔开各个整数，且没有任何空格。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

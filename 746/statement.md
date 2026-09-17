@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 746（PE 746）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=746](https://projecteuler.net/problem=746)。
+
+## **A Messy Dinner**
+
+$n$ families, each with four members, a father, a mother, a son and a daughter, were invited to a restaurant. They were all seated at a large circular table with $4n$ seats such that men and women alternate.
+
+Let $M(n)$ be the number of ways the families can be seated such that none of the families were seated together. A family is considered to be seated together only when all the members of a family sit next to each other.
+
+For example, $M(1)=0$, $M(2)=896$, $M(3)=890880$ and $M(10) \equiv 170717180 \pmod {1\ 000\ 000\ 007}$.
+
+Let $S(n)=\displaystyle \sum_{k=2}^nM(k)$.
+
+For example, $S(10) \equiv 399291975 \pmod {1\ 000\ 000\ 007}$.
+
+Find $S(2021)$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **麻烦的晚餐**
+
+$n$个四口之家受邀到一家餐厅就餐，每个家庭都由父亲、母亲、儿子、女儿组成。他们围坐在一张有$4n$个座位的圆桌边，且男性和女性总是交替就座。
+
+我们进一步要求同一家庭的四名成员不能坐在一起，并记所有满足条件的就座方式数为$M(n)$。
+
+例如，$M(1)=0$，$M(2)=896$，$M(3)=890880$，$M(10) \equiv 170717180 \pmod {1\ 000\ 000\ 007}$。
+
+记$S(n)=\displaystyle \sum_{k=2}^nM(k)$。
+
+例如，$S(10) \equiv 399291975 \pmod {1\ 000\ 000\ 007}$。
+
+求$S(2021)$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,58 @@
-# $3$ 或 $5$ 的倍数
+# Problem 892（PE 892）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=892](https://projecteuler.net/problem=892)。
+
+## **Zebra Circles**
+
+Consider a circle where $2n$ distinct points have been marked on its circumference.
+
+A <i>cutting</i> $C$ consists of connecting the $2n$ points with $n$ line segments, so that no two line segments intersect, including on their end points. The $n$ line segments then cut the circle into $n + 1$ pieces. Each piece is painted either black or white, so that adjacent pieces are opposite colours. Let $d(C)$ be the absolute difference between the numbers of black and white pieces under the cutting $C$.
+
+Let $D(n)$ be the sum of $d(C)$ over all different cuttings $C$. For example, there are five different cuttings with $n = 3$.
+
+<div style="text-align:center;"><img src="/resources/images/0892_Zebra.png?1714876283" alt="0892_Zebra.png"></div>
+
+The upper three cuttings all have $d = 0$ because there are two black and two white pieces; the lower two cuttings both have $d = 2$ because there are three black and one white pieces. Therefore $D(3) = 0 + 0 + 0 + 2 + 2 = 4$. You are also given $D(100) \equiv 1172122931\pmod{1234567891}$.
+
+Find $\displaystyle \sum_{n=1}^{10^7} D(n)$. Give your answer modulo $1234567891$.
+
+## **斑马圆**
+
+考虑圆周上标记有$2n$个不同的点的圆。
+
+圆上的一个<i class=zh>切割</i>$C$是指用$n$条线段连接这$2n$个点，使得任意两条线段不相交且不共端点。这$n$条线段将圆切割成$n + 1$块，每块区域被涂成黑色或白色，并满足相邻区域的颜色相反。令$d(C)$为在切割$C$下黑色和白色区域数量的差值的绝对值。
+
+令$D(n)$为所有不同切割$C$的$d(C)$之和。例如，当$n = 3$时，有五种不同的切割。
+
+<div style="text-align:center;"><img src="/resources/images/0892_Zebra.png?1714876283" alt="0892_Zebra.png"></div>
+
+上排三种切割均对应$d=0$，因为它们都有两个黑色区域和两个白色区域；下排两种切割均对应$d=2$，因为它们有三个黑色区域和一个白色区域。因此$D(3) = 0 + 0 + 0 + 2 + 2 = 4$。已知$D(100) \equiv 1172122931\pmod{1234567891}$。
+
+求$\displaystyle \sum_{n=1}^{10^7} D(n)$，并对$1234567891$取余作为你的答案。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

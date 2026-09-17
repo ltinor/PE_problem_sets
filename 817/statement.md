@@ -1,33 +1,42 @@
-# $3$ 或 $5$ 的倍数
+# Problem 817（PE 817）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=817](https://projecteuler.net/problem=817)。
+
+## **Digits in Squares**
+
+Define $m = M(n, d)$ to be the smallest positive integer such that when $m^2$ is written in base $n$ it includes the base $n$ digit $d$. For example, $M(10,7) = 24$ because if all the squares are written out in base $10$ the first time the digit $7$ occurs is in $24^2 = 576$. $M(11,10) = 19$ as $19^2 = 361=2A9_{11}$.
+
+Find $\displaystyle \sum_{d = 1}^{10^5}M(p, p - d)$ where $p = 10^9 + 7$.
+
+## **平方中的数字**
+
+考虑所有$n$进制表示包含数字$d$的平方数$m^2$，并记其算术平方根的最小值为$m = M(n, d)$。例如，$M(10,7) = 24$，因为$10$进制下最小的包含数字$7$的平方数是$25^2=576$。类似可得$M(11,10) = 19$，因为$19^2 = 361=2A9_{11}$。
+
+求$\displaystyle \sum_{d = 1}^{10^5}M(p, p - d)$，其中$p = 10^9 + 7$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

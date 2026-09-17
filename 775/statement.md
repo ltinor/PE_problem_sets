@@ -1,33 +1,62 @@
-# $3$ 或 $5$ 的倍数
+# Problem 775（PE 775）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=775](https://projecteuler.net/problem=775)。
+
+## **Saving Paper**
+
+When wrapping several cubes in paper, it is more efficient to wrap them all together than to wrap each one individually. For example, with $10$ cubes of unit edge length, it would take $30$ units of paper to wrap them in the arrangement shown below, but $60$ units to wrap them separately.
+
+![](/resources/images/0775_wrapping_cubes.png)
+
+Define $g(n)$ to be the maximum amount of paper that can be saved by wrapping $n$ identical $1\times 1\times 1$ cubes in a compact arrangement, compared with wrapping them individually. We insist that the wrapping paper is in contact with the cubes at all points, without leaving a void.
+
+With $10$ cubes, the arrangement illustrated above is optimal, so $g(10)=60-30=30$. With $18$ cubes, it can be shown that the optimal arrangement is as a $3\times 3\times 2$, using $42$ units of paper, whereas wrapping individually would use $108$ units of paper; hence $g(18) = 66$.
+
+Define
+$$G(N) = \sum_{n=1}^N g(n)$$
+You are given that $G(18) = 530$, and $G(10^6) \equiv 951640919 \pmod {1\ 000\ 000\ 007}$.
+
+Find $G(10^{16})$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **节约用纸**
+
+在包装多个立方体时，将它们放在一起包装比起分别包装更省纸张。例如，如果有$10$个单位边长的立方体，按照如下方式堆叠后只需要$30$单位面积的包装纸，而将它们分别包装则需要$60$单位面积的包装纸。
+
+![](/resources/images/0775_wrapping_cubes.png)
+
+记$g(n)$为包装$n$个$1\times 1\times 1$大小的立方体时，采用最紧凑的方式包装相比分别包装最多能省下多少单位面积的包装纸。我们要求包装纸必须和立方体紧密贴合，不能留出空隙。
+
+包装$10$个立方体时，如上所示的包装方式是最优的，因此$g(10)=60-30=30$。包装$18$个立方体时，可以证明最优的包装方式是将其堆叠为$3\times 3\times 2$大小，此时需要$42$单位面积的包装纸，而分别包装则需要$108$单位面积的包装纸，因此$g(18) = 66$。
+
+进一步定义
+$$G(N) = \sum_{n=1}^N g(n)$$
+已知$G(18) = 530$，$G(10^6) \equiv 951640919 \pmod {1\ 000\ 000\ 007}$。
+
+求$G(10^{16})$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

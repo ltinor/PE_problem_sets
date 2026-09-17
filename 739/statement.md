@@ -1,33 +1,86 @@
-# $3$ 或 $5$ 的倍数
+# Problem 739（PE 739）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=739](https://projecteuler.net/problem=739)。
+
+## **Summation of Summations**
+
+Take a sequence of length $n$. Discard the first term then make a sequence of the partial summations. Continue to do this over and over until we are left with a single term. We define this to be $f(n)$.
+
+Consider the example where we start with a sequence of length $8$:
+
+$$
+\begin{array}{rrrrrrrr}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1\\
+  & 1 & 2 & 3 & 4 & 5 &  6  & 7\\
+  &   & 2 & 5 & 9 & 14 & 20 & 27\\
+  &   &   & 5 & 14 & 28 & 48 & 75\\
+  &   &   &   & 14 & 42 & 90 & 165\\
+  &   &   &   &   &  42  &  132  &  297\\
+  &   &   &   &   &   &  132  & 429\\
+  &   &   &   &   &   &   & 429\\
+\end{array}
+$$
+
+Then the final number is $429$, so $f(8) = 429$.
+
+For this problem we start with the sequence $1,3,4,7,11,18,29,47,\ldots$
+This is the Lucas sequence where two terms are added to get the next term.
+Applying the same process as above we get $f(8) = 2663$.
+You are also given $f(20) \equiv 742296999 \bmod 1\ 000\ 000\ 007$.
+
+Find $f(10^8)$. Give your answer modulo $1\ 000\ 000\ 007$.
+
+## **求和再求和**
+
+考虑一个长度为$n$的数列，先去掉第一项并求部分和，再对部分和序列不断重复同样的操作，直到只剩下一项。我们记剩下的这一项为$f(n)$。
+
+如下展示的例子中，初始序列为$8$个$1$：
+
+$$
+\begin{array}{rrrrrrrr}
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1\\
+  & 1 & 2 & 3 & 4 & 5 &  6  & 7\\
+  &   & 2 & 5 & 9 & 14 & 20 & 27\\
+  &   &   & 5 & 14 & 28 & 48 & 75\\
+  &   &   &   & 14 & 42 & 90 & 165\\
+  &   &   &   &   &  42  &  132  &  297\\
+  &   &   &   &   &   &  132  & 429\\
+  &   &   &   &   &   &   & 429\\
+\end{array}
+$$
+
+最后剩下的一项为$429$，因此该序列对应的$f(8) = 429$。
+
+在本题中，我们选择的初始序列为$1,3,4,7,11,18,29,47,\ldots$
+这一类每一项是前两项之和的序列统称卢卡斯序列。
+按照上述步骤可得该数列对应的$f(8) = 2663$。
+已知$f(20) \equiv 742296999 \bmod 1\ 000\ 000\ 007$。
+
+求$f(10^8)$，并将你的答案对$1\ 000\ 000\ 007$取余。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

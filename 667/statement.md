@@ -1,33 +1,57 @@
-# $3$ 或 $5$ 的倍数
+# Problem 667（PE 667）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=667](https://projecteuler.net/problem=667)。
+
+## **Moving Pentagon**
+
+After buying a <i>Gerver Sofa</i> from the <i>Moving Sofa Company</i>, Jack wants to buy a matching cocktail table from the same company. Most important for him is that the table can be pushed through his L-shaped corridor into the living room without having to be lifted from its table legs. 
+Unfortunately, the simple square model offered to him is too small for him, so he asks for a bigger model.
+He is offered the new pentagonal model illustrated below:
+
+![p667.png](/resources/images/0667_MovingPentagon.png)
+
+Note, while the shape and size can be ordered individually, due to the production process,**all edges of the pentagonal table have to have the same length.**
+
+Given optimal form and size, what is the biggest pentagonal cocktail table (in terms of area) that Jack can buy that still fits through his unit wide L-shaped corridor?
+
+Give your answer rounded to 10 digits after the decimal point (if Jack had chosen the square model instead the answer would have been 1.0000000000).
+
+## **移动的五边形**
+
+在从<i class=zh>移动沙发公司</i>购买了一套<i class=zh>格弗式沙发</i>之后，杰克打算再买一张配套的鸡尾酒桌。对他来说最重要的是，这张桌子能够直接推着通过他家的L形走廊而不需要被抬起来。
+很不凑巧，那些能够满足杰克的条件的正方形桌子都太小了，他想要再大一些的桌子，于是销售人员向他推荐了一些新的五边形桌子，如下所示：
+
+![p667.png](/resources/images/0667_MovingPentagon.png)
+
+需要注意的是，尽管桌子的形状和大小都可以定制，但是由于制造工艺的限制，**五边形桌子的每一条边必须有相同的长度。**
+
+在最优的形状和大小下，杰克能够买到的、能顺利通过他家的L型走廊的五边形鸡尾酒桌到底能有多大（以桌面的面积计）？
+
+将你的答案保留小数点后10位小数（比方说，如果杰克打算买一开始那张正方形桌子，那么答案就应该是1.0000000000）。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,64 @@
-# $3$ 或 $5$ 的倍数
+# Problem 899（PE 899）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=899](https://projecteuler.net/problem=899)。
+
+## **DistribuNim I**
+
+Two players play a game with two piles of stones. The players alternately take stones from one or both piles, subject to:
+1. the total number of stones taken is equal to the size of the smallest pile before the move;
+2. the move cannot take all the stones from a pile.
+
+The player that is unable to move loses.
+
+For example, if the piles are of sizes $3$ and $5$ then there are three possible moves.
+$$(3,5) \xrightarrow{(2,1)} (1,4)\qquad\qquad (3,5) \xrightarrow{(1,2)} (2,3)\qquad\qquad (3,5) \xrightarrow{(0,3)} (3,2)$$
+
+Let $L(n)$ be the number of ordered pairs $(a,b)$ with $1 \leq a,b \leq n$ such that the initial game position with piles of sizes $a$ and $b$ is losing for the first player assuming optimal play.
+
+You are given $L(7) = 21$ and $L(7^2) = 221$.
+
+Find $L(7^{17})$.
+
+## **分布式取石子游戏（一）**
+
+两位玩家在玩一个游戏，游戏开始时有两堆石子，玩家轮流从一堆或两堆中取石子，并需遵守以下规则：
+1. 取走的石子总数等于行动前较小堆的石子数量；
+2. 不能将任何一堆的石子全部取完。
+
+首先无法行动的玩家输掉游戏。
+
+例如，如果两堆石子的大小分别为$3$和$5$，则有三种可能的行动：
+$$(3,5) \xrightarrow{(2,1)} (1,4)\qquad\qquad (3,5) \xrightarrow{(1,2)} (2,3)\qquad\qquad (3,5) \xrightarrow{(0,3)} (3,2)$$
+
+令$L(n)$为满足以下条件的有序对$(a,b)$的数量：$1 \leq a,b \leq n$，且假设双方都采用最优策略，若游戏开始时两堆石子数目为$a$和$b$，先手玩家必败。
+
+已知$L(7) = 21$，$L(7^2) = 221$。
+
+求$L(7^{17})$。
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 

@@ -1,33 +1,56 @@
-# $3$ 或 $5$ 的倍数
+# Problem 891（PE 891）
 
-## 题目描述
+> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
+> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
+> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
 
+## 原题描述
 
+原题及更多讨论见 [https://projecteuler.net/problem=891](https://projecteuler.net/problem=891)。
+
+## **Ambiguous Clock**
+
+A round clock only has three hands: hour, minute, second. All hands look identical and move continuously. Moreover, there is no number or reference mark so that the "upright position" is unknown. The clock functions the same as a normal $12$-hour analogue clock.
+
+Despite the inconvenient design, for most time it is possible to tell the correct time (within a $12$-hour cycle) from the clock, just by measuring accurately the angles between the hands. For example, if all three hands coincide, then the time must be 12:00:00.
+
+Nevertheless, there are several moments where the clock shows an ambiguous reading. For example, the following moment could be either 1:30:00 or 7:30:00 (with the clock rotated $180^\circ$). Thus both 1:30:00 and 7:30:00 are ambiguous moments. <br/>
+Note that even if two hands perfectly coincide, we can still see them as two distinct hands in the same position. Thus for example 3:00:00 and 9:00:00 are not ambiguous moments.
+
+<div style="text-align:center;"><img src="/resources/images/0891_clock.png?1714250610" alt="0891_clock.png"></div>
+
+How many ambiguous moments are there within a $12$-hour cycle?
+
+## **不确定的钟**
+
+一个圆形时钟上有三根指针：时针、分针和秒针。所有指针看上去完全相同，且连续地移动。另外，时钟上没有数字或参考标记，所以无法判断时钟是否处于“竖直状态”。除此之外，这个时钟的功能与类似的、普通的$12$小时制时钟完全相同。
+
+尽管设计上有所不便，但对于大多数时刻，只要准确测量指针之间的角度，就可以从时钟上读出正确的时间（在一个$12$小时周期内）。例如，如果三根指针重合，那么时间一定是12:00:00。
+
+然而，在特定时刻，时钟会给出不确定的读数。例如，下图中的时刻既可能是1:30:00，也可能是7:30:00（将时钟旋转$180^\circ$）。因此，1:30:00和7:30:00都是不确定的时刻。<br/>
+注意，即使两根指针完全重合，仍然可以看出它们是同一位置的两根不同指针。因此，如3:00:00和9:00:00这样的时刻不是不确定的时刻。
+
+<div style="text-align:center;"><img src="/resources/images/0891_clock.png?1714250610" alt="0891_clock.png"></div>
+
+在一个$12$小时周期内，有多少个不确定的时刻？
 
 ---
 
 ## 输入格式
 
-
----
+（待人工补充：请对照 code/std.cpp 的读取约定描述。）
 
 ## 输出格式
 
-
-
----
+（待人工补充。）
 
 ## 样例
 
-### 输入
-
-
-
-### 输出
-
-
+（无 data 数据，待人工补充。）
 
 ---
 
 ## 数据范围
+
+（待人工补充；原题参数范围见上方原题描述。）
 
