@@ -1,46 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-long long rand_ll(long long l, long long r) {
-    return l + (long long)(rand()) * (long long)(rand()) % (r - l + 1);
-}
-
+// PE902 数据点: 题面锚点 2/3/4 + 梯度 (100 即 PE 点, 闭式算法瞬时)
+// 注: 本环境 MinGW 的 ofstream 会段错误, 用 C stdio.
+#include <cstdio>
 int main() {
-    system("mkdir -p data");
-    srand(time(0));
-
-    vector<long long> test_cases(10);
-
-    // 1 样例
-    test_cases[0] = 10;
-
-    // 2-3 小数据 (n < 10000)
-    for (int i = 1; i < 3; i++) {
-        test_cases[i] = rand_ll(1, 10000);
+    long long cases[] = {2, 3, 4, 5, 10, 50, 100};
+    int n = sizeof(cases) / sizeof(cases[0]);
+    for (int i = 0; i < n; i++) {
+        char fn[64];
+        snprintf(fn, sizeof(fn), "data/%02d.in", i + 1);
+        FILE* f = fopen(fn, "w");
+        if (!f) return 1;
+        fprintf(f, "%lld\n", cases[i]);
+        fclose(f);
     }
-
-    // 4-6 大数据 (n 接近上界 1e12)
-    for (int i = 3; i < 6; i++) {
-        test_cases[i] = rand_ll(1e12 - 1000000, 1e12);
-    }
-
-    // 7-8 边界条件
-    test_cases[6] = 1;           // 最小值
-    test_cases[7] = 1000000000000LL; // 最大值
-
-    // 9-10 随机数
-    for (int i = 8; i < 10; i++) {
-        test_cases[i] = rand_ll(1, 1000000000000LL);
-    }
-
-
-    for (int i = 0; i < 10; i++) {
-        string filename = string("data/") + (i < 9 ? "0" : "") + to_string(i + 1) + ".in";
-        ofstream fout(filename);
-        fout << test_cases[i] << "\n";
-        fout.close();
-        cout << "Generated " << filename << " with n = " << test_cases[i] << "\n";
-    }
-
     return 0;
 }
