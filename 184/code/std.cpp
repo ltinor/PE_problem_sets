@@ -1,68 +1,62 @@
-#include<bits/stdc++.h>
+// PE184: Triangles containing the origin
+// I(R) = 圆内格点(不含原点)中, 三顶点三角形严格包含原点的数目
+// 射线基计数: 按本原方向射线分组 (射线 dir 上的格点数 k_dir = floor(sqrt((R^2-1)/|dir|^2)))
+//   好三角形 ⟺ 三条射线的圆周间隔全 < pi (与径向距离无关)
+//   good = Σ_{好射线三元组} k1*k2*k3 = e3(k) - Σ_j k_j*(S_j^2-Q_j)/2
+//   其中 e3 = Σ_{i<j<k} k_i k_j k_k (牛顿恒等式),
+//   坏三元组(有大间隙 >= pi)按间隙后的射线计一次, 闭半转窗口含对径射线.
+// 验证: I(2)=8, I(3)=360, I(5)=10600 (题面给定); I(105)=1725323624056 (官方答案)
+#include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+using ll = long long;
+using u128 = __uint128_t;
 
-int mygcd(int a,int b){while(b){int t=b;b=a%b;a=t;}return a;}
+ll R;
+vector<array<ll,2>> rays;
+vector<ll> kk;
 
-int main(){
-    ios::sync_with_stdio(false); cin.tie(nullptr);
-    int R; cin >> R;
-    
-    vector<pair<int,int>> pts;
-    map<pair<int,int>, pair<int,int>> line_sides;
-    
-    for(int x = -R+1; x < R; x++)
-        for(int y = -R+1; y < R; y++)
-            if((ll)x*x + (ll)y*y < (ll)R*R && !(x==0 && y==0)){
-                pts.push_back({x, y});
-                int g = mygcd(abs(x), abs(y));
-                int dx = x/g, dy = y/g;
-                if(dx < 0 || (dx == 0 && dy < 0)){ dx = -dx; dy = -dy; }
-                long double ang = atan2l(y, x);
-                bool is_first = (ang <= 0);
-                if(is_first) line_sides[{dx, dy}].first++;
-                else line_sides[{dx, dy}].second++;
-            }
-    
-    int n = pts.size();
-    const long double PI = acosl(-1.0L);
-    
-    vector<long double> ang(n);
-    for(int i = 0; i < n; i++) ang[i] = atan2l(pts[i].second, pts[i].first);
-    vector<int> idx(n); iota(idx.begin(), idx.end(), 0);
-    sort(idx.begin(), idx.end(), [&](int i, int j){ return ang[i] < ang[j]; });
-    
-    vector<long double> sorted(n);
-    for(int i = 0; i < n; i++) sorted[i] = ang[idx[i]];
-    for(int i = 0; i < n; i++) sorted.push_back(sorted[i] + 2*PI);
-    
-    ll total = (ll)n * (n-1) * (n-2) / 6;
-    
-    // Count bad (≤ PI)
-    ll bad = 0;
-    const long double EPS = 1e-12L;
-    int j = 1;
-    for(int i = 0; i < n; i++){
-        if(j <= i) j = i + 1;
-        long double limit = sorted[i] + PI;
-        while(j < i + n && sorted[j] <= limit + EPS) j++;
-        ll cnt = j - i - 1;
-        if(cnt >= 2) bad += cnt * (cnt - 1) / 2;
+// rays[t] 是否在 rays[i] 的逆时针闭半转 [θ_i, θ_i+pi] 内 (含对径)
+inline bool ccw(int i, int t) {
+    const auto &p = rays[i], &q = rays[t];
+    return p[0]*q[1] - p[1]*q[0] >= 0;
+}
+
+int main(int argc, char* argv[]) {
+    string first;
+    if (argc > 1) first = argv[1]; else cin >> first;
+    bool pe = (first == "PE");
+    R = pe ? 105 : stoll(first);
+    R = max(R, 2LL);
+    ll R2 = R * R;
+    rays.clear();
+    for (ll x = -R + 1; x < R; x++)
+        for (ll y = -R + 1; y < R; y++)
+            if (x*x + y*y < R2 && __gcd(llabs(x), llabs(y)) == 1 && (x || y))
+                rays.push_back({x, y});
+    int m = (int)rays.size();
+    sort(rays.begin(), rays.end(), [](const array<ll,2>& p, const array<ll,2>& q) {
+        int hp = (p[1] > 0 || (p[1] == 0 && p[0] > 0)) ? 0 : 1;
+        int hq = (q[1] > 0 || (q[1] == 0 && q[0] > 0)) ? 0 : 1;
+        if (hp != hq) return hp < hq;
+        return (__int128)p[0]*q[1] - (__int128)p[1]*q[0] > 0;
+    });
+    kk.assign(m, 0);
+    for (int i = 0; i < m; i++) {
+        ll x = rays[i][0], y = rays[i][1];
+        kk[i] = (ll)sqrtl((long double)(R2 - 1) / (x*x + y*y));
     }
-    
-    // Correction: overcounted triples
-    ll correction = 0;
-    for(auto& [dir, sides] : line_sides){
-        int a = sides.first, b = sides.second;
-        long double dir_ang = atan2l(dir.second, dir.first);
-        if(dir_ang > 0){
-            // positive side (ang>0) is second; negative side (ang-PI<0) is first
-            if(b >= 2 && a >= 1) correction += (ll)b * (b-1) * a;
-        } else {
-            // positive side (ang≤0) is first
-            if(a >= 2 && b >= 1) correction += (ll)a * (a-1) * b;
+    u128 bad = 0, sk = 0, sk2 = 0, sk3 = 0;
+    for (int i = 0; i < m; i++) {
+        ll cnt = 0, ss = 0, qq = 0;
+        for (int t = 1; t < m; t++) {
+            int tt = (i + t) % m;
+            if (ccw(i, tt)) { cnt++; ss += kk[tt]; qq += (ll)kk[tt]*kk[tt]; }
         }
+        bad += (u128)kk[i] * (((u128)ss*ss - (u128)qq) / 2);
+        sk += kk[i]; sk2 += (u128)kk[i]*kk[i]; sk3 += (u128)kk[i]*kk[i]*kk[i];
     }
-    
-    cout << total - (bad - correction) << "\n";
+    u128 e3 = ((u128)sk*sk*sk - 3*(u128)sk*sk2 + 2*sk3) / 6;
+    u128 good = e3 - bad;
+    cout << (ll)good << endl;
+    return 0;
 }
