@@ -1,86 +1,42 @@
-#include<bits/stdc++.h>
+// PE267: Billionaire
+// 1000 次抛掷, 固定比例 f: 正面资金 x(1+2f), 反面 x(1-f); 目标 1e9.
+// 最终资金 (1+2f)^H (1-f)^(N-H) >= 1e9 ⟺ H >= H_min(f).
+// 最优 f* = (3H-N)/(2N) 最大化 H·log(1+2f)+(N-H)·log(1-f),
+// H* = 满足 max_f log-wealth >= log(1e9) 的最小 H;
+// 答案 = Σ_{h>=H*} C(N,h)/2^N (H_min = H* 时概率与 f 无关, 为二项分布尾和).
+// 验证: N=1000 -> 0.999992836187 (官方答案)
+#include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
+using ld = long double;
 
-const double TARGET = 1e9;
+int main(int argc, char* argv[]) {
+    string first;
+    if (argc > 1) first = argv[1]; else cin >> first;
+    bool pe = (first == "PE");
+    ll N = pe ? 1000 : stoll(first);
+    ld logT = logl(1e9L);
 
-// Precompute log factorials
-vector<double> log_fact;
-
-double log_comb(int n, int k) {
-    if (k < 0 || k > n) return -1e300;
-    return log_fact[n] - log_fact[k] - log_fact[n - k];
-}
-
-// Compute probability of reaching target for given f and N
-double prob_for_f(int N, double f) {
-    if (f <= 0 || f >= 1) return 0;
-    
-    double log_f_plus = log(1 + 2*f);
-    double log_f_minus = log(1 - f);
-    double log_target = log(TARGET);
-    
-    // Minimum H needed
-    double h_min_exact = (log_target - N * log_f_minus) / (log_f_plus - log_f_minus);
-    int H_min = max(0, (int)ceil(h_min_exact - 1e-12));
-    if (H_min > N) return 0;
-    
-    double total_prob = 0;
-    double log2_N = N * log(2.0);
-    
-    for (int h = H_min; h <= N; h++) {
-        double log_p = log_comb(N, h) - log2_N;
-        total_prob += exp(log_p);
+    // H* = 最小可达 H
+    ll Hstar = -1;
+    for (ll H = 1; H <= N; H++) {
+        ld denom = 2.0L * N;
+        ld f = (3.0L * H - N) / denom;          // 最优 f*
+        if (f <= 0 || f >= 1) continue;
+        ld lw = H*logl(1+2*f) + (N-H)*logl(1-f);   // 峰值 log-wealth
+        if (lw >= logT) { Hstar = H; break; }
     }
-    
-    return total_prob;
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    
-    int N;
-    cin >> N;
-    
-    // Precompute log factorials
-    log_fact.resize(N + 1);
-    log_fact[0] = 0;
-    for (int i = 1; i <= N; i++) {
-        log_fact[i] = log_fact[i-1] + log((double)i);
+    if (Hstar < 0) { cout << "0.000000000000" << endl; return 0; }
+    // 概率 = Σ_{h=H*}^{N} C(N,h)/2^N (从大端累加保证精度)
+    // term(h) = C(N,h)/2^N: term(h-1) = term(h)*h/(N-h+1)
+    ld ph = 1.0L;
+    for (ll i = 0; i < Hstar; i++) ph *= (N - i) / (ld)(i + 1);
+    ph /= exp2l((ld)N); // C(N,H*)/2^N
+    ld prob = ph;
+    for (ll h = Hstar; h < N; h++) {
+        ph *= (ld)(N - h) / (ld)(h + 1);
+        prob += ph;
     }
-    
-    // Grid search to find rough optimum, then ternary refinement
-    double best_f = 0;
-    double best_prob = 0;
-    
-    // Coarse grid search
-    for (double f = 0.01; f < 1.0; f += 0.01) {
-        double p = prob_for_f(N, f);
-        if (p > best_prob) {
-            best_prob = p;
-            best_f = f;
-        }
-    }
-    
-    // Ternary refinement around best
-    double lo = max(0.001, best_f - 0.02);
-    double hi = min(0.999, best_f + 0.02);
-    for (int iter = 0; iter < 200; iter++) {
-        double m1 = lo + (hi - lo) / 3;
-        double m2 = hi - (hi - lo) / 3;
-        double p1 = prob_for_f(N, m1);
-        double p2 = prob_for_f(N, m2);
-        if (p1 < p2) {
-            lo = m1;
-        } else {
-            hi = m2;
-        }
-    }
-    
-    best_f = (lo + hi) / 2;
-    best_prob = prob_for_f(N, best_f);
-    
-    cout << fixed << setprecision(12) << best_prob << "\n";
-    
+    cout << fixed << setprecision(12) << (double)prob << endl;
     return 0;
 }
