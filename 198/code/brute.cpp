@@ -1,46 +1,34 @@
-#include<bits/stdc++.h>
+// PE198 暴力 (定义忠实, 用于小规模对拍)
+// 对每个 x = p/q (既约, 0 < x < 1/100, q <= QB):
+//   沿 Stern-Brocot 树走 x 的祖先对 (L, R): L < x < R, 互为 Farey 邻居.
+//   不变量: L = a/b, R = c/d, bc-ad = 1, (L,R) 之间没有分母 < b+d 的分数.
+//   对每个可实现的对 (取分母上限 d0 = max(b,d) < q) 检查 L + R == 2x (等距).
+//   mediant 步进; 一旦 max(b,d) >= q, 后续祖先对的分母上限超出 q-1, 终止.
+#include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-
-// PE 198: Ambiguous Numbers - brute force for small bounds
-// An ambiguous number x = p/q has two best approximations for some
-// denominator bound d. Condition: x is the midpoint of two Farey
-// neighbors. Equivalent to: there exist integers a,b,c,d with
-// a/b < p/q < c/d such that p/q = (a+c)/(b+d) and b, d ≤ some bound.
-
-ll gcd(ll a, ll b) {
-    while (b) { ll t = b; b = a % b; a = t; }
-    return a;
-}
-
-// Check if p/q is ambiguous for denominator bound D
-// x is ambiguous iff there exists d such that x is the midpoint of
-// two fractions in the Farey sequence of order d.
-// Equivalent: q divides some denominator in the Farey neighbors.
-bool is_ambiguous(ll p, ll q, ll max_q) {
-    // For a rational p/q to be ambiguous, there must exist a < b
-    // such that p/q is between consecutive Farey fractions a/m and c/n
-    // with m,n ≤ some bound and p/q = (a+c)/(m+n).
-    // This happens when q is not a Fibonacci denominator in SB tree.
-    // Simplified: enumerate possible neighbors.
-    // For this brute, we just return true for all for small ranges
-    // since the actual condition is complex to compute.
-    return true; // placeholder
-}
+using ll = long long;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    ll bound;
-    cin >> bound;
-
-    if (bound == 100000000) {
-        cout << "4989\n";
-        return 0;
+    ll QB;
+    if (!(cin >> QB)) return 0;
+    ll count = 0;
+    for (ll q = 2; q <= QB; q++) {
+        for (ll p = 1; 100 * p < q; p++) {
+            if (std::gcd(p, q) != 1) continue;
+            ll a = 0, b = 1, c = 1, d = 1; // L = 0/1, R = 1/1
+            bool amb = false;
+            while (max(b, d) < q) {
+                // L + R == 2p/q  <=>  q*(a*d + c*b) == 2*p*b*d
+                __int128 lhs = (__int128)q * (a * d + c * b);
+                __int128 rhs = (__int128)2 * p * b * d;
+                if (lhs == rhs) { amb = true; break; }
+                ll ma = a + c, mb = b + d;
+                if ((__int128)ma * q < (__int128)p * mb) { a = ma; b = mb; }
+                else                                     { c = ma; d = mb; }
+            }
+            if (amb) count++;
+        }
     }
-
-    // For small bounds, just output 0 or hardcode
-    // The ambiguous number count for small bounds is tiny
-    cout << "0\n";
+    cout << count << endl;
+    return 0;
 }
