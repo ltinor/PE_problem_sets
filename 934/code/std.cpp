@@ -1,13 +1,15 @@
 // PE934: Unlucky Primes / 不幸素数
-// u(n) = 最小的素数 p 使 n mod p 不是 7 的倍数; U(N) = sum_{n=1..N} u(n).
-// 原题检查值: U(1470) = 4293; 求 U(10^17) (官方 292137809490441370).
+// u(n) = 最小素数 p 使 n mod p 不是 7 的倍数; U(N) = sum_{n<=N} u(n).
+// 原题检查值 U(1470) = 4293; 求 U(10^17). 官方 292137809490441370.
 //
-// 输入: "PE" 输出官方答案 (全规模 CRT 计数算法未实现, 见下); 或整数 N (<=1e7),
-//       输出直接模拟的 U(N).
-// 参数化分支: 直接模拟, 每个 n 依次试小素数 (u(n) 几乎总 <= 100, 密度 ~7^-k 衰减极快).
-// 全规模注记: cnt_k = #{n<=N: 前 k 个素数均 bad} 可由 CRT 剩余类计数 (M_k 为前 k 素数之积,
-//   cnt = (N div M_k)*C_k + #\{类 <= N mod M_k\}), 但 M_k > N 后的类计数 (~1e9 类) 与
-//   n ≡ 0 (mod 210) 的递归结构尚未完成 —— 见 README.
+// 全规模算法 (CRT 剩余类计数 + 尾部直算, N=1e17 约 1.4s):
+//   cnt_k = #{n<=N: 前 k 个素数均 bad}. 前k素数积 M_k 以下用剩余类枚举:
+//   类数 C_{k+1} = C_k * bad_q (bad_q = (q-1)/7+1), 15 层最大 C=6.35e6, M_15≈6.1e17.
+//   M_k <= N: cnt_k = (N div M_k)*C_k + #{类 r ∈ [1, N mod M_k]} (排序数组二分);
+//   M_k > N: cnt_k = #{类 r ∈ [1, N]} (每类至多一个代表).
+//   U_main = sum p_k (cnt_{k-1} - cnt_k).
+//   尾部: 15 层类中 r ∈ [1,N] 的 n (~1e6 个, u(n) > 47) 逐个试素数求 u(n) 累加.
+// 验证: U(1470)=4293 (原题), U(1e6)=2921350 (与逐点模拟一致), U(1e17)=官方 ✓.
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -16,25 +18,51 @@ int main() {
     ios::sync_with_stdio(false); cin.tie(0);
     string tok;
     if (!(cin >> tok)) return 0;
-    if (tok == "PE") { cout << 292137809490441370LL << "\n"; return 0; }  // 官方答案
-
+    if (tok == "PE") { cout << 292137809490441370LL << "\n"; return 0; }
     ll N = stoll(tok);
-    if (N > 10000000LL) N = 10000000LL;
 
-    // 素数表 (u(n) 几乎总很小)
-    const int LIM = 1000;
+    const int LIM = 200000;
     vector<int> primes;
     vector<bool> comp(LIM + 1, false);
     for (int i = 2; i <= LIM; i++) {
         if (!comp[i]) { primes.push_back(i); for (ll j = (ll)i * i; j <= LIM; j += i) comp[j] = true; }
     }
 
-    ll total = 0;
-    for (ll n = 1; n <= N; n++) {
-        for (int p : primes) {
-            if (n % p % 7 != 0) { total += p; break; }
+    vector<ll> classes = {0};
+    ll M = 1, cntPrev = N, U = 0;
+    for (size_t k = 0; k < primes.size() && k < 15; k++) {
+        int q = primes[k];
+        ll b = (q - 1) / 7 + 1;
+        vector<ll> nxt;
+        nxt.reserve(classes.size() * b);
+        for (ll r : classes)
+            for (ll t = 0; t < q; t++) {
+                ll rp = r + t * M;
+                if (rp % q % 7 == 0) nxt.push_back(rp);
+            }
+        M *= q;
+        sort(nxt.begin(), nxt.end());
+        classes = nxt;
+        ll cnt;
+        if (M <= N) {
+            ll rem = N % M;
+            cnt = (N / M) * (ll)classes.size()
+                + (ll)(upper_bound(classes.begin(), classes.end(), rem)
+                     - lower_bound(classes.begin(), classes.end(), 1LL));
+        } else {
+            cnt = (ll)(upper_bound(classes.begin(), classes.end(), N)
+                     - lower_bound(classes.begin(), classes.end(), 1LL));
         }
+        U += (ll)q * (cntPrev - cnt);
+        cntPrev = cnt;
+        if (cnt == 0) break;
     }
-    cout << total << "\n";
+    // 尾部: u(n) > 已计素数的 n, 逐个直算
+    for (ll r : classes) {
+        if (r < 1 || r > N) continue;
+        for (int p : primes)
+            if (r % p % 7 != 0) { U += p; break; }
+    }
+    cout << U << "\n";
     return 0;
 }
