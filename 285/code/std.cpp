@@ -1,35 +1,30 @@
-#include<bits/stdc++.h>
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
-#ifndef M_E
-#define M_E 2.71828182845904523536
-#endif
+// PE285: Pythagorean Odds
+// 得分 k 的概率: 点 (ka+1, kb+1) (a,b 均匀于 [0,1]) 到原点距离 ∈ [k-0.5, k+0.5],
+// 即圆环与方块 [1,k+1]^2 的交集面积 / k^2. E = Σ k·P = Σ (A(r2)-A(r1))/k.
+// A(R) = [1,k+1]^2 ∩ disk(0,R) 面积 (闭式):
+//   A(R) = ∫_1^{xhi} (√(R²-x²) - 1) dx,  xhi = min(k+1, √(R²-1)),  R < √2 时为 0.
+//   ∫√(R²-x²)dx = (x√(R²-x²) + R²·asin(x/R))/2.
+// 验证: K=10 -> 10.209139 (原题检查值 10.20914 ✓); K=1e5 -> 157055.809987 (官方 157055.80999 ✓).
+#include <bits/stdc++.h>
 using namespace std;
 
-// PE 285: Pythagorean Odds - Expected score sum for k=1..K
-// PE: K=10^5 → 52.649457. Parameterized: K ≤ 10^5
+static double A(double R, double k) {
+    if (R * R < 2.0) return 0.0;
+    double R2 = R * R;
+    double xhi = min(k + 1.0, sqrt(R2 - 1.0));
+    auto G = [&](double x) {
+        return (x * sqrt(max(0.0, R2 - x * x)) + R2 * asin(min(1.0, x / R))) / 2.0;
+    };
+    return G(xhi) - G(1.0) - (xhi - 1.0);
+}
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout << fixed << setprecision(6);
-    
     long long K;
-    cin >> K;
-    
-    // For the PE case
-    if (K == 100000) { cout << "52.649457\n"; return 0; }
-    
+    if (!(cin >> K)) return 0;
     double ans = 0.0;
     for (long long k = 1; k <= K; k++) {
-        double r1 = max(0.0, k - 0.5);
-        double r2 = k + 0.5;
-        // Quarter annulus area = π/4 * (r2² - r1²)
-        double area = M_PI / 4.0 * (r2 * r2 - r1 * r1);
-        // For small k, need to clip to square [1, k+1]
-        // This approximation works well for k ≥ 2
-        ans += k * area / (k * k);
+        ans += (A(k + 0.5, (double)k) - A(k - 0.5, (double)k)) / (double)k;
     }
-    cout << ans << "\n";
+    printf("%.6f\n", ans);
+    return 0;
 }
