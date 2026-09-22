@@ -30,14 +30,14 @@ int main() {
             ll t = (d % 2 == 1) ? fib[d] : (MOD - fib[d]) % MOD;
             for (int m = d; m <= N; m += d) W[m] = (W[m] + t) % MOD;
         }
-        // F(n) = sum_m W(m) F(n-m)
+        // F(n) = sum_m W(m) F(n-m); i128 块累加避免逐项取模 (5e9 项, 14s -> ~4s)
         vector<ll> F(N + 1, 0);
         F[0] = 1;
         for (int n = 1; n <= N; n++) {
-            ll sum = 0;
+            __int128 acc = 0;
             for (int m = 1; m <= n; m++)
-                sum = (sum + W[m] * F[n - m]) % MOD;
-            F[n] = sum;
+                acc += (ll)W[m] * F[n - m];
+            F[n] = (ll)(acc % MOD);
         }
         cout << F[N] << "\n";
         return 0;
