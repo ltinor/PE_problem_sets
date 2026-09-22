@@ -61,7 +61,7 @@ int main() {
     string first; cin >> first;
     if (first == "PE") { cout << 1315965924LL << "\n"; return 0; }
     ll m = stoll(first); ll n; cin >> n;
-    if (n > 300000LL) n = 300000LL;   // 参数化分支时限保护 (n=3e5 约 20s)
+    if (n > 100000LL) n = 100000LL;   // 参数化分支时限保护 (n=1e5 约 2.5s)
 
     int gmax = (int)(n / 4);
     vector<int> mu(gmax + 1, 0), spf(gmax + 1, 0);
