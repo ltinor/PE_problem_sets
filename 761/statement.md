@@ -1,9 +1,6 @@
 # Problem 761（PE 761）
 
 > ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
-> 【输入格式 / 输出格式 / 数据范围】与原题的参数化改编有关，**待人工校对补充**；
-> 若目录下已有 data/ 数据，可对照实际输入输出理解约定。
-
 ## 原题描述
 
 原题及更多讨论见 [https://projecteuler.net/problem=761](https://projecteuler.net/problem=761)。
@@ -36,19 +33,18 @@ At last, both players decide to play the game in a pool in the form of regular h
 
 ## 输入格式
 
-（待人工补充：请对照 code/std.cpp 的读取约定描述。）
+字符 `PE`：输出原题官方答案。
 
 ## 输出格式
 
-（待人工补充。）
+原题官方答案。
 
 ## 样例
 
-（无 data 数据，待人工补充。）
+（无 data 数据，参见原题样例。）
 
 ---
 
 ## 数据范围
 
-（待人工补充；原题参数范围见上方原题描述。）
-
+见原题参数范围。
