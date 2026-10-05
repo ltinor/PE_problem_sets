@@ -1,0 +1,3 @@
+Computing sum_{i=2}^{90} S(f_i) mod 1e9+7...
+Result: 672151279
+Expected: 922058210

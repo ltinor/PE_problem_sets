@@ -1,0 +1,45 @@
+PE 790: Clock Grid / 时钟网格
+
+=== Small clock grids (mod 2) ===
+  2×2 grid mod 2: period=   1  total states=16
+  3×3 grid mod 2: period=   2  total states=512
+  4×4 grid mod 2: period=  -1  total states=65536
+
+=== Clock grid evolution example (3×3 mod 5) ===
+Initial:
+  0 0 0
+  0 1 0
+  0 0 0
+Step 1:
+  0 1 0
+  1 1 1
+  0 1 0
+Step 2:
+  2 2 2
+  2 0 2
+  2 2 2
+Step 3:
+  1 1 1
+  1 3 1
+  1 1 1
+Step 4:
+  3 1 3
+  1 2 1
+  3 1 3
+Step 5:
+  0 4 0
+  4 1 4
+  0 4 0
+
+=== Fibonacci clocks (mod various) ===
+  mod 10:   0  1  1  2  3  5  8  3  1  4  5  9  4  3  7
+  mod 12:   0  1  1  2  3  5  8  1  9 10  7  5  0  5  5
+  mod 24:   0  1  1  2  3  5  8 13 21 10  7 17  0 17 17
+  mod 60:   0  1  1  2  3  5  8 13 21 34 55 29 24 53 17
+
+=== Total configurations for various grids ===
+  1×1 grid mod 12: 12 configurations
+  2×2 grid mod 12: 20736 configurations
+  3×3 grid mod 12: 5159780352 configurations
+  4×4 grid mod 12: 184884258895036416 configurations
+  5×5 grid mod 12: 440690129601298432 configurations

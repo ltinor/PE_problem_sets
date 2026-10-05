@@ -1,0 +1,6 @@
+Verifying PE 611:
+  F(5) = 1 (expected 1) OK
+  F(100) = 27 (expected 27) OK
+  F(1000) = 233 (expected 233) OK
+  F(10^6) = 112168 (known from PE)
+  F(10^12) = 49283254100

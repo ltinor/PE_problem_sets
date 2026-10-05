@@ -1,0 +1,5 @@
+Verifying PE 630 (Crossed Lines):
+M(L_3) = 3 (expected 3) ✓
+S(L_3) = 6 (expected 6) ✓
+M(L_100) = 4948 (expected 4948) ✓
+S(L_100) = 24477690 (expected 24477690) ✓

@@ -1,0 +1,7 @@
+PE 685: Inverse Digit Sum II
+
+Brute-force verification (small n):
+  f(1, 1) = 1 (computed: 1)
+  f(8, 16) = 161 (computed: 161)
+  f(27, 81) = 6966 (computed: 6966)
+  S(3) = 7128 (expected: 7128)

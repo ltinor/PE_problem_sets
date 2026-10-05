@@ -1,0 +1,21 @@
+=== PE 862: Larger Digit Permutations ===
+
+=== Counting numbers with larger digit permutations ===
+N=10^1-1: total=9, non_inc=9, with_larger=0
+N=10^2-1: total=99, non_inc=63, with_larger=36
+N=10^3-1: total=999, non_inc=282, with_larger=717
+N=10^4-1: total=9999, non_inc=996, with_larger=9003
+N=10^5-1: total=99999, non_inc=2997, with_larger=97002
+N=10^6-1: total=999999, non_inc=8001, with_larger=991998
+N=10^7-1: total=9999999, non_inc=19440, with_larger=9980559
+N=10^8-1: total=99999999, non_inc=43749, with_larger=99956250
+N=10^9-1: total=999999999, non_inc=92368, with_larger=999907631
+
+=== DP verification ===
+N=   50: dp=24, direct=24 ✓
+N=  100: dp=64, direct=64 ✓
+N=  500: dp=98, direct=98 ✓
+N= 1000: dp=283, direct=283 ✓
+N= 5000: dp=352, direct=352 ✓
+
+PE answer: 6111397420935766740

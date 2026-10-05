@@ -1,0 +1,19 @@
+=== PE 875: Quad Power ===
+
+Scaling of fourth-power sums:
+  N=   1000: count(a⁴+b⁴≤N)=   14, sum=        4624
+  N=   5000: count(a⁴+b⁴≤N)=   33, sum=       58867
+  N=  10000: count(a⁴+b⁴≤N)=   43, sum=      129551
+  N=  20000: count(a⁴+b⁴≤N)=   63, sum=      404563
+  N=  50000: count(a⁴+b⁴≤N)=  100, sum=     1602165
+
+Scaling of fourth-power differences:
+  N=   1000: sum(|a⁴-b⁴|≤N) = 2976
+  N=   5000: sum(|a⁴-b⁴|≤N) = 44604
+  N=  10000: sum(|a⁴-b⁴|≤N) = 162987
+
+Fourth power density analysis:
+  Number of 4th powers ≤ 10⁶: 31
+  Number of 4th powers ≤ 10⁸: 100
+
+PE answer: 79645946

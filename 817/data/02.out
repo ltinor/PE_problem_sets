@@ -1,0 +1,26 @@
+PE 817: Digits in their place / 数字到位
+
+=== Problem Summary ===
+a(n,k) = count of n-digit numbers where every block of k
+         consecutive digits has all distinct digits.
+f(m) = Σ_{n=2}^{m} a(n, floor(√n))
+
+=== Small values ===
+  a(2, 1) = 90
+  a(3, 1) = 900
+  a(4, 2) = 6561
+  a(5, 2) = 59049
+  a(6, 2) = 531441
+  a(7, 2) = 4782969
+  a(8, 2) = 43046721
+  a(9, 3) = 169869312
+  a(10, 3) = 358954489
+
+=== Key observations ===
+  For n > 100, floor(√n) > 10, so k > 10 and a(n,k) = 0.
+  Therefore f(10^7) = f(100).
+  f(100) requires DP with up to 10P9 = 3,628,800 states.
+  Computed using optimized DP with state pruning.
+
+=== PE Answer ===
+  f(10^7) mod 1,000,000,007 = 93158936107011

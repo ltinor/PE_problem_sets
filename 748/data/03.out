@@ -1,0 +1,7 @@
+Computing upside-down Diophantine sums...
+
+Sum of n (≤100k) where n and n+flip(n) are flippable: 201043051 (count: 4234)
+Sum of palindromic flippable n (≤100k): 12112234 (count: 293)
+Sum of n (≤10k) where n^2+flip(n)^2 is square: 0 (count: 0)
+
+PE answer: 276402862

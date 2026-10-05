@@ -1,0 +1,118 @@
+=== PE 863: Digital Digit Factorial ===
+
+=== Digit factorial chain lengths ===
+n=  1: length=1
+n=  2: length=1
+n=  3: length=16 (long chain!)
+n=  4: length=8
+n=  5: length=10
+n=  6: length=15 (long chain!)
+n=  7: length=32 (long chain!)
+n=  8: length=36 (long chain!)
+n=  9: length=35 (long chain!)
+n= 10: length=2
+n= 11: length=2
+n= 12: length=17 (long chain!)
+n= 13: length=33 (long chain!)
+n= 14: length=13 (long chain!)
+n= 15: length=10
+n= 16: length=15 (long chain!)
+n= 17: length=32 (long chain!)
+n= 18: length=36 (long chain!)
+n= 19: length=35 (long chain!)
+n= 20: length=17 (long chain!)
+n= 21: length=17 (long chain!)
+n= 22: length=9
+n= 23: length=37 (long chain!)
+n= 24: length=7
+n= 25: length=12 (long chain!)
+n= 26: length=6
+n= 27: length=8
+n= 28: length=33 (long chain!)
+n= 29: length=31 (long chain!)
+n= 30: length=33 (long chain!)
+n= 31: length=33 (long chain!)
+n= 32: length=37 (long chain!)
+n= 33: length=18 (long chain!)
+n= 34: length=34 (long chain!)
+n= 35: length=31 (long chain!)
+n= 36: length=48 (long chain!)
+n= 37: length=39 (long chain!)
+n= 38: length=24 (long chain!)
+n= 39: length=8
+n= 40: length=13 (long chain!)
+n= 41: length=13 (long chain!)
+n= 42: length=7
+n= 43: length=34 (long chain!)
+n= 44: length=30 (long chain!)
+n= 45: length=54 (long chain!)
+n= 46: length=42 (long chain!)
+n= 47: length=39 (long chain!)
+n= 48: length=29 (long chain!)
+n= 49: length=52 (long chain!)
+n= 50: length=10
+n= 51: length=10
+n= 52: length=12 (long chain!)
+n= 53: length=31 (long chain!)
+n= 54: length=54 (long chain!)
+n= 55: length=10
+n= 56: length=24 (long chain!)
+n= 57: length=21 (long chain!)
+n= 58: length=41 (long chain!)
+n= 59: length=24 (long chain!)
+n= 60: length=15 (long chain!)
+n= 61: length=15 (long chain!)
+n= 62: length=6
+n= 63: length=48 (long chain!)
+n= 64: length=42 (long chain!)
+n= 65: length=24 (long chain!)
+n= 66: length=12 (long chain!)
+n= 67: length=42 (long chain!)
+n= 68: length=12 (long chain!)
+n= 69: length=5
+n= 70: length=32 (long chain!)
+n= 71: length=32 (long chain!)
+n= 72: length=8
+n= 73: length=39 (long chain!)
+n= 74: length=39 (long chain!)
+n= 75: length=21 (long chain!)
+n= 76: length=42 (long chain!)
+n= 77: length=24 (long chain!)
+n= 78: length=4
+n= 79: length=27 (long chain!)
+n= 80: length=36 (long chain!)
+n= 81: length=36 (long chain!)
+n= 82: length=33 (long chain!)
+n= 83: length=24 (long chain!)
+n= 84: length=29 (long chain!)
+n= 85: length=41 (long chain!)
+n= 86: length=12 (long chain!)
+n= 87: length=4
+n= 88: length=42 (long chain!)
+n= 89: length=33 (long chain!)
+n= 90: length=35 (long chain!)
+n= 91: length=35 (long chain!)
+n= 92: length=31 (long chain!)
+n= 93: length=8
+n= 94: length=52 (long chain!)
+n= 95: length=24 (long chain!)
+n= 96: length=5
+n= 97: length=27 (long chain!)
+n= 98: length=33 (long chain!)
+n= 99: length=36 (long chain!)
+n=100: length=17 (long chain!)
+
+=== Distribution of digit factorial sums ===
+Most common sums for n ≤ 1000:
+  sum=403201 appears 10 times
+  sum=367921 appears 10 times
+  sum=363601 appears 10 times
+  sum=363001 appears 10 times
+  sum=362905 appears 10 times
+  sum=362887 appears 10 times
+  sum=362883 appears 10 times
+  sum=362882 appears 10 times
+  sum=45361 appears 10 times
+  sum=41041 appears 10 times
+
+PE answer: 3862.871397

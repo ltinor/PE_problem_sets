@@ -1,0 +1,22 @@
+PE 901: Well Drilling / 钻井
+
+Optimal first depth d1 = 0.7465420140
+Min expected cost = 2.3644977694
+
+Optimal depth sequence (first 10):
+  d1 = 0.7465420140 (initial)
+  d2 = 2.1096921029
+  d3 = 3.9084860082
+  d4 = 6.0423554153
+  d5 = 8.4474904332
+  d6 = 11.0799261692
+  d7 = 13.9076039324
+  d8 = 16.9061551068
+  d9 = 20.0564575539
+  d10 = 23.3431235743
+
+Convergence check:
+  Expected cost = 2.3644977694
+  d1 + 1 = 1.7465420140 (note: not equal due to adaptive strategy)
+
+PE answer: 2.364497769

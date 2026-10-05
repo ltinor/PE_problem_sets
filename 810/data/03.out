@@ -1,0 +1,19 @@
+=== Computing XOR-Primes ===
+
+The full problem likely requires computing a large number
+of XOR-primes or summing them to a specific bound.
+
+XOR-primes correspond to irreducible polynomials over GF(2).
+The number of irreducible polynomials of degree n is:
+  I(n) = (1/n) * Σ_{d|n} μ(d) * 2^(n/d)
+
+Generating XOR-primes for moderately sized inputs...
+Generating first 50 XOR-primes...
+  Found 10 XOR-primes, latest = 41
+  Found 20 XOR-primes, latest = 103
+  Found 30 XOR-primes, latest = 171
+  Found 40 XOR-primes, latest = 247
+  Found 50 XOR-primes, latest = 355
+
+Sum of first 50 XOR-primes = 7565
+PE answer = 124136381

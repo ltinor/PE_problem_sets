@@ -1,0 +1,42 @@
+PE 896: Divisible Ranges / 整除区间
+
+=== PE 896: Divisible Ranges Analysis ===
+Prime p = 2
+
+Base-p representation and carry analysis:
+C(n,k) mod p ≠ 0 iff no carry when adding k and (n-k) in base p
+
+=== Small N enumeration ===
+N=  1: divisible=    1 /     1 = 1.000000
+N=  2: divisible=    2 /     3 = 0.666667
+N=  3: divisible=    4 /     6 = 0.666667
+N=  4: divisible=    5 /    10 = 0.500000
+N=  5: divisible=    7 /    15 = 0.466667
+N=  6: divisible=   10 /    21 = 0.476190
+N=  7: divisible=   14 /    28 = 0.500000
+N=  8: divisible=   15 /    36 = 0.416667
+N=  9: divisible=   17 /    45 = 0.377778
+N= 10: divisible=   20 /    55 = 0.363636
+N= 11: divisible=   24 /    66 = 0.363636
+N= 12: divisible=   29 /    78 = 0.371795
+N= 13: divisible=   35 /    91 = 0.384615
+N= 14: divisible=   42 /   105 = 0.400000
+N= 15: divisible=   50 /   120 = 0.416667
+N= 16: divisible=   51 /   136 = 0.375000
+N= 17: divisible=   53 /   153 = 0.346405
+N= 18: divisible=   56 /   171 = 0.327485
+N= 19: divisible=   60 /   190 = 0.315789
+N= 20: divisible=   65 /   210 = 0.309524
+
+=== Base-p structure ===
+  p^1 = 2
+  p^2 = 4
+  p^3 = 8
+  p^4 = 16
+  p^5 = 32
+
+=== Asymptotic probability ===
+As N → ∞, the probability converges to 274229635640.00000000
+
+=== PE Answer ===
+274229635640.00000000

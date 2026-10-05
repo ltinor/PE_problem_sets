@@ -1,0 +1,7 @@
+PE 641: A Long Row of Dice - verification
+
+Monte Carlo estimates (1000 trials each):
+n=1: E ≈ 5.053
+n=2: E ≈ 35.796
+n=3: E ≈ 131.083
+n=6: E ≈ 1424.8

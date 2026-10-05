@@ -1,0 +1,39 @@
+PE 778: Freshman's Product / 新生乘积
+
+=== Freshman's Dream verification ===
+Freshman's Dream: (a+b)^p ≡ a^p + b^p (mod p) when p is prime
+
+  p=2: holds for all a,b ∈ [0,2]
+  p=3: holds for all a,b ∈ [0,3]
+  p=5: holds for all a,b ∈ [0,5]
+  p=7: holds for all a,b ∈ [0,7]
+  p=11: holds for all a,b ∈ [0,11]
+  p=13: holds for all a,b ∈ [0,13]
+
+=== Counterexamples (composite n) ===
+  n=4: fails at a=1, b=1 (lhs=0, rhs=2)
+  n=6: fails at a=1, b=1 (lhs=4, rhs=2)
+  n=8: fails at a=1, b=1 (lhs=0, rhs=2)
+  n=9: fails at a=1, b=1 (lhs=8, rhs=2)
+  n=10: fails at a=1, b=1 (lhs=4, rhs=2)
+
+=== Product over prime bases ===
+Product of binomial coefficients C(n,1)×...×C(n,n):
+  n=1: product = 1
+  n=2: product = 2
+  n=3: product = 9
+  n=4: product = 96
+  n=5: product = 2500
+  n=6: product = 162000
+  n=7: product = 26471025
+  n=8: product = 14635443
+  n=9: product = 522292343
+  n=10: product = 973157370
+
+=== Fermat's Little Theorem: a^(p-1) ≡ 1 (mod p) ===
+  p=2: 1
+  p=3: 1 1
+  p=5: 1 1 1 1
+  p=7: 1 1 1 1 1 1
+  p=11: 1 1 1 1 1 1 1 1 1 1
+  p=13: 1 1 1 1 1 1 1 1 1 1 1 1

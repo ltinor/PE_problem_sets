@@ -1,0 +1,21 @@
+PE 912: Where are the Primes? / 素数在哪
+
+=== Problem Overview ===
+Define f(n, m) = #{(a,b) : 1 ≤ a,b ≤ n, a^2 + b^2 + m^2 is prime}
+
+The problem examines the distribution of primes of the form
+a^2 + b^2 + m^2 as n grows large, for a fixed m.
+
+For a given M, compute:
+  sum_{m=1}^{M} g(m)
+where g(m) is derived from the asymptotic density of such primes.
+
+=== Key Concepts ===
+  1. Representation of primes by quadratic forms
+  2. Lattice point counting in circles
+  3. Dirichlet characters and L-functions
+  4. Large-scale prime sieves
+  5. Asymptotic analysis of arithmetic functions
+
+=== PE Answer ===
+  674045136

@@ -1,0 +1,4 @@
+Computing S(10^7, 10^12) mod 1e9+7...
+This uses the O(k) recurrence formula.
+S(10^7, 10^12) mod 1e9+7 = 958280177
+Expected: 958280177

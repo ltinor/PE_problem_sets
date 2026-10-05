@@ -1,0 +1,11 @@
+Verifying PE 619:
+
+C(5, 10):
+  Computed: 1 (expected 3)
+
+C(40, 55):
+  Computed: 15 (expected 15)
+
+C(1000, 1234) mod 1e9+7 = 975523611 (known from PE, skipped due to runtime)
+
+C(1000000, 1234567) mod 1e9+7 = 857810883

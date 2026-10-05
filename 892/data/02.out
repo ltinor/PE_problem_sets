@@ -1,0 +1,42 @@
+PE 892: Zebra Irrationals / 斑马无理数
+
+=== First 40 zebra decimal numbers ===
+    1    2    3    4    5    6    7    8    9   10
+   12   14   16   18   21   23   25   27   29   30
+   32   34   36   38   41   43   45   47   49   50
+   52   54   56   58   61   63   65   67   69   70
+
+=== Non-zebra examples ===
+  11: not zebra
+  22: not zebra
+  100: not zebra
+  122: not zebra
+  133: not zebra
+  200: not zebra
+
+=== Count by digit length ===
+  d=1: count=9
+  d=2: count=45
+  d=3: count=225
+  d=4: count=1125
+  d=5: count=5625
+  d=6: count=28125
+  d=7: count=140625
+  d=8: count=703125
+
+=== Count ≤ N ===
+  N=   10: count=10
+  N=   50: count=30
+  N=  100: count=54
+  N=  200: count=79
+  N=  500: count=154
+  N= 1000: count=279
+
+=== Sum by digit length ===
+  d=1: sum=45
+  d=2: sum=2450
+  d=3: sum=123525
+  d=4: sum=6181250
+
+=== PE Answer ===
+469137427

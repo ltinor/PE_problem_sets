@@ -1,0 +1,13 @@
+PE 672: One more one
+
+Numbers < 10 with exactly 1 one bit:
+  4 (should be 4: 1,2,4,8)
+Numbers < 10 with exactly 2 one bits:
+  4 (should be 4: 3,5,6,9)
+
+Binary counting verifications:
+Numbers < 16 with 0 ones: 1 (should be 1: 0)
+Numbers < 16 with 1 ones: 4 (should be 4: 1,2,4,8)
+Numbers < 16 with 2 ones: 6 (should be 6: 3,5,6,9,10,12)
+Numbers < 16 with 3 ones: 4 (should be 4: 7,11,13,14)
+Numbers < 16 with 4 ones: 1 (should be 1: 15)

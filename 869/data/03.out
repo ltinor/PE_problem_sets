@@ -1,0 +1,16 @@
+=== PE 869: Prime Guessing ===
+
+=== Expected optimal steps vs N ===
+N=   100 π=   25 E[optimal]=3.960000 log2(π)=4.643856
+N=   200 π=   46 E[optimal]=4.760870 log2(π)=5.523562
+N=   400 π=   78 E[optimal]=5.461538 log2(π)=6.285402
+N=   800 π=  139 E[optimal]=6.223022 log2(π)=7.118941
+N=  1600 π=  251 E[optimal]=7.015936 log2(π)=7.971544
+N=  3200 π=  452 E[optimal]=7.889381 log2(π)=8.820179
+N=  6400 π=  834 E[optimal]=8.785372 log2(π)=9.703904
+
+=== Expected binary search steps for larger N ===
+N=10^5: π=9592, log2(π)=13.227616
+N=10^6: π=78498, log2(π)=16.260368
+
+PE answer: 14.97696693

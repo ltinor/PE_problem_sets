@@ -1,0 +1,17 @@
+PE 742: Minimum area of a convex lattice polygon / 格点凸多边形的最小面积
+
+A(N) = minimum area of symmetrical convex lattice polygon with N vertices
+
+Known values:
+  N      A(N)
+     4           1
+     8           7
+    40        1039
+   100       17473
+  1000    18397727
+
+Small verification:
+  N=4:  Square of side 1, area = 1
+  N=8:  Octagon shape, area = 7
+
+PE answer: 18397727

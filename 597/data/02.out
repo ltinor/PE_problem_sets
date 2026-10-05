@@ -1,0 +1,5 @@
+Verifying known values:
+p(3,160) = 0.4148148148 (expected 56/135 ≈ 0.4148148148)
+p(4,400) = 0.5107843137 (expected 0.5107843137)
+
+Note: The PE answer format suggests F(13,1800) or similar, not p(13,1800).

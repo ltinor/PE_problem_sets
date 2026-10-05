@@ -1,0 +1,15 @@
+=== PE 836: A Message in a Mess ===
+
+=== Random String Analysis ===
+L=  5: "SVGEE" → cost = 93
+L= 10: "LWUSHECSYJ" → cost = 244
+L= 20: "WVBPGZOXBBFVZFZOMFBR"... → cost = 1166
+L= 50: "YNUKIOSPTBBVCNFEZYRKHFGMAUOGQEJBYRPVHQVORLHGXQDSLG"... → cost = 5281
+
+=== Letter Frequency Impact ===
+"ABCABC" → cost = 4
+"AAABBB" → cost = 0
+"XYZXYZ" → cost = 4
+"ZZZAAA" → cost = 225
+
+PE answer: aprilfoolsjoke

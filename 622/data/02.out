@@ -1,0 +1,4 @@
+Verifying PE 622 (riffle shuffles):
+s(52) = ord_51(2) = 8 (expected 8) ✓
+s(86) = ord_85(2) = 8 (expected 8) ✓
+Known: sum of n with s(n)=8 = 412 (n = 18, 52, 86, 256)

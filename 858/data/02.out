@@ -1,0 +1,20 @@
+PE 858: LCM / 最小公倍数
+
+=== Verification ===
+
+N= 1: brute G=       2 mod=         2 formula=2 ✓
+N= 2: brute G=       6 mod=         6 formula=6 ✓
+N= 3: brute G=      24 mod=        24 formula=36 ✗
+N= 4: brute G=      88 mod=        88 formula=204 ✗
+N= 5: brute G=     528 mod=       528 formula=2936 ✗
+N= 6: brute G=    1392 mod=      1392 formula=5912 ✗
+N= 7: brute G=   11136 mod=     11136 formula=106576 ✗
+N= 8: brute G=   41856 mod=     41856 formula=571792 ✗
+N= 9: brute G=  192192 mod=    192192 formula=4130656 ✗
+N=10: brute G=  516032 mod=    516032 formula=7944800 ✗
+
+N=20: G(20) mod M = 479497247 (brute G(20)=8463108648960)
+
+Computing G(800)... G(800) mod M = 907090926
+Expected answer (context): 973077199
+Note: 973077199 mod 1000000007 = 973077199

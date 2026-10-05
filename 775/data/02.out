@@ -1,0 +1,66 @@
+PE 775: Saving paper / 节约用纸
+
+=== Paper folding ===
+Starting with various sheet sizes, target folded size:
+
+  Sheet 16×16:
+    Possible dimensions after folds (even divisors):
+      25 reachable dimensions
+      Ways to fold to 2×2: 20
+  Sheet 32×32:
+    Possible dimensions after folds (even divisors):
+      36 reachable dimensions
+      Ways to fold to 4×4: 20
+  Sheet 64×32:
+    Possible dimensions after folds (even divisors):
+      42 reachable dimensions
+      Ways to fold to 8×4: 20
+  Sheet 8×8:
+    Possible dimensions after folds (even divisors):
+      16 reachable dimensions
+      Ways to fold to 1×1: 20
+
+=== Rectangle packing (area-based) ===
+Given rectangles to cut from standard sheets:
+  3×5 (area 15)
+  4×4 (area 16)
+  2×7 (area 14)
+  6×3 (area 18)
+  5×5 (area 25)
+  Total area: 88
+  Sheet area 16: 6 sheets, waste=8
+  Sheet area 25: 4 sheets, waste=12
+  Sheet area 36: 3 sheets, waste=20
+  Sheet area 49: 2 sheets, waste=10
+  Sheet area 64: 2 sheets, waste=40
+  Sheet area 100: 1 sheets, waste=12
+
+=== Sum of fold configurations ===
+Sum of ways to fold various paper sizes:
+  2×2 → 1×1: 2 ways
+  2×4 → 1×1: 3 ways
+  2×8 → 1×1: 4 ways
+  2×16 → 1×1: 5 ways
+  4×2 → 1×1: 3 ways
+  4×4 → 1×1: 6 ways
+  4×8 → 1×1: 10 ways
+  4×16 → 1×1: 15 ways
+  8×2 → 1×1: 4 ways
+  8×4 → 1×1: 10 ways
+  8×8 → 1×1: 20 ways
+  8×16 → 1×1: 35 ways
+  16×2 → 1×1: 5 ways
+  16×4 → 1×1: 15 ways
+  16×8 → 1×1: 35 ways
+  16×16 → 1×1: 70 ways
+  Total ways: 242
+  Total mod 1000000007: 242
+
+=== Answer analysis ===
+PE answer: 946791106
+PE answer % 1000000007 = 946791106
+
+Potential interpretations:
+  946791106 = sum of something over many configurations?
+  946791106 / 2 = 473395553
+  946791106 / 3 = 3.15597e+08

@@ -1,0 +1,4 @@
+Verifying PE 624 (two heads):
+P(2) mod 1e9+9 = 600000006 (expected 600000006)
+P(3) mod 1e9+9 = 548387102 (expected 548387102)
+Q(P(10^18), 1e9+9) = 984524441 (PE answer)

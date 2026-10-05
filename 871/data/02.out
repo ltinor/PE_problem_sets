@@ -1,0 +1,23 @@
+PE 871: Drilling / 钻孔
+
+=== Grid Path Counting ===
+  1×1 monotone paths (corner to corner): 2
+  2×2 monotone paths (corner to corner): 6
+  3×3 monotone paths (corner to corner): 20
+  4×4 monotone paths (corner to corner): 70
+  5×5 monotone paths (corner to corner): 252
+
+=== Drilling Sequence Counts ===
+  n= 1: drill_segment=1, catalan=1
+  n= 2: drill_segment=2, catalan=2
+  n= 3: drill_segment=4, catalan=5
+  n= 4: drill_segment=8, catalan=14
+  n= 5: drill_segment=16, catalan=42
+  n= 6: drill_segment=32, catalan=132
+  n= 7: drill_segment=64, catalan=429
+  n= 8: drill_segment=128, catalan=1430
+  n= 9: drill_segment=256, catalan=4862
+  n=10: drill_segment=512, catalan=16796
+
+=== PE Answer ===
+2848790

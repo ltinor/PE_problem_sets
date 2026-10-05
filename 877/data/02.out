@@ -1,0 +1,23 @@
+PE 877: XOR Problem / 异或问题
+
+=== XOR-product Examples ===
+7 ⊗ 3 = 9 (binary: 0000000000000111 ⊗ 0000000000000011 = 0000000000001001)
+3 ⊗ 7 = 9 (binary: 0000000000000011 ⊗ 0000000000000111 = 0000000000001001)
+5 ⊗ 5 = 17 (binary: 0000000000000101 ⊗ 0000000000000101 = 0000000000010001)
+11 ⊗ 13 = 127 (binary: 0000000000001011 ⊗ 0000000000001101 = 0000000001111111)
+15 ⊗ 15 = 85 (binary: 0000000000001111 ⊗ 0000000000001111 = 0000000001010101)
+
+Verification: 7 ⊗ 3 = 9 (expected 9) ✓
+
+=== Equation Solutions (small N) ===
+N=  5: X(N)=3 (XOR of b values)
+N= 10: X(N)=5 (XOR of b values)
+N= 20: X(N)=10 (XOR of b values)
+N= 50: X(N)=18 (XOR of b values)
+
+X(10) = 5 (expected 5) ✓
+
+=== Solution List (N=20) ===
+  (a= 0, b= 3)  lhs=5
+  (a= 3, b= 6)  lhs=5
+  (a= 6, b=15)  lhs=5

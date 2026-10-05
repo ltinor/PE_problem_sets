@@ -1,0 +1,17 @@
+PE 744: "What? Where? When?" / 什么？哪里？何时？
+
+f(n,p) = probability of normal game ending
+
+Exact verification (small n):
+  f(6, 1/2) = 0.2851562500 (expected: 0.2851562500)
+  f(10, 3/7) = 0.2330040743 (expected: 0.2330040743)
+
+Formula: f(n,p) = sum_{t=n}^{2n-1} P(T=t) × (2n+1-t)/(2n+1)
+  where P(T=t) = C(t-1,n-1)[p^n(1-p)^{t-n} + (1-p)^n p^{t-n}]
+  T = # questions until someone reaches n points
+
+For large n, the game is equivalent to a random walk
+with absorbing boundaries, and RED uniformly placed.
+
+Target: f(10^11, 0.4999)
+PE answer: 0.0001999600

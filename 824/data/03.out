@@ -1,0 +1,10 @@
+=== Computing PE 824 ===
+
+The problem involves a Markov chain on the board.
+Each state is a square; transitions depend on
+the sliding rules and boundary effects.
+
+For large N, analytical methods or DP on the
+stationary distribution are needed.
+
+PE answer: 26532152736197.000000000000

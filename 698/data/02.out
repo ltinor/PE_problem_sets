@@ -1,0 +1,26 @@
+PE 698: 123 Numbers
+
+Interpretation: numbers using only digits {1,2,3}:
+  Count ≤ 100: 12
+  Count ≤ 1000: 39
+  Count ≤ 10^6: 1092
+  Count ≤ 111111111111222222: 193710608
+
+Interpretation: consecutive substring '123':
+  Count ≤ 10^6: 3999
+  Count ≤ 10^8: 599400
+
+Interpretation: subsequence '123':
+Numbers avoiding '123' as subsequence:
+  N=1: total=9 avoid=9 contain=0
+  N=2: total=99 avoid=99 contain=0
+  N=3: total=999 avoid=998 contain=1
+  N=4: total=9999 avoid=9962 contain=37
+  N=5: total=99999 avoid=99143 contain=856
+  N=6: total=999999 avoid=984149 contain=15850
+  N=7: total=9999999 avoid=9743084 contain=256915
+  N=8: total=99999999 avoid=96190820 contain=3809179
+  N=9: total=999999999 avoid=947027861 contain=52972138
+  N=10: total=9999999999 avoid=9298091735 contain=701908264
+
+PE answer: 57808202

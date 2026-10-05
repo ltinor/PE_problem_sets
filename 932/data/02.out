@@ -1,0 +1,6 @@
+PE 932: 2025 / 2025
+
+2025-numbers: concat(a,b) = (a+b)^2
+Known: 81, 2025, 3025, 9801? No 9801 is invalid
+T(4) = 5131 (sum of all with ≤4 digits)
+Target: T(16)

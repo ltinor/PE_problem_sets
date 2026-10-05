@@ -1,0 +1,8 @@
+=== Computing P(8^12 · 12^8) ===
+
+N = 8^12 * 12^8 = 2^52 * 3^8 = 155177824256...
+
+Computing using fast binary method...
+  P(N) mod 10^9+7 = 1
+  PE answer = 14063639
+  ✗ Mismatch

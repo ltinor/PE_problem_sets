@@ -1,0 +1,24 @@
+PE 676: Matching Digit Sums
+
+Digit sum verification:
+  d(9,2)=2 (expect 2)
+  d(9,4)=3 (expect 2+1=3)
+  d(17,4)=2 (17=101_4 -> 1+0+1=2)
+  d(17,2)=2 (17=10001_2 -> 2)
+
+Using ds_pow2:
+  ds_pow2(9,1)=2 (=popcount, expect 2)
+  ds_pow2(9,2)=3 (base 4, expect 2+1=3)
+
+M verification (brute force):
+  M(10,8,2)=18 (expect 18)
+  M(100,8,2)=292 (expect 292)
+  M(10^6,8,2)=19173952 (expect 19173952)
+
+M using pow2 approach:
+  M_pow2(10,3,1)=18 (base 8 vs 2)
+  M_pow2(100,3,1)=292
+
+Digit DP test:
+  M_dp(100,3,1)=292
+  M_dp(1000,3,1)=4680

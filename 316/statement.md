@@ -55,4 +55,6 @@ $$S(D,K) = \sum_{n=2}^{U} g\left(\left\lfloor \frac{N}{n} \right\rfloor\right)$$
 ## 数据范围
 
 - $2 \le D \le 16$
-- $1 \le K \le \min(D, 6)$
+- $1 \le K \le \min(D, 6)$
+
+- 注：本题 data 由 std 实跑生成；原题全规模参数下 std 会超时，测试点采用可在时限内完成的缩小规模参数。

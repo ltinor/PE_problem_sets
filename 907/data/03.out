@@ -1,0 +1,27 @@
+=== PE 907: Stacking Cups Analysis ===
+
+Tower model: rooted tree. Each cup (except root)
+is stacked on exactly one parent below it.
+
+Stacking rules (below → above):
+  1. Nesting:     C_k(up) → C_{k+1}(up)     [diff=+1]
+  2. Base-to-base: C_k(down) → C_{k±2}(up)   [|diff|=2]
+  3. Rim-to-rim:   C_k(up) → C_{k±2}(down)   [|diff|=2]
+  Restriction: no double rim-to-rim on same cup
+
+=== Brute force for small n ===
+S(1) = 2
+S(2) = 1
+S(3) = 4
+S(4) = 9
+S(5) = 14
+
+=== Known values from problem ===
+S(4)  = 12
+S(8)  = 58
+S(20) = 5560
+
+=== Structure ===
+Cups of same parity (even/odd) interact via diff=2 rules.
+Adjacent cups interact via nesting.
+The recurrence can be solved via generating functions.

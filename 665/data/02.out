@@ -1,0 +1,4 @@
+PE 665: Proportionate Nim
+f(10) = 21 (expected 21) ✓
+f(100) = 1149 (expected 1164) ✗
+f(1000) = 116501 (expected 117002) ✗

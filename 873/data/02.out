@@ -1,0 +1,101 @@
+PE 873: Make it one / 变成1
+
+=== Minimum Steps to 1 ===
+  n : steps (path)
+   1:  0
+   2:  1
+   3:  2
+   4:  2
+   5:  3
+   6:  3
+   7:  4
+   8:  3
+   9:  4
+  10:  4
+  11:  5
+  12:  4
+  13:  5
+  14:  5
+  15:  5
+  16:  4
+  17:  5
+  18:  5
+  19:  6
+  20:  5
+
+=== DP Verification ===
+  All DP values match fast algorithm (n ≤ 100) ✓
+
+=== Cumulative Sums ===
+  N=     10: sum(min_steps) = 26
+  N=    100: sum(min_steps) = 668
+  N=   1000: sum(min_steps) = 11098
+  N=  10000: sum(min_steps) = 154732
+  N= 100000: sum(min_steps) = 1990921
+
+=== Bitwise Strategy Analysis (n ≤ 64) ===
+  n= 2 (000010)₂: 1 steps
+  n= 3 (000011)₂: 2 steps
+  n= 4 (000100)₂: 2 steps
+  n= 5 (000101)₂: 3 steps
+  n= 6 (000110)₂: 3 steps
+  n= 7 (000111)₂: 4 steps
+  n= 8 (001000)₂: 3 steps
+  n= 9 (001001)₂: 4 steps
+  n=10 (001010)₂: 4 steps
+  n=11 (001011)₂: 5 steps
+  n=12 (001100)₂: 4 steps
+  n=13 (001101)₂: 5 steps
+  n=14 (001110)₂: 5 steps
+  n=15 (001111)₂: 5 steps
+  n=16 (010000)₂: 4 steps
+  n=17 (010001)₂: 5 steps
+  n=18 (010010)₂: 5 steps
+  n=19 (010011)₂: 6 steps
+  n=20 (010100)₂: 5 steps
+  n=21 (010101)₂: 6 steps
+  n=22 (010110)₂: 6 steps
+  n=23 (010111)₂: 6 steps
+  n=24 (011000)₂: 5 steps
+  n=25 (011001)₂: 6 steps
+  n=26 (011010)₂: 6 steps
+  n=27 (011011)₂: 7 steps
+  n=28 (011100)₂: 6 steps
+  n=29 (011101)₂: 7 steps
+  n=30 (011110)₂: 6 steps
+  n=31 (011111)₂: 6 steps
+  n=32 (100000)₂: 5 steps
+  n=33 (100001)₂: 6 steps
+  n=34 (100010)₂: 6 steps
+  n=35 (100011)₂: 7 steps
+  n=36 (100100)₂: 6 steps
+  n=37 (100101)₂: 7 steps
+  n=38 (100110)₂: 7 steps
+  n=39 (100111)₂: 7 steps
+  n=40 (101000)₂: 6 steps
+  n=41 (101001)₂: 7 steps
+  n=42 (101010)₂: 7 steps
+  n=43 (101011)₂: 8 steps
+  n=44 (101100)₂: 7 steps
+  n=45 (101101)₂: 8 steps
+  n=46 (101110)₂: 7 steps
+  n=47 (101111)₂: 7 steps
+  n=48 (110000)₂: 6 steps
+  n=49 (110001)₂: 7 steps
+  n=50 (110010)₂: 7 steps
+  n=51 (110011)₂: 8 steps
+  n=52 (110100)₂: 7 steps
+  n=53 (110101)₂: 8 steps
+  n=54 (110110)₂: 8 steps
+  n=55 (110111)₂: 8 steps
+  n=56 (111000)₂: 7 steps
+  n=57 (111001)₂: 8 steps
+  n=58 (111010)₂: 8 steps
+  n=59 (111011)₂: 8 steps
+  n=60 (111100)₂: 7 steps
+  n=61 (111101)₂: 8 steps
+  n=62 (111110)₂: 7 steps
+  n=63 (111111)₂: 7 steps
+
+=== PE Answer ===
+735131856

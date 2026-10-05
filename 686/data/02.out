@@ -1,0 +1,5 @@
+PE 686: Powers of Two
+
+Verification:
+  p(123,1) = 90 (should be near 90)
+  p(123,45) = 12710 (expected: 12710)

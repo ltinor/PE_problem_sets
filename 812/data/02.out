@@ -1,0 +1,20 @@
+PE 812: Dynamical Polynomials / 动态多项式
+
+=== Problem Summary ===
+Dynamical polynomial: monic integer polynomial f(x)
+such that f(x) | f(x^2 - 2).
+
+=== Given values ===
+  S(2) = 6
+  S(5) = 58
+  S(20) = 122087
+
+=== Small degree computations ===
+  S(1) = 1
+  S(2) = 2 (expected 6) ✗
+  S(3) = 2
+  S(4) = 2
+  S(5) = 2 (expected 58) ✗
+
+=== PE Answer ===
+  S(10000) mod 998244353 = 986262698

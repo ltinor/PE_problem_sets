@@ -1,0 +1,28 @@
+PE 804: Count Binary Quadratic Representations / 二元二次型表示计数
+
+=== Definition ===
+Count representations of integers using a binary quadratic form
+f(x,y) = ax^2 + bxy + cy^2. Common special cases:
+  - x^2 + y^2 (sum of two squares)
+  - x^2 + Dy^2 (with specific D)
+  - Dx^2 + y^4 (mixed powers)
+  - 16x^2 + y^4 (a known PE variant)
+
+=== Small N verification ===
+Form: x^2 + y^2 (a=1, b=1):
+  N=10: 8 distinct representable numbers
+  N=25: 14 distinct representable numbers
+  N=50: 25 distinct representable numbers
+  N=100: 44 distinct representable numbers
+
+=== Form: x^2 + 2y^2 (a=1, b=2):
+  N=10: 8 distinct representable numbers
+  N=25: 17 distinct representable numbers
+  N=50: 29 distinct representable numbers
+
+=== Form: 16x^2 + y^4 (mixed powers):
+For N=1000:
+  Total (x,y) pairs with 16x^2+y^4 ≤ 1000: 44
+
+=== PE Answer ===
+Answer: 4921370551019052

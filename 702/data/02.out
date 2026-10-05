@@ -1,0 +1,92 @@
+PE 702: Jumping Flea
+
+Digit sums for small n:
+  S(1) = 1
+  S(2) = 2
+  S(3) = 3
+  S(4) = 4
+  S(5) = 5
+  S(6) = 6
+  S(7) = 7
+  S(8) = 8
+  S(9) = 9
+  S(10) = 1
+  S(11) = 2
+  S(12) = 3
+  S(13) = 4
+  S(14) = 5
+  S(15) = 6
+  S(16) = 7
+  S(17) = 8
+  S(18) = 9
+  S(19) = 10
+  S(20) = 2
+  S(21) = 3
+  S(22) = 4
+  S(23) = 5
+  S(24) = 6
+  S(25) = 7
+  S(26) = 8
+  S(27) = 9
+  S(28) = 10
+  S(29) = 11
+  S(30) = 3
+
+G(n) = n / S(n):
+  G(1) = 1/1 = 1
+  G(2) = 2/2 = 1
+  G(3) = 3/3 = 1
+  G(4) = 4/4 = 1
+  G(5) = 5/5 = 1
+  G(6) = 6/6 = 1
+  G(7) = 7/7 = 1
+  G(8) = 8/8 = 1
+  G(9) = 9/9 = 1
+  G(10) = 10/1 = 10
+  G(11) = 11/2 = 5 (non-integer)
+  G(12) = 12/3 = 4
+  G(13) = 13/4 = 3 (non-integer)
+  G(14) = 14/5 = 2 (non-integer)
+  G(15) = 15/6 = 2 (non-integer)
+  G(16) = 16/7 = 2 (non-integer)
+  G(17) = 17/8 = 2 (non-integer)
+  G(18) = 18/9 = 2
+  G(19) = 19/10 = 1 (non-integer)
+  G(20) = 20/2 = 10
+  G(21) = 21/3 = 7
+  G(22) = 22/4 = 5 (non-integer)
+  G(23) = 23/5 = 4 (non-integer)
+  G(24) = 24/6 = 4
+  G(25) = 25/7 = 3 (non-integer)
+  G(26) = 26/8 = 3 (non-integer)
+  G(27) = 27/9 = 3
+  G(28) = 28/10 = 2 (non-integer)
+  G(29) = 29/11 = 2 (non-integer)
+  G(30) = 30/3 = 10
+  G(31) = 31/4 = 7 (non-integer)
+  G(32) = 32/5 = 6 (non-integer)
+  G(33) = 33/6 = 5 (non-integer)
+  G(34) = 34/7 = 4 (non-integer)
+  G(35) = 35/8 = 4 (non-integer)
+  G(36) = 36/9 = 4
+  G(37) = 37/10 = 3 (non-integer)
+  G(38) = 38/11 = 3 (non-integer)
+  G(39) = 39/12 = 3 (non-integer)
+  G(40) = 40/4 = 10
+  G(41) = 41/5 = 8 (non-integer)
+  G(42) = 42/6 = 7
+  G(43) = 43/7 = 6 (non-integer)
+  G(44) = 44/8 = 5 (non-integer)
+  G(45) = 45/9 = 5
+  G(46) = 46/10 = 4 (non-integer)
+  G(47) = 47/11 = 4 (non-integer)
+  G(48) = 48/12 = 4
+  G(49) = 49/13 = 3 (non-integer)
+  G(50) = 50/5 = 10
+
+Forward reachable from 1 (limit 1000):
+  First unreachable: 3
+  Reachable count up to 10000: 1671
+  Sum of unreachable: 41934294
+
+PE answer: 622305608172525546

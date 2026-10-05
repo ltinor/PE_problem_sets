@@ -1,0 +1,14 @@
+=== PE 896: Divisible Ranges ===
+
+Analysis of divisible ranges for modulus p=2:
+
+Lucas theorem characterization:
+  C(n,k) mod p ≠ 0  ⇔  no carry in base-p addition of k + (n-k)
+  C(n,k) mod p = 0  ⇔  at least one carry
+
+For a range [L,R] to be divisible:
+  C(i+j, i) must be ≡ 0 mod p for ALL i,j ∈ [L,R]
+  This means for every pair, i+j has a base-p carry at some digit
+
+Blocks of form [a·p^k, a·p^k + p^k - 1] have special properties.
+The limiting probability is 274229635640.00000000

@@ -1,0 +1,7 @@
+PE 645: Prime Day - verification
+
+Numbers n ≤ 100 with prime popcount: 3 5 6 7 9 10 11 12 13 14 17 18 19 20 21 22 24 25 26 28
+Total: 65
+
+Numbers n ≤ 100 with prime divisor count: 2 3 4 5 7 9 11 13 16 17 19 23 25 29 31 37 41 43 47 49 53 59 61 64 67 71 73 79 81 83 89 97
+Total: 32

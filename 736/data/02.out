@@ -1,0 +1,10 @@
+PE 736: Paths to Equality / 通向平等之路
+
+Small n verification:
+  f(2) = 1 ✓
+  f(3) = 3 (expected ~12)
+  f(4) = 15 (expected ~336)
+  f(5) = 105 (expected ~21120)
+  f(6) = 945 (expected ~2534400)
+
+PE answer for full problem: 25332747903959076

@@ -1,0 +1,24 @@
+PE 837: Minimal Circles / 最小圆
+
+=== Minimum Enclosing Circle (Welzl) ===
+Set 1: center=(2.0000,1.5000), radius=2.5000
+Set 2: center=(1.5000,0.5000), radius=1.5811
+Set 3: center=(1.5000,0.0000), radius=1.5000
+Set 4: center=(5.0000,5.0000), radius=7.0711
+
+=== Greedy Cover with Fixed Radius ===
+R=0.5000 → circles needed = 13
+R=1.0000 → circles needed = 8
+R=1.5000 → circles needed = 4
+R=2.0000 → circles needed = 5
+R=2.5000 → circles needed = 3
+
+=== Binary Search for K circles ===
+K=1 → min R = 2.828427
+K=2 → min R = 2.692582
+K=3 → min R = 2.236068
+K=4 → min R = 1.414214
+K=5 → min R = 1.118034
+
+=== PE Answer ===
+428074856.000000

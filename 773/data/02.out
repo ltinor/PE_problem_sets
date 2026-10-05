@@ -1,0 +1,44 @@
+PE 773: Ruffled numbers / 褶皱数
+
+=== Ruffled numbers (2-4 digits) ===
+Numbers with alternating up-down or down-up digits:
+
+  2-digit ruffled numbers: 81 total
+    List: 10 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 34 35 36 37 38 39 40 41 42 43 45 46 47 48 49 50 51 52 53 54 56 57 58 59 60 61 62 63 64 65 67 68 69 70 71 72 73 74 75 76 78 79 80 81 82 83 84 85 86 87 89 90 91 92 93 94 95 96 97 98
+    Sum: 4410 (mod 1000000007: 4410)
+
+  3-digit ruffled numbers: 525 total
+    First 15: 101 102 103 104 105 106 107 108 109 120 121 130 131 132 140
+    Last 5: 968 969 978 979 989
+    Sum: 281745 (mod 1000000007: 281745)
+
+  4-digit ruffled numbers: 3105 total
+    First 15: 1010 1020 1021 1030 1031 1032 1040 1041 1042 1043 1050 1051 1052 1053 1054
+    Last 5: 9894 9895 9896 9897 9898
+    Sum: 16771710 (mod 1000000007: 16771710)
+
+=== DP-based enumeration ===
+  Up to 2 digits: count=81 sum=4410 sum%MOD=4410
+  Up to 3 digits: count=606 sum=286155 sum%MOD=286155
+  Up to 4 digits: count=3711 sum=17057865 sum%MOD=17057865
+  Up to 5 digits: count=22650 sum=1037941500 sum%MOD=37941493
+  Up to 6 digits: count=137031 sum=62734853622 sum%MOD=734853188
+  Up to 7 digits: count=830160 sum=3800598540951 sum%MOD=598514351
+
+=== Answer analysis ===
+PE answer: 556206950
+PE answer % 1000000007 = 556206950
+
+Checking if 556206950 is a count or sum...
+  2 digits: count=81 sum=4410
+  3 digits: count=606 sum=286155
+  4 digits: count=3711 sum=17057865
+  5 digits: count=22650 sum=1037941500
+  6 digits: count=137031 sum=62734853622
+  7 digits: count=830160 sum=3800598540951
+  8 digits: count=5025717 sum=230073149241795
+  9 digits: count=30431303 sum=13931325200446383
+  10 digits: count=184251698 sum=843493027295129951
+
+=== Variant: Ruffled with possible equal neighbors ===
+If we allow d₀≤d₁≥d₂≤d₃≥... (non-strict):

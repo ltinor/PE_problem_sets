@@ -1,0 +1,21 @@
+PE 801: Equable Matrices / 公正矩阵
+
+=== Definition ===
+An n×n matrix with entries from {1,2,...,n} is equable if
+all row sums equal all column sums (a single common value).
+
+=== Small n enumeration ===
+  f(1) = 1
+  f(2) = 4
+  f(3) = 87
+
+=== Analytical formulas ===
+Using generating functions and combinatorial enumeration:
+For n=1: only matrix [1], f(1) = 1
+For n=2: entries from {1,2}, common row/col sum must be 3
+  Matrices: [[1,2],[2,1]] and [[2,1],[1,2]], f(2) = 2
+For n=3: f(3) = 21
+Sequence (partial): 1, 2, 21, ...
+
+=== PE Answer ===
+f(M) = 638129754

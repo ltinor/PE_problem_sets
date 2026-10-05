@@ -1,0 +1,17 @@
+=== PE 850: Fractions of Powers ===
+
+Computing power fraction statistics...
+
+Distinct reduced fractions for increasing bounds:
+  base ≤ 5, exp ≤ 2: 49 distinct fractions ≤ 100
+  base ≤ 5, exp ≤ 3: 102 distinct fractions ≤ 100
+  base ≤ 8, exp ≤ 3: 248 distinct fractions ≤ 100
+  base ≤ 10, exp ≤ 3: 373 distinct fractions ≤ 100
+
+Floor sums for various (a,b) pairs:
+  Σ_{k=1}^{10} floor(2^k / 3) = 677
+  Σ_{k=1}^{10} floor(3^k / 2) = 44281
+  Σ_{k=1}^{10} floor(2^k / 5) = 404
+  Σ_{k=1}^{10} floor(5^k / 2) = 6103510
+
+PE answer: 878255725

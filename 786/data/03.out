@@ -1,0 +1,36 @@
+=== Billiard: Analysis ===
+
+PE answer: 45594532839912702
+
+Factorizing 45594532839912702:
+  2 3 7599088806652117
+
+=== Cumulative sums over table dimensions ===
+  N= 1: total_hits=           0  total_sq=             1
+  N= 2: total_hits=           2  total_sq=             8
+  N= 3: total_hits=          14  total_sq=            32
+  N= 4: total_hits=          44  total_sq=            88
+  N= 5: total_hits=         118  total_sq=           201
+  N= 6: total_hits=         232  total_sq=           392
+  N= 7: total_hits=         448  total_sq=           704
+  N= 8: total_hits=         762  total_sq=          1168
+  N= 9: total_hits=        1224  total_sq=          1833
+  N=10: total_hits=        1836  total_sq=          2744
+  N=11: total_hits=        2738  total_sq=          3976
+  N=12: total_hits=        3824  total_sq=          5560
+  N=13: total_hits=        5330  total_sq=          7601
+  N=14: total_hits=        7168  total_sq=         10152
+  N=15: total_hits=        9388  total_sq=         13288
+  N=16: total_hits=       12058  total_sq=         17096
+  N=17: total_hits=       15480  total_sq=         21705
+  N=18: total_hits=       19380  total_sq=         27160
+  N=19: total_hits=       24234  total_sq=         33624
+  N=20: total_hits=       29702  total_sq=         41144
+
+=== Billiard path length analysis ===
+
+=== Possible problem interpretations ===
+  1. Sum of wall hits over all a,b ≤ N for some N
+  2. Number of distinct billiard trajectories with property
+  3. Count of pairs (a,b) where ball returns after exactly k bounces
+  4. Sum of lcm(a,b) or a+b-gcd(a,b) over a range

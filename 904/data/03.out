@@ -1,0 +1,19 @@
+=== PE 904: Asymptotic Analysis ===
+
+The total contribution from each (m,n) pair:
+  θ = arcsin((m²-n²)/(m²+n²))
+
+For large m ≫ n, θ ≈ π/2 - n/m (small angle from π/2)
+For m ≈ n, θ ≈ arcsin(0) ≈ 0
+
+Distribution of angles:
+  - θ ranges from 0 to π/2 (exclusive)
+  - Dense near 0 and near π/2
+  - floor(10⁶·θ) ranges from 0 to 1570796
+
+The number of primitive triples with c ≤ N is ~N/(2π)
+by Lehmer's asymptotic formula, giving approximately
+N/(2π) terms in the sum.
+
+For N=10⁶, approximately 159,155 primitive triples contribute.
+The sum modulo 10⁹ gives the answer.

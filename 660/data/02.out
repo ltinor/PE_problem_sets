@@ -1,0 +1,17 @@
+PE 660: Pandigital triangles
+
+Example: triangle (217, 248, 403)
+  120° check: c=403 (expected 403) ✓
+  9-pandigital: ✓
+  Base 9: 217=261_9, 248=305_9, 403=487_9
+
+Searching for 9-pandigital triangles:
+  Generated 2177895 triangles with c ≤ 1000000
+  Found 9-pandigital: (217, 248, 403)
+  Found 9-pandigital: (104, 621, 679)
+
+Testing small n values:
+  n=3: none found (up to c=27)
+  n=4: none found (up to c=256)
+  n=5: none found (up to c=625)
+  n=6: none found (up to c=7776)

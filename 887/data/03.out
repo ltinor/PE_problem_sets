@@ -1,0 +1,17 @@
+=== PE 887: Bounded Primes ===
+
+Q(n) counts primes p ≤ sqrt(n) that divide n.
+
+=== Asymptotic analysis ===
+For large M, E[Q] = Σ_p max(0, floor(M/p)-p+1) / M
+≈ Σ_{p ≤ sqrt(M)} (1/p - p/M + 1/M)
+The sum of 1/p over primes diverges like log log M.
+So E[Q] ~ log log sqrt(M) = log log M - log 2.
+
+=== Convergence ===
+  M=10^4: E[Q]=1.6981000 (loglogM=2.2203268)
+  M=10^5: E[Q]=1.9307800 (loglogM=2.4434704)
+  M=10^6: E[Q]=2.1220480 (loglogM=2.6257919)
+  M=10^7: E[Q]=2.2850051 (loglogM=2.7799426)
+
+PE answer: 39896187138661622

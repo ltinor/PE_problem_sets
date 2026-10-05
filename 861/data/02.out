@@ -1,0 +1,50 @@
+PE 861: Products of Divisors / 约数乘积
+
+=== Divisor counts for small n ===
+d( 1) = 1
+d( 2) = 2
+d( 3) = 2
+d( 4) = 3
+d( 5) = 2
+d( 6) = 4
+d( 7) = 2
+d( 8) = 4
+d( 9) = 3
+d(10) = 4
+d(11) = 2
+d(12) = 6
+d(13) = 2
+d(14) = 4
+d(15) = 4
+d(16) = 5
+d(17) = 2
+d(18) = 6
+d(19) = 2
+d(20) = 6
+
+=== Products of divisors (small n) ===
+P( 1) = 1 (via n^{d/2} = 1) ✓
+P( 2) = 2 (via n^{d/2} = 2) ✓
+P( 3) = 3 (via n^{d/2} = 3) ✓
+P( 4) = 8 (via n^{d/2} = 4) ✗
+P( 5) = 5 (via n^{d/2} = 5) ✓
+P( 6) = 36 (via n^{d/2} = 36) ✓
+P( 7) = 7 (via n^{d/2} = 7) ✓
+P( 8) = 64 (via n^{d/2} = 64) ✓
+P( 9) = 27 (via n^{d/2} = 9) ✗
+P(10) = 100 (via n^{d/2} = 100) ✓
+P(11) = 11 (via n^{d/2} = 11) ✓
+P(12) = 1728 (via n^{d/2} = 1728) ✓
+
+=== Sum of divisor products mod 1e9+7 ===
+S( 10) mod 1e9+7 = 231 (sieve: 231) ✓
+S( 50) mod 1e9+7 = 263680819 (sieve: 263680819) ✓
+S(100) mod 1e9+7 = 270291263 (sieve: 270291263) ✓
+
+=== Divisor count sieve first 30 ===
+  1  2  2  3  2  4  2  4  3  4
+  2  6  2  4  4  5  2  6  2  6
+  4  4  2  8  3  4  4  6  2  8
+
+=== PE Answer ===
+672623540591

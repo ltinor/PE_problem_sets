@@ -1,0 +1,13 @@
+=== PE 829: Integral Fusion ===
+
+Computing fused integrals for various parameters...
+
+Searching for integer-valued fused integrals...
+Sum of a!b! for 0≤a,b≤5: 23716
+
+=== Fusion with logarithms ===
+∫_0^1 x^a (1-x)^b (-ln x)^c dx
+For integer a,b,c, this equals:
+c! · Σ_{k=0}^{b} (-1)^k C(b,k) / (a+k+1)^(c+1)
+
+PE answer: 41768797657018024

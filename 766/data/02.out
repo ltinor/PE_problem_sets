@@ -1,0 +1,54 @@
+PE 766: Sliding Block Puzzle / 滑块拼图
+
+=== 2×2 board ===
+
+1 block at (0,0):
+  Reachable configurations: 4
+  Max distance: 2
+  Configs at max distance: 1
+  Sum of distances: 4
+
+2 blocks at (0,0) and (0,1):
+  Reachable configurations: 6
+  Max distance: 2
+  Configs at max distance: 3
+  Sum of distances: 8
+
+2 blocks at (0,0) and (1,1):
+  Reachable configurations: 6
+  Max distance: 2
+  Configs at max distance: 1
+  Sum of distances: 6
+
+  Total possible configurations: 16
+
+=== 3×3 board ===
+
+1 block at (0,0):
+  Reachable configurations: 4
+  Max distance: 2
+  Configs at max distance: 1
+  Sum of distances: 4
+
+2 blocks at (0,0) and (0,1):
+  Reachable configurations: 22
+  Max distance: 4
+  Configs at max distance: 6
+  Sum of distances: 56
+
+2 blocks at (0,0) and (1,1):
+  Reachable configurations: 26
+  Max distance: 3
+  Configs at max distance: 7
+  Sum of distances: 51
+
+  Total possible configurations: 512
+
+=== Pattern analysis ===
+For an n×n board, the sliding block puzzle has interesting
+combinatorial structure. Each slide is reversible, so the
+reachable state space forms an undirected graph.
+
+PE answer: 2613742
+Factorization: 2613742 = 2 × 5² × 522748843
+                      = 50 × 522748843

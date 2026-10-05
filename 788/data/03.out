@@ -1,0 +1,27 @@
+=== Dominating numbers: Analysis ===
+
+PE answer: 471745499
+
+Factorizing 471745499:
+  1531 308129
+
+=== Count of dominating numbers up to 10^k ===
+  N=10^1=        10: count=             9
+  N=10^2=       100: count=            19
+  N=10^3=      1000: count=           271
+  N=10^4=     10000: count=           604
+  N=10^5=    100000: count=          8308
+  N=10^6=   1000000: count=         19738
+  N=10^7=  10000000: count=        265258
+
+=== Sum of dominating numbers up to 10^k ===
+  N=10^1: sum=              45
+  N=10^2: sum=             640
+  N=10^3: sum=          140410
+  N=10^4: sum=         1989235
+  N=10^5: sum=       426875275
+
+=== Answer analysis ===
+  471745499 is between 10^8 and 10^9.
+  It could be the count of dominating numbers up to 10^k for some k,
+  or the sum of dominating numbers with certain properties.

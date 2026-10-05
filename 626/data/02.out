@@ -1,0 +1,5 @@
+Verifying PE 626 (Counting Binary Matrices):
+c(3) = 3 (expected 3) ✓
+c(5) = 39 (expected 39) ✓
+c(8) = 656108 (expected 656108) ✓
+All checks passed!

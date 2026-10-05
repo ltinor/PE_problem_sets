@@ -1,0 +1,19 @@
+Triangular grid triangle sums:
+  N=1: triangles=1 cumulative=1
+  N=2: triangles=5 cumulative=6
+  N=3: triangles=13 cumulative=19
+  N=4: triangles=27 cumulative=46
+  N=5: triangles=48 cumulative=94
+  N=6: triangles=78 cumulative=172
+  N=7: triangles=118 cumulative=290
+  N=8: triangles=170 cumulative=460
+  N=9: triangles=235 cumulative=695
+  N=10: triangles=315 cumulative=1010
+  N=50: triangles=32825 cumulative=433550
+  N=100: triangles=256275 cumulative=6588350
+  N=150: triangles=857850 cumulative=32776900
+  N=200: triangles=2025050 cumulative=102686700
+  N=250: triangles=3945375 cumulative=249380250
+  N=300: triangles=6806325 cumulative=515295050
+Final sum for N=300: 515295050
+PE answer: 681813395

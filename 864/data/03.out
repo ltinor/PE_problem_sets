@@ -1,0 +1,43 @@
+=== PE 864: Square + 1 ===
+
+=== n^2+1 prime distribution ===
+N=10^1: count=5, density=0.500000
+N=10^2: count=19, density=0.190000
+N=10^3: count=112, density=0.112000
+N=10^4: count=841, density=0.084100
+N=10^5: count=6656, density=0.066560
+
+=== n^2+1 factorization patterns ===
+Showing n where n^2+1 has ≤ 3 prime factors:
+n= 1: 2 (1 prime factors)
+n= 2: 5 (1 prime factors)
+n= 3: 10 (2 prime factors)
+n= 4: 17 (1 prime factors)
+n= 5: 26 (2 prime factors)
+n= 6: 37 (1 prime factors)
+n= 7: 50 (3 prime factors)
+n= 8: 65 (2 prime factors)
+n= 9: 82 (2 prime factors)
+n=10: 101 (1 prime factors)
+n=11: 122 (2 prime factors)
+n=12: 145 (2 prime factors)
+n=13: 170 (3 prime factors)
+n=14: 197 (1 prime factors)
+n=15: 226 (2 prime factors)
+n=16: 257 (1 prime factors)
+n=17: 290 (3 prime factors)
+n=18: 325 (3 prime factors)
+n=19: 362 (2 prime factors)
+n=20: 401 (1 prime factors)
+n=21: 442 (3 prime factors)
+n=22: 485 (2 prime factors)
+n=23: 530 (3 prime factors)
+n=24: 577 (1 prime factors)
+n=25: 626 (2 prime factors)
+n=26: 677 (1 prime factors)
+n=27: 730 (3 prime factors)
+n=28: 785 (2 prime factors)
+n=29: 842 (2 prime factors)
+n=30: 901 (2 prime factors)
+
+PE answer: 110572936177

@@ -1,0 +1,21 @@
+=== PE 835: Supernatural Numbers ===
+
+Exploring supernatural number counting...
+
+=== Growth Analysis ===
+Total(N) = Σ_{n=1}^{N} 2^{π(N)-ω(n)}
+       = 2^{π(N)} · Σ_{n=1}^{N} 2^{-ω(n)}
+Average 2^{-ω(n)} ≈ Π_{p≤N} (1 + 1/(2p-2)) ≈ const/log N?
+
+  N=  50: π(N)= 15, count=614400 (≈ 2^19.23)
+  N= 100: π(N)= 25, count=124073465 (≈ 2^26.89)
+  N= 200: π(N)= 46, count=15514498 (≈ 2^23.89)
+  N= 500: π(N)= 95, count=330910342 (≈ 2^28.30)
+
+=== Supernatural LCM/GCD ===
+For supernatural numbers A = 2^∞ · 3^3 and B = 2^2 · 3^∞:
+  lcm(A,B) = 2^∞ · 3^∞
+  gcd(A,B) = 2^2 · 3^3
+  A·B = 2^∞ · 3^∞ (since ∞ + anything = ∞)
+
+PE answer: 1050923942

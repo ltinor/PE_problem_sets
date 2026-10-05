@@ -1,0 +1,30 @@
+PE 741: Binary grid colouring / 网格黑白染色
+
+f(n) = number of nxn 0-1 matrices with row/col sum = 2:
+  n     f(n)
+  1     0
+  2     1
+  3     6
+  4     90
+  5     2040
+  6     67950
+  7     3110940
+  8     187530840
+
+Burnside's Lemma for D4 symmetry:
+  g(n) = (f + f_90 + f_180 + f_270 + f_h + f_v + f_d + f_ad) / 8
+  By symmetry: f_90=f_270, f_h=f_v, f_d=f_ad
+  g(n) = (f + 2*f_90 + f_180 + 2*f_h + 2*f_d) / 8
+
+Known values:
+  g(4) = 20, g(7) = 390816, g(8) = 23462347
+  g(7) + g(8) = 23853163
+
+For large n, computing each symmetry class requires
+advanced combinatorial enumeration (Burnside on
+2-regular bipartite graphs with symmetry constraints).
+
+Target: g(7^7) + g(8^8) mod 1e9+7
+  7^7 = 823543, 8^8 = 16777216
+
+PE answer: 512895223

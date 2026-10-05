@@ -1,0 +1,10 @@
+=== Small Deck Verification ===
+
+N=2 (1 rank×2): E = 3.000000000000 (expected 2)
+N=4 (2 ranks×2): E = 3.000000000000
+N=6 (3 ranks×2): E = 4.200000000000
+N=4 (1 rank×4): E = 2.000000000000 (expected 2, always pair)
+
+=== Full Deck (52 cards) ===
+Expected draws = 17.096615010101
+Rounded to 8 decimal places: 17.09661501

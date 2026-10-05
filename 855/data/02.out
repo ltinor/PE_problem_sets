@@ -1,0 +1,46 @@
+PE 855: Delphi Paper / 德尔斐纸
+
+=== Problem Interpretation ===
+Paper folding (origami) problem. A strip of paper
+is folded in half repeatedly. The crease pattern
+forms the regular paperfolding sequence.
+
+=== Paper Folding Sequence ===
+Position k (1-indexed): 1=mountain, 0=valley
+First 32 positions:
+11011001110010011101100011001001
+
+=== Sequence After N Folds ===
+After 1 fold(s) (1 creases): 1  [mountains=1, valleys=0]
+After 2 fold(s) (3 creases): 110  [mountains=2, valleys=1]
+After 3 fold(s) (7 creases): 1101100  [mountains=4, valleys=3]
+After 4 fold(s) (15 creases): 110110011100100  [mountains=8, valleys=7]
+
+=== Properties ===
+1. a(2n) = a(n) — even positions copy earlier values
+2. a(4n+1) = 1 — positions 1,5,9,13,... are mountains
+3. a(4n+3) = 0 — positions 3,7,11,15,... are valleys
+
+=== Verification of Properties ===
+All properties hold for n ≤ 16
+
+=== Mountain Count ===
+N	Mountains	M/N
+10	7		0.7000
+20	12		0.6000
+50	27		0.5400
+100	52		0.5200
+200	102		0.5100
+500	252		0.5040
+1000	502		0.5020
+
+=== Dragon Curve Connection ===
+The Heighway dragon curve is formed by folding paper
+repeatedly and making 90° turns according to the
+paperfolding sequence. Mountain = right turn (90° CW),
+Valley = left turn (90° CCW).
+First 16 turns:
+(0,0) → (0,1) → (-1,1) → (-1,2) → (-2,2) → (-2,1) → (-3,1) → (-3,2) → (-4,2) → (-4,1) → (-3,1) → (-3,0) → (-4,0) → (-4,-1) → (-5,-1) → (-5,0)
+
+=== PE Answer ===
+6.8827571976e-57

@@ -1,0 +1,18 @@
+=== PE 828: Numbers Challenge ===
+
+Computing achievable values for N=1..6:
+N=1: count=1, sum=1
+N=2: count=3, sum=6
+N=3: count=10, sum=45
+N=4: count=32, sum=504
+N=5: count=122, sum=7927
+N=6: count=543, sum=162991
+
+=== With Concatenation (N=1..4) ===
+When digit concatenation is allowed (e.g., 1,2 → 12):
+N=1: 1 achievable values
+N=2: 3 achievable values
+N=3: 10 achievable values
+N=4: 32 achievable values
+
+PE answer: 148693670

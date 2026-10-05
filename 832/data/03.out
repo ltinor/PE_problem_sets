@@ -1,0 +1,24 @@
+=== PE 832: Totem Tiling ===
+
+Computing T-tetromino tilings for various boards...
+
+Width = 2:
+  2×2 = 0
+  4×2 = 0
+  6×2 = 0
+Width = 3:
+  4×3 = 0
+Width = 4:
+  2×4 = 0
+  3×4 = 0
+  4×4 = 0
+  5×4 = 0
+  6×4 = 0
+Width = 5:
+  4×5 = 0
+Width = 6:
+  2×6 = 0
+  4×6 = 0
+  6×6 = 0
+
+PE answer: 552839586

@@ -1,0 +1,35 @@
+PE 872: Recursive tree / 递推树
+
+=== Divisor Tree (largest proper divisor parent) ===
+  N= 10: sum(depths) = 15
+  N= 20: sum(depths) = 36
+  N= 50: sum(depths) = 108
+
+=== Prime Factor Tree ===
+  N= 10: sum(depths) = 15
+  N= 20: sum(depths) = 36
+  N= 50: sum(depths) = 108
+
+=== Subtree Size Sums ===
+  N= 10: sum = 25
+  N= 20: sum = 56
+  N= 50: sum = 158
+  N=100: sum = 339
+
+=== Recursive Tree Function Values ===
+  N= 10: sum(val) = 75
+  N= 20: sum(val) = 253
+  N= 50: sum(val) = 1410
+  N=100: sum(val) = 5346
+
+=== Depth Distribution (N=100) ===
+  depth 0: 1 nodes
+  depth 1: 25 nodes
+  depth 2: 34 nodes
+  depth 3: 22 nodes
+  depth 4: 12 nodes
+  depth 5: 4 nodes
+  depth 6: 2 nodes
+
+=== PE Answer ===
+2903144925319290239

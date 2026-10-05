@@ -1,0 +1,41 @@
+=== Advanced prime factor analysis ===
+
+Euler's totient function φ(n) = n × ∏(1 - 1/p):
+  φ(1) = 1
+  φ(2) = 1
+  φ(3) = 2
+  φ(4) = 2
+  φ(5) = 4
+  φ(6) = 2
+  φ(7) = 6
+  φ(8) = 4
+  φ(9) = 6
+  φ(10) = 4
+  φ(11) = 10
+  φ(12) = 4
+  φ(13) = 12
+  φ(14) = 6
+  φ(15) = 8
+  φ(16) = 8
+  φ(17) = 16
+  φ(18) = 6
+  φ(19) = 18
+  φ(20) = 8
+
+=== Mertens function M(x) = Σ μ(n) ===
+  M(100) = 1
+  M(500) = -6
+  M(1000) = 2
+  M(2000) = 5
+  M(5000) = 2
+
+=== Answer analysis ===
+PE answer: 0.54732610
+  This resembles: γ (Euler-Mascheroni) = 0.57721566...
+  Difference: 0.02988956
+  6/π² = 0.60792710
+  log(4/π) = 0.24156448
+  Artin's constant = 0.37395581 (product)
+
+  lim_{N→∞} avg(ω(n)/Ω(n)):
+    N=100000: 0.85484328

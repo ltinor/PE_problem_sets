@@ -1,0 +1,30 @@
+PE 822: Square the Smallest / 最小平方
+
+=== Problem Summary ===
+Start with list: 2, 3, 4, ..., m+1
+Repeat n times: replace smallest element with its square.
+S(m, n) = sum of list after n operations.
+
+=== Small verification ===
+  m=2, n=0 (no operations):
+    List: [2, 3] → sum = 5
+    Computed: 5
+
+  m=2, n=1 (square the 2):
+    Step 1: 2→4, list: [3, 4] → sum = 7
+    Computed: 7
+
+  m=2, n=2 (square the 3):
+    Step 1: 2→4, list: [3, 4]
+    Step 2: 3→9, list: [4, 9] → sum = 13
+    Computed: 13
+
+  m=3, n=1 (list: 2,3,4, square 2→4):
+    List: [3, 4, 4] → sum = 11
+    Computed: 11
+
+  m=3, n=3:
+    Computed: 29
+
+=== PE Answer ===
+  S(10^4, 10^16) = 950591530

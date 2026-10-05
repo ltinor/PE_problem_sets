@@ -1,0 +1,20 @@
+PE 677: Coloured Graphs
+
+Small n verification:
+  g(1) = 3 (expect 3? actually PE doesn't give g(1))
+  g(2) = 5 (expect 5)
+  g(3) = 15 (expect 15)
+  g(4) = 57 (expect 57)
+
+Known values:
+  g(2) = 5
+  g(3) = 15
+  g(4) = 57
+  g(10) = 710249
+  g(100) ≡ 919747298 (mod 1000000007)
+
+Tree shape analysis:
+  n=1: 1 node (3 colors) = 3
+  n=2: edge, 2 symmetric nodes -> 5 colorings
+  n=3: path, center vs leaves -> 15 colorings
+  n=4: 2 shapes (path + star) -> 57 colorings

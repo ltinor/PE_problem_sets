@@ -1,0 +1,8 @@
+PE 860: Gold and Silver Coin Game / 金银硬币游戏
+
+=== Game Analysis ===
+
+F(2) = 4 (given)
+F(10) = 63594 (given)
+
+F(9898) mod 989898989 = 958666903

@@ -1,0 +1,20 @@
+=== PE 890: Clock II ===
+
+Extended clock problem beyond basic hand angles.
+
+=== Hand speed analysis ===
+  Hour hand:   360° / 12h = 30°/h = 0.5°/min = 1/120 °/s
+  Minute hand:  360° / 1h  = 6°/min = 0.1°/s
+  Second hand:  360° / 1min = 6°/s
+  Relative speed (min-hr): 5.5°/min
+
+=== Period of angle repetition ===
+  Period = 360/5.5 = 720/11 ≈ 65.4545... minutes
+  In 12h (720min): 720 / (720/11) = 11 full cycles
+
+=== Three-hand configurations ===
+  All three hands coincide: only at 12:00:00
+  Hour = Minute: 11 times in 12 hours
+  Minute = Second: 708 times in 12 hours
+
+PE answer: 820442179

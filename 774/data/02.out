@@ -1,0 +1,52 @@
+PE 774: Conjunctive sequences / 合取序列
+
+=== Digit concatenation sequences ===
+Type 1: a_n = concat(a_{n-2}, a_{n-1})
+  Seeds (1,2): 1 2 12 212 12212 21212212 1221221212212 9207936410416144436
+  Seeds (1,1): 1 1 11 111 11111 11111111 1111111111111 430646668853801415
+  Seeds (2,3): 2 3 23 323 23323 32323323 2332332323323 -8808160994439605765
+  Seeds (9,8): 9 8 98 898 98898 89898898 9889889898898 -4901469721878130286
+
+Type 2: a_n = concat(a_{n-1}, a_{n-2})
+  Seeds (1,2): 1 2 21 212 21221 21221212 2122121221221 -9148806762393398180
+  Seeds (1,1): 1 1 11 111 11111 11111111 1111111111111 430646668853801415
+  Seeds (2,3): 2 3 32 323 32332 32332323 3233232332332 -8718160093539596765
+  Seeds (9,8): 9 8 89 898 89889 89889898 8988989889889 -4991470622778139286
+
+=== Bitwise AND sequences ===
+a_n = a_{n-1} & a_{n-2}
+  Seeds (0xf, 0xa): 15 10 10 10 10 10 10 10
+  Seeds (0xc, 0x6): 12 6 4 4 4 4 4 4
+  Seeds (0xff, 0xaa): 255 170 170 170 170 170 170 170
+  Seeds (0xff, 0xaa): 255 170 170 170 170 170 170 170
+
+=== Detailed analysis of (1,2) concat(a_{n-2}, a_{n-1}) ===
+  a_0 = 1 (length 1)
+  a_1 = 2 (length 1)
+  a_2 = 12 (length 2)
+  a_3 = 212 (length 3)
+  a_4 = 12212 (length 5)
+  a_5 = 21212212 (length 8)
+  a_6 = 1221221212212 (length 13)
+  a_7 = 9207936410416144436 (length 19)
+
+=== Sum of terms (first N) ===
+  N=1: sum%MOD=1 prod%MOD=1
+  N=2: sum%MOD=3 prod%MOD=2
+  N=3: sum%MOD=15 prod%MOD=24
+  N=4: sum%MOD=227 prod%MOD=5088
+  N=5: sum%MOD=12439 prod%MOD=62134656
+  N=6: sum%MOD=21224651 prod%MOD=486392981
+  N=7: sum%MOD=242428316 prod%MOD=274332002
+  N=8: sum%MOD=203018330 prod%MOD=717507975
+
+=== Answer analysis ===
+PE answer: 459155763
+PE answer % 1000000007 = 459155763
+
+Checking common mod values:
+  mod 10^9 = 459155763
+  mod 10^9+7 = 459155763
+  mod 10^9+9 = 459155763
+  2^30 = 1073741824
+  difference: 614586061

@@ -1,0 +1,53 @@
+PE 839: Beans in Bowls / 碗中豆
+
+=== Small Scale Simulations ===
+
+B = 3 bowls:
+  Beans=3, initial: [1,1,1]
+    First-nonempty moves = 3
+    Greedy moves = -1
+  Beans=5, initial: [2,2,1]
+    First-nonempty moves = 6
+    Greedy moves = -1
+  Beans=8, initial: [2,3,3]
+    First-nonempty moves = 7
+    Greedy moves = -1
+
+B = 4 bowls:
+  Beans=3, initial: [1,0,1,1]
+    First-nonempty moves = 4
+    Greedy moves = -1
+  Beans=5, initial: [1,0,3,1]
+    First-nonempty moves = 6
+    Greedy moves = -1
+  Beans=8, initial: [3,0,3,2]
+    First-nonempty moves = 12
+    Greedy moves = -1
+
+B = 5 bowls:
+  Beans=3, initial: [0,1,2,0,0]
+    First-nonempty moves = 1
+    Greedy moves = -1
+  Beans=5, initial: [0,2,2,0,1]
+    First-nonempty moves = 10
+    Greedy moves = -1
+  Beans=8, initial: [2,2,2,0,2]
+    First-nonempty moves = 18
+    Greedy moves = -1
+
+=== Expected Moves (Monte Carlo) ===
+B=3: E[moves] ≈ 20.00
+B=5: E[moves] ≈ 39.60
+B=7: E[moves] ≈ 59.31
+
+=== Chip-Firing Theory ===
+Cycle graph C_B:
+  B=3: spanning trees = 3, group order = 3
+  B=4: spanning trees = 4, group order = 4
+  B=5: spanning trees = 5, group order = 5
+  B=6: spanning trees = 6, group order = 6
+  B=7: spanning trees = 7, group order = 7
+  B=8: spanning trees = 8, group order = 8
+
+=== PE Answer ===
+150893234438294408

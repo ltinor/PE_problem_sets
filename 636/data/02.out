@@ -1,0 +1,4 @@
+Verifying PE 636 (Restricted Factorisations):
+F(25!) mod M = 4933 ✓
+F(100!) mod M = 693952493 ✓
+F(1000!) mod M = 6364496 ✓

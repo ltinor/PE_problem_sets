@@ -1,0 +1,15 @@
+=== Computing Binary Quadratic Representations ===
+
+For the specific form in PE 804, the computation involves:
+
+Direct counting approach:
+1. Iterate over all valid x values: O(sqrt(N/a))
+2. For each x, solve y from the quadratic form
+3. Count valid integer solutions
+
+Optimized approach using number theory:
+- Use the theory of quadratic forms over integers
+- Count solutions via class numbers and L-functions
+- Use divisor enumeration in quadratic fields
+
+PE answer: 4921370551019052

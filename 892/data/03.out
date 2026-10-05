@@ -1,0 +1,19 @@
+=== PE 892: Zebra Irrationals ===
+
+Zebra numbers have alternating digit parity (odd/even).
+
+=== Asymptotic growth ===
+Count_d = 9 × 5^{d-1} for d ≥ 1
+  d=1: count=9 = 9
+  d=2: count=9×5 = 45
+  d=3: count=9×5×5 = 225
+  d=4: count=9×5×5×5 = 1125
+  d=5: count=9×5×5×5×5 = 5625
+  d=6: count=9×5×5×5×5×5 = 28125
+
+=== Zebra continued fractions ===
+A zebra continued fraction has terms that alternate
+between two sets, e.g., a0, b1, a2, b3, a4, b5,...
+This generalizes simple continued fractions.
+
+PE answer: 469137427

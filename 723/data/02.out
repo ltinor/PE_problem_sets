@@ -1,0 +1,11 @@
+PE 723: Pythagorean Quadrilaterals / 毕达哥拉斯四边形
+
+  f(1) = 1 (expected 1) ✓
+  f(√2) = 1 (expected 1) ✓
+  f(√5) = 38 (expected 38) ✓
+  f(5) = 167 (expected 167) ✓
+
+S(325): 2370 (expected 2370) ✓
+S(1105): 5535 (expected 5535) ✓
+
+PE answer: 1395793419248

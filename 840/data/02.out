@@ -1,0 +1,53 @@
+PE 840: Sum of Products / 乘积和
+
+=== Subset Product Sum ===
+n= 1: sps=1.0 (expected=1.0) ✓
+n= 2: sps=5.0 (expected=5.0) ✓
+n= 3: sps=23.0 (expected=23.0) ✓
+n= 4: sps=119.0 (expected=119.0) ✓
+n= 5: sps=719.0 (expected=719.0) ✓
+n=10: sps=39916799.0 (expected=39916799.0) ✓
+
+=== Partition Product Sum ===
+n=  1: dp=0.0, gf=1.0
+n=  2: dp=2.0, gf=3.0
+n=  3: dp=5.0, gf=6.0
+n=  4: dp=13.0, gf=14.0
+n=  5: dp=24.0, gf=25.0
+n=  6: dp=55.0, gf=56.0
+n=  7: dp=96.0, gf=97.0
+n=  8: dp=197.0, gf=198.0
+n=  9: dp=353.0, gf=354.0
+n= 10: dp=671.0, gf=672.0
+n= 11: dp=1169.0, gf=1170.0
+n= 12: dp=2206.0, gf=2207.0
+n= 13: dp=3761.0, gf=3762.0
+n= 14: dp=6785.0, gf=6786.0
+n= 15: dp=11674.0, gf=11675.0
+
+=== Set Partition Product Sum ===
+n= 1: sum = 1.0
+n= 2: sum = 3.0
+n= 3: sum = 10.0
+n= 4: sum = 41.0
+n= 5: sum = 196.0
+n= 6: sum = 1057.0
+n= 7: sum = 6322.0
+n= 8: sum = 41393.0
+n= 9: sum = 293608.0
+n=10: sum = 2237921.0
+
+=== Ratio Computation ===
+n= 1: ratio = 0.000000000
+n= 2: ratio = 1.000000000
+n= 3: ratio = 1.000000000
+n= 4: ratio = 0.866666667
+n= 5: ratio = 0.461538462
+n= 6: ratio = 0.270935961
+n= 7: ratio = 0.109464082
+n= 8: ratio = 0.047584541
+n= 9: ratio = 0.016692675
+n=10: ratio = 0.005785730
+
+=== PE Answer ===
+194396971.000000000

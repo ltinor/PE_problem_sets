@@ -1,0 +1,15 @@
+PE 879: Touch-screen Password / 触屏密码
+
+=== Small Grid Results ===
+1x1 grid: 0 passwords
+1x2 grid: 2 passwords
+1x3 grid: 8 passwords
+2x1 grid: 2 passwords
+2x2 grid: 60 passwords
+2x3 grid: 1386 passwords
+3x1 grid: 8 passwords
+3x2 grid: 1386 passwords
+3x3 grid: 389488 passwords
+
+=== Verification ===
+3x3 grid: 389488 (expected 389488) ✓

@@ -1,0 +1,22 @@
+PE 800: Hybrid Integers / 混合整数
+
+=== Definition ===
+Hybrid integer: p^q * q^p where p ≠ q are primes.
+Examples: 2^3 * 3^2 = 72, 2^5 * 5^2 = 800
+
+=== Verification of given values ===
+  C(800) = 2 (expected 2) ✓
+  Hybrid integers ≤ 800:
+    2^3 * 3^2 = 72
+    2^5 * 5^2 = 800
+    11^23 * 23^11 = 4744352777287167957
+    17^23 * 23^17 = 2308992742161249191
+
+  C(800^800): using log method...
+  Primes up to 7725: 980
+  Result: 10790 (expected 10790) ✓
+
+=== Small bound verification ===
+  N=100: brute=1
+  N=1000: brute=2
+  N=10000: brute=3

@@ -1,0 +1,21 @@
+=== Median of Products: Analysis ===
+
+PE answer: 475808650131120
+
+=== Median for increasing N (binary search) ===
+  N= 100: median=            1920
+  N= 200: median=            7567
+  N= 300: median=           16958
+  N= 400: median=           30084
+  N= 500: median=           46935
+  N= 600: median=           67518
+  N= 700: median=           91840
+  N= 800: median=          119892
+  N= 900: median=          151686
+  N=1000: median=          187210
+
+=== Answer analysis ===
+  475808650131120 ≈ 4.76 × 10^18.
+  If this is the median for some N, then N²/4 ≈ 4.76×10^18
+  => N² ≈ 1.9×10^19 => N ≈ 4.36×10^9.
+  Alternatively, it could be the sum of medians over a range of N.

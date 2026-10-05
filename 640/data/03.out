@@ -1,0 +1,6 @@
+Computing expected score for 12-tile Shut the Box...
+Expected remaining = 35.081421
+Expected shut = 42.918579
+
+Monte Carlo (100000 trials, greedy strategy):
+MC remaining = 53.846430

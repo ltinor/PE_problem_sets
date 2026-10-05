@@ -1,0 +1,19 @@
+PE 815: Group by Value / 点数分组
+
+=== Problem Summary ===
+4n cards, n values, 4 cards each.
+Deal cards, group by value. Remove pile when 4 complete.
+E(n) = expected maximum number of simultaneous piles.
+
+=== Verify E(2) = 1.97142857 ===
+  E(2) = 1.97142857 (expected 1.97142857) ✓
+
+=== Combinatorial analysis ===
+  For n=2 (8 cards): 70 distinct sequences.
+  Max piles can be 1 or 2.
+  P(max=2) = 68/70 ≈ 0.97142857
+  P(max=1) = 2/70 ≈ 0.02857143
+  E(2) = 1*2/70 + 2*68/70 = 138/70 = 1.97142857 ✓
+
+=== PE Answer ===
+  E(60) = 54.12691621

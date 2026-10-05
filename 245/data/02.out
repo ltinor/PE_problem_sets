@@ -1,0 +1,8 @@
+PE 245: Coresilience / 可约度
+
+=== Small n verification ===
+  n=15, φ=8, k=2 (C=7/14)
+  n=85, φ=64, k=4 (C=21/84)
+
+=== PE Answer ===
+288084712410001

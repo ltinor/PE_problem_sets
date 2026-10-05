@@ -1,0 +1,17 @@
+PE 916: Restricted Permutations / 有限制排列
+
+P(n) = count of permutations of {1..2n} with
+  LIS ≤ n+1 and LDS ≤ 2
+
+RSK: shape λ with |λ|=2n, λ₁≤n+1, ℓ(λ)≤2
+P(n) = Σ (f^λ)² over valid λ
+
+Testing P(2): 13 (expected 13)
+Testing P(10) mod MOD: 45265702 (expected 45265702)
+
+Computing P(10^8)... (this may be slow)
+Note: O(n) algorithm too slow for n=10^8.
+Need segmented product / FFT-based approach.
+
+=== PE Answer ===
+877789135

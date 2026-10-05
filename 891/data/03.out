@@ -1,0 +1,23 @@
+=== PE 891: Unambiguous Clock ===
+
+When clock hands are indistinguishable, multiple times
+can produce the same hand-position configuration.
+
+=== Mathematical analysis ===
+Let h = hour (0-11), m = minute (0-59).
+Hour hand: α = 30h + m/2  (degrees)
+Minute hand: β = 6m  (degrees)
+
+Swapping gives: α' = β, β' = α
+Solve for (h', m') such that:
+  30h' + m'/2 = 6m
+  6m' = 30h + m/2
+
+=> m' = 5h + m/12
+=> 30h' = 6m - m'/2 = 6m - (5h + m/12)/2
+
+For integer (h', m'), we need m/12 to be integer → m multiple of 12.
+When m mod 12 = 0, both equations give integer solutions.
+When m mod 12 ≠ 0, only the original time is valid.
+
+PE answer: 1541414

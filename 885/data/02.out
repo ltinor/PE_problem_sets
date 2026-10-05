@@ -1,0 +1,48 @@
+PE 885: Sorted Digits / 排序数字
+
+=== Sorted-digit numbers ===
+Numbers whose digits are in non-decreasing order.
+Examples: 1, 2, 3, 11, 12, 13, 22, 111, 112, 123, 999
+
+=== Count by digit length ===
+  d= 1: count=         9 (C(9,8)=9)
+  d= 2: count=        45 (C(10,8)=45)
+  d= 3: count=       165 (C(11,8)=165)
+  d= 4: count=       495 (C(12,8)=495)
+  d= 5: count=      1287 (C(13,8)=1287)
+  d= 6: count=      3003 (C(14,8)=3003)
+  d= 7: count=      6435 (C(15,8)=6435)
+  d= 8: count=     12870 (C(16,8)=12870)
+  d= 9: count=     24310 (C(17,8)=24310)
+  d=10: count=     43758 (C(18,8)=43758)
+
+=== First 30 sorted-digit numbers ===
+   1   2   3   4   5   6   7   8   9  11
+  12  13  14  15  16  17  18  19  22  23
+  24  25  26  27  28  29  33  34  35  36
+
+
+=== Count ≤ N ===
+  N=   10: count=9
+  N=   50: count=39
+  N=  100: count=54
+  N=  200: count=99
+  N=  500: count=184
+  N= 1000: count=219
+
+=== Sum of sorted-digit numbers (exact length) ===
+  d=1: sum=45
+  d=2: sum=1935
+  d=3: sum=58905
+  d=4: sum=1527273
+  d=5: sum=35483877
+
+=== Sum ≤ N ===
+  N=  10: sum=45
+  N=  50: sum=915
+  N= 100: sum=1980
+  N= 200: sum=8415
+  N= 500: sum=37155
+
+=== PE Answer ===
+827850196

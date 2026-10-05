@@ -1,0 +1,24 @@
+PE 807: Rododdle / 杆旋转
+
+=== Problem Description ===
+Given N rods of various lengths placed on a line,
+each rod can rotate 180 degrees around its center.
+The goal is to minimize the total length of the convex hull
+or envelope of the rod endpoints.
+
+=== Small Example ===
+Consider 2 rods of lengths 3 and 4:
+  Both horizontal: extension = 3 + 4 = 7
+  Both vertical: envelope = sqrt(3^2 + 4^2) = 5 (if aligned)
+  Different orientations change the bounding box.
+
+=== Problem Analysis ===
+This problem relates to optimal rod placement to minimize
+the convex hull perimeter or area. Each rod can be in one
+of two orientations (0° or 90°), creating 2^N configurations.
+
+For large N, this becomes a combinatorial optimization
+problem solvable via dynamic programming or greedy
+algorithms on the Manhattan/wrapping metrics.
+
+PE answer: 0.1091523673

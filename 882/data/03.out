@@ -1,0 +1,22 @@
+=== PE 882: Removing the Joker ===
+
+This problem explores card probabilities when a joker
+(wildcard) is present in the deck and can be removed
+under certain conditions.
+
+Key combinatorial structures:
+1. Hypergeometric distributions with wildcards
+2. Markov chains for sequential drawing
+3. Expected values via the optional stopping theorem
+
+=== Deck composition scenarios ===
+  4 standard + 1 joker = 5 cards
+    Expected position of first specific card: 3.00
+  8 standard + 1 joker = 9 cards
+    Expected position of first specific card: 5.00
+  16 standard + 1 joker = 17 cards
+    Expected position of first specific card: 9.00
+  32 standard + 1 joker = 33 cards
+    Expected position of first specific card: 17.00
+
+PE answer: 15800662276

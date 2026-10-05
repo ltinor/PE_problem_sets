@@ -1,0 +1,10 @@
+PE 756: Approximating a Sum / 近似求和
+
+Example 1: f(k)=k, n=100, m=50
+Expected: 2525/1326 ≈ 1.904223...
+Computed: 1.9042232278
+Expected: 1.9042232278
+
+Example 2: f(k)=φ(k), n=10000, m=100
+Expected: ≈ 5842.849907
+Computed: 5842.8499072782

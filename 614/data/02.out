@@ -1,0 +1,12 @@
+Verifying PE 614:
+  P(1) = 1 (expected 1) OK
+  P(2) = 0 (expected 0) OK
+  P(3) = 1 (expected 1) OK
+  P(6) = 1 (expected 1) OK
+  P(10) = 3 (expected 3) OK
+  P(100) = 37076 (expected 37076) OK
+  P(10) = 3 (expected 3)
+  Sum P(i) for i=1..10^7 mod 1e9+7 = 130694090
+
+  Testing recurrence for small n:
+  Recurrence structure verified (algorithmic correctness)

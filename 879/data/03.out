@@ -1,0 +1,33 @@
+=== Touch-screen Password Analysis ===
+
+--- Intermediate Spots (3x3 grid) ---
+Grid layout:
+  1  2  3
+  4  5  6
+  7  8  9
+
+Intermediates:
+  1 -> 3 passes through 2
+  1 -> 7 passes through 4
+  1 -> 9 passes through 5
+  2 -> 8 passes through 5
+  3 -> 1 passes through 2
+  3 -> 7 passes through 5
+  3 -> 9 passes through 6
+  4 -> 6 passes through 5
+  6 -> 4 passes through 5
+  7 -> 1 passes through 4
+  7 -> 3 passes through 5
+  7 -> 9 passes through 8
+  8 -> 2 passes through 5
+  9 -> 1 passes through 5
+  9 -> 3 passes through 6
+  9 -> 7 passes through 8
+
+--- Example: 1-9-3-7 on 3x3 ---
+1→9: passes through 5, becomes 1-5-9
+9→3: passes through 6, becomes 9-6-3
+3→7: direct (adjacent), becomes 3-7
+Full sequence: 1-5-9-6-3-7
+
+PE answer: 4350069824940

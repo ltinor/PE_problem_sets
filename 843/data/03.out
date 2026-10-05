@@ -1,0 +1,19 @@
+=== PE 843: Periodic Circles ===
+
+=== Ford Circles Properties ===
+The Ford circles form a periodic pattern over [0,1]
+that repeats with period 1.
+
+Ford circles with q ≤ N:
+  N=10: areas sum = 0.8700146712, perimeters sum = 6.6344179779
+  N=30: areas sum = 0.8720226440, perimeters sum = 8.7011770288
+  N=100: areas sum = 0.8722601961, perimeters sum = 10.9873761191
+
+=== Circle Packings in a Periodic Domain ===
+Consider circles on a 2D torus or periodic strip.
+Periodic circle arrangements often relate to:
+  - Farey sequences (Ford circles)
+  - Modular forms and hyperbolic geometry
+  - Apollonian gasket with periodic boundary
+
+PE answer: 2816775424692

@@ -1,0 +1,23 @@
+PE 813: XOR-Powers / 异或幂
+
+=== Problem Summary ===
+XOR-product: long multiplication in base 2, XOR instead of add.
+x ⊗ y = polynomial multiplication in GF(2)[x].
+11 = 1011₂ = x^3 + x + 1
+P(n) = 11^{⊗n} = (x^3 + x + 1)^n in GF(2)[x]
+
+=== Verify P(2) = 69 ===
+  P(2) = 69 (expected 69) ✓
+
+  P(2) [fast] = 69
+
+=== Small P(n) values ===
+  P(1) = 11
+  P(2) = 69
+  P(3) = 743
+  P(4) = 4113
+  P(5) = 45243
+
+=== PE Answer ===
+  N = 8^12 * 12^8 = 2^52 * 3^8
+  P(8^12 * 12^8) mod 10^9+7 = 14063639

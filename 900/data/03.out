@@ -1,0 +1,34 @@
+=== PE 900: Cumulative Totients ===
+
+Euler's totient φ(n) = #{k ≤ n : gcd(k,n) = 1}
+
+=== Key identities ===
+1. Σ_{d|n} φ(d) = n
+2. φ(n) = n · Π_{p|n} (1 - 1/p)
+3. Σ_{n=1}^{N} φ(n) ~ 3N²/π²  (asymptotic)
+
+=== Computing Φ(N) efficiently ===
+Using Dirichlet hyperbola method:
+Φ(N) = N(N+1)/2 - Σ_{k=2}^{N} Φ(N/k)
+
+This yields O(N^{2/3}) time via recursion + grouping.
+
+=== Sublinear computation ===
+We can compute Φ(N) for N up to ~10^11 in reasonable time
+using the recursive formula with memoization.
+
+=== Möbius-based formula ===
+Φ(N) = 1/2 · Σ_{k=1}^{N} μ(k) · ⌊N/k⌋ · ⌊N/k+1⌋
+Requires computing Mertens function M(N) = Σ μ(k).
+
+=== Growth analysis ===
+  N=10^1: Φ(N)=                  31 ratio=1.019859
+  N=10^2: Φ(N)=                3040 ratio=1.000120
+  N=10^3: Φ(N)=              304184 ratio=1.000725
+  N=10^4: Φ(N)=            30397511 ratio=1.000038
+  N=10^5: Φ(N)=          3039650825 ratio=1.000005
+  N=10^6: Φ(N)=        303963552174 ratio=1.000000
+  N=10^7: Φ(N)=      30396356425496 ratio=1.000000
+  N=10^8: Φ(N)=    3039635516363072 ratio=1.000000
+
+PE answer: 646900900

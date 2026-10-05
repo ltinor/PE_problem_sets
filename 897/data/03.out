@@ -1,0 +1,18 @@
+=== PE 897: Connected Prime Squares ===
+
+Problem: N×N grid, cell (i,j) marked if i²+j² is prime.
+Find connected components of marked cells (4-directional).
+
+Key properties:
+  - i²+j² is prime: relates to Gaussian primes (i+ji in Z[i])
+  - Symmetry: grid is symmetric about main diagonal
+  - For large N, most primes of form a²+b² are Gaussian primes
+
+Prime density of i²+j²:
+  N= 5: density=0.4400
+  N=10: density=0.3300
+  N=15: density=0.2622
+  N=20: density=0.2475
+  N=25: density=0.2256
+
+PE answer: 1.599827123

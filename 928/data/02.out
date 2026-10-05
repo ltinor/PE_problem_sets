@@ -1,0 +1,6 @@
+PE 928: Cribbage / 克里比奇纸牌
+
+Count hands where Hand score = Cribbage score.
+Enumerating all 5^13 rank-count vectors.
+Each with up to C(4,k) suit assignments.
+Test with only Aces and 2s (up to 2 each): 6

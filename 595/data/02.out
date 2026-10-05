@@ -1,0 +1,4 @@
+Verifying known values:
+S(1) = 0.0000000000 (expected 0)
+S(2) = 1.0000000000 (expected 1)
+S(5) = 4.8369690011 (expected 4213/871 ≈ 4.8369690011)

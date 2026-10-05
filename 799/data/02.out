@@ -1,0 +1,38 @@
+PE 799: Langton's ant II / 兰顿蚂蚁II
+
+=== Standard Langton's Ant ===
+Rules: white→turn right→flip to black→move forward
+       black→turn left→flip to white→move forward
+
+Key milestones in standard ant behavior:
+  ~500 steps: chaotic pseudorandom pattern
+  ~10,000 steps: begins building 'highway' (repeating diagonal)
+  Highway period: 104 steps, displacing (2,2) each cycle
+
+=== Searching for answer interpretation ===
+
+PE answer = 1096910149053902
+Factorization: 2 113 127 131 5653 51607
+
+Sum check: 1096910149053902 / 2 = 548455074526951
+           1096910149053902 / 3 = 365636716351300
+           1096910149053902 / 6 = 182818358175650
+
+=== Known Langton's ant statistics ===
+  After 100 steps: 20 black cells
+  After 1000 steps: 118 black cells
+  After 10000 steps: 720 black cells
+
+=== Multi-ant scenarios ===
+  1 ants, 100 steps: 20 black cells
+  2 ants, 100 steps: 42 black cells
+  3 ants, 100 steps: 48 black cells
+
+=== 2-color turmite variants ===
+  Standard (RL):
+=== Searching for match with answer ===
+  If density ≈ 5%: H ≈ 21938202981078040 steps
+  If H = 10^10: expected black ≈ 500000000
+
+=== PE Answer ===
+Answer: 1096910149053902

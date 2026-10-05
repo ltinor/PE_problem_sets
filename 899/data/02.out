@@ -1,0 +1,53 @@
+PE 899: Distribuition / 分布
+
+=== Distribution analysis up to N=100 ===
+
+ω(n) distribution (distinct prime factors):
+  k | count | proportion
+  ---|-------|-----------
+   0 |     1 | 0.010000
+   1 |    35 | 0.350000
+   2 |    56 | 0.560000
+   3 |     8 | 0.080000
+  Average ω(n) = 1.7100 (theoretical: log log N ≈ 1.5272)
+
+Ω(n) distribution (total prime factors):
+  k | count | proportion
+  ---|-------|-----------
+   0 |     1 | 0.010000
+   1 |    25 | 0.250000
+   2 |    34 | 0.340000
+   3 |    22 | 0.220000
+   4 |    12 | 0.120000
+   5 |     4 | 0.040000
+   6 |     2 | 0.020000
+  Average Ω(n) = 2.3900
+
+=== Squarefree numbers up to N=200 ===
+  Count: 122 / 200
+  Proportion: 0.61000000
+  Theoretical limit: 6/π² = 0.60792710
+
+=== n/φ(n) distribution up to N=100 ===
+  Min: 1.000000
+  Median: 2.000000
+  Max: 3.750000
+  Mean: 1.917441
+
+=== Digit product distribution up to N=200 ===
+  Numbers with digit product 0: 29 (14.5000%)
+  Unique non-zero digit products: 36
+  Most common digit products:
+    product=     8 count=     9 prop=0.045000
+    product=     6 count=     9 prop=0.045000
+    product=    24 count=     8 prop=0.040000
+    product=    18 count=     8 prop=0.040000
+    product=    12 count=     8 prop=0.040000
+    product=     9 count=     7 prop=0.035000
+    product=     4 count=     7 prop=0.035000
+    product=    36 count=     6 prop=0.030000
+    product=    16 count=     6 prop=0.030000
+    product=     7 count=     5 prop=0.025000
+
+=== PE Answer ===
+10784223938983273

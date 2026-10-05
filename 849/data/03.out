@@ -1,0 +1,10 @@
+=== PE 849: Race to Strength ===
+
+Computing race statistics...
+
+Sum of win probabilities (fair) for a,b ≤ 30:
+  Σ P(A wins) mod 1000000007 = 450
+  Σ E[turns] = 216225
+  Σ E[turns] mod 1000000007 = 216225
+
+PE answer: 936203459

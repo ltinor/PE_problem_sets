@@ -1,0 +1,13 @@
+=== PE 866: Tidying Up B ===
+
+=== Minimum moves to make B's consecutive (all strings up to n=8) ===
+n=1: total=0 (avg=0.0000)  dist: 0:2
+n=2: total=0 (avg=0.0000)  dist: 0:4
+n=3: total=1 (avg=0.1250)  dist: 0:7 1:1
+n=4: total=5 (avg=0.3125)  dist: 0:11 1:5
+n=5: total=16 (avg=0.5000)  dist: 0:16 1:16
+n=6: total=43 (avg=0.6719)  dist: 0:22 1:41 2:1
+n=7: total=109 (avg=0.8516)  dist: 0:29 1:89 2:10
+n=8: total=267 (avg=1.0430)  dist: 0:37 1:171 2:48
+
+PE answer: 492401720

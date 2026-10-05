@@ -1,0 +1,23 @@
+PE 869: Prime Guessing / 素数猜数
+
+=== Primes up to 100 ===
+Count: 25
+  2  3  5  7 11 13 17 19 23 29
+ 31 37 41 43 47 53 59 61 67 71
+ 73 79 83 89 97
+
+=== Expected binary search steps ===
+N=   10 π(N)=   4 E[binary]=2.5000 E[random]=2.5000 E[optimal]=2.0000
+N=   50 π(N)=  15 E[binary]=5.0667 E[random]=3.3333 E[optimal]=3.2667
+N=  100 π(N)=  25 E[binary]=5.8400 E[random]=4.0000 E[optimal]=3.9600
+N=  200 π(N)=  46 E[binary]=6.8478 E[random]=4.3478 E[optimal]=4.7609
+N=  500 π(N)=  95 E[binary]=7.9474 E[random]=5.2632 E[optimal]=5.7368
+N= 1000 π(N)= 168 E[binary]=8.9286 E[random]=5.9524 E[optimal]=6.5298
+
+=== Information-theoretic lower bound ===
+N=100: log2(π)=4.6439 (π=25)
+N=1000: log2(π)=7.3923 (π=168)
+N=10000: log2(π)=10.2633 (π=1229)
+
+=== PE Answer ===
+14.97696693

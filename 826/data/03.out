@@ -1,0 +1,10 @@
+=== PE 826: Birds on a Wire ===
+
+Exploring the birds-on-a-wire process:
+
+L=10, d=0.5 → E[remaining] ≈ 5.73000000 | Rényi est: 14.95195841
+L=10.00000000, d=1.00000000 → E[remaining] ≈ 2.96760000 | Rényi est: 7.47597920
+L=20.00000000, d=1.00000000 → E[remaining] ≈ 5.73000000 | Rényi est: 14.95195841
+L=50.00000000, d=2.00000000 → E[remaining] ≈ 7.10920000 | Rényi est: 18.68994801
+
+PE answer: 0.3889014797

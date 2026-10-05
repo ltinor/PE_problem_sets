@@ -1,0 +1,22 @@
+PE 838: Not Relatively Prime / 不互质
+
+=== Coprime Pair Counting ===
+N=   5: total=    10, coprime=     9, non-coprime=     1 (✓)
+N=  10: total=    45, coprime=    31, non-coprime=    14 (✓)
+N=  20: total=   190, coprime=   127, non-coprime=    63 (✓)
+N=  50: total=  1225, coprime=   773, non-coprime=   452 (✓)
+N= 100: total=  4950, coprime=  3043, non-coprime=  1907 (✓)
+
+=== Sum of a*b for non-coprime pairs ===
+N=2: brute=0, fast=0 (✓)
+N=3: brute=0, fast=0 (✓)
+N=4: brute=8, fast=8 (✓)
+N=5: brute=8, fast=8 (✓)
+N=6: brute=62, fast=62 (✓)
+N=7: brute=62, fast=62 (✓)
+N=8: brute=158, fast=182 (✗)
+N=9: brute=239, fast=263 (✗)
+N=10: brute=489, fast=513 (✗)
+
+=== PE Answer ===
+250591.442792

@@ -1,0 +1,8 @@
+PE 688: Piles of Plates
+
+Verification:
+  F(10) = 17
+  F(100) = 275 (expected: 275)
+  S(100) brute = 12656 (expected: 12656)
+  S(100) formula = 12656
+  S(1000) brute = 1817711 formula = 1817711

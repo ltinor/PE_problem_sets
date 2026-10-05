@@ -1,0 +1,27 @@
+PE 831: Chinese Remainder Twice / 二次中国剩余
+
+=== Problem Statement ===
+Apply Chinese Remainder Theorem twice in nested fashion.
+Stage 1 solves a subset of congruences into one modulus.
+Stage 2 uses that result in a broader CRT system.
+
+=== Basic CRT Verification ===
+x ≡ 2(mod 3), x ≡ 3(mod 5), x ≡ 2(mod 7):
+  x = 23 (mod 105)
+  Check: 23%3=2, %5=3, %7=2 ✓
+
+=== Two-Stage CRT Test ===
+Stage 1: x ≡ 2(mod 3), x ≡ 3(mod 5)
+  → x ≡ 8 (mod 15)
+Stage 2: x ≡ 8(mod 15), x ≡ 2(mod 7)
+  → x ≡ 23 (mod 105)
+  Check: 23%3=2, %5=3, %7=2 ✓
+
+=== Large Two-Stage Examples ===
+  limit=3 → x = 19
+  limit=4 → x = 79
+  limit=5 → x = 289
+  limit=6 → x = 18769
+
+=== PE Answer ===
+5226432553

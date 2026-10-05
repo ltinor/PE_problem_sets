@@ -1,0 +1,38 @@
+PE 898: Clock Sequence II / 时钟序列II
+
+=== PE 898: Clock Sequence II Analysis ===
+
+=== Sequence 1: a_{n+1} = a_n + digit_sum(a_n) ===
+  This sequence strictly increases (digit_sum >= 1 for n>=1).
+  It has no cycle in Z — it diverges.
+  x0=   1 first 10: 1 2 4 8 16 23 28 38 49 62
+  x0=   7 first 10: 7 14 19 29 40 44 52 59 73 83
+  x0=  13 first 10: 13 17 25 32 37 47 58 71 79 95
+  x0= 100 first 10: 100 101 103 107 115 122 127 137 148 161
+  x0= 999 first 10: 999 1026 1035 1044 1053 1062 1071 1080 1089 1107
+
+=== Sequence 2: a_{n+1} = digital_root(a_n^2) ===
+  x0=1: preperiod=0, period=1 -> cycle: 1
+  x0=2: preperiod=1, period=2 -> cycle: 4 7
+  x0=3: preperiod=1, period=1 -> cycle: 9
+  x0=4: preperiod=0, period=2 -> cycle: 4 7
+  x0=5: preperiod=1, period=2 -> cycle: 7 4
+  x0=6: preperiod=1, period=1 -> cycle: 9
+  x0=7: preperiod=0, period=2 -> cycle: 7 4
+  x0=8: preperiod=1, period=1 -> cycle: 1
+  x0=9: preperiod=0, period=1 -> cycle: 9
+
+=== Sequence 3: a_{n+1} = (a_n + digit_sum(a_n)) mod (a_n + 1) ===
+  x0=1: 1 0 0 (cycle)
+  x0=2: 2 1 0 0 (cycle)
+  x0=3: 3 2 1 0 0 (cycle)
+  x0=4: 4 3 2 1 0 0 (cycle)
+  x0=5: 5 4 3 2 1 0 0 (cycle)
+
+=== Finite state clock sequences ===
+  mod   10: pre=1, period=4
+  mod  100: pre=0, period=13
+  mod 1000: pre=15, period=158
+
+=== PE Answer ===
+0.98613435

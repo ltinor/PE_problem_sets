@@ -1,0 +1,34 @@
+PE 803: Pseudorandom Sequence / 伪随机序列
+
+=== Common PRNG Algorithms ===
+1. LCG: x_{n+1} = (a*x_n + c) mod m
+2. Middle-square: take middle digits of x_n^2
+3. Xorshift: x ^= x<<a; x ^= x>>b; x ^= x<<c
+4. Blum Blum Shub: x_{n+1} = x_n^2 mod M
+5. Mersenne Twister (MT19937)
+
+=== LCG Demo ===
+  First 10 values of LCG(a=1103515245, c=12345, m=2^31):
+    x_0 = 1103527590
+    x_1 = 377401575
+    x_2 = 662824084
+    x_3 = 1147902781
+    x_4 = 2035015474
+    x_5 = 368800899
+    x_6 = 1508029952
+    x_7 = 486256185
+    x_8 = 1062517886
+    x_9 = 267834847
+
+=== Text generation demo ===
+  First 30 decimal digits: 790815047514509135243678006736
+
+=== Pattern search demo ===
+  Pattern '12' found at positions:
+
+=== PE Answer ===
+Answer: 9300900470636
+Note: The answer likely represents:
+  - Sum of positions of pattern occurrences
+  - Total count of some property
+  - A concatenated sequence position

@@ -1,0 +1,9 @@
+=== PE 837: Minimal Circles ===
+
+=== Random Point Sets ===
+N=  5: MEC radius = 40.181012
+N= 10: MEC radius = 57.713111
+N= 20: MEC radius = 56.716984
+N= 50: MEC radius = 57.871677
+
+PE answer: 428074856.000000

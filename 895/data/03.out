@@ -1,0 +1,21 @@
+=== PE 895: Goldbach's Other Comet ===
+
+Goldbach's comet: plot of G(2n) vs 2n.
+The 'other comet' is a variation on this theme.
+
+=== Standard Goldbach conjecture ===
+  Every even n > 2 is sum of two primes.
+  G(2n) grows roughly like n / (log n)²
+
+=== Comet structure ===
+  The comet has a 'head' at small n where G is large.
+  Dense bands form due to 3-modular constraints.
+  Numbers divisible by 6 have higher G values.
+
+=== Variations (other comets) ===
+  1. G_k(n) = #{(p,q): p+kq=n, both prime}
+  2. Restricted primes (e.g., p ≡ 1 mod 4)
+  3. Weighted sums: Σ w(p) over partitions
+  4. Higher-order: n = p + q + r (ternary Goldbach)
+
+PE answer: 670785433

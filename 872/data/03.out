@@ -1,0 +1,11 @@
+=== PE 872: Recursive Tree ===
+
+Scaling behavior of sum(depths) in divisor tree:
+  N=   100: sum(depths) =          239 (avg = 2.390)
+  N=   500: sum(depths) =         1376 (avg = 2.752)
+  N=  1000: sum(depths) =         2877 (avg = 2.877)
+  N=  2000: sum(depths) =         5971 (avg = 2.986)
+  N=  5000: sum(depths) =        15567 (avg = 3.113)
+  N= 10000: sum(depths) =        31985 (avg = 3.199)
+
+PE answer: 2903144925319290239

@@ -1,0 +1,4 @@
+Verifying PE 612:
+  f(100) = 1539 (expected 1539) OK
+  Numbers 0-99: 100 (expected 100 including 0)
+  f(10^18) mod 1000267129 = 819963842

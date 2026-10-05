@@ -1,0 +1,19 @@
+=== Seventeen points: Analysis ===
+
+PE answer: 8.146681749623
+
+Factorizing 8.146681749623:
+  2 13 2168297
+
+=== Key combinatorial values for n=17 ===
+  C(17,4) = 2380
+  Regions = 2501
+  C(17,3) = 680
+  Catalan(15) = 9694845
+
+=== Is answer one of these? ===
+  (none are direct matches)
+
+=== Sum over n=1..17 ===
+  ΣC(n,4) for n=4..17 = 8568
+  ΣC(n,3) for n=3..17 = 3060

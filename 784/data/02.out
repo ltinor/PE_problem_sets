@@ -1,0 +1,49 @@
+PE 784: Reciprocal Pairs / 互反对
+
+=== Egyptian fractions: 1/x + 1/y = 1/n ===
+  n= 1:    1 solutions (e.g., 2+2)
+  n= 2:    3 solutions (e.g., 3+6, 4+4)
+  n= 3:    3 solutions (e.g., 4+12, 6+6)
+  n= 4:    5 solutions (e.g., 5+20, 6+12, 8+8)
+  n= 5:    3 solutions (e.g., 6+30, 10+10)
+  n= 6:    9 solutions (e.g., 7+42, 8+24, 9+18, ...)
+  n= 7:    3 solutions (e.g., 8+56, 14+14)
+  n= 8:    7 solutions (e.g., 9+72, 10+40, 12+24, ...)
+  n= 9:    5 solutions (e.g., 10+90, 12+36, 18+18)
+  n=10:    9 solutions (e.g., 11+110, 12+60, 14+35, ...)
+  n=11:    3 solutions (e.g., 12+132, 22+22)
+  n=12:   15 solutions (e.g., 13+156, 14+84, 15+60, ...)
+
+=== Sum of x for Egyptian pairs ===
+  n= 1: sum_x =        2, cumulative =            2
+  n= 2: sum_x =        7, cumulative =            9
+  n= 3: sum_x =       10, cumulative =           19
+  n= 4: sum_x =       19, cumulative =           38
+  n= 5: sum_x =       16, cumulative =           54
+  n= 6: sum_x =       46, cumulative =          100
+  n= 7: sum_x =       22, cumulative =          122
+  n= 8: sum_x =       47, cumulative =          169
+  n= 9: sum_x =       40, cumulative =          209
+  n=10: sum_x =       72, cumulative =          281
+  n=11: sum_x =       34, cumulative =          315
+  n=12: sum_x =      141, cumulative =          456
+  n=13: sum_x =       40, cumulative =          496
+  n=14: sum_x =       98, cumulative =          594
+  n=15: sum_x =      108, cumulative =          702
+  n=16: sum_x =      111, cumulative =          813
+  n=17: sum_x =       52, cumulative =          865
+  n=18: sum_x =      199, cumulative =         1064
+  n=19: sum_x =       58, cumulative =         1122
+  n=20: sum_x =      226, cumulative =         1348
+
+=== Reciprocal pairs: 1/x + 1/y < 1 ===
+  max= 10: count = 36
+  max= 20: count = 171
+  max= 50: count = 1176
+  max=100: count = 4851
+
+=== Modular reciprocals ===
+  N= 7: modular reciprocal pairs = 4
+  N=11: modular reciprocal pairs = 6
+  N=13: modular reciprocal pairs = 7
+  N=17: modular reciprocal pairs = 9

@@ -1,0 +1,22 @@
+=== PE 844: Convergents of e ===
+
+=== Sums of Convergent Numerators and Denominators ===
+  N=10: Σp_n mod M = 5871, Σq_n mod M = 2160
+  N=20: Σp_n mod M = 468869949, Σq_n mod M = 172487615
+  N=50: Σp_n mod M = 332906988, Σq_n mod M = 616686218
+  N=100: Σp_n mod M = 529209577, Σq_n mod M = 764536912
+
+=== Convergent Growth ===
+The convergents grow exponentially:
+q_n ~ C·e^(√(2n)/...)
+
+Growth of denominators q_n:
+  n=0: q_n = 1
+  n=5: q_n = 32 (ratio q_n/q_{n-5} ≈ 32.0000)
+  n=10: q_n = 1001 (ratio q_n/q_{n-5} ≈ 31.2812)
+  n=15: q_n = 208524 (ratio q_n/q_{n-5} ≈ 208.3157)
+  n=20: q_n = 150869313 (ratio q_n/q_{n-5} ≈ 723.5105)
+  n=25: q_n = 10622799089 (ratio q_n/q_{n-5} ≈ 70.4106)
+  n=30: q_n = 8690849042711 (ratio q_n/q_{n-5} ≈ 818.1317)
+
+PE answer: 101805206

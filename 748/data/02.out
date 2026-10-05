@@ -1,0 +1,85 @@
+PE 748: Upside down Diophantine equation / 颠倒丢番图方程
+
+Digit flip map:
+  0 → 0
+  1 → 1
+  2 → 2
+  3 → -1
+  4 → -1
+  5 → 5
+  6 → 9
+  7 → -1
+  8 → 8
+  9 → 6
+
+Small flippable numbers:
+  0 → flip(0) = 0
+  1 → flip(1) = 1
+  2 → flip(2) = 2
+  5 → flip(5) = 5
+  6 → flip(6) = 9
+  8 → flip(8) = 8
+  9 → flip(9) = 6
+  10 → flip(10) = 1
+  11 → flip(11) = 11
+  12 → flip(12) = 21
+  15 → flip(15) = 51
+  16 → flip(16) = 91
+  18 → flip(18) = 81
+  19 → flip(19) = 61
+  20 → flip(20) = 2
+  21 → flip(21) = 12
+  22 → flip(22) = 22
+  25 → flip(25) = 52
+  26 → flip(26) = 92
+  28 → flip(28) = 82
+  29 → flip(29) = 62
+  50 → flip(50) = 5
+  51 → flip(51) = 15
+  52 → flip(52) = 25
+  55 → flip(55) = 55
+  56 → flip(56) = 95
+  58 → flip(58) = 85
+  59 → flip(59) = 65
+  60 → flip(60) = 9
+  61 → flip(61) = 19
+  62 → flip(62) = 29
+  65 → flip(65) = 59
+  66 → flip(66) = 99
+  68 → flip(68) = 89
+  69 → flip(69) = 69
+  80 → flip(80) = 8
+  81 → flip(81) = 18
+  82 → flip(82) = 28
+  85 → flip(85) = 58
+  86 → flip(86) = 98
+  88 → flip(88) = 88
+  89 → flip(89) = 68
+  90 → flip(90) = 6
+  91 → flip(91) = 16
+  92 → flip(92) = 26
+  95 → flip(95) = 56
+  96 → flip(96) = 96
+  98 → flip(98) = 86
+  99 → flip(99) = 66
+  100 → flip(100) = 1
+Count up to 100: 50
+
+Count of flippable numbers:
+  < 10^1: 7
+  < 10^2: 49
+  < 10^3: 343
+  < 10^4: 2401
+  < 10^5: 16807
+
+Formula count of flippable numbers:
+  ≤ 1 digits: 7
+  ≤ 2 digits: 49
+  ≤ 3 digits: 343
+  ≤ 4 digits: 2401
+  ≤ 5 digits: 16807
+  ≤ 6 digits: 117649
+  ≤ 7 digits: 823543
+  ≤ 8 digits: 5764801
+
+PE answer: 276402862

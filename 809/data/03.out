@@ -1,0 +1,14 @@
+=== Computing Rational Polynomial Properties ===
+
+Key techniques:
+  1. Continued fraction expansions
+  2. Modular arithmetic on rational numbers
+  3. Farey sequences and Stern-Brocot tree
+  4. Pell equations for period-2 points
+
+For Möbius transformations f(x) = (ax+b)/(cx+d):
+  - Iteration corresponds to matrix [[a,b],[c,d]]^n
+  - Fixed points: solve x = (ax+b)/(cx+d) → cx^2 + (d-a)x - b = 0
+  - Period-2: solve f(f(x)) = x → quartic equation
+
+PE answer: 75353432948733

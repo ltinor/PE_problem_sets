@@ -1,0 +1,10 @@
+Computing pseudo-geometric sequence properties...
+
+Contributions for various bounds (rounded variant):
+  M=5: reduced fractions=19 total_first_step=29
+  M=10: reduced fractions=63 total_first_step=113
+  M=20: reduced fractions=255 total_first_step=532
+  M=50: reduced fractions=1547 total_first_step=3905
+  M=100: reduced fractions=6087 total_first_step=17472
+
+PE answer: 398803409

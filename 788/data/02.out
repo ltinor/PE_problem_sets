@@ -1,0 +1,38 @@
+PE 788: Dominating numbers / 支配数
+
+=== Dominating numbers up to various bounds ===
+  N=   10:      9 dominating numbers (90.0%)
+  N=   20:     10 dominating numbers (50.0%)
+  N=   50:     13 dominating numbers (26.0%)
+  N=  100:     19 dominating numbers (19.0%)
+  N=  200:     47 dominating numbers (23.5%)
+  N=  500:    131 dominating numbers (26.2%)
+  N= 1000:    271 dominating numbers (27.1%)
+
+=== Dominating numbers by digit count ===
+  D=1: count=       9 comb_est=           9 (out of 9)
+  D=2: count=       9 comb_est=          10 (out of 90)
+  D=3: count=     252 comb_est=         280 (out of 900)
+  D=4: count=     333 comb_est=         370 (out of 9000)
+  D=5: count=    7704 comb_est=        8560 (out of 90000)
+  D=6: count=   11430 comb_est=       12700 (out of 900000)
+
+=== Dominant digit distribution (up to 10000) ===
+  digit 0: 19 numbers
+  digit 1: 65 numbers
+  digit 2: 65 numbers
+  digit 3: 65 numbers
+  digit 4: 65 numbers
+  digit 5: 65 numbers
+  digit 6: 65 numbers
+  digit 7: 65 numbers
+  digit 8: 65 numbers
+  digit 9: 65 numbers
+
+=== Sum of dominating numbers ===
+  N=   10: sum = 45
+  N=  100: sum = 640
+  N= 1000: sum = 140410
+
+=== Examples of dominating numbers ===
+  First 20 dominating numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 100, 101

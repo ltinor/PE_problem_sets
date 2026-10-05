@@ -1,0 +1,11 @@
+=== PE 898: Clock Sequence II ===
+
+Clock sequences are deterministic sequences that eventually
+become periodic. The problem analyzes limiting properties.
+
+Common clock sequence definitions:
+  1. a_{n+1} = f(a_n) for some function f
+  2. Based on digit operations (sum, product, etc.)
+  3. Modular arithmetic variants
+
+The answer 0.9861343531 is a limiting ratio/probability.

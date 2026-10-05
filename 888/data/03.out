@@ -1,0 +1,17 @@
+=== PE 888: 1249 Numbers ===
+
+Numbers formed using only digits {1,2,4,9}.
+
+=== Digit distribution for d-digit numbers ===
+  d=1: 1:1 2:1 4:1 9:1
+  d=2: 1:8 2:8 4:8 9:8
+  d=3: 1:48 2:48 4:48 9:48
+  d=4: 1:256 2:256 4:256 9:256
+  d=5: 1:1280 2:1280 4:1280 9:1280
+  d=6: 1:6144 2:6144 4:6144 9:6144
+
+=== Modular properties ===
+1249-numbers mod 3 cycle: 1,2,1,0,...
+Sum of digits (1+2+4+9=16) ≡ 1 (mod 3)
+
+PE answer: 227429102

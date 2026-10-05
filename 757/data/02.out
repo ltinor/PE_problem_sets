@@ -1,0 +1,18 @@
+PE 757: Stealthy Numbers / 隐匿数
+
+Formula: N = m(m+1) * n(n+1) with m,n ≥ 1
+D = m(m+1) values: 2 6 12 20 30 42 56 72
+
+Example: d=5, e=5 → m=2, n=2 → N=2*3*2*3=36. ✓
+
+Verification (brute force for small limits):
+  ≤     10: 1 stealthy numbers
+  ≤     50: 5 stealthy numbers
+  ≤    100: 8 stealthy numbers
+  ≤    500: 24 stealthy numbers
+  ≤   1000: 39 stealthy numbers
+  ≤   5000: 111 stealthy numbers
+  ≤  10000: 174 stealthy numbers
+
+Known: 2851 stealthy numbers ≤ 10^6
+PE answer: 75737353

@@ -1,0 +1,6 @@
+PE 642: Sum of largest prime factors - verification
+
+S(10) = 32 (expected 32)
+S(100) = 1915 (expected 853)
+S(1000) = 135946
+S(5000) = 2745481

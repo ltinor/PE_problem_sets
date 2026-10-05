@@ -1,0 +1,12 @@
+PE 717: Summing Sums of Digits / 数字和之和
+
+一次前缀和 Σ_{i=1}^{N} S(i):
+  N=10: naive=46, fast=46 ✓
+  N=100: naive=901, fast=901 ✓
+
+二次前缀和 Σ_{i=1}^{N} Σ_{j=1}^{i} S(j):
+  N=10: naive=211, fast=211 ✓
+  N=20: naive=937, fast=937 ✓
+  N=50: naive=7205, fast=7205 ✓
+
+PE 答案: 1603036763131

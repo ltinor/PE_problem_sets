@@ -1,0 +1,4 @@
+PE 650: Divisors of Binomial Product
+
+S(5) = 5736 ✓
+S(100) mod 1e9+7 = 332792866 ✓

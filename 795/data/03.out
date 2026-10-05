@@ -1,0 +1,53 @@
+=== Alternating gcd sum: Analysis ===
+
+PE answer: 955892601788276
+
+=== Cumulative sums ===
+  N= 1: cum_alt_sum=           1
+  N= 2: cum_alt_sum=           2
+  N= 3: cum_alt_sum=           6
+  N= 4: cum_alt_sum=          14
+  N= 5: cum_alt_sum=          27
+  N= 6: cum_alt_sum=          44
+  N= 7: cum_alt_sum=          68
+  N= 8: cum_alt_sum=         108
+  N= 9: cum_alt_sum=         157
+  N=10: cum_alt_sum=         214
+  N=11: cum_alt_sum=         282
+  N=12: cum_alt_sum=         378
+  N=13: cum_alt_sum=         487
+  N=14: cum_alt_sum=         608
+  N=15: cum_alt_sum=         744
+  N=16: cum_alt_sum=         928
+  N=17: cum_alt_sum=        1129
+  N=18: cum_alt_sum=        1354
+  N=19: cum_alt_sum=        1598
+  N=20: cum_alt_sum=        1894
+
+=== Simple GCD cumulative sum ===
+  N= 1: cum_simple_sum=               1
+  N= 2: cum_simple_sum=               6
+  N= 3: cum_simple_sum=              18
+  N= 4: cum_simple_sum=              42
+  N= 5: cum_simple_sum=              79
+  N= 6: cum_simple_sum=             140
+  N= 7: cum_simple_sum=             220
+  N= 8: cum_simple_sum=             332
+  N= 9: cum_simple_sum=             477
+  N=10: cum_simple_sum=             666
+  N=11: cum_simple_sum=             886
+  N=12: cum_simple_sum=            1174
+  N=13: cum_simple_sum=            1499
+  N=14: cum_simple_sum=            1888
+  N=15: cum_simple_sum=            2352
+  N=16: cum_simple_sum=            2896
+  N=17: cum_simple_sum=            3489
+  N=18: cum_simple_sum=            4190
+  N=19: cum_simple_sum=            4946
+  N=20: cum_simple_sum=            5826
+
+=== Answer analysis ===
+  955892601788276 ≈ 9.56 × 10^14.
+  This could be the alternating gcd sum for N ≈ 10^6-10^7.
+  Or the sum of such sums over a range.
+  Σ_{i,j=1}^N gcd(i,j) ≈ N²·(6/π²)·log N asymptotically.

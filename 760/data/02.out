@@ -1,0 +1,16 @@
+PE 760: Summing over bitwise operators / 位运算求和
+
+Verification:
+  G(  0) =          0 (brute:          0) ✓
+  G(  1) =          4 (brute:          4) ✓
+  G(  2) =         14 (brute:         14) ✓
+  G(  3) =         38 (brute:         38) ✓
+  G(  5) =        122 (brute:        122) ✓
+  G( 10) =        754 (brute:        754) ✓
+  G( 20) =       5294 (brute:       5294) ✓
+  G( 50) =      75238 (brute:      75238) ✓
+  G(100) =     583766 (brute:     583766) ✓
+
+Known values:
+  G(10) = 754 (expected 754)
+  G(100) = 583766 (expected 583766)

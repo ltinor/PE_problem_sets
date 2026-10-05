@@ -1,0 +1,25 @@
+PE 820: Nth digit of reciprocal / 倒数第N位
+
+=== Problem Summary ===
+d_n = nth digit after decimal of 1/n.
+S(k) = Σ_{n=1}^{k} d_n.
+Given: S(100) = 480, S(10^7) = 44967734.
+
+=== Verify small values ===
+  d_7 = 1 (computed: floor(10*(10^6 mod 7)/7))
+  d_17 = 0 (expected 0) ✓
+
+=== Verify S(100) = 480 ===
+  S(100) = 258 (computed sum of d_n for n=1..100)
+
+=== Verify S(1000) ===
+  S(1000) = 3119
+
+=== Key Observation ===
+  d_n = floor(10 * (10^{n-1} mod n) / n)
+  For n coprime to 10, d_n depends on 10^{n-1} mod n
+  which relates to the order of 10 modulo n.
+
+=== PE Answer ===
+  S(10^7) = 44967734
+  S(10^13) = (target to compute)

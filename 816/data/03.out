@@ -1,0 +1,7 @@
+=== Computing d(2000000) ===
+
+Generating 2,000,000 points...
+Done. Computing closest pair...
+  d(2000000) = 20.880613018
+  PE answer  = 20.880613018
+  ✓ Match!

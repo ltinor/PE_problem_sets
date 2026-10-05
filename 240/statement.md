@@ -40,4 +40,6 @@
 
 ## 数据范围
 
-$1 \le N \le 20$，$1 \le S \le 12$，$1 \le K \le N$，$K \le T \le K \times S$
+$1 \le N \le 20$，$1 \le S \le 12$，$1 \le K \le N$，$K \le T \le K \times S$
+
+- 注：本题 data 由 std 实跑生成；原题全规模参数下 std 会超时，测试点采用可在时限内完成的缩小规模参数。

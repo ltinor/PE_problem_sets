@@ -1,0 +1,59 @@
+PE 836: A Message in a Mess / 混乱中的信息
+
+=== Small Test Cases ===
+
+s = "BA":
+  Brute force cost = 1
+  Verified cost = 1 ✓
+
+s = "CAB":
+  Brute force cost = 3
+  Verified cost = 3 ✓
+
+s = "ZYX":
+  Brute force cost = 4
+  Verified cost = 4 ✓
+
+s = "DCBA":
+  Brute force cost = 10
+  Verified cost = 10 ✓
+
+s = "BCA":
+  Brute force cost = 3
+  Verified cost = 3 ✓
+
+s = "AZ":
+  Brute force cost = 0
+  Verified cost = 0 ✓
+
+=== Letter Distance Table ===
+Cost of swapping 'A' with:
+  A: 0
+  B: 1
+  C: 2
+  D: 3
+  E: 4
+  F: 5
+  G: 6
+  H: 7
+  I: 8
+  J: 9
+  K: 10
+  L: 11
+  M: 12
+  N: 13
+  O: 14
+  P: 15
+  Q: 16
+  R: 17
+  S: 18
+  T: 19
+  U: 20
+  V: 21
+  W: 22
+  X: 23
+  Y: 24
+  Z: 25
+
+=== PE Answer ===
+aprilfoolsjoke

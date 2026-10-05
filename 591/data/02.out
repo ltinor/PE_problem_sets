@@ -1,0 +1,5 @@
+Verifying examples:
+I_2(BQA_2(π,10)) = 6 (expected 6)
+I_5(BQA_5(π,100)) = -55 (expected -55)
+I_7(BQA_7(π,10^6)) = 560323 (expected 560323)
+Known: I_2 for N=10^13 = -6188084046055

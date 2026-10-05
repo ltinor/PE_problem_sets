@@ -1,0 +1,35 @@
+PE 805: Shifted Multiples / 平移倍数
+
+=== Definition ===
+A positive integer s has the 'shifted multiple' property if
+moving its last digit to the front (cyclic shift) gives a
+multiple of s.
+
+=== Examples ===
+s = 142857: shifted = 714285 = 5 × 142857
+s = 102564: shifted = 410256 = 4 × 102564
+s = 105263157894736842: shifted = 2 × s
+
+=== Formula ===
+For d0 = last digit, k = multiplier:
+  s = d0 * (10^{n+1} - 1) / (10k - 1)
+  where n+1 is the number of digits in s
+
+=== Small bound search ===
+Up to 10^6:
+  Found 7 parasitic numbers
+    102564
+    128205
+    142857
+    153846
+    179487
+    205128
+    230769
+  Sum = 1142856
+
+=== Known parasitic number sequences ===
+k=4: 102564, 205128, ...
+k=5: 142857, 285714, ...
+
+=== PE Answer ===
+Sum of all shifted-multiple numbers: 119719335

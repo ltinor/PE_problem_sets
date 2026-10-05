@@ -1,0 +1,23 @@
+PE 758: Buckets of Water / 水桶倒水
+
+Known values:
+  P(3,5) = 4 (expected 4)
+  P(7,31) = 20 (expected 20)
+P(2^A-1, 2^B-1) for small A,B:
+A=1 B=2 a=1 b=3 P=0
+A=1 B=3 a=1 b=7 P=0
+A=2 B=3 a=3 b=7 P=4
+A=1 B=4 a=1 b=15 P=0
+A=2 B=4 a=3 b=15 P=-1
+A=3 B=4 a=7 b=15 P=4
+A=1 B=5 a=1 b=31 P=0
+A=2 B=5 a=3 b=31 P=20
+A=3 B=5 a=7 b=31 P=20
+A=4 B=5 a=15 b=31 P=4
+A=1 B=6 a=1 b=63 P=0
+A=2 B=6 a=3 b=63 P=-1
+A=3 B=6 a=7 b=63 P=-1
+A=4 B=6 a=15 b=63 P=-1
+A=5 B=6 a=31 b=63 P=4
+
+PE answer: 331196951

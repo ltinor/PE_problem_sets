@@ -1,0 +1,15 @@
+PE 700: Eulercoin
+
+Small example (E0=7, MOD=17):
+  Simulated sum: 12
+  Sequence: 7 4 1
+
+Small example (E0=3, MOD=10):
+  Simulated sum: 6
+
+Actual PE 700:
+  E0 = 1504170715041707
+  MOD = 4503599627370517
+  Computed sum = 1517926517777556
+  Expected = 1517926517777556
+  Match: YES

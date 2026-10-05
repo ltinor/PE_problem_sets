@@ -1,0 +1,21 @@
+PE 914: Triangle in the Saddle / 鞍中三角
+
+=== Problem Overview ===
+A hyperbolic paraboloid (saddle surface) is given by z = x*y.
+Consider lattice points P_i = (x_i, y_i, x_i*y_i) for integers x_i, y_i.
+
+Triangles are formed by three such lattice points.
+The problem imposes geometric constraints such as:
+  - Area restrictions (possibly using 3D triangle area)
+  - Perimeter or edge-length conditions
+  - Coplanarity or other spatial relations
+
+=== Key Concepts ===
+  1. 3D lattice geometry on curved surfaces
+  2. Triangle area in 3D: 0.5 * |AB × AC|
+  3. Counting lattice triangles with constraints
+  4. Pick's theorem and its 3D generalizations
+  5. Pruning strategies for large search spaces
+
+=== PE Answer ===
+  414213562371805310

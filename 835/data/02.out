@@ -1,0 +1,39 @@
+PE 835: Supernatural Numbers / 超自然数
+
+=== Problem Statement ===
+Supernatural numbers (Steinitz numbers) are formal products
+∏ p^{v_p} where each v_p ∈ ℕ₀ ∪ {∞}.
+Count/sum supernatural numbers with finite product bound N.
+
+=== Supernatural Numbers Definition ===
+A supernatural number is S = 2^{v_2} · 3^{v_3} · 5^{v_5} · ...
+where v_p ∈ {0, 1, 2, ..., ∞}.
+- If all v_p are finite: S is an ordinary natural number
+- If any v_p = ∞: S is a 'truly' supernatural number
+
+=== Counting supernatural numbers (finite part ≤ N) ===
+For each natural n (finite part), primes not dividing n
+can independently be 0 (absent) or ∞ (infinite).
+Total = Σ_{n=1}^{N} 2^{π(N) - ω(n)}
+
+=== Small N Counts ===
+  N= 1: count=       1 (brute: 1) ✓
+  N= 2: count=       3 (brute: 3) ✓
+  N= 3: count=       8 (brute: 8) ✓
+  N= 4: count=      10 (brute: 10) ✓
+  N= 5: count=      24 (brute: 24) ✓
+  N= 6: count=      26 (brute: 26) ✓
+  N= 7: count=      60 (brute: 60) ✓
+  N= 8: count=      68 (brute: 68) ✓
+  N= 9: count=      76
+  N=10: count=      80
+  N=11: count=     176
+  N=12: count=     184
+
+=== Large N (mod 1000000007) ===
+  N= 100: 124073465 (mod 1000000007: 124073465)
+  N= 500: 330910342 (mod 1000000007: 330910342)
+  N=1000: 472362608 (mod 1000000007: 472362608)
+
+=== PE Answer ===
+1050923942

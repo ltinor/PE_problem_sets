@@ -1,0 +1,60 @@
+PE 897: Connected Prime Squares / 连通素数平方
+
+=== Small grid analysis ===
+=== Grid 3×3 ===
+  Total marked cells: 5
+  Number of components: 3
+  Largest component size: 3
+  Grid (X=marked, .=empty):
+   XX.
+   X.X
+   .X.
+
+=== Grid 5×5 ===
+  Total marked cells: 11
+  Number of components: 9
+  Largest component size: 3
+  Grid (X=marked, .=empty):
+   XX.X.
+   X.X.X
+   .X...
+   X...X
+   .X.X.
+
+=== Grid 7×7 ===
+  Total marked cells: 17
+  Number of components: 15
+  Largest component size: 3
+  Grid (X=marked, .=empty):
+   XX.X.X.
+   X.X.X.X
+   .X.....
+   X...X..
+   .X.X.X.
+   X...X..
+   .X.....
+
+=== Grid 10×10 ===
+  Total marked cells: 33
+  Number of components: 31
+  Largest component size: 3
+  Grid (X=marked, .=empty):
+   XX.X.X...X
+   X.X.X.X...
+   .X.....X.X
+   X...X...X.
+   .X.X.X.X..
+   X...X.....
+   .X.....X.X
+   ..X.X.X...
+   ...X.....X
+   X.X...X.X.
+
+=== Sum of largest components (N=1..20) ===
+  K= 5: sum=13
+  K=10: sum=28
+  K=15: sum=43
+  K=20: sum=58
+
+=== PE Answer ===
+1.599827123

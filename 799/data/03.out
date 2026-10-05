@@ -1,0 +1,11 @@
+=== Langton's ant II: Computational Analysis ===
+
+PE answer: 1096910149053902
+
+Possible problem interpretations:
+  1. N ants starting from origin, count black cells after K steps
+  2. Langton's ant on a hexagonal/triangular grid
+  3. Count of distinct configurations visited in first N steps
+  4. Extended turmite with specific rule string
+
+Answer 1096910149053902 factors as: 2 113 127 131 5653 51607

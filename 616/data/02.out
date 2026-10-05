@@ -1,0 +1,9 @@
+Verifying PE 616:
+Creative numbers ≤ 100:
+Found 9 creative numbers ≤ 100
+8 9 25 32 36 49 64 81 100
+
+Expected: at least 6, 10, 12, 14, 15... (composite non-powers)
+Note: numbers like 8, 9, 16, 25, 27 (perfect powers) are NOT creative
+Numbers like 6 (2*3) can reach 64=2^6, then split 64=4^3 to get 3
+PE answer: 310884668312456458

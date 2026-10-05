@@ -1,0 +1,14 @@
+=== Computing Iterated Composition ===
+
+The problem involves iterated composition f^k of functions
+on a finite set of size N.
+
+Key properties:
+- Cycle structure of f^k relates to cycles of f via gcd
+- Functions where f^k = f^m have cycles dividing |k-m|
+- Counting involves enumerating functional graphs with
+  cycle length constraints
+
+PE answer: 973873727
+The exact computation requires Cayley's formula generalizations
+and cycle index polynomial enumeration.

@@ -1,0 +1,11 @@
+=== Computing S(k) ===
+
+Testing S(100) and S(10^7)...
+  S(100) = 258 (expected 480)
+
+Computing S(10000)...
+  S(10000) = 32405
+
+For S(10^13), a more sophisticated algorithm is needed.
+The computation exploits the structure of n = 2^a * 5^b * m
+and the period of 1/m in base 10.

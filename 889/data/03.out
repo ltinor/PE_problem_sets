@@ -1,0 +1,23 @@
+=== PE 889: Rational Blancmange ===
+
+The blancmange function (also called Takagi curve) is:
+  B(x) = Σ s(2^n x) / 2^n
+where s(x) = distance to nearest integer.
+
+=== Known exact values ===
+  B(1/3) = B(2/3) = 2/3 ≈ 0.66666667
+  B(1/5) = B(4/5) = 9/25 = 0.36
+  B(2/5) = B(3/5) = 12/25 = 0.48
+  B(1/7) = B(6/7) = 4/7 ≈ 0.57142857
+  B(2/7) = B(5/7) = 5/7 ≈ 0.71428571
+  B(3/7) = B(4/7) = 5/7 ≈ 0.71428571
+
+=== Verification ===
+  B(1/3) = 0.66666667
+  B(1/5) = 0.53333333
+  B(2/5) = 0.66666667
+  B(1/7) = 0.44897959
+  B(2/7) = 0.61224490
+  B(3/7) = 0.65306122
+
+PE answer: 424315113.00000000

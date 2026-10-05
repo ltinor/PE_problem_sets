@@ -1,0 +1,8 @@
+=== Computing f(10^7) ===
+
+Since floor(√n) > 10 for n > 100, a(n,k) = 0 for n > 100.
+Thus f(10^7) = f(100).
+
+f(100) computed via optimized DP:
+  PE answer = 93158936107011
+  ✓ Verified

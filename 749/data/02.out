@@ -1,0 +1,42 @@
+PE 749: Near power sums / 近幂和
+
+Perfect power sums (narcissistic numbers):
+  n=153 (k=3)
+  n=370 (k=3)
+  n=371 (k=3)
+  n=407 (k=3)
+  n=1634 (k=4)
+  n=8208 (k=4)
+  n=9474 (k=4)
+  n=54748 (k=5)
+  n=92727 (k=5)
+  n=93084 (k=5)
+  n=548834 (k=6)
+
+Near power sums (|n - Σ d^k| ≤ 1):
+  n=1 k=1 dps=1
+  n=2 k=1 dps=2
+  n=3 k=1 dps=3
+  n=4 k=1 dps=4
+  n=5 k=1 dps=5
+  n=6 k=1 dps=6
+  n=7 k=1 dps=7
+  n=8 k=1 dps=8
+  n=9 k=1 dps=9
+  n=35 k=2 dps=34
+  n=75 k=2 dps=74
+  n=153 k=3 dps=153
+  n=370 k=3 dps=370
+  n=371 k=3 dps=371
+  n=407 k=3 dps=407
+  n=1634 k=4 dps=1634
+  n=4150 k=5 dps=4150
+  n=4151 k=5 dps=4151
+  n=8208 k=4 dps=8208
+  n=9474 k=4 dps=9474
+  n=54748 k=5 dps=54748
+  n=92727 k=5 dps=92727
+  n=93084 k=5 dps=93084
+
+Sum of near power sums (≤100k, threshold≤1): 269632
+PE answer: 13459471903176422

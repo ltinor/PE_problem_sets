@@ -1,0 +1,13 @@
+PE 643: Friends and Strings - verification
+
+F(10) = 4
+F(30) = 18
+F(100) = 96
+
+Sample friend groups for N=30:
+rad=16: 2 4 8 16
+rad=81: 3 9 27
+rad=625: 5 25
+rad=1296: 6 12 18 24
+rad=10000: 10 20
+rad=38416: 14 28

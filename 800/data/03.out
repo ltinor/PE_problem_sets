@@ -1,0 +1,12 @@
+=== Computing C(800800^800800) ===
+
+BASE = 800800
+log(N) = 1.08856e+07
+Estimated max q ≈ 15704554
+
+Computing...   Primes up to 15704564: 1013281
+done!
+
+C(800800^800800) = 1412403576
+PE answer = 1412403576
+✓ Match!

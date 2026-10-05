@@ -1,0 +1,21 @@
+=== PE 894: Spiral of Theodorus ===
+
+The Spiral of Theodorus is constructed from right triangles
+with legs (1, √k) giving hypotenuse √(k+1).
+
+=== Geometric properties ===
+  k-th triangle: legs = 1 and √k, hyp = √(k+1)
+  Rotation angle: arctan(1/√k) ≈ 1/√k for large k
+  Total angle after N: ≈ 2√N
+  Distance from origin after N: √(N+1)
+
+=== Asymptotic spiral equation (r, φ) ===
+  φ ≈ 2√(r² - 1) → r ≈ φ²/4 + 1
+  This is approximately an Archimedean spiral.
+
+=== Interesting values ===
+  φ_16 ≈ 2π (first full rotation near 16 triangles)
+  φ_300 ≈ 10π (about 5 full rotations)
+  The spiral never closes (irrational rotations).
+
+PE answer: 0.7718678168

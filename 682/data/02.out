@@ -1,0 +1,6 @@
+PE 682: 5-Smooth Pairs
+
+Verification:
+  f(10) = 4 (brute: 4)
+  f(100) = 3629 (brute: 3629)
+  Expected: f(10)=4, f(100)=3629

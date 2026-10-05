@@ -1,0 +1,14 @@
+PE 856: Waiting for a Pair / 等待对子
+
+=== Analytical Verification ===
+
+P(pair at positions 1-2) = 1/17 = 0.0588235
+P(pair at positions 2-3) = (16/17)*(3/50) = 0.0564706
+
+Expected draws (DP, full precision) = 17.096615010101
+
+=== DP Validation: small decks ===
+  1 ranks × 1 (total 1): E = 1.000000000000
+  1 ranks × 2 (total 2): E = 1.000000000000
+  2 ranks × 2 (total 4): E = 3.000000000000
+  2 ranks × 4 (total 8): E = 3.200000000000

@@ -1,0 +1,27 @@
+=== PE 884: Removing the Joker from the Game ===
+
+This problem models a card game where the joker can be
+used once and then removed from play.
+
+=== Scenario analysis ===
+Case 1: Joker never used → standard coupon collector
+Case 2: Joker used immediately → removes 1 needed card
+Case 3: Strategic joker use → optimal stopping problem
+
+=== Small deck simulations ===
+Deck size | Target | E[no joker] | E[with joker] | E[joker removed]
+----------|--------|-------------|---------------|----------------
+        5 |      1 |           5 |             9 |              7
+        5 |      2 |   500000011 |            11 |      250000011
+        5 |      3 |   166666677 |     500000016 |      333333346
+       10 |      1 |          10 |     500000020 |      250000015
+       10 |      2 |          15 |     166666688 |       83333351
+       10 |      3 |   333333354 |     916666696 |      625000025
+       15 |      1 |          15 |            24 |             19
+       15 |      2 |   500000026 |     333333365 |      416666695
+       15 |      3 |   500000031 |     333333369 |      416666700
+       20 |      1 |          20 |     500000035 |      250000027
+       20 |      2 |          30 |     500000042 |      250000036
+       20 |      3 |   666666708 |     750000049 |      708333378
+
+PE answer: 1105985795684653500

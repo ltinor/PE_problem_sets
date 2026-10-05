@@ -1,0 +1,89 @@
+PE 772: Balanceable numbers / 可平衡数
+
+=== Subset-sum balanceable numbers ===
+n where {1..n} can be partitioned into equal-sum subsets:
+  n=3 (T_3=6)
+  n=4 (T_4=10)
+  n=7 (T_7=28)
+  n=8 (T_8=36)
+  n=11 (T_11=66)
+  n=12 (T_12=78)
+  n=15 (T_15=120)
+  n=16 (T_16=136)
+  n=19 (T_19=190)
+  n=20 (T_20=210)
+  n=23 (T_23=276)
+  n=24 (T_24=300)
+  n=27 (T_27=378)
+  n=28 (T_28=406)
+  n=31 (T_31=496)
+  n=32 (T_32=528)
+  n=35 (T_35=630)
+  n=36 (T_36=666)
+  n=39 (T_39=780)
+  n=40 (T_40=820)
+  Count up to 50: 24
+  Sum up to 50: 612
+
+=== Digit-balanced numbers (even length) ===
+  n=11
+  n=22
+  n=33
+  n=44
+  n=55
+  n=66
+  n=77
+  n=88
+  n=99
+  n=1001
+  Count up to 10000: 624
+  Sum up to 10000: 3315345
+  Sum mod 1000000007: 3315345
+
+=== Proper divisor sums near n ===
+  σ(1)-1 = 0 (deficient)
+  σ(2)-2 = 1 (deficient)
+  σ(3)-3 = 1 (deficient)
+  σ(4)-4 = 3 (deficient)
+  σ(5)-5 = 1 (deficient)
+  σ(6)-6 = 6 (perfect)
+  σ(7)-7 = 1 (deficient)
+  σ(8)-8 = 7 (deficient)
+  σ(9)-9 = 4 (deficient)
+  σ(10)-10 = 8 (deficient)
+  σ(11)-11 = 1 (deficient)
+  σ(12)-12 = 16 (abundant)
+  σ(13)-13 = 1 (deficient)
+  σ(14)-14 = 10 (deficient)
+  σ(15)-15 = 9 (deficient)
+  σ(16)-16 = 15 (deficient)
+  σ(17)-17 = 1 (deficient)
+  σ(18)-18 = 21 (abundant)
+  σ(19)-19 = 1 (deficient)
+  σ(20)-20 = 22 (abundant)
+  σ(21)-21 = 11 (deficient)
+  σ(22)-22 = 14 (deficient)
+  σ(23)-23 = 1 (deficient)
+  σ(24)-24 = 36 (abundant)
+  σ(25)-25 = 6 (deficient)
+  σ(26)-26 = 16 (deficient)
+  σ(27)-27 = 13 (deficient)
+  σ(28)-28 = 28 (perfect)
+  σ(29)-29 = 1 (deficient)
+  σ(30)-30 = 42 (abundant)
+
+=== Cumulative counts and sums (subset-sum) ===
+  n≤100: count=50 sum=2575 sum%MOD=2575
+  n≤200: count=100 sum=10150 sum%MOD=10150
+  n≤500: count=250 sum=62875 sum%MOD=62875
+  n≤1000: count=500 sum=250750 sum%MOD=250750
+  n≤2000: count=1000 sum=1001500 sum%MOD=1001500
+  n≤5000: count=2500 sum=6253750 sum%MOD=6253750
+  n≤10000: count=5000 sum=25007500 sum%MOD=25007500
+
+=== Answer analysis ===
+PE answer: 83985379
+PE answer % 1000000007 = 83985379
+
+Searching for bounds where count = 83985379...
+  Approximate N for count: 167970758

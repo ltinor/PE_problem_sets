@@ -1,0 +1,3 @@
+Verifying small examples:
+M(1,10) = 2021.5 (expected 2021.5)
+M(100,1000) = 4715 (expected 4715.0)

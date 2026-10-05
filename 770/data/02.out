@@ -1,0 +1,111 @@
+PE 770: B-tourism / B旅游
+
+=== Counting bounded tours on a line ===
+Positions: 0, 1, ..., N-1 (line)
+Constraint: each step moves at most B positions
+Goal: visit all positions exactly once (any order)
+
+N=1:
+  B=1: 1 tours
+  B=∞: 1 tours (=N!)
+
+N=2:
+  B=1: 2 tours
+  B=2: 2 tours
+  B=∞: 2 tours (=N!)
+
+N=3:
+  B=1: 2 tours
+  B=2: 6 tours
+  B=3: 6 tours
+  B=∞: 6 tours (=N!)
+
+N=4:
+  B=1: 2 tours
+  B=2: 12 tours
+  B=3: 24 tours
+  B=4: 24 tours
+  B=∞: 24 tours (=N!)
+
+N=5:
+  B=1: 2 tours
+  B=2: 20 tours
+  B=3: 72 tours
+  B=4: 120 tours
+  B=∞: 120 tours (=N!)
+
+N=6:
+  B=1: 2 tours
+  B=2: 34 tours
+  B=3: 180 tours
+  B=4: 480 tours
+  B=∞: 720 tours (=N!)
+
+N=7:
+  B=1: 2 tours
+  B=2: 56 tours
+  B=3: 428 tours
+  B=4: 1632 tours
+  B=∞: 5040 tours (=N!)
+
+N=8:
+  B=1: 2 tours
+  B=2: 88 tours
+  B=3: 1042 tours
+  B=4: 5124 tours
+  B=∞: 40320 tours (=N!)
+
+N=9:
+  B=1: 2 tours
+  B=2: 136 tours
+  B=3: 2512 tours
+  B=4: 15860 tours
+  B=∞: 362880 tours (=N!)
+
+N=10:
+  B=1: 2 tours
+  B=2: 208 tours
+  B=3: 5912 tours
+  B=4: 50186 tours
+  B=∞: 3628800 tours (=N!)
+
+=== Sum of bounded tours over all B ===
+  N=1: sum=1 mod 1000000007=1
+  N=2: sum=4 mod 1000000007=4
+  N=3: sum=14 mod 1000000007=14
+  N=4: sum=62 mod 1000000007=62
+  N=5: sum=334 mod 1000000007=334
+  N=6: sum=2136 mod 1000000007=2136
+  N=7: sum=15798 mod 1000000007=15798
+  N=8: sum=132736 mod 1000000007=132736
+
+=== Answer analysis ===
+PE answer: 127311223
+PE answer % 1000000007 = 127311223
+
+Factorials near answer:
+  1! = 1
+  2! = 2
+  3! = 6
+  4! = 24
+  5! = 120
+  6! = 720
+  7! = 5040
+  8! = 40320
+  9! = 362880
+  10! = 3628800
+  11! = 39916800
+  12! = 479001600
+  13! = 6227020800
+  14! = 87178291200
+  15! = 1307674368000
+  16! = 20922789888000
+  17! = 355687428096000
+  18! = 6402373705728000
+  19! = 121645100408832000
+  20! = 2432902008176640000
+  21! = -4249290049419214848
+  22! = -1250660718674968576
+  23! = 8128291617894825984
+  24! = -7835185981329244160
+  25! = 7034535277573963776

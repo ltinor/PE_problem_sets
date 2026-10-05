@@ -1,0 +1,35 @@
+PE 759: A squared recurrence relation / 递推数列的平方和
+
+Small values of f(n) = n * popcount(n):
+  f( 1) =    1 (popcount=1)
+  f( 2) =    2 (popcount=1)
+  f( 3) =    6 (popcount=2)
+  f( 4) =    4 (popcount=1)
+  f( 5) =   10 (popcount=2)
+  f( 6) =   12 (popcount=2)
+  f( 7) =   21 (popcount=3)
+  f( 8) =    8 (popcount=1)
+  f( 9) =   18 (popcount=2)
+  f(10) =   20 (popcount=2)
+  f(11) =   33 (popcount=3)
+  f(12) =   24 (popcount=2)
+  f(13) =   39 (popcount=3)
+  f(14) =   42 (popcount=3)
+  f(15) =   60 (popcount=4)
+  f(16) =   16 (popcount=1)
+  f(17) =   34 (popcount=2)
+  f(18) =   36 (popcount=2)
+  f(19) =   57 (popcount=3)
+  f(20) =   40 (popcount=2)
+
+Verification:
+  S(10) = 1530 (expected 1530) ✓
+  S(100) = 4798445 (expected 4798445) ✓
+
+DP vs brute (mod 1000000007) for small N:
+  N=     10: DP=1530 brute_mod=1530 ✓
+  N=    100: DP=4798445 brute_mod=4798445 ✓
+  N=   1000: DP=98467357 brute_mod=98467357 ✓
+  N=  10000: DP=29081312 brute_mod=29081312 ✓
+  N= 100000: DP=405942229 brute_mod=405942229 ✓
+  N=1000000: DP=309358254 brute_mod=144670245 ✗

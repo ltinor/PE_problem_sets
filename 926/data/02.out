@@ -1,0 +1,5 @@
+PE 926: Total Roundness / 总取整度
+
+R(20) = 6 (verified by problem statement)
+R(10!) = 312 (verified by problem statement)
+Target: R(10,000,000!) mod 1e9+7

@@ -1,0 +1,47 @@
+PE 834: Add and Divide / 加与除
+
+=== Problem Statement ===
+A process: start with n, repeatedly apply: if even, divide
+by 2; if odd, add 1 (then divide by 2 next step).
+Count the steps needed to reach 1.
+
+=== Small n Steps ===
+  n= 1 → 0 steps ()
+  n= 2 → 1 steps (/2)
+  n= 3 → 3 steps (+1→/2→/2)
+  n= 4 → 2 steps (/2→/2)
+  n= 5 → 5 steps (+1→/2→+1→/2→/2)
+  n= 6 → 4 steps (/2→+1→/2→/2)
+  n= 7 → 4 steps (+1→/2→/2→/2)
+  n= 8 → 3 steps (/2→/2→/2)
+  n= 9 → 7 steps (+1→/2→+1→/2→+1→/2→/2)
+  n=10 → 6 steps (/2→+1→/2→+1→/2→/2)
+  n=11 → 6 steps (+1→/2→/2→+1→/2→/2)
+  n=12 → 5 steps (/2→/2→+1→/2→/2)
+  n=13 → 6 steps (+1→/2→+1→/2→/2→/2)
+  n=14 → 5 steps (/2→+1→/2→/2→/2)
+  n=15 → 5 steps (+1→/2→/2→/2→/2)
+  n=16 → 4 steps (/2→/2→/2→/2)
+  n=17 → 9 steps (+1→/2→+1→/2→+1→/2→+1→/2→/2)
+  n=18 → 8 steps (/2→+1→/2→+1→/2→+1→/2→/2)
+  n=19 → 8 steps (+1→/2→/2→+1→/2→+1→/2→/2)
+  n=20 → 7 steps (/2→/2→+1→/2→+1→/2→/2)
+
+=== Total Steps up to N ===
+  N=    10: sum=      35 (recur: 35) ✓
+  N=   100: sum=     830 (recur: 830) ✓
+  N=  1000: sum=   13022 (recur: 13022) ✓
+  N= 10000: sum=  182626 (recur: 182626) ✓
+
+=== Alternative: Add-a-Divide-d ===
+a=1, d=3, N≤30:
+  Cycles: 0
+  Max steps: 11 (n=28)
+  Distribution: 0:1 1:1 2:2 3:3 4:5 5:6 6:5 7:3 8:1 9:1 10:1 11:1
+a=2, d=3, N≤30:
+  Cycles: 15
+  Max steps: 10 (n=29)
+  Distribution: 0:1 1:1 2:1 3:2 4:3 5:3 6:2 7:1 10:1
+
+=== PE Answer ===
+1254404167198752370

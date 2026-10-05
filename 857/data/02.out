@@ -1,0 +1,10 @@
+PE 857: Beautiful Graphs / 美丽图
+
+=== Verification ===
+
+G(3) = 24 (verified by brute force)
+G(4) = 186 (verified by brute force)
+G(5) = 1752 (computed by brute force)
+G(15) = 12472315010483328 (given)
+
+G(10^7) mod 10^9+7 = 966332096

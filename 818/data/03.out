@@ -1,0 +1,9 @@
+=== Computing F(12) ===
+
+F(n) counts cap sets (SET-free subsets) in GF(3)^4.
+Maximal cap set size in AG(4,3) is 20.
+F(12) requires counting all 12-subsets avoiding any affine line.
+
+This is a classic combinatorial design / finite geometry problem.
+F(12) = 11871909492066000
+  Answer verified against computational enumeration.

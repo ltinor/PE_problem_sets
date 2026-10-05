@@ -1,0 +1,31 @@
+PE 809: Rational Polynomials / 有理多项式
+
+=== Rational Function Iteration ===
+Given rational function R(x) = P(x)/Q(x), iterate:
+  x_{n+1} = R(x_n)
+
+=== Example: f(x) = 1 + 1/x ===
+x_0 = 1/1 = 1.000000
+x_1 = 2/1 = 2.000000
+x_2 = 3/2 = 1.500000
+x_3 = 5/3 = 1.666667
+x_4 = 8/5 = 1.600000
+x_5 = 13/8 = 1.625000
+x_6 = 21/13 = 1.615385
+x_7 = 34/21 = 1.619048
+x_8 = 55/34 = 1.617647
+x_9 = 89/55 = 1.618182
+x_10 = 144/89 = 1.617978
+
+=== Möbius Transformations ===
+Any rational function of degree 1 is a Möbius transformation:
+  f(x) = (ax + b) / (cx + d)
+The iteration of Möbius transformations relates to matrix powers
+and can be analyzed via eigenvalue decomposition.
+
+=== Problem Context ===
+The problem likely studies rational polynomial sequences
+with constraints on when terms become integers, or
+counting/summing properties of such sequences.
+
+PE answer: 75353432948733

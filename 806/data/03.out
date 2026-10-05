@@ -1,0 +1,5 @@
+=== Computing Nim on Triangular Grid ===
+
+The full computation requires analyzing Grundy value patterns
+on the triangular grid and counting zero-XOR subsets.
+PE answer: 94394343

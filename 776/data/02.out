@@ -1,0 +1,18 @@
+PE 776: Digit Sum Division / 数字和除法
+
+=== Harshad numbers (digit-sum divisible) ===
+Definition: s(n) | n, where s(n) = sum of decimal digits
+
+First 30 Harshad numbers:
+  1  2  3  4  5  6  7  8  9  10  12  18  20  21  24  27  30  36  40  42  45  48  50  54  60  63  70  72  80  81
+
+=== Counts and sums for different bounds ===
+  N=10^2: count=33, sum=1222, density=33.00%
+  N=10^3: count=213, sum=90755, density=21.30%
+  N=10^4: count=1538, sum=6757035, density=15.38%
+  N=10^5: count=11872, sum=533350649, density=11.87%
+  N=10^6: count=95428, sum=43655768809, density=9.54%
+
+=== Density analysis ===
+  As n → ∞, Harshad density → 0 (logarithmic decay)
+  The sum converges slowly due to large numbers contributing

@@ -1,0 +1,39 @@
+PE 732: Standing on the shoulders of giants / 站在巨人肩上
+
+N=1 (n!=1):
+  Σ i×h:        1 (formula: 1)
+  Σ cum:         1
+  Σ max_sofar:  1
+  Σ (n-i)×h:    1 (formula: 0)
+N=2 (n!=2):
+  Σ i×h:        9 (formula: 9)
+  Σ cum:         9
+  Σ max_sofar:  7
+  Σ (n-i)×h:    9 (formula: 3)
+N=3 (n!=6):
+  Σ i×h:        72 (formula: 72)
+  Σ cum:         72
+  Σ max_sofar:  46
+  Σ (n-i)×h:    72 (formula: 36)
+N=4 (n!=24):
+  Σ i×h:        600 (formula: 600)
+  Σ cum:         600
+  Σ max_sofar:  326
+  Σ (n-i)×h:    600 (formula: 360)
+N=5 (n!=120):
+  Σ i×h:        5400 (formula: 5400)
+  Σ cum:         5400
+  Σ max_sofar:  2556
+  Σ (n-i)×h:    5400 (formula: 3600)
+N=6 (n!=720):
+  Σ i×h:        52920 (formula: 52920)
+  Σ cum:         52920
+  Σ max_sofar:  22212
+  Σ (n-i)×h:    52920 (formula: 37800)
+N=7 (n!=5040):
+  Σ i×h:        564480 (formula: 564480)
+  Σ cum:         564480
+  Σ max_sofar:  212976
+  Σ (n-i)×h:    564480 (formula: 423360)
+
+Known PE 732 answer: 45609

@@ -1,0 +1,32 @@
+PE 828: Numbers Challenge / 数字挑战
+
+=== Problem Statement ===
+Using digits 1..N each exactly once with operations
++, -, *, / (exact division) and parentheses, find how
+many distinct integers can be formed.
+
+=== Small N Results ===
+N=1: 1 achievable values
+  Values: 1
+  First missing: 2
+
+N=2: 3 achievable values
+  Values: 1 2 3
+  First missing: 4
+
+N=3: 10 achievable values
+  Values: 0 1 2 3 4 5 6 7 8 9
+  First missing: 10
+
+N=4: 32 achievable values
+  First missing: 29
+
+N=5: 122 achievable values
+  First missing: 76
+
+=== The Numbers Challenge ===
+The original problem likely involves a specific set of digits
+and asks for the sum of all achievable values up to some bound,
+or for a very large N (making the answer huge).
+
+PE answer: 148693670

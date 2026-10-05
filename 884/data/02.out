@@ -1,0 +1,37 @@
+PE 884: Removing the Joker from the Game / 游戏中去除鬼牌
+
+=== Game State Space ===
+States for max_cards=10, max_hand=5: 150 states
+
+=== Expected Draws (without joker) ===
+  Deck= 10: E[need=1]=10  E[need=2]=15  E[need=3]=333333354  E[need=4]=833333360  E[need=5]=833333362
+  Deck= 20: E[need=1]=20  E[need=2]=30  E[need=3]=666666708  E[need=4]=666666713  E[need=5]=666666717
+  Deck= 30: E[need=1]=30  E[need=2]=45  E[need=3]=55  E[need=4]=500000066  E[need=5]=500000072
+  Deck= 40: E[need=1]=40  E[need=2]=60  E[need=3]=333333409  E[need=4]=333333419  E[need=5]=333333427
+  Deck= 52: E[need=1]=52  E[need=2]=78  E[need=3]=333333431  E[need=4]=333333444  E[need=5]=133333453
+
+=== Joker Impact Analysis ===
+  Deck=10:
+    need=1: without=10, with_joker=500000020
+    need=2: without=15, with_joker=166666688
+    need=3: without=333333354, with_joker=916666696
+    need=4: without=833333360, with_joker=316666694
+    need=5: without=833333362, with_joker=150000028
+  Deck=20:
+    need=1: without=20, with_joker=500000035
+    need=2: without=30, with_joker=500000042
+    need=3: without=666666708, with_joker=750000049
+    need=4: without=666666713, with_joker=150000049
+    need=5: without=666666717, with_joker=650000056
+  Deck=40:
+    need=1: without=40, with_joker=500000065
+    need=2: without=60, with_joker=166666743
+    need=3: without=333333409, with_joker=416666755
+    need=4: without=333333419, with_joker=816666766
+    need=5: without=333333427, with_joker=650000105
+
+=== Combined Result ===
+Result (mod 1000000007): 688384503
+
+=== PE Answer ===
+1105985795684653500

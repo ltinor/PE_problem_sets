@@ -1,0 +1,17 @@
+Exploring possible formulas for PE 746...
+
+M=1: Σ(2i)!=2 prod_odd=3
+M=2: Σ(2i)!=26 prod_odd=15
+M=3: Σ(2i)!=746 prod_odd=105
+M=4: Σ(2i)!=41066 prod_odd=945
+M=5: Σ(2i)!=3669866 prod_odd=10395
+M=6: Σ(2i)!=482671466 prod_odd=135135
+M=7: Σ(2i)!=87660962666 prod_odd=2027025
+M=8: Σ(2i)!=21010450850666 prod_odd=34459425
+
+No-adjacent-family counts (linear):
+  N=1: 0
+  N=2: 8
+  N=3: 240
+  N=4: 13824
+  N=5: 1263360

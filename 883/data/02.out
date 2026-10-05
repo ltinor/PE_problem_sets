@@ -1,0 +1,56 @@
+PE 883: Remarkable Harmonic Triangles / 显著调和三角形
+
+=== Definition ===
+A harmonic triangle has integer sides a ≤ b ≤ c
+where 1/a, 1/b, 1/c form an arithmetic progression.
+Equivalently: 2/b = 1/a + 1/c, i.e., b = 2ac/(a+c).
+
+=== Small harmonic triangles ===
+  a   b   c   (perimeter)
+---------------------------
+  1   1   1   (3)
+  2   2   2   (6)
+  3   3   3   (9)
+  3   4   6   (13)
+  4   4   4   (12)
+  5   5   5   (15)
+  6   6   6   (18)
+  6   8  12   (26)
+  7   7   7   (21)
+  8   8   8   (24)
+  9   9   9   (27)
+  9  12  18   (39)
+ 10  10  10   (30)
+ 10  12  15   (37)
+ 11  11  11   (33)
+ 12  12  12   (36)
+ 12  15  20   (47)
+ 12  16  24   (52)
+ 13  13  13   (39)
+ 14  14  14   (42)
+ 15  15  15   (45)
+ 15  20  30   (65)
+ 15  21  35   (71)
+ 16  16  16   (48)
+ 17  17  17   (51)
+ 18  18  18   (54)
+ 18  24  36   (78)
+ 19  19  19   (57)
+ 20  20  20   (60)
+ 20  24  30   (74)
+
+=== Count by perimeter bound ===
+  P ≤   50: count=21
+  P ≤  100: count=46
+  P ≤  200: count=101
+  P ≤  500: count=277
+  P ≤ 1000: count=596
+
+=== Parametric generation (limit=200) ===
+  Generated 101 harmonic triangles
+
+=== Sum of perimeters (limit=200) ===
+  Sum = 10753
+
+=== PE Answer ===
+14854003484704

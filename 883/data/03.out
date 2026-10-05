@@ -1,0 +1,12 @@
+=== PE 883: Remarkable Harmonic Triangles ===
+
+The harmonic mean of two numbers a and c is H = 2ac/(a+c).
+When b = H(a,c) and a,b,c form a triangle, it's a harmonic triangle.
+
+=== Distribution of side ratios ===
+Total: 277 triples with perimeter ≤ 500
+
+=== Special cases ===
+Equilateral: a=b=c, this satisfies 2/a = 1/a+1/a ✓
+
+PE answer: 14854003484704

@@ -1,0 +1,14 @@
+=== Larger range exploration ===
+
+σ(n) statistics for n up to 1000:
+  Average σ(n) = 823.081
+  Min σ(n) = 1 (for n=1)
+  Max σ(n) = 3048
+  Σ σ(n) = 823081
+  Asymptotic: Σ_{n≤N} σ(n) ~ (π²/12) * N² ≈ 0.822467 * N²
+
+PE answer: 2.533018434e23
+  log(2) = 0.693147181
+  γ = 0.57721566...
+  π²/6 = 1.644934067
+  Note: ζ(2) = π²/6 ≈ 1.644934, 1/ζ(2) ≈ 0.607927

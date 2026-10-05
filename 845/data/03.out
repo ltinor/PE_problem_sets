@@ -1,0 +1,37 @@
+=== PE 845: Prime Digit Sum ===
+
+=== Digit Sum Distribution for Primes ===
+For primes ≤ 10000:
+Digit sum → count of primes:
+  ds=2: 3 primes
+  ds=3: 1 primes
+  ds=4: 8 primes
+  ds=5: 15 primes
+  ds=7: 30 primes
+  ds=8: 29 primes
+  ds=10: 46 primes
+  ds=11: 68 primes
+  ds=13: 84 primes
+  ds=14: 94 primes
+  ds=16: 108 primes
+  ds=17: 120 primes
+  ds=19: 128 primes
+  ds=20: 106 primes
+  ds=22: 98 primes
+  ds=23: 95 primes
+  ds=25: 64 primes
+  ds=26: 51 primes
+  ds=28: 29 primes
+  ds=29: 30 primes
+  ds=31: 16 primes
+  ds=32: 5 primes
+  ds=35: 1 primes
+
+=== Additive Prime Growth ===
+  N=100: 14 additive primes
+  N=500: 54 additive primes
+  N=1000: 89 additive primes
+  N=5000: 338 additive primes
+  N=10000: 590 additive primes
+
+PE answer: 45009328011709400

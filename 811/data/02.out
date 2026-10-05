@@ -1,0 +1,38 @@
+PE 811: Bitwise Recursion / 按位递归
+
+=== Problem Summary ===
+b(n) = largest power of 2 dividing n
+A(0) = 1
+A(2n) = 3A(n) + 5A(2n - b(n))  for n > 0
+A(2n+1) = A(n)
+H(t, r) = A((2^t + 1)^r)
+
+=== Verify small values ===
+  A(81) = 636056 (expected 636056) ✓
+  H(3, 2) = A(81) = 636056 = 636056 ✓
+
+=== Small A(n) values ===
+  A( 0) = 1
+  A( 1) = 1
+  A( 2) = 8
+  A( 3) = 1
+  A( 4) = 64
+  A( 5) = 8
+  A( 6) = 43
+  A( 7) = 1
+  A( 8) = 512
+  A( 9) = 64
+  A(10) = 344
+  A(11) = 8
+  A(12) = 1849
+  A(13) = 43
+  A(14) = 218
+  A(15) = 1
+  A(16) = 4096
+  A(17) = 512
+  A(18) = 2752
+  A(19) = 64
+  A(20) = 14792
+
+=== PE Answer ===
+  H(10^14+31, 62) mod 1,000,062,031 = 327287526

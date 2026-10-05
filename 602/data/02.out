@@ -1,0 +1,6 @@
+Verifying known values:
+c(3, 1) = 1 (expected 1)
+c(3, 2) = 4 (expected 4)
+c(3, 3) = 1 (expected 1)
+
+c(100, 40) mod 10^9+7 = 986699437 (expected 986699437)

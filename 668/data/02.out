@@ -1,0 +1,10 @@
+PE 668: Square Root Smooth Numbers
+Numbers ≤ N where largest prime factor ≤ sqrt(N):
+  S(10) = 3
+  S(30) = 10
+  S(100) = 32
+
+Checking with algorithm:
+  S(10) = 3 (expected: 3 → 4,8,9)
+  S(30) = 10 (expected: 10)
+  S(100) = 32 (expected: 32)

@@ -1,0 +1,62 @@
+PE 794: Seventeen points / 十七个点
+
+=== Combinatorial counts for 17 points on a circle ===
+  n = 17 points
+  Number of line segments: C(17,2) = 136
+  Number of triangles: C(17,3) = 680
+  Number of quadrilaterals: C(17,4) = 2380
+  Diagonal intersections: C(17,4) = 2380
+  Regions by all diagonals: 2501
+  Catalan(15) triangulations: 9694845
+
+=== For various n ===
+  n  |  C(n,4)  | Regions | Catalan(n-2) | Triangles
+------------------------------------------------------------
+   4 |        1 |       5 |            2 | 4
+   5 |        5 |      12 |            5 | 10
+   6 |       15 |      26 |           14 | 20
+   7 |       35 |      51 |           42 | 35
+   8 |       70 |      92 |          132 | 56
+   9 |      126 |     155 |          429 | 84
+  10 |      210 |     247 |         1430 | 120
+  11 |      330 |     376 |         4862 | 165
+  12 |      495 |     551 |        16796 | 220
+  13 |      715 |     782 |        58786 | 286
+  14 |     1001 |    1080 |       208012 | 364
+  15 |     1365 |    1457 |       742900 | 455
+  16 |     1820 |    1926 |      2674440 | 560
+  17 |     2380 |    2501 |      9694845 | 680
+
+=== Sum of combinatorials ===
+  Sum of C(k,4) for k=4..17:
+    k=4: C(k,4)=1  cumulative=1
+    k=5: C(k,4)=5  cumulative=6
+    k=6: C(k,4)=15  cumulative=21
+    k=7: C(k,4)=35  cumulative=56
+    k=8: C(k,4)=70  cumulative=126
+    k=9: C(k,4)=126  cumulative=252
+    k=10: C(k,4)=210  cumulative=462
+    k=11: C(k,4)=330  cumulative=792
+    k=12: C(k,4)=495  cumulative=1287
+    k=13: C(k,4)=715  cumulative=2002
+    k=14: C(k,4)=1001  cumulative=3003
+    k=15: C(k,4)=1365  cumulative=4368
+    k=16: C(k,4)=1820  cumulative=6188
+    k=17: C(k,4)=2380  cumulative=8568
+
+=== Sum of triangles over k=3..17 ===
+    k=3: C(k,3)=1  cumulative=1
+    k=4: C(k,3)=4  cumulative=5
+    k=5: C(k,3)=10  cumulative=15
+    k=6: C(k,3)=20  cumulative=35
+    k=7: C(k,3)=35  cumulative=70
+    k=8: C(k,3)=56  cumulative=126
+    k=9: C(k,3)=84  cumulative=210
+    k=10: C(k,3)=120  cumulative=330
+    k=11: C(k,3)=165  cumulative=495
+    k=12: C(k,3)=220  cumulative=715
+    k=13: C(k,3)=286  cumulative=1001
+    k=14: C(k,3)=364  cumulative=1365
+    k=15: C(k,3)=455  cumulative=1820
+    k=16: C(k,3)=560  cumulative=2380
+    k=17: C(k,3)=680  cumulative=3060

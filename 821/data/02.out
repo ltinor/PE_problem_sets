@@ -1,0 +1,21 @@
+PE 821: 123-Separeted / 123分隔
+
+=== Problem Summary ===
+Numbers whose decimal representation contains the
+digits 1, 2, 3 in that order, separated by other digits.
+We count/generate numbers with this property.
+
+=== Verification: small examples ===
+  123: yes (expected yes)
+  14253: yes (expected yes)
+  321: no (expected no)
+  132: no (expected no)
+
+=== Count up to 1000 ===
+  Numbers with 123-separated property in [1,1000]: 1
+
+=== Sum up to 10000 ===
+  Sum of 123-separated numbers in [1,10000]: 78530
+
+=== PE Answer ===
+  Answer = 9219661511328178

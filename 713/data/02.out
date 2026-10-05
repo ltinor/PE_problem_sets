@@ -1,0 +1,14 @@
+PE 713: Turán's water system
+
+Testing Turán complement formula:
+  T(3,2) = 3 (expected 3)
+  T(8,4) = 7 (expected 7)
+
+Turán L(1000) = 3281346 (expected 3281346)
+
+More T(N,m) values:
+N=2: 1
+N=3: 3 1
+N=4: 6 2 1
+N=5: 10 4 2 1
+N=6: 15 6 3 2 1

@@ -1,0 +1,36 @@
+PE 866: Tidying Up B / 整理B
+
+=== Minimum moves to make B's consecutive ===
+s= ABABA min_moves=1
+s= BABAB min_moves=1
+s= AAABB min_moves=0
+s= BBAAA min_moves=0
+s= ABBBA min_moves=0
+s=  ABBB min_moves=0
+
+=== Cost distribution for n=5 ===
+cost=0: 16 strings
+cost=1: 16 strings
+cost=2: 0 strings
+cost=3: 0 strings
+
+=== Sum and expected tidy costs ===
+n= 1: sum=       0, expected=0.000000
+n= 2: sum=       0, expected=0.000000
+n= 3: sum=       1, expected=0.125000
+n= 4: sum=       5, expected=0.312500
+n= 5: sum=      16, expected=0.500000
+n= 6: sum=      43, expected=0.671875
+n= 7: sum=     109, expected=0.851562
+n= 8: sum=     267, expected=1.042969
+n= 9: sum=     633, expected=1.236328
+n=10: sum=    1459, expected=1.424805
+
+=== Tidy cost (moving to one side) ===
+s=ABAB: to_left=1, to_right=3, consecutive=1
+s=BABA: to_left=3, to_right=1, consecutive=1
+s=ABBA: to_left=2, to_right=2, consecutive=0
+s=BAAB: to_left=2, to_right=2, consecutive=1
+
+=== PE Answer ===
+492401720

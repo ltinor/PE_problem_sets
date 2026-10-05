@@ -1,0 +1,11 @@
+PE 737: Coin Loops / 硬币循环
+
+Small n verification:
+  n=1: 1 loops (out of 2 states)
+  n=2: 4 loops (out of 8 states)
+  n=3: 16 loops (out of 24 states)
+  n=4: 48 loops (out of 64 states)
+  n=5: 128 loops (out of 160 states)
+  n=6: 320 loops (out of 384 states)
+
+PE answer (n=30): 757794899

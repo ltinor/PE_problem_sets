@@ -1,0 +1,17 @@
+PE 752: Powers of 1+√7 / 1+√7的幂
+
+n=1: b | a, a=1 b=1
+n=2: b | a, a=8 b=2
+n where b_n ≡ 0 mod 7 (≤100): 7 14 21 28 35 42 65 79 86 89 98
+
+Sum of aₙ for n=1..100: -4288552745163554817
+Sum of bₙ for n=1..100: 3039125534255911497
+
+Checking bₙ mod patterns:
+  mod 7: period = 7 (starts at n=1)
+  mod 49: period = 49 (starts at n=1)
+  mod 3: period = 2 (starts at n=1)
+  mod 5: period = 12 (starts at n=1)
+  mod 13: period = 168 (starts at n=1)
+
+PE answer: 5610899769745488

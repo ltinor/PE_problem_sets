@@ -1,0 +1,6 @@
+PE 683: The Chase II
+
+Verification:
+  G(5) = 96.544112 (expected: ~96.544)
+  Computing G(50)...
+  G(50) = 2.824917877e+06 (expected: ~2.82491788e6)

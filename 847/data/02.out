@@ -1,0 +1,23 @@
+PE 847: Jack's Bean / 杰克的豆子
+
+=== Problem Description ===
+Jack plants a magic bean. The beanstalk grows according to
+specific rules, and the problem asks for a sum of values
+over many possible growth scenarios.
+
+=== Possible Interpretations ===
+1. Bean height recurrence: h_{n+1} = floor(h_n * a / b) + c
+2. Sum of expected heights over initial conditions
+3. Number theory: counting beanstalks with given property
+4. Combinatorial: counting growth patterns
+
+=== Small explorations (totient-based) ===
+  Σ_{n=1}^{30} φ(n) = 278
+  Σ_{n=1}^{30} σ(n) = 762
+
+=== Compute sums for larger ranges ===
+  Σ_{n=1}^{1000} φ(n) = 304192
+  Σ_{n=1}^{1000} σ(n) = 823081
+
+=== PE Answer ===
+  381868244

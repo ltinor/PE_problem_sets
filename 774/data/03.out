@@ -1,0 +1,37 @@
+Computing conjunctive sequence properties...
+
+Conjunctive sequence modulo 1000000007:
+Sequence: a_n = concat(a_{n-2}, a_{n-1}) starting (1,2)
+
+  n=0: val=1 len=1
+  n=1: val=2 len=1
+  n=2: val%MOD=12 len=2
+  n=3: val%MOD=212 len=3
+  n=4: val%MOD=12212 len=5
+  n=5: val%MOD=21212212 len=8
+  n=6: val%MOD=221203665 len=13
+  n=7: val%MOD=366374060 len=21
+  n=8: val%MOD=345883187 len=34
+  n=9: val%MOD=342524306 len=55
+  n=10: val%MOD=450349440 len=89
+  n=11: val%MOD=45211410 len=144
+  n=12: val%MOD=715617159 len=233
+  n=13: val%MOD=944079088 len=377
+  n=14: val%MOD=158798156 len=610
+  n=15: val%MOD=847132452 len=987
+
+Bitwise AND conjunctive (mod 1000000007):
+Starting with a0=1, a1=1:
+  n=0: 1
+  n=1: 1
+  n=2: 1
+  n=3: 1
+  n=4: 1
+  n=5: 1
+  n=6: 1
+  n=7: 1
+  n=8: 1
+  n=9: 1
+  n=10: 1
+
+PE answer: 459155763

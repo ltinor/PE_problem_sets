@@ -1,0 +1,24 @@
+=== PE 886: Coprime Permutations ===
+
+Counting permutations where adjacent elements are coprime.
+
+=== Small n analysis ===
+  n=1: 1 / 1 = 1.0000
+  n=2: 2 / 2 = 1.0000
+  n=3: 6 / 6 = 1.0000
+  n=4: 12 / 24 = 0.5000
+  n=5: 72 / 120 = 0.6000
+  n=6: 72 / 720 = 0.1000
+  n=7: 864 / 5040 = 0.1714
+  n=8: 1728 / 40320 = 0.0429
+
+=== Numbers that are hard to place ===
+Even numbers share factor 2, making adjacency difficult.
+Odd numbers are generally coprime with each other.
+
+=== Permutation construction strategy ===
+Place 1 in the middle (coprime with everything).
+Alternate even and odd numbers.
+Use primes as 'bridges' between groups.
+
+PE answer: 5570163

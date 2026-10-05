@@ -1,0 +1,11 @@
+PE 691: Long substring with many repetitions
+
+Verifying small cases:
+  A(14) = 19
+  A(15) = 21
+  A(16) = 23
+  A(17) = 25
+  A(18) = 27
+  A(19) = 29
+  A(20) = 31
+  Sum A(1..100) = 9136

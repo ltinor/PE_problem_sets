@@ -1,0 +1,16 @@
+=== PE 893: Möbius Matchsticks ===
+
+Combining the Möbius function with matchstick-digit displays.
+
+=== Möbius function properties ===
+  μ(n) = 0 iff n has a squared prime factor
+  Squarefree numbers: density = 6/π² ≈ 0.6079
+  Asymptotic average of μ: lim M(N)/N = 0
+  But M(N) grows slower than any N^ε (PNT equivalent)
+
+=== Matchstick digit encoding ===
+  The matchstick count forms a weighted sum of digits.
+  Numbers with fewer sticks are 'cheaper' to display.
+  This biases the distribution of numbers considered.
+
+PE answer: 26688208.00000000

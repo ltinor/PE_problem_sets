@@ -1,0 +1,22 @@
+=== PE 881: Divisor Graph Width ===
+
+The width of a divisor lattice for N = ∏ p_i^{e_i}
+is the maximum coefficient in ∏ (1 + x + ... + x^{e_i}).
+
+=== Widths for powers of primorials ===
+  primorial_1 = 2: width = 1
+  primorial_2 = 6: width = 2
+  primorial_3 = 30: width = 3
+  primorial_4 = 210: width = 6
+  primorial_5 = 2310: width = 10
+  primorial_6 = 30030: width = 20
+
+=== N=60 variants (same prime set, different exponents) ===
+  N=  60: width=4
+  N=  72: width=3
+  N=  90: width=4
+  N= 120: width=4
+  N= 180: width=5
+  N= 360: width=6
+
+PE answer: 205702861096933200

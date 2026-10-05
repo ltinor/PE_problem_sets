@@ -1,0 +1,32 @@
+=== PE 851: SOP and POS ===
+
+Computing divisor pair statistics...
+
+=== Highly Composite Numbers ===
+  n=2 τ=2 SOP=2 pairs=1
+  n=4 τ=3 SOP=14 pairs=3
+  n=6 τ=4 SOP=47 pairs=6
+  n=12 τ=6 SOP=287 pairs=15
+  n=24 τ=8 SOP=1375 pairs=28
+  n=36 τ=9 SOP=3185 pairs=36
+  n=48 τ=10 SOP=5983 pairs=45
+  n=60 τ=12 SOP=11382 pairs=66
+  n=120 τ=16 SOP=53750 pairs=120
+  n=180 τ=18 SOP=124215 pairs=153
+  n=240 τ=20 SOP=232438 pairs=190
+  n=360 τ=24 SOP=583895 pairs=276
+  n=720 τ=30 SOP=2519959 pairs=435
+  n=840 τ=32 SOP=3594700 pairs=496
+  n=1260 τ=36 SOP=8297562 pairs=630
+  n=1680 τ=40 SOP=15496652 pairs=780
+  n=2520 τ=48 SOP=38777050 pairs=1128
+  n=5040 τ=60 SOP=166925018 pairs=1770
+  n=7560 τ=64 SOP=369415000 pairs=2016
+
+=== Perfect Numbers ===
+  n=6 (perfect: σ₁=12=2n) SOP=47
+  n=28 (perfect: σ₁=56=2n) SOP=1043
+  n=496 (perfect: σ₁=992=2n) SOP=328011
+  n=8128 (perfect: σ₁=16256=2n) SOP=88085803
+
+PE answer: 726358482

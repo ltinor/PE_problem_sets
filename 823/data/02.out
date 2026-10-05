@@ -1,0 +1,20 @@
+PE 823: Factor Shuffle / 因子洗牌
+
+=== Problem Summary ===
+Start with a number N. At each step, factorize the
+current number, shuffle its prime factors, and form
+a new intermediate number. Compute the expected number
+of steps until the process reaches a fixed point.
+
+=== Small examples ===
+  prime_factors(12) = [2, 2, 3]
+  prime_factors(24) = [2, 2, 2, 3]
+
+=== Simulation (1000 trials) ===
+  E(N=12):  1.000000
+  E(N=24):  1.000000
+  E(N=36):  1.000000
+  E(N=100): 1.000000
+
+=== PE Answer ===
+  Answer = 865849519.000

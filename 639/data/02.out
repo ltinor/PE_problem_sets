@@ -1,0 +1,14 @@
+Verifying PE 639 (Summing multiplicative fn):
+
+f_3(n) = number of ordered triples (a,b,c) with abc=n
+S(N) = Σ_{n=1..N} f_3(n) = #{(a,b,c): abc ≤ N}
+
+S(10) = 53 (sieve: 53)
+S(30) = 276 (sieve: 276)
+S(100) = 1471 (sieve: 1471)
+S(300) = 6333 (sieve: 6333)
+S(1000) = 29425
+
+Sample f_3 values:
+f_3(1)=1 f_3(2)=3 f_3(3)=3 f_3(4)=6 f_3(5)=3 f_3(6)=9 f_3(7)=3 f_3(8)=10 f_3(9)=6 f_3(10)=9
+f_3(11)=3 f_3(12)=18 f_3(13)=3 f_3(14)=9 f_3(15)=9 f_3(16)=15 f_3(17)=3 f_3(18)=18 f_3(19)=3 f_3(20)=18

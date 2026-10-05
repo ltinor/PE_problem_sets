@@ -1,0 +1,11 @@
+Verifying PE 640 (Shut the Box):
+
+Tiles 1..4: total=10, expected remaining=3.294624, expected shut=6.705376
+Tiles 1..6: total=21, expected remaining=4.302036, expected shut=16.697964
+Tiles 1..8: total=36, expected remaining=7.623689, expected shut=28.376311
+Tiles 1..9: total=45, expected remaining=11.157508, expected shut=33.842492
+
+Monte Carlo verification (6 tiles, 100000 trials):
+MC estimate (greedy) = 8.552910
+
+Full 12-tile computation:

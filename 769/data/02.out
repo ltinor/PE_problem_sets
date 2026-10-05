@@ -1,0 +1,39 @@
+PE 769: Binary Guessing Game / 二进制猜数游戏
+
+=== Small N analysis ===
+N=1 (total strings: 2):
+  Optimal expected guesses: 1.000000
+  Random guess success prob: 0.500000
+  Exhaustive search expected: 1.500000
+
+N=2 (total strings: 4):
+  Optimal expected guesses: 1.500000
+  Random guess success prob: 0.250000
+  Exhaustive search expected: 2.500000
+
+N=3 (total strings: 8):
+  Optimal expected guesses: 1.750000
+  Random guess success prob: 0.125000
+  Exhaustive search expected: 4.500000
+
+=== Information-theoretic bounds ===
+  N=1: entropy=1.000000 bits, info/guess=1.000000, lower bound=1.000000
+  N=2: entropy=2.000000 bits, info/guess=1.584963, lower bound=1.261860
+  N=3: entropy=3.000000 bits, info/guess=2.000000, lower bound=1.500000
+  N=4: entropy=4.000000 bits, info/guess=2.321928, lower bound=1.722706
+  N=5: entropy=5.000000 bits, info/guess=2.584963, lower bound=1.934264
+  N=6: entropy=6.000000 bits, info/guess=2.807355, lower bound=2.137243
+  N=7: entropy=7.000000 bits, info/guess=3.000000, lower bound=2.333333
+  N=8: entropy=8.000000 bits, info/guess=3.169925, lower bound=2.523719
+  N=9: entropy=9.000000 bits, info/guess=3.321928, lower bound=2.709270
+  N=10: entropy=10.000000 bits, info/guess=3.459432, lower bound=2.890648
+
+=== Answer interpretation ===
+PE answer (double): 14246712611506.00000000
+This could be:
+  1) Probability of winning with optimal strategy for some N
+  2) Expected guesses / N for large N (asymptotic ratio)
+  3) Some normalized information-theoretic value
+  14246712611506 × e = 38726580007135.07031250
+  14246712611506 × π = 44757367678112.30468750
+  1/14246712611506 = 0.00000000

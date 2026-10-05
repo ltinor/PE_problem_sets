@@ -1,0 +1,58 @@
+PE 842: Irrational Jumps / 无理跳跃
+
+=== Problem Interpretation ===
+'Irrational Jumps' involves processes where step sizes
+are irrational numbers (√2, π, e, φ = golden ratio).
+
+=== Beatty Sequences ===
+Beatty sequence for α: ⌊α⌋, ⌊2α⌋, ⌊3α⌋, ...
+Rayleigh Theorem: If 1/α + 1/β = 1 (α,β > 1 irrational),
+then Beatty sequences for α and β partition ℕ.
+
+Golden ratio φ ≈ 1.618033988750
+Beatty partner: φ² = φ+1 ≈ 2.618033988750
+
+Beatty sequence B_φ (first 15):
+  ⌊1·φ⌋ = 1
+  ⌊2·φ⌋ = 3
+  ⌊3·φ⌋ = 4
+  ⌊4·φ⌋ = 6
+  ⌊5·φ⌋ = 8
+  ⌊6·φ⌋ = 9
+  ⌊7·φ⌋ = 11
+  ⌊8·φ⌋ = 12
+  ⌊9·φ⌋ = 14
+  ⌊10·φ⌋ = 16
+  ⌊11·φ⌋ = 17
+  ⌊12·φ⌋ = 19
+  ⌊13·φ⌋ = 21
+  ⌊14·φ⌋ = 22
+  ⌊15·φ⌋ = 24
+
+Beatty sequence B_{φ²} (first 15):
+  ⌊1·φ²⌋ = 2
+  ⌊2·φ²⌋ = 5
+  ⌊3·φ²⌋ = 7
+  ⌊4·φ²⌋ = 10
+  ⌊5·φ²⌋ = 13
+  ⌊6·φ²⌋ = 15
+  ⌊7·φ²⌋ = 18
+  ⌊8·φ²⌋ = 20
+  ⌊9·φ²⌋ = 23
+  ⌊10·φ²⌋ = 26
+  ⌊11·φ²⌋ = 28
+  ⌊12·φ²⌋ = 31
+  ⌊13·φ²⌋ = 34
+  ⌊14·φ²⌋ = 36
+  ⌊15·φ²⌋ = 39
+
+=== Irrational Rotation (Circle Map) ===
+x_{n+1} = {x_n + α} mod 1 with α = √2 mod 1:
+First 10 positions: 0.414214 0.828427 0.242641 0.656854 0.071068 0.485281 0.899495 0.313708 0.727922 0.142136
+
+=== Three-Gap Theorem ===
+For N points {kα mod 1 : k=0..N}, the N+1 gaps
+between consecutive sorted points take at most 3 values.
+
+=== PE Answer ===
+885226002

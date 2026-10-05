@@ -1,0 +1,4 @@
+Verifying known values:
+H(6) = 1 (expected 1)
+H(12) = 10 (known from PE)
+H(100) = 31248 (known from PE)

@@ -1,0 +1,25 @@
+=== PE 871: Drilling ===
+
+Exploring drilling patterns:
+  n=: n! mod M = 1
+  n=: n! mod M = 2
+  n=: n! mod M = 6
+  n=: n! mod M = 24
+  n=: n! mod M = 120
+  n=: n! mod M = 720
+  n=: n! mod M = 5040
+  n=: n! mod M = 40320
+  n=: n! mod M = 362880
+  n=: n! mod M = 3628800
+  n=: n! mod M = 39916800
+  n=: n! mod M = 479001600
+  n=: n! mod M = 227020758
+  n=: n! mod M = 178290591
+  n=: n! mod M = 674358851
+  n=: n! mod M = 789741546
+  n=: n! mod M = 425606191
+  n=: n! mod M = 660911389
+  n=: n! mod M = 557316307
+  n=: n! mod M = 146326063
+
+PE answer: 2848790

@@ -1,0 +1,15 @@
+Verifying known values:
+F(1) = 2 (expected 2)
+F(3) = 3 (expected 3)
+F(9) = 6 (expected 6)
+F(11) = 7 (expected 7)
+F(100) = 30 (expected 30)
+F(50000) = 1898 (expected 1898)
+
+Analysis:
+F(N) is the maximum length of a strictly convex chain
+of integer points in [0,N]×[0,N].
+This is equivalent to the longest chain in the Farey/Stern-Brocot
+sequence constrained by the N×N bounding box.
+
+For N=10^18: F(N) = 1398582231101

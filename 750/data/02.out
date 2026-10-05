@@ -1,0 +1,34 @@
+PE 750: Optimal card stacking / 最优堆牌
+
+Minimal total cost for picking cards 1..N in order:
+Model: cost = Σ (position of card i when picked)
+
+N=1: min_cost=1 best=[1 ]
+N=2: min_cost=2 best=[1 2 ]
+N=3: min_cost=3 best=[1 2 3 ]
+N=4: min_cost=4 best=[1 2 3 4 ]
+N=5: min_cost=5 best=[1 2 3 4 5 ]
+N=6: min_cost=6 best=[1 2 3 4 5 6 ]
+N=7: min_cost=7 best=[1 2 3 4 5 6 7 ]
+
+PE answer: 160640
+160640 = 128 × 5 × 251 = 2^7 × 5 × 251
+
+
+Model 2: Cards above are discarded when picking:
+N=1: min_cost=1 best=[1 ]
+N=2: min_cost=2 best=[1 2 ]
+N=3: min_cost=2 best=[2 1 3 ]
+N=4: min_cost=2 best=[2 1 3 4 ]
+N=5: min_cost=2 best=[2 1 3 4 5 ]
+N=6: min_cost=2 best=[2 1 3 4 5 6 ]
+N=7: min_cost=2 best=[2 1 3 4 5 6 7 ]
+
+
+Model 3: Cost = sum of card VALUES above target:
+N=1: min_cost=0 best=[1 ]
+N=2: min_cost=0 best=[1 2 ]
+N=3: min_cost=0 best=[1 2 3 ]
+N=4: min_cost=0 best=[1 2 3 4 ]
+N=5: min_cost=0 best=[1 2 3 4 5 ]
+N=6: min_cost=0 best=[1 2 3 4 5 6 ]

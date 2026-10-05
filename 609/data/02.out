@@ -1,0 +1,8 @@
+Verifying PE 609:
+p(10,k) values:
+  p(10,0) = 3
+  p(10,1) = 8
+  p(10,2) = 9
+  p(10,3) = 3
+P(10) = 648 (expected 648)
+P(100) = 31038676032 (known from PE)

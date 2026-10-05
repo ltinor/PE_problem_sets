@@ -1,0 +1,39 @@
+PE 875: Quad power / 四次幂
+
+=== Fourth Powers ===
+  a⁴ for a ≤ floor((10000)^(1/4)):
+  1⁴ = 1
+  2⁴ = 16
+  3⁴ = 81
+  4⁴ = 256
+  5⁴ = 625
+  6⁴ = 1296
+  7⁴ = 2401
+  8⁴ = 4096
+  9⁴ = 6561
+  10⁴ = 10000
+
+=== Sums a⁴ + b⁴ ≤ N ===
+  N=   100: count=   5, sum=230
+  N=   500: count=   9, sum=1258
+  N=  1000: count=  14, sum=4624
+  N=  5000: count=  33, sum=58867
+  N= 10000: count=  43, sum=129551
+
+=== Differences |a⁴ - b⁴| ≤ N ===
+  N=   100: sum(diffs) = 160
+  N=   500: sum(diffs) = 830
+  N=  1000: sum(diffs) = 2976
+  N=  5000: sum(diffs) = 44604
+
+=== a⁴ + b representations (unrestricted b) ===
+  N=   100: sum = 11692
+  N=   500: sum = 464646
+  N=  1000: sum = 2270521
+
+=== Quad-powerful numbers ≤ 10⁵ ===
+  Count of quad-powerful n ≤ 100000: 57
+  Sum: 1493950
+
+=== PE Answer ===
+79645946

@@ -1,0 +1,49 @@
+PE 880: Unraveled Digits / 展开数字
+
+=== Digit Unraveling ===
+Digit -> English length mapping:
+  0 -> 4
+  1 -> 3
+  2 -> 3
+  3 -> 5
+  4 -> 4
+  5 -> 4
+  6 -> 3
+  7 -> 5
+  8 -> 5
+  9 -> 4
+
+=== Unravel Examples ===
+unravel(123) = 335
+unravel(456) = 443
+unravel(789) = 554
+unravel(100) = 344
+unravel(999) = 444
+unravel(12345) = 33544
+
+=== Unravel Sequences ===
+1: 1 -> 3 -> 5 -> 4 -> (loop)
+2: 2 -> 3 -> 5 -> 4 -> (loop)
+3: 3 -> 5 -> 4 -> (loop)
+7: 7 -> 5 -> 4 -> (loop)
+13: 13 -> 35 -> 54 -> 44 -> (loop)
+42: 42 -> 43 -> 45 -> 44 -> (loop)
+100: 100 -> 344 -> 544 -> 444 -> (loop)
+
+=== Benford's Law ===
+Leading digit 1: actual=0.1112, Benford=0.3010
+Leading digit 2: actual=0.1111, Benford=0.1761
+Leading digit 3: actual=0.1111, Benford=0.1249
+Leading digit 4: actual=0.1111, Benford=0.0969
+Leading digit 5: actual=0.1111, Benford=0.0792
+Leading digit 6: actual=0.1111, Benford=0.0669
+Leading digit 7: actual=0.1111, Benford=0.0580
+Leading digit 8: actual=0.1111, Benford=0.0512
+Leading digit 9: actual=0.1111, Benford=0.0458
+
+=== Digit Proportions (limit) ===
+N=   100, digit 0: 0.057292
+N=  1000, digit 0: 0.066367
+N= 10000, digit 0: 0.074382
+
+PE answer: 522095328.000000000

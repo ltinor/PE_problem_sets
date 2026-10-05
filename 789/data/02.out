@@ -1,0 +1,28 @@
+PE 789: Minimal pairing modulo p / 模p最小配对
+
+=== Forced inverse pairing costs ===
+  p= 3: cost =        3  (self-inverses: 1 2 )
+  p= 5: cost =       10  (self-inverses: 1 4 )
+  p= 7: cost =       21  (self-inverses: 1 6 )
+  p=11: cost =       55  (self-inverses: 1 10 )
+  p=13: cost =       78  (self-inverses: 1 12 )
+  p=17: cost =      136  (self-inverses: 1 16 )
+  p=19: cost =      171  (self-inverses: 1 18 )
+  p=23: cost =      253  (self-inverses: 1 22 )
+
+=== Pairing with (a, p-a) ===
+  p= 5: Σ(a·(p-a) mod p) = 5
+  p= 7: Σ(a·(p-a) mod p) = 14
+  p=11: Σ(a·(p-a) mod p) = 33
+  p=13: Σ(a·(p-a) mod p) = 39
+  p=17: Σ(a·(p-a) mod p) = 68
+  p=19: Σ(a·(p-a) mod p) = 95
+
+=== Sum of a + a^{-1} for each pair ===
+  p= 5: sum = 5  (= 2 per pair avg)
+  p= 7: sum = 14  (= 4 per pair avg)
+  p=11: sum = 44  (= 8 per pair avg)
+  p=13: sum = 65  (= 10 per pair avg)
+
+=== Cumulative sum over primes ===
+  Σ cost for primes p ≤ 30: 1134

@@ -1,0 +1,18 @@
+=== Computing Shifted Multiples ===
+
+The problem extends the 'parasitic number' concept:
+
+For digit-shift problem:
+  s = d0 * (10^{n+1} - 1) / (10k - 1)
+  d0 ∈ {1..9}, k ∈ {2..9}
+  Need (10k - 1) to divide d0 * (10^{n+1} - 1)
+
+This is related to the repeating decimal expansion of 1/p:
+  If 1/p has period n, then (10^n - 1)/p is cyclic.
+
+For large bounds (up to 10^N), the computation uses:
+  - Number theory: modular arithmetic and order finding
+  - divisibility criteria for (10^n - 1) / d
+  - Generating all valid n up to the bound
+
+PE answer: 119719335

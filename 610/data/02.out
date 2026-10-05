@@ -1,0 +1,14 @@
+Verifying PE 610:
+XLIX = 49 (expected 49)
+MCMXC = 1990 (expected 1990)
+MMXXV = 2025 (expected 2025)
+
+Validity checks:
+'' + 'M' = 1 (1)
+'M' + 'M' = 1 (1)
+'MMM' + 'M' = 0 (0, max 3)
+'V' + 'V' = 0 (0, no repeat)
+'I' + 'V' = 1 (1, subtractive)
+'I' + 'X' = 1 (1, subtractive)
+
+Expected value: 319.30207833

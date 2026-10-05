@@ -1,0 +1,30 @@
+PE 657: Incomplete words
+
+I(3,0) = 1 ✓
+I(3,2) = 13 ✓
+I(3,4) = 79 ✓
+
+Verifying total words formula:
+  α=2 n=0: I=1 total=1
+  α=2 n=1: I=3 total=3
+  α=2 n=2: I=9 total=7
+  α=2 n=3: I=23 total=15
+  α=3 n=0: I=1 total=1
+  α=3 n=1: I=4 total=4
+  α=3 n=2: I=13 total=13
+  α=3 n=3: I=46 total=40
+  α=4 n=0: I=1 total=1
+  α=4 n=1: I=5 total=5
+  α=4 n=2: I=21 total=21
+  α=4 n=3: I=85 total=85
+  α=5 n=0: I=1 total=1
+  α=5 n=1: I=6 total=6
+  α=5 n=2: I=31 total=31
+  α=5 n=3: I=156 total=156
+
+Testing larger values:
+  I(3,0) = 1 (expected 1)
+  I(3,2) = 13 (expected 13)
+  I(3,4) = 79 (expected 79)
+  I(5,3) = 156
+  I(10,5) mod 1e9+7 = 111111

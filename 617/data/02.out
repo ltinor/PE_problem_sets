@@ -1,0 +1,11 @@
+Verifying PE 617:
+D(10) = 2 (given)
+D(100) = 21 (given)
+D(1000) = 69 (given)
+D(10^6) = 1303 (given)
+D(10^12) = 1014800 (given)
+
+Fixed points for N=10^6: 851
+(This is only part of D - cycles also contribute)
+
+D(10^18) = 1001133757

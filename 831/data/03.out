@@ -1,0 +1,23 @@
+=== PE 831: Chinese Remainder Twice ===
+
+Exploring two-stage CRT patterns...
+
+Primes: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71
+
+One-stage CRT (all 20 primes):
+  x = 90763292849351525 (mod 130725430374676062)
+  log10(mod) ≈ 17.1
+
+Stage 1 (first 10 primes):
+  x_A = 1218786319 (mod 6469693230)
+Stage 2 (combine with remaining 10):
+  x_final = 90763292849351525 (mod 130725430374676062)
+  Same as one-stage? YES ✓
+
+=== Different Split Strategies ===
+  split= 2 → x=90763292849351525 (same=yes)
+  split= 5 → x=90763292849351525 (same=yes)
+  split=10 → x=90763292849351525 (same=yes)
+  split=15 → x=90763292849351525 (same=yes)
+
+PE answer: 5226432553

@@ -1,0 +1,14 @@
+Computing B-tourism for larger parameters...
+
+Extended bounded tours (B=2, larger N):
+  N=10: 208
+  N=11: 314
+  N=12: 470
+  N=13: 700
+  N=14: 1038
+  N=15: 1534
+  N=16: 2262
+
+PE answer: 127311223
+This large answer suggests summing over multiple B values
+or computing a complex combinatorial formula for a specific N.

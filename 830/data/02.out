@@ -1,0 +1,32 @@
+PE 830: Shifted Exponentiation / 平移指数
+
+=== Problem Interpretation ===
+'Shifted Exponentiation' involves computing powers
+with shifted bases or exponents, such as:
+  (n + k)^m,  n^(m + k),  or (n + k)^(n + j)
+
+=== Sum of Powers (Faulhaber) ===
+S(0, 10) = 10 (direct), 10 (formula) ✓
+S(1, 10) = 55 (direct), 55 (formula) ✓
+S(2, 10) = 385 (direct), 385 (formula) ✓
+S(3, 10) = 3025 (direct), 3025 (formula) ✓
+S(4, 10) = 25333 (direct), 25333 (formula) ✓
+
+=== Shifted Powers ===
+Σ_{n=1}^{5} (n+2)^3:
+  Direct: 775
+  S(3,7)-S(3,2): 775
+
+=== Self-Powers ===
+Σ_{n=1}^{5} n^n = 3413
+
+=== Shifted Self-Powers ===
+Σ_{n=1}^{5} (n+1)^n:
+  n=1: (2)^1 = 2
+  n=2: (3)^2 = 9
+  n=3: (4)^3 = 64
+  n=4: (5)^4 = 625
+  n=5: (6)^5 = 7776
+
+=== PE Answer ===
+254179446930484376

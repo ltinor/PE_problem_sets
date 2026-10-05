@@ -1,0 +1,14 @@
+PE 927: Prime-ary Tree / 素数多叉树
+
+t_k(0)=1, t_k(n+1)=1+t_k(n)^k
+S = intersection over primes p of {m: m|t_p(n) for some n}
+
+Elements of S up to 20:
+  1
+  2
+  5
+  10
+Sum = 18 (expected 18)
+
+R(1000) expected: 2089
+R(10^7): compute via atomic decomposition

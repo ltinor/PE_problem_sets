@@ -1,0 +1,14 @@
+=== Computing Rododdle ===
+
+The problem asks for the expected minimum convex hull
+perimeter/area over all possible rod configurations.
+With N rods of lengths following a specific sequence,
+we need to compute the expected optimal value.
+
+Test case with rod lengths: 1 1 2 3 5
+
+For each rod, it can be horizontal (contributes length)
+or vertical (contributes to height). The convex hull
+perimeter is 2*(max_x - min_x + max_y - min_y).
+
+PE answer: 0.1091523673

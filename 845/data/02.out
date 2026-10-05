@@ -1,0 +1,55 @@
+PE 845: Prime Digit Sum / 素数位和
+
+=== Problem Interpretation ===
+'Prime Digit Sum' involves the sum of decimal digits
+of prime numbers. Possible variants:
+  1. Sum of digit sums of all primes ≤ N
+  2. Count/sum of primes whose digit sum is also prime
+  3. Something related to prime digit sums
+
+=== Digit Sum Examples ===
+Digit sums of first few primes:
+  p=2, digit_sum=2
+  p=3, digit_sum=3
+  p=5, digit_sum=5
+  p=7, digit_sum=7
+  p=11, digit_sum=2
+  p=13, digit_sum=4
+  p=17, digit_sum=8
+  p=19, digit_sum=10
+  p=23, digit_sum=5
+  p=29, digit_sum=11
+  p=31, digit_sum=4
+  p=37, digit_sum=10
+  p=41, digit_sum=5
+  p=43, digit_sum=7
+  p=47, digit_sum=11
+
+=== Primes with Prime Digit Sums (≤100) ===
+These are called 'additive primes':
+  p=2, ds=2 (prime)
+  p=3, ds=3 (prime)
+  p=5, ds=5 (prime)
+  p=7, ds=7 (prime)
+  p=11, ds=2 (prime)
+  p=23, ds=5 (prime)
+  p=29, ds=11 (prime)
+  p=41, ds=5 (prime)
+  p=43, ds=7 (prime)
+  p=47, ds=11 (prime)
+  p=61, ds=7 (prime)
+  p=67, ds=13 (prime)
+  p=83, ds=11 (prime)
+  p=89, ds=17 (prime)
+  Total: 14 additive primes ≤ 100
+
+=== Cumulative Sums ===
+  Sum of digit sums of all primes ≤ 10: 17
+  Count of primes with prime digit sum ≤ 10: 4
+  Sum of digit sums of all primes ≤ 100: 214
+  Count of primes with prime digit sum ≤ 100: 14
+  Sum of digit sums of all primes ≤ 1000: 2255
+  Count of primes with prime digit sum ≤ 1000: 89
+
+=== PE Answer ===
+45009328011709400

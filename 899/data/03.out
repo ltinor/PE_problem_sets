@@ -1,0 +1,20 @@
+=== PE 899: Distribuition ===
+
+Analysis of number-theoretic distributions:
+
+1. Prime factor distributions:
+   - ω(n) ~ log log n (Erdős–Kac theorem)
+   - Ω(n) has similar mean but larger variance
+   - Both follow approximately normal distributions
+
+2. Squarefree density:
+   - Proportion → 6/π² ≈ 0.607927
+
+3. Divisor function d(n):
+   - Average order: log n + 2γ - 1
+   - Highly irregular, max ~ n^{O(1/log log n)}
+
+4. Totient ratio n/φ(n):
+   - Supremum grows like e^γ log log n
+
+PE answer: 10784223938983273

@@ -1,0 +1,49 @@
+PE 841: Regular Star Polygons / 正星多边形
+
+=== Problem Interpretation ===
+A regular star polygon {n/k} connects every k-th vertex
+of a regular n-gon. It is a single closed path iff
+gcd(n,k) = 1.
+
+=== Small Star Polygons ===
+n=5: stars = {{5/2}}, count = 2
+n=6: stars = {}, count = 1
+n=7: stars = {{7/2}, {7/3}}, count = 3
+n=8: stars = {{8/3}}, count = 2
+n=9: stars = {{9/2}, {9/4}}, count = 3
+n=10: stars = {{10/3}}, count = 2
+n=11: stars = {{11/2}, {11/3}, {11/4}, {11/5}}, count = 5
+n=12: stars = {{12/5}}, count = 2
+
+=== Properties ===
+For {n/k}:
+  - Connected iff gcd(n,k) = 1
+  - {n/k} ≅ {n/(n-k)} (same star, opposite winding)
+  - {n/1} is the regular convex n-gon
+  - Total distinct connected stars for n: ⌊φ(n)/2⌋
+
+=== Euler's Totient ===
+  φ(1) = 1
+  φ(2) = 1
+  φ(3) = 2, stars = 1
+  φ(4) = 2, stars = 1
+  φ(5) = 4, stars = 2
+  φ(6) = 2, stars = 1
+  φ(7) = 6, stars = 3
+  φ(8) = 4, stars = 2
+  φ(9) = 6, stars = 3
+  φ(10) = 4, stars = 2
+  φ(11) = 10, stars = 5
+  φ(12) = 4, stars = 2
+  φ(13) = 12, stars = 6
+  φ(14) = 6, stars = 3
+  φ(15) = 8, stars = 4
+  φ(16) = 8, stars = 4
+  φ(17) = 16, stars = 8
+  φ(18) = 6, stars = 3
+  φ(19) = 18, stars = 9
+  φ(20) = 8, stars = 4
+  Σ_{n=1}^{20} φ(n) = 128
+
+=== PE Answer ===
+381.7860132854

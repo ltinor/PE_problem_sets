@@ -1,0 +1,15 @@
+PE 909: L-expressions I / L-表达式（一）
+
+=== PE 909: Small Expression Evaluation ===
+
+S(Z)(A)(0) = 1 (expected 1) ✓
+S(S)(S(S))(S(Z))(A)(0) = 6 (expected 6) ✓
+
+=== Target expression ===
+S(S)(S(S))(S(S))(S(Z))(A)(0)
+
+This encodes a very large number (fast-growing hierarchy).
+The expression has one more S(S) than the example giving 6.
+
+=== PE Answer ===
+399885292

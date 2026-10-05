@@ -1,0 +1,25 @@
+=== PE 846: Magic Bracelets ===
+
+Analyzing magic bracelet graph structure...
+
+Allowed numbers ≤ 200:
+  Count: 84
+
+Graph statistics (numbers ≤ 200):
+  Vertices: 84
+  Edges: 66
+  Max degree: 11
+
+Degree distribution:
+  degree 0: 46 vertices
+  degree 1: 5 vertices
+  degree 2: 14 vertices
+  degree 3: 6 vertices
+  degree 4: 5 vertices
+  degree 5: 2 vertices
+  degree 6: 1 vertices
+  degree 7: 1 vertices
+  degree 8: 2 vertices
+  degree 11: 2 vertices
+
+PE answer: 9851175623

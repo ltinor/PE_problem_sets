@@ -1,0 +1,39 @@
+=== PE 830: Shifted Exponentiation ===
+
+=== Computing sums of shifted powers ===
+
+Sum of (n+k)^m for n=1..N:
+  N=10, m=1, k=0: sum = 55
+  N=10, m=1, k=1: sum = 65
+  N=10, m=1, k=2: sum = 75
+  N=10, m=2, k=0: sum = 385
+  N=10, m=2, k=1: sum = 505
+  N=10, m=2, k=2: sum = 645
+  N=10, m=3, k=0: sum = 3025
+  N=10, m=3, k=1: sum = 4355
+  N=10, m=3, k=2: sum = 6075
+  N=100, m=1, k=0: sum = 55
+  N=100, m=1, k=1: sum = 65
+  N=100, m=1, k=2: sum = 75
+  N=100, m=2, k=0: sum = 385
+  N=100, m=2, k=1: sum = 505
+  N=100, m=2, k=2: sum = 645
+  N=100, m=3, k=0: sum = 3025
+  N=100, m=3, k=1: sum = 4355
+  N=100, m=3, k=2: sum = 6075
+
+=== Sum of n^(n+k) mod M ===
+  k=0: Σ_{n=1}^{10} n^(n+0) mod M = 405071247
+  k=1: Σ_{n=1}^{10} n^(n+1) mod M = 627062884
+  k=2: Σ_{n=1}^{10} n^(n+2) mod M = 496909913
+  k=3: Σ_{n=1}^{10} n^(n+3) mod M = 312359752
+
+=== Shifted exponentiation patterns ===
+Consider the operation: (n << 1)^n where << is bit shift.
+  n=1: (n<<1)^n = 2^1 = 2
+  n=2: (n<<1)^n = 4^2 = 16
+  n=3: (n<<1)^n = 6^3 = 216
+  n=4: (n<<1)^n = 8^4 = 4096
+  n=5: (n<<1)^n = 10^5 = 100000
+
+PE answer: 254179446930484376

@@ -1,0 +1,17 @@
+PE 745: Sum of Squares / 平方和
+
+g(n) = largest perfect square dividing n
+S(N) = sum_{n=1}^N g(n)
+
+Small verification:
+  S(10) = 24 (brute)  24 (fast)
+  S(100) = 767 (brute)  767 (fast)
+
+Derivation:
+  Write n = a^2 * b with b squarefree, then g(n) = a^2
+  S(N) = sum_{a^2*b≤N, b sqfree} a^2
+       = sum_{t=1}^{√N} ⌊N/t^2⌋ * J_2(t)
+  where J_2(t) = t^2 ∏_{p|t} (1 - 1/p^2) (Jordan's totient)
+
+Target: S(10^14) mod 1e9+7
+PE answer: 94586478

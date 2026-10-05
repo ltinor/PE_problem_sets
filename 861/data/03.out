@@ -1,0 +1,21 @@
+=== PE 861: Products of Divisors ===
+
+=== Product of divisors growth ===
+n= 1: P(n)=1, d(n)=1
+n= 2: P(n)=2, d(n)=2
+n= 3: P(n)=3, d(n)=2
+n= 4: P(n)=8, d(n)=3
+n= 5: P(n)=5, d(n)=2
+n= 6: P(n)=36, d(n)=4
+n= 7: P(n)=7, d(n)=2
+n= 8: P(n)=64, d(n)=4
+n= 9: P(n)=27, d(n)=3
+n=10: P(n)=100, d(n)=4
+
+=== Sum of divisor products (small scale) ===
+S(  5) = 19
+S( 10) = 253
+S( 20) = 17318
+S( 40) = 13860520
+
+PE answer: 672623540591

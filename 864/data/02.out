@@ -1,0 +1,49 @@
+PE 864: Square + 1 / 平方+1
+
+=== n^2 + 1 and primality (small n) ===
+n= 1: 2 (prime)
+n= 2: 5 (prime)
+n= 3: 10
+n= 4: 17 (prime)
+n= 5: 26
+n= 6: 37 (prime)
+n= 7: 50
+n= 8: 65
+n= 9: 82
+n=10: 101 (prime)
+n=11: 122
+n=12: 145
+n=13: 170
+n=14: 197 (prime)
+n=15: 226
+n=16: 257 (prime)
+n=17: 290
+n=18: 325
+n=19: 362
+n=20: 401 (prime)
+
+=== Count n ≤ N with n^2+1 prime ===
+N=  10: 5 primes
+N=  50: 12 primes
+N= 100: 19 primes
+N= 200: 34 primes
+
+=== Prime factors of n^2+1 ===
+n= 1: 2 factors=2
+n= 2: 5 factors=5
+n= 3: 10 factors=2 5
+n= 4: 17 factors=17
+n= 5: 26 factors=2 13
+n= 6: 37 factors=37
+n= 7: 50 factors=2 5 5
+n= 8: 65 factors=5 13
+n= 9: 82 factors=2 41
+n=10: 101 factors=101
+
+=== Sum of n where n^2+1 is squarefree ===
+N= 10: 48
+N= 30: 440
+N= 50: 1096
+
+=== PE Answer ===
+110572936177

@@ -1,0 +1,7 @@
+Verifying PE 623 (lambda count):
+Known values from Project Euler:
+Λ(6) = 1
+Λ(9) = 2
+Λ(15) = 20
+Λ(35) = 3166438
+Λ(2000) mod 1e9+7 = 3679796 (PE answer)

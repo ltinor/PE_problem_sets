@@ -1,0 +1,21 @@
+PE 649: Low-Prime Chessboard Nim
+
+Board size 3x3:
+  1D Grundy: 0 0 1 1
+  Frequency of Grundy values:
+    g=0: 5
+    g=1: 4
+  M(3,1) = 4 ✓
+  M(3,2) = 40 ✓
+Board size 9x9:
+  1D Grundy: 0 0 1 1 2 2 3 3 4 0
+  Frequency of Grundy values:
+    g=0: 17
+    g=1: 16
+    g=2: 16
+    g=3: 16
+    g=4: 4
+    g=5: 4
+    g=6: 4
+    g=7: 4
+  M(9,3) = 450304 ✓

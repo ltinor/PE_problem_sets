@@ -1,0 +1,95 @@
+PE 849: Race to Strength / 力量竞赛
+
+=== Problem Description ===
+Two competitors race to reach a target strength level.
+In each round, each player gains strength according to
+some probabilistic rule. The first to reach the target wins.
+Compute the expected outcome / probability summed over
+many starting configurations.
+
+=== Gambler's Ruin (Classic Model) ===
+Two players with initial strengths (a, b).
+Fair coin (p=1/2):
+  P(A wins | a=1, b=1) = 0.5000
+  P(A wins | a=1, b=2) = 0.3333
+  P(A wins | a=1, b=3) = 0.2500
+  P(A wins | a=1, b=4) = 0.2000
+  P(A wins | a=1, b=5) = 0.1667
+  P(A wins | a=2, b=1) = 0.6667
+  P(A wins | a=2, b=2) = 0.5000
+  P(A wins | a=2, b=3) = 0.4000
+  P(A wins | a=2, b=4) = 0.3333
+  P(A wins | a=2, b=5) = 0.2857
+  P(A wins | a=3, b=1) = 0.7500
+  P(A wins | a=3, b=2) = 0.6000
+  P(A wins | a=3, b=3) = 0.5000
+  P(A wins | a=3, b=4) = 0.4286
+  P(A wins | a=3, b=5) = 0.3750
+  P(A wins | a=4, b=1) = 0.8000
+  P(A wins | a=4, b=2) = 0.6667
+  P(A wins | a=4, b=3) = 0.5714
+  P(A wins | a=4, b=4) = 0.5000
+  P(A wins | a=4, b=5) = 0.4444
+  P(A wins | a=5, b=1) = 0.8333
+  P(A wins | a=5, b=2) = 0.7143
+  P(A wins | a=5, b=3) = 0.6250
+  P(A wins | a=5, b=4) = 0.5556
+  P(A wins | a=5, b=5) = 0.5000
+
+=== Race with advantage (p=2/3 for A) ===
+  P(A wins | a=1, b=1, p=2/3) mod = 666666672
+  P(A wins | a=1, b=2, p=2/3) mod = 571428576
+  P(A wins | a=1, b=3, p=2/3) mod = 733333339
+  P(A wins | a=1, b=4, p=2/3) mod = 64516130
+  P(A wins | a=1, b=5, p=2/3) mod = 507936512
+  P(A wins | a=2, b=1, p=2/3) mod = 857142864
+  P(A wins | a=2, b=2, p=2/3) mod = 600000005
+  P(A wins | a=2, b=3, p=2/3) mod = 96774195
+  P(A wins | a=2, b=4, p=2/3) mod = 761904768
+  P(A wins | a=2, b=5, p=2/3) mod = 110236222
+  P(A wins | a=3, b=1, p=2/3) mod = 533333338
+  P(A wins | a=3, b=2, p=2/3) mod = 612903231
+  P(A wins | a=3, b=3, p=2/3) mod = 888888896
+  P(A wins | a=3, b=4, p=2/3) mod = 795275597
+  P(A wins | a=3, b=5, p=2/3) mod = 737254908
+  P(A wins | a=4, b=1, p=2/3) mod = 870967749
+  P(A wins | a=4, b=2, p=2/3) mod = 952380960
+  P(A wins | a=4, b=3, p=2/3) mod = 637795281
+  P(A wins | a=4, b=4, p=2/3) mod = 647058829
+  P(A wins | a=4, b=5, p=2/3) mod = 322896285
+  P(A wins | a=5, b=1, p=2/3) mod = 984126992
+  P(A wins | a=5, b=2, p=2/3) mod = 559055123
+  P(A wins | a=5, b=3, p=2/3) mod = 101960786
+  P(A wins | a=5, b=4, p=2/3) mod = 833659498
+  P(A wins | a=5, b=5, p=2/3) mod = 60606062
+
+=== Expected game length (fair game) ===
+E[turns] = a * b for symmetric random walk until absorption.
+  E[turns | a=1, b=1] = 1
+  E[turns | a=1, b=2] = 2
+  E[turns | a=1, b=3] = 3
+  E[turns | a=1, b=4] = 4
+  E[turns | a=1, b=5] = 5
+  E[turns | a=2, b=1] = 2
+  E[turns | a=2, b=2] = 4
+  E[turns | a=2, b=3] = 6
+  E[turns | a=2, b=4] = 8
+  E[turns | a=2, b=5] = 10
+  E[turns | a=3, b=1] = 3
+  E[turns | a=3, b=2] = 6
+  E[turns | a=3, b=3] = 9
+  E[turns | a=3, b=4] = 12
+  E[turns | a=3, b=5] = 15
+  E[turns | a=4, b=1] = 4
+  E[turns | a=4, b=2] = 8
+  E[turns | a=4, b=3] = 12
+  E[turns | a=4, b=4] = 16
+  E[turns | a=4, b=5] = 20
+  E[turns | a=5, b=1] = 5
+  E[turns | a=5, b=2] = 10
+  E[turns | a=5, b=3] = 15
+  E[turns | a=5, b=4] = 20
+  E[turns | a=5, b=5] = 25
+
+=== PE Answer ===
+  936203459

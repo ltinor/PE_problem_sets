@@ -1,0 +1,14 @@
+PE 671: Colouring a Loop
+
+Small verifications:
+C_3, k=3: 6 (should be 6)
+C_3, k=3 (rot): 2 (should be 2)
+C_4, k=3: 18 (should be 18)
+C_4, k=3 (rot): 6 (should be 6)
+
+Burnside counts (k=3):
+  n=3: 2
+  n=4: 6
+  n=5: 6
+  n=6: 14
+  n=7: 18

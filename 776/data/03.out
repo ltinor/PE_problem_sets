@@ -1,0 +1,11 @@
+=== Digit DP approach for larger bounds ===
+
+  N=100000: count=11872, sum=533350649
+  N=500000: count=53240, sum=12485278466
+  N=1000000: count=95428, sum=43655768809
+  N=2000000: count=186561, sum=176657186641
+  N=5000000: count=438795, sum=1043613864922
+  N=10000000: count=806095, sum=3763848813483
+
+PE answer: 9.627509725002e33
+PE answer factorization: 2 5 29 695771

@@ -1,0 +1,47 @@
+PE 658: Incomplete words II
+
+Testing S(k,n) formula:
+
+Small brute-force verification:
+  S(1,0) = 1
+  S(1,1) = 1
+  S(1,2) = 1
+  S(1,3) = 1
+  S(1,4) = 1
+  S(2,0) = 2
+  S(2,1) = 4
+  S(2,2) = 6
+  S(2,3) = 8
+  S(2,4) = 10
+  S(3,0) = 3
+  S(3,1) = 8
+  S(3,2) = 19
+  S(3,3) = 42
+  S(3,4) = 89
+  S(4,0) = 4
+  S(4,1) = 13
+  S(4,2) = 40
+  S(4,3) = 127
+  S(4,4) = 406
+  S(5,0) = 5
+  S(5,1) = 19
+  S(5,2) = 71
+  S(5,3) = 283
+  S(5,4) = 1187
+  S(6,0) = 6
+  S(6,1) = 26
+  S(6,2) = 114
+  S(6,3) = 542
+  S(6,4) = 2742
+
+Testing with recurrence formula:
+  S(4,4) = 406 (expected 406) ✓
+  S(8,8) = 27902680 (expected 27902680) ✓
+  S(10,100) = 983602076 (expected 983602076) ✓
+
+Cross-checking with I(α,n) for small k,n:
+  k=1 n=3: ΣI=1 S_formula=1 ✓
+  k=2 n=3: ΣI=8 S_formula=8 ✓
+  k=3 n=3: ΣI=42 S_formula=42 ✓
+  k=4 n=3: ΣI=127 S_formula=127 ✓
+  k=5 n=3: ΣI=283 S_formula=283 ✓

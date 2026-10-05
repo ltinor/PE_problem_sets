@@ -1,0 +1,8 @@
+Verifying PE 621 (triangular sums):
+G(0) = 1 ✓
+G(1) = 3 ✓
+G(2) = 3 ✓
+G(3) = 4 ✓
+G(4) = 6 ✓
+G(5) = 3 ✓
+All small checks passed.

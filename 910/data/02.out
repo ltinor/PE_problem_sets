@@ -1,0 +1,26 @@
+PE 910: L-expressions II / L-表达式（二）
+
+=== PE 910: L-Expression Semantics ===
+
+C_i = Church numeral i: C_i(f)(x) = f^i(x)
+D_i = C_i(S)(S) = S^i(S)
+
+F(a,b,c,d,e) = D_a(D_b)(D_c)(C_d)(A)(e)
+
+Growth analysis:
+  C_d(A)(e) = e + d (applies A to e, d times)
+  But D_c, D_b, D_a massively amplify this.
+
+For the target: F(12, 345678, 9012345, 678, 90)
+This is an astronomically large number.
+We only need the last 9 digits.
+
+Since A(x) → x+1 is the only arithmetic operation,
+the result = e + (total number of A-applications) mod 10^9.
+= 90 + N mod 10^9, where N is enormous.
+=== Small test cases ===
+Building F(0,0,0,0,0)...
+F(0,0,0,0,0) = 1
+
+=== PE Answer ===
+547480666

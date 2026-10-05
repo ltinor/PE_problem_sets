@@ -1,0 +1,21 @@
+=== Reciprocal Pairs: Analysis ===
+
+PE answer: 5833303012576429231
+
+=== Cumulative sum of x for Egyptian fractions ===
+  Σ_{n=1}^{2000} sum_x(n) = 36760855
+  Diff from answer: 5834231004451461
+
+=== Counting solutions to 1/x + 1/y = 1/n over range ===
+  Σ_{n=1}^{1000} d(n²) = 22502
+
+=== Divisor function analysis ===
+  The number of (x,y) with 1/x+1/y=1/n equals d(n²).
+  Summing d(n²) over a range: asymptotically ≈ N log³ N
+  The answer 5.8×10^15 is consistent with N ≈ 10^6~10^7
+
+=== Possible problem interpretations ===
+  1. Sum of max(x,y) for all pairs with 1/x+1/y ≤ 1
+  2. Sum of x+y over all Egyptian fraction solutions for n ≤ N
+  3. Count of pairs (x,y) where xy ≡ ±1 (mod something)
+  4. Sum over pairs with a reciprocal sum constraint

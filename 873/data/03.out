@@ -1,0 +1,15 @@
+=== PE 873: Make it one ===
+
+Growth of sum(min_steps) with N:
+  N=     1000: sum =          11098 (avg = 11.0980)
+  N=    10000: sum =         154732 (avg = 15.4732)
+  N=   100000: sum =        1990921 (avg = 19.9092)
+  N=   500000: sum =       11525820 (avg = 23.0516)
+  N=  1000000: sum =       24384960 (avg = 24.3850)
+
+Average steps per number analysis:
+  For large n, the bitwise greedy gives approximately
+  the number of bits + number of 1-bits in binary.
+  This is closely related to the non-adjacent form (NAF).
+
+PE answer: 735131856

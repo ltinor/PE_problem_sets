@@ -1,0 +1,13 @@
+PE 673: Beds and Desks
+
+Hook products and SYT counts:
+Shape [2,1]: hook_product=3, SYT=2 (should be 2)
+Shape [3,2,1]: hook_product=45, SYT=16 (should be 16)
+Shape [2,2]: hook_product=12, SYT=2 (should be 2)
+
+All partitions of 4:
+  [4]: SYT=1
+  [3,1]: SYT=3
+  [2,2]: SYT=2
+  [2,1,1]: SYT=3
+  [1,1,1,1]: SYT=1

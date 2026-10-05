@@ -1,0 +1,8 @@
+Verifying known values:
+With 2 colors: 183 (expected 183)
+With 10 colors: 12395526079546335 (PE answer)
+
+Cycle structure analysis for 2x2x2 Rubik's cube:
+Group order: 7! * 3^6 = 3,674,160
+The group acts on 24 face stickers.
+Using Burnside's Lemma with cycle index yields the result.

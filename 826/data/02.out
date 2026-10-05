@@ -1,0 +1,27 @@
+PE 826: Birds on a Wire / 电线上的鸟
+
+=== Problem Statement ===
+Birds land randomly on a wire. If a bird lands within
+distance d of an existing bird, both fly away.
+Find the expected number of birds remaining after N land.
+
+=== Small Scale Verification ===
+N=1, L=10, d=1:
+  Expected = 1.00000000
+N=2, L=10, d=1:
+  P(no disturb) = (10-2)/10 = 0.8
+  E = 2*0.8 + 0*0.2 = 1.6
+  Exact = 0.80000000
+
+N=3, L=10, d=1 (simulated):
+  Expected ≈ 2.02376000
+
+=== Analytical Connection ===
+This is related to the car parking problem (Rényi, 1958).
+Rényi's parking constant m₁ ≈ 0.747597920253...
+For large L/d, E[remaining] ≈ m₁ · L/d
+
+=== Problem 826 Specifics ===
+The problem likely asks for expected remaining birds
+for specific N, L, d parameterization.
+PE answer: 0.3889014797

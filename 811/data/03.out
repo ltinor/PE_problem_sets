@@ -1,0 +1,10 @@
+=== Computing H(10^14+31, 62) ===
+
+t = 10^14 + 31 = 100000000000031
+r = 62
+
+Binary representation: 63 ones, each separated by 100000000000031 zeros
+Total bits ≈ 6200000000001922
+
+Using DP on the recurrence structure...
+Answer mod 1,000,062,031 = 327287526

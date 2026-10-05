@@ -1,0 +1,4 @@
+Verifying PE 627 (Counting Products):
+F(9,2) = 36 (expected 36) ✓
+F(4,2) = 9 (brute 9) ✓
+F(5,3) = 30 (brute 30) ✓

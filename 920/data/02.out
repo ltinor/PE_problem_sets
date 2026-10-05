@@ -1,0 +1,12 @@
+PE 920: Tau Numbers / 陶数
+
+Known m(k) values:
+  m(1) = 1
+  m(8) = 24
+  m(12) = 60
+  m(16) = 384
+
+M(3) = sum of m(k) where m(k) ≤ 10^3 = 3189
+
+=== PE Answer ===
+M(16) = ? (PLACEHOLDER - needs computation)

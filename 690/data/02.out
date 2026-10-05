@@ -1,0 +1,7 @@
+PE 690: Tom and Jerry
+
+Verification:
+  T(3) = 3 (expected: 3)
+  T(7) = 37 (expected: 37)
+  T(10) = 329 (expected: 328)
+  T(20) = 1977878 (expected: 1416269)

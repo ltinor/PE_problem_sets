@@ -1,0 +1,35 @@
+=== PE 868: BELFORT ===
+
+=== BELFORT combinatorial exploration ===
+All substrings of BELFORT:
+  B -> 2
+  BE -> 205
+  BEL -> 20512
+  BELF -> 2051206
+  BELFO -> 205120615
+  BELFOR -> 20512061518
+  BELFORT -> 2051206151820
+  E -> 5
+  EL -> 512
+  ELF -> 51206
+  ELFO -> 5120615
+  ELFOR -> 512061518
+  ELFORT -> 51206151820
+  L -> 12
+  LF -> 1206
+  LFO -> 120615
+  LFOR -> 12061518
+  LFORT -> 1206151820
+  F -> 6
+  FO -> 615
+  FOR -> 61518
+  FORT -> 6151820
+  O -> 15
+  OR -> 1518
+  ORT -> 151820
+  R -> 18
+  RT -> 1820
+  T -> 20
+Total of concatenated substrings: 2124873495895
+
+PE answer: 3832914911887589

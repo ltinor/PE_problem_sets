@@ -1,0 +1,20 @@
+PE 753: Cauchy Matrix / 柯西矩阵
+
+Testing Cauchy determinant formula with x_i = i, y_j = j:
+  n=1: det=0.5 formula=0.5
+  n=2: det=0.0138888888889 formula=0.0138888888889
+  n=3: det=2.31481481481e-05 formula=2.31481481481e-05
+  n=4: det=2.36205593348e-09 formula=2.36205593348e-09
+
+Cauchy matrix with primes as x_i and y_j:
+  n=1: det=0.25
+  n=2: det=0.00166666666666667
+  n=3: det=1.91326530612245e-06
+
+Cauchy matrix with squares x_i = i^2, y_j = j^2:
+  n=1: det=0.5
+  n=2: det=0.0225
+  n=3: det=0.000118343195266272
+  n=4: det=8.12636923895907e-08
+
+PE answer: 4714126766770661623

@@ -1,0 +1,16 @@
+Computing paper-saving properties...
+
+Total fold ways (all sheets up to given power-of-2 sizes):
+  max 2^1: local=2 cum=2 cum%1000000007=2
+  max 2^2: local=14 cum=16 cum%1000000007=16
+  max 2^3: local=62 cum=78 cum%1000000007=78
+  max 2^4: local=242 cum=320 cum%1000000007=320
+  max 2^5: local=912 cum=1232 cum%1000000007=1232
+
+2D cutting heuristics:
+  N=5: total_sheets=15 mod=15
+  N=10: total_sheets=153 mod=153
+  N=20: total_sheets=479 mod=479
+  N=50: total_sheets=2519 mod=2519
+
+PE answer: 946791106

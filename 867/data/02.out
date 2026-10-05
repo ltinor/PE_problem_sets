@@ -1,0 +1,30 @@
+PE 867: T-polyominoes / T多联骨牌
+
+=== T-polyomino orientations ===
+Orientation 0: (-1,0) (0,0) (1,0) (0,-1)
+Orientation 1: (0,-1) (0,0) (0,1) (-1,0)
+Orientation 2: (-1,0) (0,0) (1,0) (0,1)
+Orientation 3: (0,-1) (0,0) (0,1) (1,0)
+
+=== T-polyomino counts ===
+Order 1: 0
+Order 2: 0
+Order 3: 0
+Order 4: 4
+Order 5: 0
+Order 6: 0
+Order 7: 0
+Order 8: 0
+
+=== T-tilings of small boards ===
+4×2 (area=8): 0 tilings
+3×4 (area=12): 0 tilings
+4×3 (area=12): 0 tilings
+6×2 (area=12): 0 tilings
+5×2 (area=10): 0 tilings
+
+=== Tileable board sizes ===
+4×2 6×2 3×4 4×3 8×2 4×4 10×2 4×5 5×4 12×2 3×8 8×3 4×6 6×4 14×2 4×7 7×4 16×2 4×8 8×4 18×2 3×12 12×3 4×9 9×4 6×6 20×2 4×10 10×4 5×8 8×5
+
+=== PE Answer ===
+870557257

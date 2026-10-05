@@ -1,0 +1,7 @@
+Verifying gozinta chain counts:
+g(12) = 8 (expected 8)
+S(10^3) partial = 1216
+
+Known values from PE:
+S(10^6) = 8462952
+S(10^12) = 623291998881978

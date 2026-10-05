@@ -1,0 +1,21 @@
+PE 796: A Grand Shuffle / 大洗牌
+
+=== Problem Summary ===
+10 decks × 54 cards = 540 total cards
+Categories to collect:
+  - 4 suits (each appears on 10×13 = 130 cards)
+  - 13 ranks (each appears on 10×4 = 40 cards)
+  - 10 deck designs (each appears on 54 cards)
+Total: 27 categories
+
+=== Simplified cases (single deck, 54 cards) ===
+Single deck, 13 cards per suit:
+  E[collect 1 suit] = (54+1)/(13+1) = 3.92857
+  E[collect all 4 suits] (approx, with replacement) = 8.65385
+
+=== Known result for single deck (coupon collector) ===
+For a single 54-card deck, collecting all 13 ranks:
+  E ≈ 29.05361725 (given in problem)
+
+PE answer: 43.20649061
+  ≈ 43.20649061 (expected draws for 10 decks, all categories)

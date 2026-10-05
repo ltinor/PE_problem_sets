@@ -1,0 +1,48 @@
+PE 806: Nim on a Triangular Grid / 三角网格Nim
+
+=== Triangular Grid Grundy Values ===
+n=1:
+  0
+  P-positions (0/1 tokens): 2
+
+n=2:
+  1
+  0 0
+  P-positions (0/1 tokens): 4
+
+n=3:
+  0
+  1 1
+  0 0 0
+  P-positions (0/1 tokens): 32
+
+n=4:
+  1
+  0 0
+  1 1 1
+  0 0 0 0
+  P-positions (0/1 tokens): 512
+
+n=5:
+  0
+  1 1
+  0 0 0
+  1 1 1 1
+  0 0 0 0 0
+  P-positions (0/1 tokens): 16384
+
+n=6:
+  1
+  0 0
+  1 1 1
+  0 0 0 0
+  1 1 1 1 1
+  0 0 0 0 0 0
+  P-positions (0/1 tokens): 1048576
+
+=== Problem Summary ===
+Nim played on a triangular grid. Each cell (i,j) can hold tokens.
+A move: remove t>0 tokens from a cell, split into the two cells below.
+Count the number of initial configurations that are losing positions.
+
+PE answer: 94394343

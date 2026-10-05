@@ -1,0 +1,15 @@
+PE 721: High powers of irrational numbers / 无理数高次幂
+
+Given examples:
+  f(5,2) = 27 (expected 27)
+  f(5,5) = 3935 (expected 3935)
+
+Matrix method (no mod):
+  f(5,2) = 27 (expected 27)
+  f(5,5) = 3935 (expected 3935)
+
+Checking G(1000) mod 999999937:
+  G(1000) mod MOD = 163861845 (expected 163861845)
+  ✓ Verified!
+
+PE answer: 700792959

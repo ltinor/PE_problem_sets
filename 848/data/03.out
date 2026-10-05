@@ -1,0 +1,11 @@
+=== PE 848: Guessing with Probability ===
+
+Computing guessing statistics for larger ranges...
+
+  Σ_{n=1}^{100} ceil(log2(n)) = 573
+  Σ_{n=1}^{1000} ceil(log2(n)) = 8977
+  Σ_{n=1}^{10000} ceil(log2(n)) = 123617
+  Σ_{n=1}^{100000} ceil(log2(n)) = 1568929
+  Σ_{n=1}^{1000000} ceil(log2(n)) = 18951425
+
+PE answer: 188.45503259

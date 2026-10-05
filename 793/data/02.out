@@ -1,0 +1,44 @@
+PE 793: Median of Products / 乘积中位数
+
+=== Products a*b (a≤b) for small N ===
+  N=2: M= 3 median=   2 (fast=2)  products: 1 2 4
+  N=3: M= 6 median=   3 (fast=3)  products: 1 2 3 4 6 9
+  N=4: M=10 median=   4 (fast=4)  products: 1 2 3 4 4 6 8 9 12 16
+  N=5: M=15 median=   8 (fast=8)  products: 1 2 3 4 4 5 6 8 9 10 12 15 16 20 25
+  N=6: M=21 median=  10 (fast=10)  products: 1 2 3 4 4 5 6 6 8 9 10 12 12 15 16 18 20 24 25 30 36
+  N=7: M=28 median=  12 (fast=12)  products: 1 2 3 4 4 5 6 6 7 8 9 10 12 12 14 15 16 18 20 21 24 25 28 30 35 36 42 49
+  N=8: M=36 median=  16 (fast=16)  products: 1 2 3 4 4 5 6 6 7 8 8 9 10 12 12 14 15 16 16 18 20 21 24 24 25 28 30 32 35 36 40 42 48 49 56 64
+
+=== Median via binary search (larger N) ===
+  N=10: M=  55 median=      24
+  N=20: M= 210 median=      84
+  N=30: M= 465 median=     182
+  N=40: M= 820 median=     320
+  N=50: M=1275 median=     494
+
+=== Distinct product counts ===
+  N= 2: distinct=     3 out of 3
+  N= 3: distinct=     6 out of 6
+  N= 4: distinct=     9 out of 10
+  N= 5: distinct=    14 out of 15
+  N= 6: distinct=    18 out of 21
+  N= 7: distinct=    25 out of 28
+  N= 8: distinct=    30 out of 36
+  N= 9: distinct=    36 out of 45
+  N=10: distinct=    42 out of 55
+  N=11: distinct=    53 out of 66
+  N=12: distinct=    59 out of 78
+  N=13: distinct=    72 out of 91
+  N=14: distinct=    80 out of 105
+  N=15: distinct=    89 out of 120
+
+=== Sum of all products ===
+  N= 2: Σa·b = 7
+  N= 3: Σa·b = 25
+  N= 4: Σa·b = 65
+  N= 5: Σa·b = 140
+  N= 6: Σa·b = 266
+  N= 7: Σa·b = 462
+  N= 8: Σa·b = 750
+  N= 9: Σa·b = 1155
+  N=10: Σa·b = 1705

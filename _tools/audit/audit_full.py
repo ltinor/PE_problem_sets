@@ -94,8 +94,7 @@ def check_statement(pid: str):
     if not os.path.exists(f):
         return ["NO_STATEMENT"]
     text = open(f, encoding="utf-8", errors="replace").read()
-    content = [l.strip() for l in text.split("
-")
+    content = [l.strip() for l in text.split("\n")
                if l.strip() and not l.strip().startswith("#")
                and l.strip() != "---" and not l.strip().startswith("```")]
     flags = []

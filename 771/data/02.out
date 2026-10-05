@@ -1,0 +1,80 @@
+PE 771: Pseudo-geometric sequences / 伪几何序列
+
+=== Pseudo-geometric sequence examples ===
+x₀ = 100, varying a/b ratios, 10 steps each:
+
+  a/b = 3/2 (reduced: yes):
+    round: 100 150 225 338 507 761 1142 1713 2570 3855 5783
+    floor: 100 150 225 337 505 757 1135 1702 2553 3829 5743
+    ceil:  100 150 225 338 507 761 1142 1713 2570 3855 5783
+
+  a/b = 4/3 (reduced: yes):
+    round: 100 133 177 236 315 420 560 747 996 1328 1771
+    floor: 100 133 177 236 314 418 557 742 989 1318 1757
+    ceil:  100 134 179 239 319 426 568 758 1011 1348 1798
+
+  a/b = 5/4 (reduced: yes):
+    round: 100 125 156 195 244 305 381 476 595 744 930
+    floor: 100 125 156 195 243 303 378 472 590 737 921
+    ceil:  100 125 157 197 247 309 387 484 605 757 947
+
+  a/b = 2/1 (reduced: yes):
+    round: 100 200 400 800 1600 3200 6400 12800 25600 51200 102400
+    floor: 100 200 400 800 1600 3200 6400 12800 25600 51200 102400
+    ceil:  100 200 400 800 1600 3200 6400 12800 25600 51200 102400
+
+  a/b = 3/1 (reduced: yes):
+    round: 100 300 900 2700 8100 24300 72900 218700 656100 1968300 5904900
+    floor: 100 300 900 2700 8100 24300 72900 218700 656100 1968300 5904900
+    ceil:  100 300 900 2700 8100 24300 72900 218700 656100 1968300 5904900
+
+  a/b = 5/3 (reduced: yes):
+    round: 100 167 278 463 772 1287 2145 3575 5958 9930 16550
+    floor: 100 166 276 460 766 1276 2126 3543 5905 9841 16401
+    ceil:  100 167 279 465 775 1292 2154 3590 5984 9974 16624
+
+  a/b = 7/4 (reduced: yes):
+    round: 100 175 306 536 938 1642 2874 5030 8803 15405 26959
+    floor: 100 175 306 535 936 1638 2866 5015 8776 15358 26876
+    ceil:  100 175 307 538 942 1649 2886 5051 8840 15470 27073
+
+  a/b = 11/10 (reduced: yes):
+    round: 100 110 121 133 146 161 177 195 215 237 261
+    floor: 100 110 121 133 146 160 176 193 212 233 256
+    ceil:  100 110 121 134 148 163 180 198 218 240 264
+
+  a/b = 6/5 (reduced: yes):
+    round: 100 120 144 173 208 250 300 360 432 518 622
+    floor: 100 120 144 172 206 247 296 355 426 511 613
+    ceil:  100 120 144 173 208 250 300 360 432 519 623
+
+  a/b = 9/8 (reduced: yes):
+    round: 100 113 127 143 161 181 204 230 259 291 327
+    floor: 100 112 126 141 158 177 199 223 250 281 316
+    ceil:  100 113 128 144 162 183 206 232 261 294 331
+
+=== Sequence behavior analysis ===
+When a/b > 1: sequence grows (geometric-like)
+When a/b = 1: sequence is constant
+When a/b < 1: sequence decays to 0
+
+=== Distinct values in pseudo-geometric sequences ===
+All pairs (a,b) with 1≤a,b≤5, start=1, steps=5:
+  Distinct values: 23
+  Sum of distinct values: 5770
+  Sum mod 1000000007: 5770
+
+=== Answer analysis ===
+PE answer: 398803409
+PE answer % 1000000007 = 398803409
+
+Sum of all values in pseudo-geometric sequences
+for a,b ≤ 6, start=1, different numbers of steps:
+  steps=1: total=60 mod=60
+  steps=2: total=174 mod=174
+  steps=3: total=654 mod=654
+  steps=4: total=3004 mod=3004
+  steps=5: total=15364 mod=15364
+  steps=6: total=82897 mod=82897
+  steps=7: total=460514 mod=460514
+  steps=8: total=2605179 mod=2605179

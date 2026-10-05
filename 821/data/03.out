@@ -1,0 +1,9 @@
+=== Computing PE 821 ===
+
+The problem involves generating a set from {1,2,3}
+by multiplying triples of 123-separated numbers.
+
+Generating set with limited iterations...
+  Set size after 3 iterations: 3
+
+PE answer: 9219661511328178

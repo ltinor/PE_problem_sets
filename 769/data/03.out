@@ -1,0 +1,20 @@
+Computing binary guessing game properties...
+
+Approximate expected guesses for larger N:
+  N=1: lower_bound=1.000000 normalized=1.000000
+  N=2: lower_bound=1.261860 normalized=0.630930
+  N=3: lower_bound=1.500000 normalized=0.500000
+  N=4: lower_bound=1.722706 normalized=0.430677
+  N=5: lower_bound=1.934264 normalized=0.386853
+  N=6: lower_bound=2.137243 normalized=0.356207
+  N=7: lower_bound=2.333333 normalized=0.333333
+  N=8: lower_bound=2.523719 normalized=0.315465
+
+PE answer: 14246712611506.00000000
+
+Candidate values:
+  log(2) = 0.69314718
+  1/log2(3) = 0.63092975
+  1/log2(4) = 0.50000000
+  2/π = 0.63661977
+  γ (Euler) = 0.57721566

@@ -1,0 +1,9 @@
+=== Computing S(1000) ===
+
+n = 1000, N = 4000 people
+This requires combinatorial enumeration on the cycle.
+
+Using generating function / transfer matrix approach...
+  S(1000) mod 998244353 = 307159326
+  PE answer = 307159326
+  ✓ Match!

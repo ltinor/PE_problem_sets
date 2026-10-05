@@ -1,0 +1,8 @@
+=== Computing E(60) ===
+
+n = 60, total cards = 240
+Total distinct sequences = 240!/(4!)^60 ≈ 10^300
+
+Computing expectation via DP...
+E(60) = 54.12691621
+PE answer = 54.12691621

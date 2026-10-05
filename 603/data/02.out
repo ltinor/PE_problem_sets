@@ -1,0 +1,10 @@
+Verifying S(2024):
+S(2024) brute = 2304 (expected 2304)
+S(2024) fast  = 2304 (expected 2304)
+
+P(7) = 2357111317
+S(P(7)) brute = 87299471
+S(P(7)) fast  = 87299471 (should match)
+
+C(7,3) length = 30 digits
+S(C(7,3)) fast = 704184352

@@ -1,0 +1,21 @@
+PE 913: Row-Major vs Column-Major / 行主序vs列主序
+
+=== Problem Overview ===
+Row-major index at (i,j):  val_rm = (i-1)*n + j
+Column-major index at (i,j): val_cm = (j-1)*n + i
+
+They are equal when (i-1)*n + j = (j-1)*n + i
+=> (i-j)(n-1) = 0 => when n=1 or i=j
+So diagonal entries always match!
+
+The problem extends this to a counting/weighting scheme
+over all n up to some large bound N.
+
+=== Key Concepts ===
+  1. Coordinate mapping between row-major and column-major
+  2. Solving systems of congruences
+  3. Efficient summation over large ranges
+  4. Prefix sums of number-theoretic functions
+
+=== PE Answer ===
+  2101925115560555020

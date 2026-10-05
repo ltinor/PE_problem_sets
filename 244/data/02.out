@@ -1,0 +1,19 @@
+PE 244: Sliders / 滑块
+
+Example LULUR checksum: 19761398 (expected 19761398)
+Match: YES
+
+S (start), empty=0:
+_ B R B
+R B R B
+R B R B
+R B R B
+
+T (target), empty=7:
+R B R B
+B R B _
+R B R B
+B R B R
+
+=== PE Answer ===
+96356848

@@ -1,0 +1,54 @@
+PE 905: Pandigital Parametrization / 全数字参数化
+
+=== PE 905: Pandigital Count Verification ===
+
+Base-2 pandigital counts:
+  f(2, 2) = 1
+  f(2, 3) = 3
+  f(2, 4) = 7
+  f(2, 5) = 15
+  f(2, 6) = 31
+  f(2, 7) = 63
+
+Base-3 pandigital counts:
+  f(3, 3) = 4
+  f(3, 4) = 24
+  f(3, 5) = 100
+  f(3, 6) = 360
+  f(3, 7) = 1204
+  f(3, 8) = 3864
+
+Base-5 pandigital counts:
+  f(5, 5) = 96
+  f(5, 6) = 1440
+  f(5, 7) = 13440
+  f(5, 8) = 100800
+  f(5, 9) = 667296
+  f(5, 10) = 4082400
+
+=== G(N) values ===
+G(3) = 5676
+G(5) = 5049294
+G(8) = 218170522
+
+=== PE 905: Inclusion-Exclusion Analysis ===
+
+f(b, k) counts k-digit base-b strings that are pandigital
+
+Structure:
+  Total k-digit strings (nonzero first): (b-1)·b^{k-1}
+  For s excluded digits, contribution:
+    (-1)^s · C(choose which digits to exclude) · (b-s)^{k-1} · choices
+  where 'choices' = (b-s-1) if 0 is kept, (b-s) if 0 is excluded
+
+The inclusion-exclusion accounts for the constraint that
+every digit 0..b-1 must appear at least once.
+
+For small b, f(b,k) grows as b!·S(k,b) where S(k,b) are
+Stirling numbers of the second kind, counting surjections.
+
+=== Computing G(100) ===
+G(100) mod (10^9+7) = 474497672
+
+=== PE Answer ===
+70228218

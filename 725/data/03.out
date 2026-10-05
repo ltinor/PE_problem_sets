@@ -1,0 +1,4 @@
+Computing S(2020) mod 10^16...
+Result: -5401202963349315
+Expected: 4598797036650685
+✗ Mismatch (diff: -10000000000000000)

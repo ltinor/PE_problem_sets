@@ -1,0 +1,38 @@
+=== PE 874: Maximal Prime Powers ===
+
+Sum of largest prime power divisors:
+  N=   1000: sum =       149564 (avg = 149.564)
+  N=   5000: sum =      2874014 (avg = 574.803)
+  N=  10000: sum =     10438304 (avg = 1043.830)
+  N=  20000: sum =     38202735 (avg = 1910.137)
+  N=  50000: sum =    215040774 (avg = 4300.815)
+  N= 100000: sum =    800846558 (avg = 8008.466)
+
+Contribution by prime:
+  p=  2: approx contrib ~ 1022
+  p=  3: approx contrib ~ 1092
+  p=  5: approx contrib ~ 780
+  p=  7: approx contrib ~ 399
+  p= 11: approx contrib ~ 132
+  p= 13: approx contrib ~ 182
+  p= 17: approx contrib ~ 306
+  p= 19: approx contrib ~ 380
+  p= 23: approx contrib ~ 552
+  p= 29: approx contrib ~ 870
+  p= 31: approx contrib ~ 992
+  p= 37: approx contrib ~ 37
+  p= 41: approx contrib ~ 41
+  p= 43: approx contrib ~ 43
+  p= 47: approx contrib ~ 47
+  p= 53: approx contrib ~ 53
+  p= 59: approx contrib ~ 59
+  p= 61: approx contrib ~ 61
+  p= 67: approx contrib ~ 67
+  p= 71: approx contrib ~ 71
+  p= 73: approx contrib ~ 73
+  p= 79: approx contrib ~ 79
+  p= 83: approx contrib ~ 83
+  p= 89: approx contrib ~ 89
+  p= 97: approx contrib ~ 97
+
+PE answer: 4992775389

@@ -40,4 +40,6 @@ $$A = p \cdot q \cdot r \quad \text{且} \quad \frac{1}{A} = \frac{1}{p} + \frac
 
 ## 数据范围
 
-$K \le 150000$
+$K \le 150000$
+
+- 注：本题 data 由 std 实跑生成；原题全规模参数下 std 会超时，测试点采用可在时限内完成的缩小规模参数。

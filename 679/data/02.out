@@ -1,0 +1,19 @@
+PE 679: FREEFAREA
+
+DP verification:
+  f(9) = 1 (expect 1)
+  f(10) = 10
+  f(11) = 72
+  f(12) = 450
+  f(13) = 2582
+  f(14) = 13998
+  f(15) = 72863 (expect 72863)
+  f(16) = 367804
+
+Brute force f(9) = 1 (expect 1)
+
+The unique 9-letter word: FREEFAREA
+  FREE at 0-3, REEF at 1-4, FARE at 4-7, AREA at 5-8
+
+Computing f(30)...
+  f(30) = 644997092988678 ✓

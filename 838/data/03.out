@@ -1,0 +1,15 @@
+=== PE 838: Not Relatively Prime ===
+
+=== Scaling Analysis ===
+N=    10: non-coprime pairs = 14
+N=   100: non-coprime pairs = 1907
+N=  1000: non-coprime pairs = 195309
+N= 10000: non-coprime pairs = 19597515
+
+=== Coprime Density ===
+N=    10: coprime density ≈ 0.688889 (theoretical limit: 6/π² ≈ 0.607927)
+N=   100: coprime density ≈ 0.614747 (theoretical limit: 6/π² ≈ 0.607927)
+N=  1000: coprime density ≈ 0.608991 (theoretical limit: 6/π² ≈ 0.607927)
+N= 10000: coprime density ≈ 0.608011 (theoretical limit: 6/π² ≈ 0.607927)
+
+PE answer: 250591.442792

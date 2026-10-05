@@ -1,0 +1,58 @@
+PE 703: Circular Logic II
+
+Analysis of all 16 boolean functions f(a,b):
+
+T = f(0,0)|f(0,1)<<1|f(1,0)<<2|f(1,1)<<3
+
+T=0000 (0000): 0
+  Configs: 1 1 1 1 1 1 1 1
+T=0001 (1000): a↓b
+  Configs: 0 2 3 2 5 5 7 10
+T=0010 (0100): ¬a∧b
+  Configs: 1 1 1 1 1 1 1 1
+T=0011 (1100): ¬a
+  Configs: 0 2 0 2 0 2 0 2
+T=0100 (0010): a∧¬b
+  Configs: 1 1 1 1 1 1 1 1
+T=0101 (1010): ¬b
+  Configs: 0 2 0 2 0 2 0 2
+T=0110 (0110): a⊕b
+  Configs: 1 1 4 1 1 4 1 1
+T=0111 (1110): a↑b
+  Configs: 0 2 3 2 5 5 7 10
+T=1000 (0001): a∧b
+  Configs: 2 2 2 2 2 2 2 2
+T=1001 (1001): a↔b
+  Configs: 1 1 4 1 1 4 1 1
+T=1010 (0101): b
+  Configs: 2 2 2 2 2 2 2 2
+T=1011 (1101): ¬a∨b
+  Configs: 1 1 1 1 1 1 1 1
+T=1100 (0011): a
+  Configs: 2 2 2 2 2 2 2 2
+T=1101 (1011): a∨¬b
+  Configs: 1 1 1 1 1 1 1 1
+T=1110 (0111): a∨b
+  Configs: 2 2 2 2 2 2 2 2
+T=1111 (1111): 1
+  Configs: 1 1 1 1 1 1 1 1
+
+Computing total configurations for all T, N=26:
+  T=0: 1
+  T=1: 1497
+  T=2: 1
+  T=3: 2
+  T=4: 1
+  T=5: 2
+  T=6: 1
+  T=7: 1497
+  T=8: 2
+  T=9: 1
+  T=10: 2
+  T=11: 1
+  T=12: 2
+  T=13: 1
+  T=14: 2
+  T=15: 1
+  Total: 3014
+  PE answer: 843437991

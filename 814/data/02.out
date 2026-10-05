@@ -1,0 +1,17 @@
+PE 814: Mezzo-forte / 中强音
+
+=== Problem Summary ===
+4n people in a circle, each looks left/right/opposite.
+S(n) = #ways exactly 2n people scream (n mutual pairs).
+
+=== Verify S(1) = 48 ===
+  S(1) = 48 (expected 48) ✓
+
+=== Analytical verification for n=1 ===
+  4 people: positions 0,1,2,3
+  Possible pairs: (0,2), (1,3) [opposite]
+                  (0,1), (1,2), (2,3), (3,0) [adjacent]
+  Total: 6 possible pairs × 8 configs for others = 48 ✓
+
+=== PE Answer ===
+  S(1000) mod 998244353 = 307159326

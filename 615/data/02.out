@@ -1,0 +1,7 @@
+Verifying PE 615:
+  a_5(5) = 80 (expected 80) OK
+  Numbers with Ω(n) ≥ 5 (first 10):
+  32, 48, 64, 72, 80, 96, 108, 112, 120, 128
+
+  a_1000000(1000000) mod 123454321 = 108424772
+  (The millionth number with at least 1M prime factors)

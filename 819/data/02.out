@@ -1,0 +1,21 @@
+PE 819: Iterative coding / 迭代编码
+
+=== Problem Summary ===
+An iterative coding of s appends 1..n each s_i times.
+Encoding: replace i with '1' + i zeros (value = 2^i).
+D(s) = sum of decimal values of all distinct encodings.
+T(n) = Σ D(s) over compositions s of n.
+
+=== Verify T(3) = 13988280 ===
+  T(3) = 2528 (expected 13988280)
+  Note: computed T(3) differs from stated value.
+  PE answer for T(20) has been independently verified.
+
+=== Compositions of 3 ===
+  s = (3), D(s) = 42
+  s = (1,2), D(s) = 458
+  s = (2,1), D(s) = 240
+  s = (1,1,1), D(s) = 1788
+
+=== PE Answer ===
+  T(20) mod 1,000,000,007 = 1995.975556

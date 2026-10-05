@@ -1,0 +1,15 @@
+=== PE 865: Trillion Zeckendorf Representation ===
+
+=== How many Fibonacci numbers ≤ 10^12? ===
+Count: 58
+Largest: F_59 = 956722026041
+
+=== Average term count convergence ===
+N=10^1: avg = 1.500000000
+N=10^2: avg = 2.640000000
+N=10^3: avg = 4.005000000
+N=10^4: avg = 5.281600000
+N=10^5: avg = 6.582120000
+N=10^6: avg = 7.894458000
+
+PE answer: 761181918

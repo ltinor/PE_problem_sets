@@ -1,0 +1,13 @@
+PE 715: Sextuplet Norms
+
+G(10) = 3053
+G(10^5) ≡ 157612967 (mod 1e9+7)
+
+Mathematical analysis:
+  f(n) is multiplicative
+  f(p) = p²(p-1)(p³ - χ₋₄(p))
+  h(n) = f(n)/(n²·φ(n)) is multiplicative
+  h(p) = p³ - χ₋₄(p) for odd p, h(2) = 8
+  h(p^e) = h(p) · p^{3(e-1)}
+  G(N) = Σ h(n) can be computed with min_25 sieve or
+         using h = id³ * (μ·χ) convolution.

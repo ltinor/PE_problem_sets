@@ -1,0 +1,48 @@
+PE 848: Guessing with Probability / 概率猜数
+
+=== Problem Description ===
+A number guessing game with probabilistic feedback.
+The player makes queries and receives hints about whether
+the guess is too high, too low, or correct.
+The goal is to minimize expected number of guesses.
+
+=== Classic Binary Search Analysis ===
+For deterministic 'higher/lower' feedback:
+  n=1: optimal guesses = 0
+  n=2: optimal guesses = 1
+  n=5: optimal guesses = 3
+  n=10: optimal guesses = 4
+  n=20: optimal guesses = 5
+  n=50: optimal guesses = 6
+  n=100: optimal guesses = 7
+  n=1000: optimal guesses = 10
+
+=== Expected Guesses (DP, uniform) ===
+For small n, the DP gives exact expected values:
+  n=1: E[guesses] = 0.000
+  n=2: E[guesses] = 1.000
+  n=3: E[guesses] = 1.000
+  n=4: E[guesses] = 1.500
+  n=5: E[guesses] = 1.600
+  n=6: E[guesses] = 1.833
+  n=7: E[guesses] = 1.857
+  n=8: E[guesses] = 2.125
+  n=9: E[guesses] = 2.222
+  n=10: E[guesses] = 2.400
+  n=11: E[guesses] = 2.455
+  n=12: E[guesses] = 2.583
+  n=13: E[guesses] = 2.615
+  n=14: E[guesses] = 2.714
+  n=15: E[guesses] = 2.733
+  n=16: E[guesses] = 2.875
+  n=17: E[guesses] = 2.941
+  n=18: E[guesses] = 3.056
+  n=19: E[guesses] = 3.105
+  n=20: E[guesses] = 3.200
+
+=== Sum over ranges (possible problem interpretation) ===
+  Σ_{n=1}^{100} ceil(log2(n)) = 573
+  Σ_{n=1}^{1000} ceil(log2(n)) = 8977
+
+=== PE Answer ===
+  188.45503259

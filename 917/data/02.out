@@ -1,0 +1,11 @@
+PE 917: Minimal Path Using Additive Cost
+
+Testing A(1): 966774091 (expected 966774091)
+Testing A(2):
+  Path RD: 2388327490
+  Path DR: 3483691280
+  Greedy: 2388327490 (expected 2388327490)
+A(10) greedy: 13724992101 (expected 13389278727)
+
+Note: Solution requires efficient A(10^7) computation.
+The greedy approach works but is O(N) with constant factor.

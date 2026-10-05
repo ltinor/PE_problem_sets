@@ -1,0 +1,25 @@
+PE 746: A Messy Medley / 杂乱混合
+
+Exploring different metrics for N families (2 members each):
+
+N=2 (2N=4, (4)!=24 permutations):
+  Σ(adjacent families): 24
+  Σ(families dist≤2):    40
+  Σ(families dist>1):    24
+  E[adj] * 24 = 24
+  (Actually equals: 24)
+N=3 (2N=6, (6)!=720 permutations):
+  Σ(adjacent families): 720
+  Σ(families dist≤2):    1296
+  Σ(families dist>1):    1440
+  E[adj] * 720 = 720
+  (Actually equals: 720)
+N=4 (2N=8, (8)!=40320 permutations):
+  Σ(adjacent families): 40320
+  Σ(families dist≤2):    74880
+  Σ(families dist>1):    120960
+  E[adj] * 40320 = 40320
+  (Actually equals: 40320)
+
+PE answer: 867150922
+Factor: 5 * 19 * 37 * 2467

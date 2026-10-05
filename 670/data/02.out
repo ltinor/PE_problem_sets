@@ -1,0 +1,30 @@
+PE 670: Colouring a Strip
+Colorings with no 3 consecutive same color:
+
+C=1 colors:
+  N=1: 1 colorings
+  N=2: 1 colorings
+  N=3: 0 colorings
+  N=4: 0 colorings
+  N=5: 0 colorings
+  N=6: 0 colorings
+C=2 colors:
+  N=1: 0 colorings
+  N=2: 2 colorings
+  N=3: 6 colorings
+  N=4: 10 colorings
+  N=5: 16 colorings
+  N=6: 26 colorings
+C=3 colors:
+  N=1: 0 colorings
+  N=2: 0 colorings
+  N=3: 6 colorings
+  N=4: 36 colorings
+
+Verification (small cases, mod 1e9+7):
+  F(1,1) = 1 (expected: 1)
+  F(2,1) = 1 (expected: 1)
+  F(3,1) = 0 (expected: 0)
+  F(1,2) = 0 (expected: 0)
+  F(2,2) = 2 (expected: 2)
+  F(3,2) = 6 (expected: 6)

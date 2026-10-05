@@ -1,0 +1,4 @@
+Verifying PE 629 (Scatterstone Nim):
+f(5,2) = 3 (expected 3) ✓
+f(5,3) = 5 (expected 5) ✓
+g(7) = 66 (expected 66) ✓

@@ -1,0 +1,23 @@
+PE 911: Khinchin's Constant / 辛钦常数
+
+=== Problem Overview ===
+Khinchin's constant K0 is the almost-everywhere limit of
+the geometric mean of continued fraction coefficients.
+
+K0 = prod_{r=1}^{∞} (1 + 1/(r(r+2)))^{log2(r)} ≈ 2.685452...
+
+This problem defines a variant: for randomly chosen (a,b),
+consider the continued fraction expansion of a/b and examine
+the distribution of coefficients under a modified weighting.
+
+s_k = first index m where a_m ≥ k (in the CF of a/b)
+The limit involves weighed sums over these s_k values.
+
+=== Key Concepts ===
+  1. Gauss-Kuzmin distribution: P(a_m = k) ≈ -log2(1 - 1/(k+1)^2)
+  2. Modified distributions for correlated coefficients
+  3. Numerical estimation of infinite products/sums
+  4. High-precision floating point arithmetic
+
+=== PE Answer ===
+  5679.934966

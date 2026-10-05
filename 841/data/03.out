@@ -1,0 +1,17 @@
+=== PE 841: Regular Star Polygons ===
+
+Computing star polygon statistics...
+
+Star polygon counts for n up to 100:
+  Total distinct connected stars for n ≤ 100: 1521
+  Σ n·stars(n) for n ≤ 100: 101541
+
+=== GCD Distribution ===
+  n=10: g=1(4) g=2(4) g=5(1)
+  n=11: g=1(10)
+  n=12: g=1(4) g=2(2) g=3(2) g=4(2) g=6(1)
+  n=13: g=1(12)
+  n=14: g=1(6) g=2(6) g=7(1)
+  n=15: g=1(8) g=3(4) g=5(2)
+
+PE answer: 381.7860132854

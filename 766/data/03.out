@@ -1,0 +1,15 @@
+Computing sliding block puzzle properties...
+
+Board 1×1 (1 cells):
+  Reachable from single block: 1
+Board 2×2 (4 cells):
+  Reachable from single block: 4
+  Reachable from two blocks: 6
+Board 3×3 (9 cells):
+  Reachable from single block: 4
+  Reachable from two blocks: 22
+Board 4×4 (16 cells):
+  Reachable from single block: 4
+  Reachable from two blocks: 46
+
+PE answer: 2613742

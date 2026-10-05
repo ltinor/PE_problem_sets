@@ -1,0 +1,16 @@
+=== PE 852: Coins in a Box ===
+
+=== Simulation (Large Case) ===
+N=1000, C=5000
+  E[odd boxes] = 499.977526
+  Expected empty: 6.721112
+  Expected 1 coin: 33.639199
+
+=== Variance Analysis ===
+Let X_i = indicator(box i has odd coins)
+Var(total) = N*Var(X_1) + N(N-1)*Cov(X_1,X_2)
+  N=3 C=3: P_odd=0.481481 Var=0.249657
+  N=5 C=5: P_odd=0.461120 Var=0.248488
+  N=10 C=10: P_odd=0.446313 Var=0.247118
+
+PE answer: 130.313496

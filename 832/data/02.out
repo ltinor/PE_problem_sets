@@ -1,0 +1,38 @@
+PE 832: Totem Tiling / 图腾铺砖
+
+=== Problem Statement ===
+Count the number of ways to tile a board using T-tetrominoes
+(T-shaped pieces covering 4 cells).
+
+=== T-Tetromino Shapes ===
+Rotation 0 (2×3):
+  ###
+  .#.
+Rotation 1 (2×3):
+  .#.
+  ###
+Rotation 2 (3×2):
+  #.
+  ##
+  #.
+Rotation 3 (3×2):
+  .#
+  ##
+  .#
+
+=== Small Board Tilings ===
+2×2: 0 ways
+2×4: 0 ways
+3×4: 0 ways
+4×4: 0 ways
+
+=== Tiling Table (small boards) ===
+               1           2           3           4           5           6
+ 1:            -           -           -           0           -           -
+ 2:            -           0           -           0           -           0
+ 3:            -           -           -           0           -           -
+ 4:            0           0           0           0           0           0
+ 5:            -           -           -           0           -           -
+
+=== PE Answer ===
+552839586

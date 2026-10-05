@@ -1,0 +1,12 @@
+Computing Σ H_100(√β) for β ∈ T...
+  Processed 100 β, partial = 109807693529693
+  Processed 200 β, partial = 827421278019182
+  Processed 300 β, partial = 464789644841291
+  Processed 400 β, partial = 100743226913795
+  Processed 500 β, partial = 389303203119974
+  Processed 600 β, partial = 689152410300301
+  Processed 700 β, partial = 839705740927275
+  Processed 800 β, partial = 214561300772071
+  Processed 900 β, partial = 201579010275288
+Total β: 969
+Sum: 467741038611282 (expected 888873503555187)

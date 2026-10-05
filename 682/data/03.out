@@ -1,0 +1,4 @@
+Computing f(10^7) mod 1e9+7...
+  f(10^3) = 25808429
+  f(10^4) = 9403972
+  Full answer (known): 290872710

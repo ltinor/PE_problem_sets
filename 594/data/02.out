@@ -1,0 +1,5 @@
+Verifying known values:
+t(O_{1,1}) = 8 (expected 8)
+t(O_{2,1}) = 76 (expected 76)
+t(O_{3,2}) = 456572 (expected 456572)
+t(O_{4,2}) = 47067598 (PE answer)

@@ -1,0 +1,13 @@
+PE 808: Reversible Prime Squares / 可逆素数平方
+
+=== Definition ===
+Prime p where reverse(p^2) = q^2 for some prime q ≠ p.
+Example: 13^2 = 169, reverse(169) = 961 = 31^2
+
+=== Small examples ===
+  13^2 = 169, reverse = 961 = 31^2 ✓
+  31^2 = 961, reverse = 169 = 13^2 ✓
+
+=== Known properties ===
+Reversible prime squares come in pairs (p,q).
+The first 50 such primes need to be summed.

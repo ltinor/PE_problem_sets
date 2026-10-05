@@ -1,0 +1,14 @@
+=== Computing Pseudorandom Sequence ===
+
+The problem involves:
+1. Generating a long pseudorandom sequence using a specific PRNG
+2. Converting the generated numbers to text/characters
+3. Searching for specific patterns or computing statistics
+
+Typical computational approach:
+- Run the PRNG for N steps (N may be up to 10^12 or more)
+- Use pattern matching (KMP, Aho-Corasick, etc.)
+- Exploit the periodic nature of the PRNG
+- Use cycle detection (Floyd's algorithm) for optimization
+
+PE answer: 9300900470636

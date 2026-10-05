@@ -1,0 +1,21 @@
+=== PE 908: Clock Sequence Theory ===
+
+A clock sequence with period P has elements a[0..P-1].
+The n-th segment sums to n, so the cumulative sums
+of the repeating sequence must hit all triangular numbers.
+
+Let Σ = sum(a[0..P-1]) be the period sum.
+Then the cumulative sum at position m*P + r is:
+  S(m*P + r) = m*Σ + prefix(r)
+
+For this to hit T_k = k(k+1)/2, we need:
+  T_k ≡ prefix(r) (mod Σ) for some r
+  and also T_k ≥ prefix(r) with the right quotient.
+
+=== Known values ===
+C(3)  = 3
+C(4)  = 7
+C(10) = 561
+
+The problem reduces to counting sequences where all
+triangular numbers are "covered" by the period pattern.

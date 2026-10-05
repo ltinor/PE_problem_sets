@@ -1,0 +1,4 @@
+Verifying PE 625 (gcd sum):
+G(10) brute = 122 (expected 122) ✓
+G(10) fast  = 122 (expected 122) ✓
+G(100) fast  = 18065, brute = 18065 ✓

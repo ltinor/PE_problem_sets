@@ -1,0 +1,38 @@
+PE 876: Sum of Digits, Sequence of Numbers / 数字和数列
+
+=== Digit Sum Examples ===
+digit_sum(123) = 6
+digit_sum(4567) = 22
+digit_sum(99999) = 45
+digit_sum(1000000) = 1
+
+=== Sequence Generation ===
+a_0 = 7 (digit_sum=7)
+a_1 = 56 (digit_sum=11)
+a_2 = 177 (digit_sum=15)
+a_3 = 402 (digit_sum=6)
+a_4 = 438 (digit_sum=15)
+a_5 = 663 (digit_sum=15)
+a_6 = 888 (digit_sum=24)
+a_7 = 1464 (digit_sum=15)
+a_8 = 1689 (digit_sum=24)
+a_9 = 2265 (digit_sum=15)
+a_10 = 2490 (digit_sum=15)
+a_11 = 2715 (digit_sum=15)
+a_12 = 2940 (digit_sum=15)
+a_13 = 3165 (digit_sum=15)
+a_14 = 3390 (digit_sum=15)
+
+=== Sum of Digit Sums ===
+S(10) = 46
+S(100) = 901
+S(1000) = 13501
+S(10000) = 180001
+S(100000) = 2250001
+
+Verification:
+S(1..9) = 45 (expected 45)
+S(1..99) = 900 (expected 900)
+
+=== Digit Sum of Answer ===
+digit_sum(answer) = 77

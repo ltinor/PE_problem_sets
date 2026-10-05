@@ -1,0 +1,29 @@
+=== Freshman's Product: combinatorial interpretation ===
+
+Wilson's Theorem: (p-1)! ≡ -1 (mod p) for prime p
+  p=2: (p-1)! mod p = 1 ≡ -1 (mod 2)
+  p=3: (p-1)! mod p = 2 ≡ -1 (mod 3)
+  p=5: (p-1)! mod p = 4 ≡ -1 (mod 5)
+  p=7: (p-1)! mod p = 6 ≡ -1 (mod 7)
+  p=11: (p-1)! mod p = 10 ≡ -1 (mod 11)
+  p=13: (p-1)! mod p = 12 ≡ -1 (mod 13)
+  p=17: (p-1)! mod p = 16 ≡ -1 (mod 17)
+  p=19: (p-1)! mod p = 18 ≡ -1 (mod 19)
+
+=== Sums of products ===
+Sum of squared binomials:
+  n=1: Σ C(n,k)² = 2, C(2n,n) = 2
+  n=2: Σ C(n,k)² = 6, C(2n,n) = 6
+  n=3: Σ C(n,k)² = 20, C(2n,n) = 20
+  n=4: Σ C(n,k)² = 70, C(2n,n) = 70
+  n=5: Σ C(n,k)² = 252, C(2n,n) = 252
+  n=6: Σ C(n,k)² = 924, C(2n,n) = 924
+  n=7: Σ C(n,k)² = 3432, C(2n,n) = 3432
+  n=8: Σ C(n,k)² = 12870, C(2n,n) = 12870
+  n=9: Σ C(n,k)² = 48620, C(2n,n) = 48620
+  n=10: Σ C(n,k)² = 184756, C(2n,n) = 184756
+
+PE answer: 146133880
+PE answer mod 1000000007 = 146133880
+Answer factorial-like factors:
+  2^3  5^1  661^1  5527^1

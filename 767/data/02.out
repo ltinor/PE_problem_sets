@@ -1,0 +1,78 @@
+PE 767: Window into a Matrix II / 矩阵之窗 II
+
+=== N=4 ===
+Matrix:
+     850       75      284      808
+     970      900      741      762
+      94       55      448      334
+     692      530      967      454
+
+Window size 2×2:
+  Window count: 9
+  Total sum: 798163412
+  Average: 8.86848e+07
+  Max window: 117114144
+  Min window: 63930595
+  Total sum mod 1000000007: 798163412
+
+Window size 3×3:
+  Window count: 4
+  Total sum: 798163412
+  Average: 1.99541e+08
+  Max window: 237902191
+  Min window: 180434407
+  Total sum mod 1000000007: 798163412
+
+=== N=6 ===
+Matrix:
+     850       75      284      808      970      900
+     741      762       94       55      448      334
+     692      530      967      454      655      222
+     786      152      454      993      228      101
+     176       62      955      851      883      986
+     933      145       58      802      525      531
+
+Window size 2×2:
+  Window count: 25
+  Total sum: 1809721796
+  Average: 7.23889e+07
+  Max window: 107633666
+  Min window: 26142925
+  Total sum mod 1000000007: 809721789
+
+Window size 3×3:
+  Window count: 16
+  Total sum: 2643354929
+  Average: 1.6521e+08
+  Max window: 197124490
+  Min window: 131740735
+  Total sum mod 1000000007: 643354915
+
+=== N=8 ===
+Matrix:
+     850       75      284      808      970      900      741      762
+      94       55      448      334      692      530      967      454
+     655      222      786      152      454      993      228      101
+     176       62      955      851      883      986      933      145
+      58      802      525      531      130      723      527       88
+     723      663      511      826      397      123      957      114
+     766      514      592        0       84      962      894      279
+     494       76      289      491      124      286       29      772
+
+Window size 2×2:
+  Window count: 49
+  Total sum: 3155968498
+  Average: 6.44075e+07
+  Max window: 103148138
+  Min window: 32983722
+  Total sum mod 1000000007: 155968477
+
+Window size 3×3:
+  Window count: 36
+  Total sum: 5127006912
+  Average: 1.42417e+08
+  Max window: 224856676
+  Min window: 109374928
+  Total sum mod 1000000007: 127006877
+
+PE answer: 783976161

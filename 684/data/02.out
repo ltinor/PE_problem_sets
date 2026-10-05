@@ -1,0 +1,16 @@
+PE 684: Inverse Digit Sum
+
+S(20) = 1074 (expected: 1074)
+  S(1) = 1
+  S(2) = 3
+  S(3) = 6
+  S(9) = 45
+  S(10) = 64
+  S(18) = 576
+  S(19) = 775
+
+Brute-force check:
+  S(5) = 15 (mod: 15)
+  S(10) = 64 (mod: 64)
+  S(15) = 309 (mod: 309)
+  S(20) = 1074 (mod: 1074)

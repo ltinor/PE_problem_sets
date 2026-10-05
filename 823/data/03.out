@@ -1,0 +1,10 @@
+=== Computing PE 823 ===
+
+The factor shuffle process involves randomly
+partitioning the multiset of prime factors.
+
+This is equivalent to a Markov chain on the set
+of factorizations. The expected hitting time can
+be computed via solving a linear system.
+
+PE answer: 8.6585e+08

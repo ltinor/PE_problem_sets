@@ -1,0 +1,6 @@
+=== Computing S(10000) ===
+
+Computing S(10000) using orbit counting...
+  S(10000) = 32 (mod 998244353)
+  PE answer = 986262698
+  ✗ Mismatch

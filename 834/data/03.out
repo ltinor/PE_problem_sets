@@ -1,0 +1,18 @@
+=== PE 834: Add and Divide ===
+
+Computing total steps for large ranges...
+
+S(10^0) = 0
+S(10^1) = 35
+S(10^2) = 830
+S(10^3) = 13022
+S(10^4) = 182626
+S(10^5) = 2322834
+S(10^6) = 28017858
+
+Asymptotic: S(N) ~ N·log2(N)
+  N=10000: S(N)=182626, S/(N·log₂N) ≈ 1.3744
+  N=100000: S(N)=2322834, S/(N·log₂N) ≈ 1.3985
+  N=1000000: S(N)=28017858, S/(N·log₂N) ≈ 1.4057
+
+PE answer: 1254404167198752370

@@ -1,0 +1,27 @@
+Exploring near power sums...
+
+k=1:
+  Sum (≤10^3): 45 (count: 9)
+k=2:
+  Sum (≤10^4): 111 (count: 3)
+k=3:
+  Sum (≤10^5): 1302 (count: 5)
+k=4:
+  Sum (≤10^6): 19317 (count: 4)
+k=5:
+  Sum (≤10^7): 443840 (count: 7)
+k=6:
+  Sum (≤10^7): 3111426 (count: 6)
+k=7:
+  Sum (≤10^7): 1 (count: 1)
+k=8:
+  Sum (≤10^7): 1 (count: 1)
+
+Near power sums with threshold ≤ 9:
+  k=1: sum(≤100k)=190 cnt=19
+  k=2: sum(≤100k)=1407 cnt=29
+  k=3: sum(≤100k)=14497 cnt=33
+  k=4: sum(≤100k)=137175 cnt=28
+  k=5: sum(≤100k)=965696 cnt=20
+
+PE answer: 13459471903176422

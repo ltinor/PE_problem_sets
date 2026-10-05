@@ -1,0 +1,46 @@
+PE 904: Pythagorean Triples Angle / 勾股三元组角
+
+=== PE 904: Small Test Cases ===
+
+Primitive Pythagorean triples with c ≤ 50:
+  m  n    a    b    c       θ(rad)     floor(10^6·θ)
+-----------------------------------------------------
+  2  1     3    4    5  0.64350111  643501
+  3  2     5   12   13  0.39479112  394791
+  4  1    15    8   17  1.08083900  1080839
+  4  3     7   24   25  0.28379411  283794
+  5  2    21   20   29  0.80978357  809783
+  5  4     9   40   41  0.22131444  221314
+  6  1    35   12   37  1.24049897  1240498
+
+S(50) = 4674520
+
+S(100) = 11052825
+S(500) = 60233500
+S(1000) = 121000524
+
+=== PE 904: Asymptotic Analysis ===
+
+The total contribution from each (m,n) pair:
+  θ = arcsin((m²-n²)/(m²+n²))
+
+For large m ≫ n, θ ≈ π/2 - n/m (small angle from π/2)
+For m ≈ n, θ ≈ arcsin(0) ≈ 0
+
+Distribution of angles:
+  - θ ranges from 0 to π/2 (exclusive)
+  - Dense near 0 and near π/2
+  - floor(10⁶·θ) ranges from 0 to 1570796
+
+The number of primitive triples with c ≤ N is ~N/(2π)
+by Lehmer's asymptotic formula, giving approximately
+N/(2π) terms in the sum.
+
+For N=10⁶, approximately 159,155 primitive triples contribute.
+The sum modulo 10⁹ gives the answer.
+
+=== Computing S(10^6) ===
+S(10^6) mod 10^9 = 976324173
+
+=== PE Answer ===
+880652522278760

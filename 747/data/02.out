@@ -1,0 +1,25 @@
+PE 747: Triangular Pizza / 三角披萨
+
+Exploring triangular pizza for various M:
+
+M=3: total_regions=4 triangular=1 ratio=0.25
+M=4: total_regions=8 triangular=8 ratio=1
+M=5: total_regions=16 triangular=35 ratio=2.1875
+M=6: total_regions=31 triangular=111 ratio=3.58065
+M=7: total_regions=57 triangular=287 ratio=5.03509
+M=8: total_regions=99 triangular=644 ratio=6.50505
+M=9: total_regions=163 triangular=1302 ratio=7.98773
+M=10: total_regions=256 triangular=2430 ratio=9.49219
+M=11: total_regions=386 triangular=4257 ratio=11.0285
+M=12: total_regions=562 triangular=7084 ratio=12.605
+
+Expected triangular (M random points):
+  M=6: C(M,6)=1 total_tri=111
+  M=7: C(M,6)=7 total_tri=287
+  M=8: C(M,6)=28 total_tri=644
+  M=9: C(M,6)=84 total_tri=1302
+  M=10: C(M,6)=210 total_tri=2430
+  M=11: C(M,6)=462 total_tri=4257
+  M=12: C(M,6)=924 total_tri=7084
+
+PE answer: 681813395

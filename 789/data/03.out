@@ -1,0 +1,11 @@
+=== Minimal pairing modulo p: Analysis ===
+
+PE answer: 13431419535872807040
+
+=== Cumulative sum over primes ===
+
+=== Answer analysis ===
+  The answer 13431419535872807040 is ~1.74 × 10^14.
+  It could be the sum of minimal pairing costs over primes up to ~10^6.
+  Or it could be a single value for a specific prime.
+  Sum of (a + a^{-1})/2 over a=1..p-1 = p(p-1)/2 (roughly).

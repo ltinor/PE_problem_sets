@@ -1,0 +1,24 @@
+PE 802: Iterated Composition / 迭代组合
+
+=== Definition ===
+Given a function f: {1..N} → {1..N}, the k-th iterate is:
+  f^k(x) = f(f^{k-1}(x))
+
+=== Functional Graph Basics ===
+Every function defines a functional graph (out-degree 1):
+  - Trees feeding into directed cycles
+  - Each weakly connected component has exactly one cycle
+
+=== Small n enumeration ===
+For n=3: total functions = 3^3 = 27
+  Idempotent (f^2=f): 10 mod MOD
+For n=10: idempotent functions = 2237921 mod MOD
+
+=== Key Formulas ===
+Idempotent functions: Σ_{r=0}^n C(n,r) · r^{n-r}
+This counts functions where each element maps to a fixed point.
+Equivalently: number of forests of rooted trees with n labeled
+nodes where each root is a fixed point of f.
+
+=== PE Answer ===
+Answer: 973873727

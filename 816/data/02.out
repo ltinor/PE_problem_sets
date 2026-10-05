@@ -1,0 +1,12 @@
+PE 816: Shortest distance of points / 点间最短距离
+
+=== Problem Summary ===
+Generate N = 2,000,000 points via pseudo-random sequence.
+Find the closest pair distance.
+
+=== Verify d(14) = 546446.466846479 ===
+  d(14) = 546446.466846479 (expected 546446.466846479) ✓
+  d(14) [sweep] = 546446.466846479 (match: ✓)
+
+=== PE Answer ===
+  d(2000000) = 20.880613018

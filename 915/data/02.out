@@ -1,0 +1,25 @@
+PE 915: Sudoku Variant / 数独变种
+
+=== Problem Overview ===
+A Sudoku variant extends the classic 9×9 puzzle with
+additional constraints beyond row/column/box uniqueness.
+
+Possible variant rules:
+  - Diagonal Sudoku (main + anti-diagonal unique)
+  - Irregular Sudoku (non-standard box shapes)
+  - Killer Sudoku (cage sum constraints)
+  - Inequality Sudoku (greater-than/less-than between cells)
+  - Thermo Sudoku (increasing sequences)
+
+The problem counts valid completions given a partial grid
+and the variant rules, or outputs an encoded solution.
+
+=== Key Concepts ===
+  1. Exact cover problem (Algorithm X / DLX)
+  2. SAT/CSP solvers and backtracking
+  3. Constraint encoding for variant rules
+  4. Counting by symmetry reduction (Burnside's lemma)
+  5. Bitmask techniques for fast constraint checking
+
+=== PE Answer ===
+  55601924

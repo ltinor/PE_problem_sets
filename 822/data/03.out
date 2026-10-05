@@ -1,0 +1,11 @@
+=== Computing PE 822 ===
+
+m = 10000, n = 10^16
+
+The efficient solution requires tracking:
+  - Frequency of each distinct value
+  - Using modular arithmetic for large numbers
+  - Observing that after enough squarings, values
+    grow beyond the modulus and cycle
+
+PE answer: 950591530

@@ -1,0 +1,7 @@
+Verifying PE 628 (Open Chess Positions):
+f(1) = 0
+f(2) = 0
+f(3) = 2 (expected 2) ✓
+f(4) = 12
+f(5) = 70 (expected 70) ✓
+f(6) = 464

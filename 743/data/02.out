@@ -1,0 +1,19 @@
+PE 743: Window into a Matrix / 矩阵之窗
+
+A(k,n) = number of 2xn matrices where each 2xk window sums to k
+
+Small verification:
+  A(3,9) = 560 (expected: 560)
+  A(4,20) = 1060870 (expected: 1060870)
+
+Periodic structure verification:
+  Key insight: s_i = a_i + b_i must be periodic with period k
+  s_{i+k} = s_i for all valid i
+  Sum over one period must equal k
+
+For k=3, n=9: period length 3, sum=3
+  Possible periods: (2,1,0), (2,0,1), (1,2,0), (1,0,2), (0,2,1), (0,1,2), (1,1,1)
+  t = n/k = 3 full periods, r = 0
+
+Target: A(10^8, 10^16) mod 1e9+7
+PE answer: 259158998

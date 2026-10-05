@@ -1,0 +1,4 @@
+Computing G(5000000) mod 999999937...
+Result: 700792959
+Expected: 700792959
+✓ Match!

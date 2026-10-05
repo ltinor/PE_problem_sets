@@ -1,0 +1,7 @@
+PE 687: Shuffling Cards
+
+Verification:
+  a_1 = P(specific rank perfect) = 0.7826244344 (expected: 0.7826244344 = 4324/5525)
+  E[#perfect ranks] = 10.1741176471 (expected: 10.1741176471 = 4324/425)
+  Sum P(k) = 1.0000000000 (should be 1)
+  P(prime # perfect) = 0.3285320869

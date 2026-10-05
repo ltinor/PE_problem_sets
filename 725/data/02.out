@@ -1,0 +1,7 @@
+PE 725: Digit sum numbers / 数字和数
+
+S(3) = 63270 (expected 63270)
+DP S(3) = 63270 (expected 63270)
+DP S(7) = 85499991450 (expected 85499991450)
+
+PE answer: 4598797036650685
