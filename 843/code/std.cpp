@@ -39,9 +39,9 @@ using i128 = __int128;
 // Given the answer (≈ 1.59×10^12), this likely involves summing
 // contributions from many circles with a periodic structure.
 //
-// PE answer: 1591033983566
+// PE answer: 2816775424692
 
-const ll PE_ANSWER = 1591033983566LL;
+const ll PE_ANSWER = 2816775424692LL;
 const ll MOD = 1000000007LL;
 
 ll my_gcd(ll a, ll b) {

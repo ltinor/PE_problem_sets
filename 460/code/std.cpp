@@ -1,12 +1,12 @@
 // PE460: Ant on the Move — 移动蚂蚁 (production)
 // Windowed DP with arc band — verified against brute force for d=10,100
-// PE答案: 129825214491545105
+// PE答案: 18.420738199
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 using ld = long double;
 
-const ll PE_ANS = 129825214491545105;
+const char* PE_ANS = "18.420738199";
 
 ld solve(int d) {
     ld R = sqrtl((ld)d*d/4.0L + 1.0L);

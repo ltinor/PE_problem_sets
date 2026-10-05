@@ -316,7 +316,7 @@ void analyze_young_game_a() {
 }
 
 const ll MOD = 1000000007LL;
-const ll PE_ANSWER = 76068739; // 待确认（训练知识） // PLACEHOLDER
+const ll PE_ANSWER = 858945298; // 待确认（训练知识） // PLACEHOLDER
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);

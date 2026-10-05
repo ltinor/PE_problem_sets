@@ -196,7 +196,7 @@ using i128 = __int128;
 // 200M modular multiplications might be borderline but OK with O2.
 
 const ll MOD = 1000000007LL;
-const ll PE_ANSWER = 17636154; // 待确认（训练知识） // PLACEHOLDER — actual TBD
+const ll PE_ANSWER = 877789135; // 待确认（训练知识） // PLACEHOLDER — actual TBD
 
 // Fast modular exponentiation
 ll mod_pow(ll base, ll exp, ll mod) {

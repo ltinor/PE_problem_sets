@@ -58,4 +58,4 @@ $$\displaystyle S(N) = \sum_{n=1}^N\sum_{k=1}^n F(n,k)$$
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 709537650
+参考常量: PE_ANSWER = 709874991

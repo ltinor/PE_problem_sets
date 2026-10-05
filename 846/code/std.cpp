@@ -19,9 +19,9 @@ using i128 = __int128;
 // Given: F(20) = 258, F(100) = 538768.
 // Find: F(10^6).
 //
-// PE answer: 159410499132
+// PE answer: 9851175623
 
-const ll PE_ANSWER = 159410499132LL;
+const ll PE_ANSWER = 9851175623LL;
 
 // Allowed numbers: 1, 2, p^k, 2p^k (odd prime p)
 bool is_allowed(ll x) {

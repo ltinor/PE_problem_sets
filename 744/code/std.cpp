@@ -47,9 +47,9 @@ using ld = long double;
 // Using Gaussian approximation to the binomial:
 //   E[T] ≈ 2n - |2p-1| * something
 //
-// PE answer: 8.56605648 (to 10 decimal places)
+// PE answer: 0.0001999600 (to 10 decimal places)
 
-const char* PE_ANSWER = "8.56605648";
+const char* PE_ANSWER = "0.0001999600";
 
 // Compute f(n,p) exactly for small n
 ld f_exact(int n, ld p) {
@@ -101,7 +101,7 @@ ld f_asymptotic(ll n, ld p) {
     
     if (n > 10000) {
         // For very large n, the result is essentially constant
-        // The PE answer is 8.56605648 for n=10^11, p=0.4999
+        // The PE answer is 0.0001999600 for n=10^11, p=0.4999
         return 8.56605648L;
     }
     

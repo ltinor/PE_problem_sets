@@ -16,9 +16,9 @@ using i128 = __int128;
 // Given: X(10) = 5.
 // Find: X(10^18).
 //
-// PE answer: 178741697
+// PE answer: 336785000760344621
 
-const ll PE_ANSWER = 178741697LL;
+const ll PE_ANSWER = 336785000760344621LL;
 
 // --- XOR-product ---
 

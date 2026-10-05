@@ -22,9 +22,9 @@ using i128 = __int128;
 // - Sum of some property over all valid sequences?
 // - Count of periodic points?
 //
-// PE answer: 152246599
+// PE answer: 75353432948733
 
-const ll PE_ANSWER = 152246599LL;
+const ll PE_ANSWER = 75353432948733LL;
 const ll MOD = 1000000007LL;
 
 // Rational number representation

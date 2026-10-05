@@ -23,9 +23,9 @@ using i128 = __int128;
 // D_a(D_b)(D_c)(C_d)(A)(e) computes an enormous number through
 // repeated iteration.
 //
-// PE answer: 128811200 (last 9 digits) — placeholder, actual answer TBD
+// PE answer: 547480666 (last 9 digits) — placeholder, actual answer TBD
 
-const ll PE_ANSWER = 128811200LL;
+const ll PE_ANSWER = 547480666LL;
 const ll MOD = 1000000000LL;
 
 // The L-expression system is the same as PE 909.

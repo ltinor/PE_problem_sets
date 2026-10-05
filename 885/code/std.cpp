@@ -18,9 +18,9 @@ using i128 = __int128;
 //   (stars and bars: choose 9 dividers among d+9 positions, or equivalently
 //   choose d positions from 10 digits with repetition allowed but ordered)
 //
-// PE answer: 827759707
+// PE answer: 827850196
 
-const ll PE_ANSWER = 827759707LL;
+const ll PE_ANSWER = 827850196LL;
 const ll MOD = 1000000007LL;
 
 // Modular arithmetic

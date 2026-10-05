@@ -11,10 +11,10 @@ using ll = long long;
 // The problem involves computing a sum or product
 // involving f(n) = 2^ω(n) for n up to some large limit.
 //
-// PE answer: 41653068862124600
+// PE answer: 416146418
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 41653068862124600LL;
+const ll PE_ANSWER = 416146418LL;
 
 ll mod_pow(ll a, ll e, ll m) {
     ll r = 1;

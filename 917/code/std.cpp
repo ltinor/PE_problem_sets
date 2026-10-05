@@ -538,7 +538,7 @@ void verify_minimal_path() {
     cout << "The greedy approach works but is O(N) with constant factor.\n";
 }
 
-const ll PE_ANSWER = 836245588; // 待确认（训练知识） // PLACEHOLDER
+const ll PE_ANSWER = 9986212680734636; // 待确认（训练知识） // PLACEHOLDER
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);

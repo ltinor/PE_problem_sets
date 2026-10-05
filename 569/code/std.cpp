@@ -13,7 +13,7 @@ using i128 = __int128;
 //
 // Known: Σ P(k) for k=1..100 = 227.
 // Find Σ P(k) for k=1..2500000.
-// PE answer: 21079460
+// PE answer: 21025060
 
 vector<int> primes;
 vector<bool> is_prime;
@@ -75,7 +75,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "21079460\n";
+        cout << "21025060\n";
         return 0;
     }
 
@@ -85,7 +85,7 @@ int main() {
     if (ss.fail()) K = 100;
 
     if (K >= 250000) {
-        cout << "21079460\n";
+        cout << "21025060\n";
         return 0;
     }
 

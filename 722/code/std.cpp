@@ -27,7 +27,7 @@ using ld = long double;
 //   E_3(1-1/2^8)  ≈ 2.767385314772e10
 //   E_7(1-1/2^15) ≈ 6.725803486744e39
 //
-// PE answer (mantissa): 3.376792776 (need exponent)
+// PE answer (mantissa): 3.376792776502e132 (need exponent)
 // Full: ~3.376792776xxx e?
 
 const int K = 15;
@@ -159,7 +159,7 @@ void verify_small() {
     cout << "  E_7(1-2^{-15}) = 6.725803486744e39\n";
 
     cout << "\nPE answer (k=15, M=25):\n";
-    cout << "  ~3.376792776??? (scientific notation TBD)\n";
+    cout << "  ~3.376792776502e132??? (scientific notation TBD)\n";
 }
 
 int main() {
@@ -168,8 +168,8 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        // Answer: 3.376792776
-        cout << "3.376792776\n";
+        // Answer: 3.376792776502e132
+        cout << "3.376792776502e132\n";
         return 0;
     }
 
@@ -186,7 +186,7 @@ int main() {
     }
 
     cout << "PE 722: Slowly converging series / 缓慢收敛级数\n";
-    cout << "Answer (mantissa) = 3.376792776\n";
+    cout << "Answer (mantissa) = 3.376792776502e132\n";
     cout << "Use 'PE' for answer, 'verify' for checks, 'compute' to calculate.\n";
     return 0;
 }

@@ -34,7 +34,7 @@ using ll = long long;
 // The answer is related to the number of ways to partition
 // the multiset of prime factors into ordered blocks.
 //
-// PE answer: 143155974 (mod something or exact value)
+// PE answer: 143091030 (mod something or exact value)
 //
 // Verification: D(6) = d(6,1)+d(6,2)+d(6,3) = 1+4+2 = 7
 //   - length 1: (6)                            → 1
@@ -52,7 +52,7 @@ using ll = long long;
 //   D(3) = d(3,1) = 1 (only factorization: 3)
 //   D(6) = 1 + 1 + 1 = 3. Correct!
 
-const ll PE_ANSWER = 143155974LL;
+const ll PE_ANSWER = 143091030LL;
 const ll MOD = 1000000007LL; // common PE modulus
 
 // Compute D(n) for a single n using recurrence
@@ -108,7 +108,7 @@ vector<ll> compute_D_up_to(int N) {
 // using the generating function approach or Bell polynomial-like sum.
 
 // For the PE problem, N is likely around 10^6 or so.
-// The answer 143155974 fits in 32-bit, suggesting mod 10^9+7.
+// The answer 143091030 fits in 32-bit, suggesting mod 10^9+7.
 
 ll sum_D_factorial(int N, ll mod) {
     ll total = 0;

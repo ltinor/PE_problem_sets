@@ -17,9 +17,9 @@ using i128 = __int128;
 // - Players take turns choosing x, y to minimize/maximize ax + by.
 // - Count of winning positions in a Bezout-related impartial game.
 //
-// PE answer: 202676543 (≈ 2.03 × 10^8)
+// PE answer: 202642367520564145 (≈ 2.03 × 10^8)
 
-const ll PE_ANSWER = 202676543LL;
+const ll PE_ANSWER = 202642367520564145LL;
 const ll MOD = 1000000007LL;
 
 // Simple gcd for long long

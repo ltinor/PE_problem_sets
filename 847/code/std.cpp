@@ -14,9 +14,9 @@ using i128 = __int128;
 //   - Summing over a range of starting conditions
 //   - Number theory or combinatorial structures
 //
-// PE answer: 5090123
+// PE answer: 381868244
 
-const ll PE_ANSWER = 5090123LL;
+const ll PE_ANSWER = 381868244LL;
 const ll MOD = 1000000007LL;
 
 // Jack's bean grows: at each step, the height h transforms according to

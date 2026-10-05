@@ -38,9 +38,9 @@ using i128 = __int128;
 // or the number of divisors ≡ 1 mod 4,
 // or something about the divisor sum restricted to certain classes.
 //
-// PE answer: 21295121502511
+// PE answer: 174848216767932
 
-const ll PE_ANSWER = 21295121502511LL;
+const ll PE_ANSWER = 174848216767932LL;
 
 // Sieve to get smallest prime factor for factorization
 vector<int> spf_sieve(int n) {

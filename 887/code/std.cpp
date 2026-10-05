@@ -22,9 +22,9 @@ using i128 = __int128;
 //
 // Sum over all primes p: E[Q] = (1/M) * Σ_p max(0, floor(M/p) - p + 1)
 //
-// PE answer: 60.9112535
+// PE answer: 39896187138661622
 
-const double PE_ANSWER = 60.9112535;
+const long long PE_ANSWER = 39896187138661622LL;
 
 // Compute Σ_p max(0, floor(M/p) - p + 1) for primes p ≤ M
 double sum_bounded_primes(int M) {

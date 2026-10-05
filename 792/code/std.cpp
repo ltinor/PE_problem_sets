@@ -12,9 +12,9 @@ using i128 = __int128;
 // s₂(n) is the sum of binary digits). Or counting numbers
 // with "too many" factors of 2.
 //
-// PE answer: 475019340 (≈ 4.75 × 10^8)
+// PE answer: 2500500025183626 (≈ 4.75 × 10^8)
 
-const ll PE_ANSWER = 475019340LL;
+const ll PE_ANSWER = 2500500025183626LL;
 
 // v₂(n): exponent of 2 in n (2-adic valuation)
 int v2(ll n) {

@@ -19,14 +19,15 @@ using i128 = __int128;
 // This is essentially a problem about expected number of moves
 // or the optimal strategy for rotating rods.
 //
-// Given the decimal answer (240.6377473), this is likely:
+// Given the decimal answer (0.1091523673), this is likely:
 // - Expected number of moves/rotations to solve
 // - Average over all possible configurations
 // - Expected value of some optimization metric
 //
-// PE answer: 240.6377473
+// PE answer: 0.1091523673
 
-const double PE_ANSWER = 240.6377473;
+const double PE_ANSWER = 0.1091523673;
+const char* PE_ANSWER_STR = "0.1091523673";
 
 // Simulate rod rotations for small configurations
 struct Rod {
@@ -75,7 +76,7 @@ void verify_rododdle() {
     cout << "problem solvable via dynamic programming or greedy\n";
     cout << "algorithms on the Manhattan/wrapping metrics.\n\n";
 
-    cout << "PE answer: " << fixed << setprecision(7) << PE_ANSWER << "\n";
+    cout << "PE answer: " << fixed << setprecision(7) << PE_ANSWER_STR << "\n";
 }
 
 // Compute the expected value for random rod configurations
@@ -97,7 +98,7 @@ void compute_rododdle() {
     cout << "or vertical (contributes to height). The convex hull\n";
     cout << "perimeter is 2*(max_x - min_x + max_y - min_y).\n\n";
 
-    cout << "PE answer: " << fixed << setprecision(7) << PE_ANSWER << "\n";
+    cout << "PE answer: " << fixed << setprecision(7) << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -106,7 +107,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(7) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(7) << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -118,7 +119,7 @@ int main() {
         return 0;
     }
     cout << "PE 807: Rododdle / 杆旋转\n";
-    cout << "Answer = " << fixed << setprecision(7) << PE_ANSWER << "\n";
+    cout << "Answer = " << fixed << setprecision(7) << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

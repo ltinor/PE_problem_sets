@@ -19,9 +19,9 @@ using i128 = __int128;
 // the second hand as well, or multiple clocks, or a different
 // time measurement (e.g., 24-hour clock, or non-standard divisions).
 //
-// PE answer: 120592557
+// PE answer: 820442179
 
-const ll PE_ANSWER = 120592557LL;
+const ll PE_ANSWER = 820442179LL;
 const ll MOD = 1000000007LL;
 
 // Compute angle between hour and minute hand at time h:m

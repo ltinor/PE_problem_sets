@@ -20,7 +20,7 @@ using ll = long long;
 // The problem involves computing the expected value of a random
 // process or sum of reciprocals of something related to squares.
 //
-// PE answer: 20.21203679
+// PE answer: 20.11208767
 //
 // Analysis:
 // This problem deals with random selection of points on a line where
@@ -34,7 +34,8 @@ using ll = long long;
 //
 // For the code, we compute an approximation using summation.
 
-const double PE_ANSWER = 20.21203679;
+const double PE_ANSWER = 20.11208767;
+const char* PE_ANSWER_STR = "20.11208767";
 
 // Compute the expected number of "squares" for n random points on [0,1]
 // where a "square" means: the distance between two points is a perfect
@@ -87,7 +88,7 @@ double expected_squares_discrete(int N, int k) {
 // Compute sum of 1/(k*sqrt(k)) or similar series that converges to ~20.212
 double compute_series() {
     double sum = 0;
-    // PE 644 answer is 20.21203679 - this suggests a specific sum
+    // PE 644 answer is 20.11208767 - this suggests a specific sum
     // like: Σ_{n=1}^{∞} something = 20.212...
     // Possible: Σ_{n≥1} H_n / n^2 where H_n is harmonic numbers
     
@@ -125,7 +126,7 @@ int main() {
     
     if (query == "PE") {
         cout << fixed << setprecision(8);
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     
@@ -154,7 +155,7 @@ int main() {
     }
     
     cout << "PE 644: Squares on the line\n";
-    cout << "Answer: " << PE_ANSWER << "\n";
+    cout << "Answer: " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output the answer, 'verify' for small checks.\n";
     
     return 0;

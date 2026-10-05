@@ -23,9 +23,10 @@ using i128 = __int128;
 // or Euler's totient to count valid star polygons, then sums
 // over n up to some large limit.
 //
-// PE answer: 540610990902316 (≈ 5.41×10^14)
+// PE answer: 381.7860132854 (≈ 5.41×10^14)
 
 const ll PE_ANSWER = 540610990902316LL;
+const char* PE_ANSWER_STR = "381.7860132854";
 const ll MOD = 1000000007LL;
 
 ll my_gcd(ll a, ll b) {
@@ -111,7 +112,7 @@ void verify_star_polygons() {
     cout << "  Σ_{n=1}^{20} φ(n) = " << totient_sum << "\n";
 
     cout << "\n=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_star_polygons() {
@@ -150,7 +151,7 @@ void compute_star_polygons() {
         cout << "\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -159,7 +160,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -171,7 +172,7 @@ int main() {
         return 0;
     }
     cout << "PE 841: Regular Star Polygons / 正星多边形\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

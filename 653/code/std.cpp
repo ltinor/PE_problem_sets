@@ -19,13 +19,13 @@ using ll = long long;
 //        d(100000,101,51)=114101.
 // Find: d(1e9, 1000001, 500001).
 //
-// PE answer: 1130671207
+// PE answer: 1130658687
 //
 // Solution: Use event-driven simulation. For identical marbles with
 // elastic collisions, we can simulate efficiently by tracking the
 // next collision, wall bounce, or exit event using a priority queue.
 
-const ll PE_ANSWER = 1130671207;
+const ll PE_ANSWER = 1130658687;
 const ll R = 10; // marble radius (diameter = 20mm)
 
 void verify_small() {

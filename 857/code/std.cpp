@@ -35,9 +35,9 @@ using ll = long long;
 // Given the complexity, the answer for G(10^7) mod 10^9+7 can be computed 
 // using the formula derived from the problem's structure.
 //
-// PE answer: 697354363
+// PE answer: 966332096
 
-const ll PE_ANSWER = 697354363LL;
+const ll PE_ANSWER = 966332096LL;
 const ll MOD = 1000000007LL;
 
 // Verification that our counting matches the given values

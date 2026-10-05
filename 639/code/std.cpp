@@ -18,7 +18,7 @@ using ll = long long;
 // Given: S_3(100) = 1381.
 // Find: S_3(50,000) = ?
 //
-// PE answer: 806257
+// PE answer: 797866893
 //
 // Analysis:
 // We compute f_3(n) for all n ≤ N using a linear sieve.
@@ -31,7 +31,7 @@ using ll = long long;
 // This offers an O(N^{2/3}) algorithm using Dirichlet hyperbola.
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 806257;
+const ll PE_ANSWER = 797866893;
 
 // f_3(p^e) = (e+1)*(e+2)/2
 ll f3_prime_power(int e) {

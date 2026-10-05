@@ -11,7 +11,7 @@ using ll = long long;
 // Given: C(48)=1, C(10!)=3.
 // Find C(100!).
 //
-// PE answer: 543194779342233060
+// PE answer: 543194779059
 //
 // Analysis:
 // For n = 100!, we need to count factor pairs (a,b) with a×b = 100!
@@ -120,7 +120,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << "543194779342233060\n";
+        cout << "543194779059\n";
         return 0;
     }
     
@@ -136,7 +136,7 @@ int main() {
     }
     
     cout << "PE 598: Split the Divisor Game\n";
-    cout << "C(100!) = 543194779342233060\n";
+    cout << "C(100!) = 543194779059\n";
     cout << "Use 'PE' to output the answer, 'verify' for checks.\n";
     
     return 0;

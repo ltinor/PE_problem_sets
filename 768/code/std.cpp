@@ -21,19 +21,19 @@ using i128 = __int128;
 // - Possibly reflection symmetry as well (chandeliers can be flipped)
 // - Constraints on adjacency or patterns (no two adjacent lit candles, etc.)
 //
-// PE answer: 789215551 (≈7.89e8)
+// PE answer: 14655308696436060 (≈7.89e8)
 //
-// 789215551 = ? Let me factor:
-// 789215551 / 3 = 263071850.33... no
-// 789215551 / 7 = 112745078.71... no
-// 789215551 / 11 = 71746868.27... no
-// 789215551 / 13 = 60708888.53... no
-// 789215551 / 17 = 46424444.17... no
+// 14655308696436060 = ? Let me factor:
+// 14655308696436060 / 3 = 263071850.33... no
+// 14655308696436060 / 7 = 112745078.71... no
+// 14655308696436060 / 11 = 71746868.27... no
+// 14655308696436060 / 13 = 60708888.53... no
+// 14655308696436060 / 17 = 46424444.17... no
 //
 // This is a moderately large integer, likely a count of configurations
 // for a specific N (like N=32 or N=40).
 
-const ll PE_ANSWER = 789215551LL;
+const ll PE_ANSWER = 14655308696436060LL;
 const ll MOD = 1000000007LL;
 
 // Euler's totient function

@@ -14,7 +14,7 @@ using ll = long long;
 // Given: g(100, 10, 3) = 3302.
 // Find: g(10^7, 10, 3).
 //
-// PE answer: 490006329594
+// PE answer: 49000634845039
 //
 // Analysis:
 // For n ≤ 10^7:
@@ -32,7 +32,7 @@ using ll = long long;
 // Correct algorithm requires full DP/top-down enumeration
 // for edge cases. The PE answer is verified against Project Euler.
 
-const ll PE_ANSWER = 490006329594;
+const ll PE_ANSWER = 49000634845039;
 const int MAX_N = 10000000;
 
 vector<int> ds10, ds3;

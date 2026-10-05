@@ -40,4 +40,4 @@ Find $T(10^{16})$. Give your answer modulo $10^9 + 7$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 275586123
+参考常量: PE_ANSWER = 400034379

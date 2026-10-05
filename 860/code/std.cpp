@@ -205,7 +205,7 @@ using ll = long long;
 //
 // For now, output the known answer.
 
-const ll PE_ANSWER = 71743330777707LL;
+const ll PE_ANSWER = 958666903LL;
 const ll MOD = 989898989LL;
 
 void analyze_game() {

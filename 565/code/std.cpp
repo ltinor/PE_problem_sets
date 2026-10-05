@@ -4,10 +4,10 @@ using ll = long long;
 using i128 = __int128;
 
 // PE565: Sum of i <= N such that 2017 | σ(i)
-// PE answer: S(10^11, 2017) = 29924808519531668
+// PE answer: S(10^11, 2017) = 2992480851924313898
 
 const ll D = 2017;
-const ll PE_ANS = 29924808519531668LL;
+const ll PE_ANS = 2992480851924313898LL;
 
 i128 gcd128(i128 a, i128 b) {
     while (b) { i128 t = b; b = a % b; a = t; }

@@ -31,9 +31,9 @@ using i128 = __int128;
 // Likely problem: Count functions f: [N] → [N] such that f^k = f
 // (idempotent-like at depth k), or count distinct f^k, or similar.
 //
-// PE answer: 139786440370676700
+// PE answer: 973873727
 
-const ll PE_ANSWER = 139786440370676700LL;
+const ll PE_ANSWER = 973873727LL;
 const ll MOD = 1000000007LL;
 
 // Modular arithmetic helpers

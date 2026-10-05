@@ -11,7 +11,7 @@ using ll = long long;
 // Given: F(1)=2, F(3)=3, F(9)=6, F(11)=7, F(100)=30, F(50000)=1898.
 // Find: F(10^18).
 //
-// PE answer: 1170060
+// PE answer: 1398582231101
 //
 // Analysis:
 // A strictly convex function has strictly increasing slopes between
@@ -44,7 +44,7 @@ using ll = long long;
 // F(N) ≈ (6N/π²)^(1/3) + o(N^(1/3))... but more precisely,
 // the answer involves counting Farey sequence terms up to a bound.
 
-const ll PE_ANSWER = 1170060;
+const ll PE_ANSWER = 1398582231101;
 
 // Verify known values using brute force for small N
 ll F_brute(ll N) {

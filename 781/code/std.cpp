@@ -15,12 +15,12 @@ using i128 = __int128;
 // - Connected vs. disconnected Green's functions
 // - φ^3 and φ^4 theory vacuum diagrams
 //
-// PE answer: 322512059
+// PE answer: 162450870
 //
 // This is a 9-digit integer, suggesting a counting problem over
 // moderate-sized diagrams (n ~ 10-15 for typical diagram counts).
 
-const ll PE_ANSWER = 322512059LL;
+const ll PE_ANSWER = 162450870LL;
 
 // Double factorial: (2n-1)!! = number of pairings of 2n points
 ll double_factorial(int n) {

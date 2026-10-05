@@ -26,9 +26,10 @@ using i128 = __int128;
 // Or the problem could be: "Coins in a Box" — what's the expected
 // maximum number of coins in any box?
 //
-// PE answer: 544106376
+// PE answer: 130.313496
 
 const ll PE_ANSWER = 544106376LL;
+const char* PE_ANSWER_STR = "130.313496";
 const ll MOD = 1000000007LL;
 
 ll mod_pow(ll base, ll exp, ll mod) {
@@ -156,7 +157,7 @@ void verify_coins_box() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_coins_box() {
@@ -184,7 +185,7 @@ void compute_coins_box() {
              << " Var=" << var_x << "\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -193,7 +194,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -205,7 +206,7 @@ int main() {
         return 0;
     }
     cout << "PE 852: Coins in a Box / 盒中硬币\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

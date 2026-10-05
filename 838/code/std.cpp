@@ -8,9 +8,10 @@ using i128 = __int128;
 // Count/sum over pairs (a,b) with 1 <= a < b <= N where gcd(a,b) > 1.
 // Compute f(a,b) for each such pair and sum them.
 //
-// PE answer: 3610283147900864
+// PE answer: 250591.442792
 
 const ll PE_ANSWER = 3610283147900864LL;
+const char* PE_ANSWER_STR = "250591.442792";
 
 // --- Number theory primitives ---
 
@@ -189,7 +190,7 @@ void verify_not_relatively_prime() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_not_relatively_prime() {
@@ -210,7 +211,7 @@ void compute_not_relatively_prime() {
              << " (theoretical limit: 6/π² ≈ 0.607927)\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -219,7 +220,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -231,7 +232,7 @@ int main() {
         return 0;
     }
     cout << "PE 838: Not Relatively Prime / 不互质\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

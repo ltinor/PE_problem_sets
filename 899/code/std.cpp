@@ -22,12 +22,12 @@ using i128 = __int128;
 // - Distribution of ω(n) or Ω(n) (prime factor counts)
 // - Distribution of divisor function d(n)
 //
-// The answer 0.13790397 suggests a limiting ratio or probability,
+// The answer 10784223938983273 suggests a limiting ratio or probability,
 // possibly the proportion of numbers satisfying some property.
 //
-// PE answer: 0.13790397
+// PE answer: 10784223938983273
 
-const double PE_ANSWER = 0.13790397;
+const long long PE_ANSWER = 10784223938983273LL;
 
 // Study the distribution of the number of distinct prime factors ω(n)
 int omega(ll n) {

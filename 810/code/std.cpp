@@ -35,9 +35,9 @@ using u128 = unsigned __int128;
 //          6 (binary 110) = x^2+x = x(x+1) = 2 ⊗ 3 → NOT XOR-prime
 //          7 (binary 111) = x^2+x+1, irreducible → XOR-prime
 //
-// PE answer: 12413689438106832
+// PE answer: 124136381
 
-const ll PE_ANSWER = 12413689438106832LL;
+const ll PE_ANSWER = 124136381LL;
 
 // XOR multiplication: polynomial multiplication over GF(2)
 u128 xor_mult(u128 a, u128 b) {

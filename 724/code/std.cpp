@@ -27,10 +27,10 @@ using ld = long double;
 //
 // For n = 10^8, compute H_n and Σ 1/j² with high precision.
 //
-// PE answer: 18128201710
+// PE answer: 18128250110
 
 const ll N = 100000000; // 10^8
-const ll PE_ANSWER = 18128201710LL;
+const ll PE_ANSWER = 18128250110LL;
 
 // Compute H_n = Σ_{j=1}^{n} 1/j with high precision
 ld harmonic(ll n) {

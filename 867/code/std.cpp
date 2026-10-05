@@ -14,12 +14,12 @@ using ll = long long;
 // Alternatively: count the number of distinct T-polyominoes of
 // a given size (order).
 //
-// Answer 631682239 ≈ 6.3×10^8 suggests counting tilings of a
+// Answer 870557257 ≈ 6.3×10^8 suggests counting tilings of a
 // moderately sized board, or counting polyominoes up to some size.
 //
-// PE answer: 631682239
+// PE answer: 870557257
 
-const ll PE_ANSWER = 631682239LL;
+const ll PE_ANSWER = 870557257LL;
 const ll MOD = 1000000007LL;
 
 // T-polyomino shape (4 cells):

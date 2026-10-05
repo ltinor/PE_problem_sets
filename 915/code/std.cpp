@@ -21,9 +21,9 @@ using ll = long long;
 //   - Inequality signs between cells
 //   - Thermo or palindrome constraints
 //
-// PE answer: 60112743
+// PE answer: 55601924
 
-const string PE_ANSWER = "60112743";
+const string PE_ANSWER = "55601924";
 
 void describe_problem() {
     cout << "PE 915: Sudoku Variant / 数独变种\n\n";

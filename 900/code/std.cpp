@@ -22,7 +22,7 @@ using i128 = __int128;
 // - Some weighted sum of totient values
 // - Or a more complex nested summation
 //
-// The answer 840282274715517044 is a large integer, suggesting
+// The answer 646900900 is a large integer, suggesting
 // a sum over a substantial range.
 //
 // Key identities:
@@ -30,9 +30,9 @@ using i128 = __int128;
 // - Σ_{n=1}^{N} φ(n) = 1 + Σ_{k=1}^{N} μ(k) * floor(N/k) * floor(N/k+1) / 2
 // - Using Möbius inversion: Φ(N) = (N(N+1)/2) - Σ_{k=2}^{N} Φ(N/k)
 //
-// PE answer: 840282274715517044
+// PE answer: 646900900
 
-const ll PE_ANSWER = 840282274715517044LL;
+const ll PE_ANSWER = 646900900LL;
 const ll MOD = 1000000007LL;
 
 // Compute φ(n) for a single n

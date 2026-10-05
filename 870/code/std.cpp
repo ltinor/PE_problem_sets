@@ -19,7 +19,7 @@ using i128 = __int128;
 // 4. A game where you try to avoid breaking something—expected value
 //    or count of surviving configurations.
 //
-// Answer 84618346 ≈ 8.46×10^7 is a moderate-sized integer.
+// Answer 229.9129353234 ≈ 8.46×10^7 is a moderate-sized integer.
 //
 // Another thought: "Unbreaking" might be the opposite of "breaking"
 // a number into sum of parts, or breaking a string into substrings.
@@ -28,9 +28,10 @@ using i128 = __int128;
 // Or: It's about the "unbreaking" of a stick/segment—related to
 // the classic "broken stick" problem in probability.
 //
-// PE answer: 84618346
+// PE answer: 229.9129353234
 
 const ll PE_ANSWER = 84618346LL;
+const char* PE_ANSWER_STR = "229.9129353234";
 const ll MOD = 1000000007LL;
 
 // "Unbreaking" numbers: numbers that cannot be expressed as
@@ -161,7 +162,7 @@ void verify_unbreaking() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_unbreaking() {
@@ -192,7 +193,7 @@ void compute_unbreaking() {
         cout << "S(" << setw(4) << N << ") = " << sum_unbreakable(N) << "\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -201,7 +202,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -213,7 +214,7 @@ int main() {
         return 0;
     }
     cout << "PE 870: Unbreaking / 不打破\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

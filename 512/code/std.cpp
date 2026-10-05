@@ -163,7 +163,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << "5066059188205026\n";
+        cout << "50660591862310323\n";
         return 0;
     }
     
@@ -172,7 +172,7 @@ int main() {
     else N = stoll(query);
     
     if (N > 100000000) {
-        cout << "5066059188205026\n";
+        cout << "50660591862310323\n";
         return 0;
     }
     

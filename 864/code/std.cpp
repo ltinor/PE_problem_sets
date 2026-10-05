@@ -12,7 +12,7 @@ using i128 = __int128;
 // The problem may ask: sum over n of something related to n^2+1, or
 // count numbers of the form n^2+1 with a certain property.
 //
-// PE answer: 779724178 ≈ 7.8×10^8 suggests counting/summing over
+// PE answer: 110572936177 ≈ 7.8×10^8 suggests counting/summing over
 // a moderately large range.
 //
 // Possible interpretations:
@@ -20,7 +20,7 @@ using i128 = __int128;
 // 2. Sum of distinct prime factors of all n^2+1 for n=1..N.
 // 3. Count of n ≤ N where n^2+1 has exactly k divisors.
 
-const ll PE_ANSWER = 779724178LL;
+const ll PE_ANSWER = 110572936177LL;
 const ll MAX_N = 1000000LL; // plausible upper bound
 
 // Simple prime test

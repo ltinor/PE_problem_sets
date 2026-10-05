@@ -33,9 +33,10 @@ using i128 = __int128;
 // The problem may compute some statistic of this sequence,
 // such as the number of mountain creases in the first K positions.
 //
-// PE answer: 999998093600
+// PE answer: 6.8827571976e-57
 
 const ll PE_ANSWER = 999998093600LL;
+const char* PE_ANSWER_STR = "6.8827571976e-57";
 const ll MOD = 1000000007LL;
 
 // Paper folding sequence: returns 1 for mountain (right) fold,
@@ -199,7 +200,7 @@ void verify_delphi() {
     cout << "\n\n";
 
     cout << "=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_delphi() {
@@ -232,7 +233,7 @@ void compute_delphi() {
              << " → " << (actual_mt == expected_mt ? "OK" : "FAIL") << "\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -241,7 +242,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -253,7 +254,7 @@ int main() {
         return 0;
     }
     cout << "PE 855: Delphi Paper / 德尔斐纸\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

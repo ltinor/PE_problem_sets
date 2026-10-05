@@ -22,9 +22,9 @@ using i128 = __int128;
 // For Nim-style redistribution, the Grundy value follows patterns
 // based on the grid structure.
 //
-// PE answer: 773410946
+// PE answer: 94394343
 
-const ll PE_ANSWER = 773410946LL;
+const ll PE_ANSWER = 94394343LL;
 const ll MOD = 1000000007LL;
 
 // Compute Grundy values for a triangular grid of side n

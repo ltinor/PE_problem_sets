@@ -26,9 +26,9 @@ using i128 = __int128;
 // number whose Nim-value equals 0 (or equals the Nim-value of a prime),
 // which is a "pseudo"-winning property.
 //
-// PE answer: 34981821048
+// PE answer: 397289979
 
-const ll PE_ANSWER = 34981821048LL;
+const ll PE_ANSWER = 397289979LL;
 const ll MOD = 1000000007LL;
 
 // Modular exponentiation

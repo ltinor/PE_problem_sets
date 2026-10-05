@@ -23,9 +23,9 @@ using ll = long long;
 // For type 4 (n,2n): check b-2a in has_b2a
 // For type 5 (2n,n): check 2b-a in has_2ba
 //
-// PE answer: 11541685717053880
+// PE answer: 11541685709674
 
-const ll PE_ANSWER = 11541685717053880LL;
+const ll PE_ANSWER = 11541685709674LL;
 
 ll compute_f(ll limit) {
     unordered_set<ll> has_a, has_b, has_diff, has_b2a, has_2ba;

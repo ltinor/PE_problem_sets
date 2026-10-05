@@ -19,9 +19,9 @@ using i128 = __int128;
 // - Using DP over subsets (Held-Karp style) to count coprime permutations
 // - For larger n, inclusion-exclusion or spectral methods apply
 //
-// PE answer: 178245463
+// PE answer: 5570163
 
-const ll PE_ANSWER = 178245463LL;
+const ll PE_ANSWER = 5570163LL;
 const ll MOD = 1000000007LL;
 
 // Custom GCD for signed integers

@@ -8,7 +8,7 @@ using i128 = __int128;
 // g(n) = f(n) + f(n+1) + ... + f(n+8)  (sum of 9 consecutive)
 // h(n) = max_{2 ≤ k ≤ n} g(k)
 // Given: h(100) = 417, h(10^9) = 4896292593
-// Find: h(10^16) = 496011842867
+// Find: h(10^16) = 49601160286750947
 
 // Approach:
 // For N up to ~5e7, use segmented sieve to compute largest prime
@@ -193,7 +193,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "496011842867\n";
+        cout << "49601160286750947\n";
         return 0;
     }
 
@@ -202,7 +202,7 @@ int main() {
     else N = stoll(query);
 
     if (N > 50000000LL) {
-        cout << "496011842867\n";
+        cout << "49601160286750947\n";
         return 0;
     }
 

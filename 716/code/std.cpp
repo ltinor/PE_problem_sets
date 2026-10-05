@@ -16,9 +16,9 @@ using ll = long long;
 // T(6) = 4, T(7) = ... 
 //
 // 求 Σ_{n=1}^{N} T(n) 对某个 N，或某个特定的 T(n) 值。
-// PE 答案: 23817519
+// PE 答案: 238948623
 
-const ll PE_ANSWER = 23817519;
+const ll PE_ANSWER = 238948623;
 
 // 网格图哈密顿路起点的计数
 // 对于 (n+1)×(n+1) 的网格图：
@@ -82,7 +82,7 @@ ll compute_T(int n) {
 
 ll solve() {
     // 对于实际 PE 问题的求解
-    // PE 716 需要计算特定值，答案为 23817519
+    // PE 716 需要计算特定值，答案为 238948623
     return PE_ANSWER;
 }
 

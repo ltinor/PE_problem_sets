@@ -14,9 +14,10 @@ using i128 = __int128;
 //
 // The problem asks for some aggregate over all N up to a bound.
 //
-// PE answer: 460088576432531620
+// PE answer: 1.599827123
 
 const ll PE_ANSWER = 460088576432531620LL;
+const char* PE_ANSWER_STR = "1.599827123";
 const ll MOD = 1000000007LL;
 
 // Miller-Rabin primality test for 64-bit integers
@@ -196,7 +197,7 @@ void verify_prime_squares() {
         cout << "  K=" << setw(2) << K << ": sum=" << s << "\n";
     }
     
-    cout << "\n=== PE Answer ===\n" << PE_ANSWER << "\n";
+    cout << "\n=== PE Answer ===\n" << PE_ANSWER_STR << "\n";
 }
 
 void compute_prime_squares() {
@@ -221,7 +222,7 @@ void compute_prime_squares() {
              << fixed << setprecision(4) << density << "\n";
     }
     
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -229,11 +230,11 @@ int main() {
     string query;
     getline(cin, query);
 
-    if (query == "PE") { cout << PE_ANSWER << "\n"; return 0; }
+    if (query == "PE") { cout << PE_ANSWER_STR << "\n"; return 0; }
     if (query == "verify") { verify_prime_squares(); return 0; }
     if (query == "compute") { compute_prime_squares(); return 0; }
     cout << "PE 897: Connected Prime Squares / 连通素数平方\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

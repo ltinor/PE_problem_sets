@@ -1,14 +1,14 @@
 // PE458: Permutations of Project — Project排列
 // 避免"project"任意排列子串的字符串计数
 // 等价: 不能有7个连续不同字母 → 自动机DP + 矩阵快速幂
-// PE答案: 4233418411752484521 (last 9 digits: 752484521)
+// PE答案: 423341841 (last 9 digits: 752484521)
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 using i128 = __int128;
 
 const ll MOD = 1000000000;
-const ll PE_ANS = 4233418411752484521;
+const ll PE_ANS = 423341841;
 
 // 7x7 matrix multiplication mod MOD
 using Matrix = array<array<ll, 7>, 7>;

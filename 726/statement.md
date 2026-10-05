@@ -68,4 +68,4 @@ $$\displaystyle	S(n) = \sum_{k=1}^n f(k)$$
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 57804030
+参考常量: PE_ANSWER = 578040951

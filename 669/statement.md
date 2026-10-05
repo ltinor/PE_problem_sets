@@ -64,4 +64,4 @@ Find the number of the knight sitting in the $10\ 000\ 000\ 000\ 000\ 000$th cha
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 197912312715
+参考常量: PE_ANSWER = 56342087360542122

@@ -15,9 +15,10 @@ using ld = long double;
 // index n where x_n < c.
 //
 // Find N(10^{-7}) or some related quantity, to 8 decimal places.
-// PE answer: 4344921.87255719
+// PE answer: 4343871.06
 
-const ld PE_ANSWER = 4344921.87255719L;
+const ld PE_ANSWER = 4343871.06;
+const char* PE_ANSWER_STR = "4343871.06";
 
 // Analysis: x_{n+1} ~ Uniform(0, x_n)
 // This is a random process where each step multiplies by U ~ Uniform(0,1).
@@ -191,7 +192,7 @@ void verify_small() {
              << " (theory: " << expected_N(c) << ")\n";
     }
     
-    cout << "\nPE answer: " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -200,7 +201,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
         return 0;
     }
 
@@ -214,13 +215,13 @@ int main() {
         cout << "Computing expected sequence length...\n";
         ld result = solve_pe697();
         cout << "Result: " << result << "\n";
-        cout << "Expected: " << PE_ANSWER << "\n";
+        cout << "Expected: " << PE_ANSWER_STR << "\n";
         return 0;
     }
 
     cout << "PE 697: Randomly Decay Sequence\n";
     cout << fixed << setprecision(8);
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

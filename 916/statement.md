@@ -44,4 +44,4 @@ Find $P(10^8)$ and give your answer modulo $10^9 + 7$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 17636154
+参考常量: PE_ANSWER = 877789135

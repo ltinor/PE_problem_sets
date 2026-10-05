@@ -41,10 +41,10 @@ using ll = long long;
 //   digits from {0..9}.
 // - Transition: append digit d ∉ {last k-1 digits}, shift window.
 //
-// PE answer: 253868223968
+// PE answer: 93158936107011
 
 const ll MOD = 1000000007LL;
-const ll PE_ANSWER = 253868223968LL;
+const ll PE_ANSWER = 93158936107011LL;
 
 // DP for a specific (n, k)
 ll count_a(int n, int k) {

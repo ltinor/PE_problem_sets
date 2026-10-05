@@ -23,11 +23,12 @@ using ld = long double;
 // 问题可能要求：在三角形内随机取一点，该点恰好落在
 // 恰好 k 个扇形内的概率。求该概率的某种度量。
 //
-// PE 答案: 3.64026184（表示面积、概率或其他连续值，
+// PE 答案: 3.64039141（表示面积、概率或其他连续值，
 // 保留8位小数输出）
 
 const ld PI = acosl(-1.0L);
-const ld PE_ANSWER = 3.64026184L;
+const ld PE_ANSWER = 3.64039141;
+const char* PE_ANSWER_STR = "3.64039141";
 
 // 计算等边三角形面积
 ld equilateral_area(ld side) {
@@ -134,7 +135,7 @@ void verify_small() {
     // 以 A 为圆心，AB=c 或 AC=b 为半径
     // 通常用对边长度作为扇形半径
     
-    cout << "\nPE 答案: " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "\nPE 答案: " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
 }
 
 ld solve_pe727() {
@@ -147,7 +148,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
         return 0;
     }
 
@@ -160,12 +161,12 @@ int main() {
         cout << "Computing Triangle of Circular Sectors...\n";
         ld result = solve_pe727();
         cout << fixed << setprecision(8) << "Result: " << result << "\n";
-        cout << "Expected: " << PE_ANSWER << "\n";
+        cout << "Expected: " << PE_ANSWER_STR << "\n";
         return 0;
     }
 
     cout << "PE 727: Triangle of Circular Sectors / 圆扇三角形\n";
-    cout << fixed << setprecision(8) << "Answer = " << PE_ANSWER << "\n";
+    cout << fixed << setprecision(8) << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

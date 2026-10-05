@@ -17,9 +17,9 @@ using i128 = __int128;
 // applies transformations to numbers. The problem asks for
 // the sum of all numbers in a certain generated set.
 //
-// PE answer: 139851300873331129
+// PE answer: 9219661511328178
 
-const ll PE_ANSWER = 139851300873331129LL;
+const ll PE_ANSWER = 9219661511328178LL;
 
 // Check if a number is 123-separated
 // In the context of this problem, we interpret "123-separated"

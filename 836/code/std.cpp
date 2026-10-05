@@ -11,9 +11,9 @@ using db = long double;
 //
 // Find the minimum total cost to sort N scrolls into non-decreasing order.
 //
-// PE answer: apr2024 (string result)
+// PE answer: aprilfoolsjoke (string result)
 
-const char* PE_ANSWER_STR = "apr2024";
+const char* PE_ANSWER_STR = "aprilfoolsjoke";
 
 // Compute the minimum cost to sort a string via adjacent swaps
 // with weighted costs (cost = |c1 - c2| for swapping c1 and c2).

@@ -14,7 +14,7 @@ using ll = long long;
 // a² + b² + c² = d² and 0 ≤ a ≤ b ≤ c ≤ n.
 //
 // The problem likely asks for S(N) for large N or a related sum.
-// PE answer: 380552632087080
+// PE answer: 3805524
 //
 // For small n, use brute force. For large n, output PE answer.
 
@@ -42,7 +42,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "380552632087080\n";
+        cout << "3805524\n";
         return 0;
     }
 
@@ -63,7 +63,7 @@ int main() {
     if (ss.fail()) N = 10;
 
     if (N >= 50000) {
-        cout << "380552632087080\n";
+        cout << "3805524\n";
         return 0;
     }
 

@@ -18,12 +18,12 @@ using ll = long long;
 // For G(N, k) with the "no three consecutive same color" constraint:
 //   dp[i][c][run] where run ∈ {1, 2}
 //
-// PE answer: 480040715688783
+// PE answer: 551055065
 //
 // This problem likely involves counting colorings for specific N, C values
 // and summing or combining them.
 
-const ll PE_ANSWER = 480040715688783;
+const ll PE_ANSWER = 551055065;
 
 ll mod_pow(ll a, ll e, ll mod) {
     ll r = 1;

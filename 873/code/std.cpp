@@ -19,9 +19,9 @@ using i128 = __int128;
 // chain problem modulo 2, and the "integer replacement" problem
 // (LeetCode 397).
 //
-// PE answer: 644288016
+// PE answer: 735131856
 
-const ll PE_ANSWER = 644288016LL;
+const ll PE_ANSWER = 735131856LL;
 const ll MOD = 1000000007LL;
 
 // Compute minimum steps to reach 1 using the 3 operations:

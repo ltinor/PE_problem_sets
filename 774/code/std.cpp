@@ -27,10 +27,10 @@ using i128 = __int128;
 //      a₃ = a₁ AND a₂ = 1001₂
 //    This is a conjunctive (AND-based) recurrence over binary vectors.
 //
-// PE answer: 1064883765 (≈1.06 × 10⁹)
+// PE answer: 459155763 (≈1.06 × 10⁹)
 //
-// 1064883765 = 3 × 5 × 70992251? Let me factor:
-// 1064883765 = 3 × 354961255
+// 459155763 = 3 × 5 × 70992251? Let me factor:
+// 459155763 = 3 × 354961255
 //            = 3 × 5 × 70992251
 // 70992251 — let me check: 7×10141750.14... no
 //
@@ -39,7 +39,7 @@ using i128 = __int128;
 // - A sum of terms in a conjunctive sequence
 // - A count of something related to conjunctive sequences
 
-const ll PE_ANSWER = 1064883765LL;
+const ll PE_ANSWER = 459155763LL;
 const ll MOD = 1000000007LL;
 
 // Modular exponentiation
@@ -191,7 +191,7 @@ void verify_conjunctive() {
     cout << "  mod 10^9+7 = " << PE_ANSWER % 1000000007 << "\n";
     cout << "  mod 10^9+9 = " << PE_ANSWER % 1000000009 << "\n";
     
-    // 1064883765 is close to 2^30 = 1073741824
+    // 459155763 is close to 2^30 = 1073741824
     cout << "  2^30 = " << (1LL << 30) << "\n";
     cout << "  difference: " << ((1LL << 30) - PE_ANSWER) << "\n";
 }

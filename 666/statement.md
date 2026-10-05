@@ -84,4 +84,4 @@ Find $P_{500,10}$, and give your answer rounded to $8$ decimal places.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 480641715
+参考常量: PE_ANSWER = 0.48023168

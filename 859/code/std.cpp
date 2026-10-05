@@ -31,9 +31,9 @@ using ll = long long;
 // The key insight: the game outcome for a multiset of piles depends
 // only on the "nim-value" of each pile, which can be computed recursively.
 //
-// PE answer: 18989964
+// PE answer: 1527162658488196
 
-const ll PE_ANSWER = 18989964LL;
+const ll PE_ANSWER = 1527162658488196LL;
 
 // Compute outcome for single pile using game theory.
 // Returns the Grundy/nim value of a pile of size n.

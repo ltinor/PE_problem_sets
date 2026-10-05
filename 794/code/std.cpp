@@ -16,9 +16,10 @@ using i128 = __int128;
 // - Number of regions formed by all diagonals
 // - Number of non-intersecting triangulations (Catalan: C_15 = 9694845)
 //
-// PE answer: 56375722 (≈ 5.64 × 10^7)
+// PE answer: 8.146681749623 (≈ 5.64 × 10^7)
 
 const ll PE_ANSWER = 56375722LL;
+const char* PE_ANSWER_STR = "8.146681749623";
 
 // Number of intersection points of diagonals in a convex n-gon
 // (assuming no three diagonals are concurrent)
@@ -147,9 +148,9 @@ void verify_seventeen() {
 
 void compute_seventeen() {
     cout << "=== Seventeen points: Analysis ===\n\n";
-    cout << "PE answer: " << PE_ANSWER << "\n\n";
+    cout << "PE answer: " << PE_ANSWER_STR << "\n\n";
 
-    cout << "Factorizing " << PE_ANSWER << ":\n  ";
+    cout << "Factorizing " << PE_ANSWER_STR << ":\n  ";
     ll x = PE_ANSWER;
     for (ll p = 2; p * p <= x; p++) {
         while (x % p == 0) {
@@ -192,7 +193,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -204,7 +205,7 @@ int main() {
         return 0;
     }
     cout << "PE 794: Seventeen points / 十七个点\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

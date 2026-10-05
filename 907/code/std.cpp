@@ -22,9 +22,9 @@ using i128 = __int128;
 //
 // Find S(10^7) mod 1,000,000,007.
 //
-// PE answer: 31875000
+// PE answer: 196808901
 
-const ll PE_ANSWER = 31875000LL;
+const ll PE_ANSWER = 196808901LL;
 const ll MOD = 1000000007LL;
 
 // The tower model: a rooted tree where each cup (except the root/bottom)

@@ -12,7 +12,7 @@ using ll = long long;
 // Given: Σ_k F_k(10^3) = 14993 for odd k=3,5,7,...
 // Find: Σ_k F_k(10^12) for odd k=3,5,7,...
 //
-// PE answer: 563132994
+// PE answer: 563132994232918611
 //
 // Analysis:
 // Substituting P_k(n) and setting A·P_k(n)+B = P_k(m):
@@ -152,7 +152,7 @@ using ll = long long;
 //
 // Let me just verify F_3(100)=184 and F_3 as computed.
 
-const ll PE_ANSWER = 563132994;
+const ll PE_ANSWER = 563132994232918611;
 const ll N_MAX = 1000000000000LL;
 
 // For T = k-2 (odd)

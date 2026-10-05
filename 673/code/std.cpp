@@ -14,13 +14,13 @@ using ll = long long;
 // The number of standard Young tableaux of shape λ is:
 //   f^λ = n! / ∏ h(i,j)
 //
-// PE answer: 70032538033373
+// PE answer: 700325380
 //
 // This problem likely involves counting or summing over
 // partitions (Young diagrams) subject to constraints on
 // hook lengths.
 
-const ll PE_ANSWER = 70032538033373;
+const ll PE_ANSWER = 700325380;
 
 // Compute the hook-length product for a partition
 ll hook_product(const vector<ll>& partition) {

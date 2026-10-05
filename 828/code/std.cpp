@@ -18,10 +18,10 @@ using i128 = __int128;
 // operations +, -, *, / (integer division only when exact) and
 // parentheses, how many distinct integers can be formed?
 //
-// PE answer: 764545780025915 (very large, suggesting sum over
+// PE answer: 148693670 (very large, suggesting sum over
 // a large range or counting a huge number of possibilities)
 
-const ll PE_ANSWER = 764545780025915LL;
+const ll PE_ANSWER = 148693670LL;
 const ll MOD = 1000000007LL;
 
 // Countdown numbers game: given N numbers, find all achievable values

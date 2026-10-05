@@ -23,10 +23,10 @@ using i128 = __int128;
 // Q(N) = (m+1) * (N/4 + S(N/4))
 // where S(x) = sum_{i>=1} floor(x/2^i) = x - popcount(x)
 //
-// PE answer: 45248099998823554
+// PE answer: 452480999988235494
 
 const ll M = 904961;
-const ll PE_ANS = 45248099998823554LL;
+const ll PE_ANS = 452480999988235494LL;
 
 // S(x) = sum_{i>=1} floor(x/2^i)
 ll S_func(ll x) {

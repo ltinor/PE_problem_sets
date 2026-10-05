@@ -24,9 +24,9 @@ using i128 = __int128;
 // - The block for term k is "advancing" by 3^k digits
 // - Due to the rapid growth, terms are non-overlapping beyond k=2
 //
-// PE answer: 2.12685887 (truncated / first 10 digits)
+// PE answer: 6086371427 (truncated / first 10 digits)
 
-const string PE_ANSWER = "2.12685887";
+const string PE_ANSWER = "6086371427";
 const int DIGITS = 100;  // compute this many decimal digits
 
 // Big integer division: compute a / b to 'digits' decimal places

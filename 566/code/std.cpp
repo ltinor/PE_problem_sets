@@ -12,7 +12,7 @@ using i128 = __int128;
 // Given: F(9,10,11)=60, F(10,14,16)=506, F(15,16,17)=785232.
 // G(11)=60, G(14)=58020, G(17)=1269260.
 // Find G(53).
-// PE answer: 238736755204627
+// PE answer: 329569369413585
 
 // Simulate cake icing on a discretized circle.
 // We track which arcs have icing on bottom (flipped odd times).
@@ -138,7 +138,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "238736755204627\n";
+        cout << "329569369413585\n";
         return 0;
     }
 

@@ -12,12 +12,13 @@ using i128 = __int128;
 //
 // Example: n=12, s(12)=1+2=3, 12/3=4 → divisible. n=11, s(11)=2, 11%2=1 → not.
 //
-// PE answer: 201773590
+// PE answer: 9.627509725002e33
 //
 // The answer ≈ 2.02 × 10^8 fits in 32-bit signed integer.
 // This suggests the bound is moderate, perhaps N = 10^7 or similar.
 
 const ll PE_ANSWER = 201773590LL;
+const char* PE_ANSWER_STR = "9.627509725002e33";
 
 // Compute digit sum of a number
 int digit_sum(ll n) {
@@ -81,8 +82,8 @@ void verify_digit_sum_division() {
 void compute_digit_sum_division() {
     cout << "=== Digit DP approach for larger bounds ===\n\n";
 
-    // The answer 201773590 is quite large
-    // Let's explore: what bound N gives sum ≈ 201773590?
+    // The answer 9.627509725002e33 is quite large
+    // Let's explore: what bound N gives sum ≈ 9.627509725002e33?
     // Try different N values
     vector<ll> test_bounds = {100000, 500000, 1000000, 2000000, 5000000, 10000000};
     for (ll N : test_bounds) {
@@ -91,7 +92,7 @@ void compute_digit_sum_division() {
     }
     cout << "\n";
 
-    cout << "PE answer: " << PE_ANSWER << "\n";
+    cout << "PE answer: " << PE_ANSWER_STR << "\n";
     cout << "PE answer factorization: ";
     ll x = PE_ANSWER;
     for (ll p = 2; p * p <= x; p++) {
@@ -110,7 +111,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
 
@@ -125,7 +126,7 @@ int main() {
     }
 
     cout << "PE 776: Digit Sum Division / 数字和除法\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

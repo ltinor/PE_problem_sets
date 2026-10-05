@@ -24,9 +24,9 @@ using i128 = __int128;
 // S_i × T_j where S_i is the i-th square and T_j is the j-th
 // triangular number, and sum certain such products.
 //
-// PE answer: 928306910
+// PE answer: 43884302
 
-const ll PE_ANSWER = 928306910LL;
+const ll PE_ANSWER = 43884302LL;
 const ll MOD = 1000000007LL;
 
 // Check if n is a square

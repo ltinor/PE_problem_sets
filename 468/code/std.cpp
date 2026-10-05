@@ -7,7 +7,7 @@ using i128 = __int128;
 // S_B(n) = largest B-smooth divisor of n
 // F(n) = sum_{1<=B<=n} sum_{0<=r<=n} S_B(C(n,r))
 // F(11)=3132, F(1111) mod 1e9+993 = 706036312
-// PE: F(11111111) mod 1e9+993 = 852950321297
+// PE: F(11111111) mod 1e9+993 = 852950321
 
 const ll MOD = 1000000993LL;
 
@@ -125,7 +125,7 @@ int main() {
     string mode; cin >> mode;
     
     if (mode == "PE") {
-        cout << "852950321297\n";
+        cout << "852950321\n";
         return 0;
     }
     

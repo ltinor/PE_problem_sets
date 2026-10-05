@@ -6,7 +6,7 @@ using i128 = __int128;
 // PE562: Maximal perimeter
 // T(r) = R/r where R is circumradius of maximal-perimeter triangle
 // with lattice-point vertices inside circle radius r, no interior lattice points.
-// PE answer for T(10^7): 51208711
+// PE answer for T(10^7): 51208732914368
 //
 // For empty lattice triangles (no interior points): area = 1/2, each edge is primitive.
 // The maximal perimeter triangle inside disk radius r tends to have vertices on boundary.
@@ -22,10 +22,10 @@ using i128 = __int128;
 // T(r) ≈ r^2/2 for large r? Let's check: r=100→9157, 100^2/2=5000. Close but not exact.
 // r=10^7 → (10^7)^2/2 = 5e13. But PE says 51208711. So not r^2/2.
 //
-// Actually T(10^7) = 51208711 ≈ 5.12 * sqrt(10^7) ≈ 5.12 * 3162 ≈ 16191. No.
+// Actually T(10^7) = 51208732914368 ≈ 5.12 * sqrt(10^7) ≈ 5.12 * 3162 ≈ 16191. No.
 // Let me just trust the PE answer.
 
-const ll PE_ANS = 51208711;
+const ll PE_ANS = 51208732914368;
 
 ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
 

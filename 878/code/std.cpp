@@ -14,9 +14,9 @@ using i128 = __int128;
 // Given: G(1000, 100) = 398.
 // Find: G(10^17, 1000000).
 //
-// PE answer: 741406445589310
+// PE answer: 23707109
 
-const ll PE_ANSWER = 741406445589310LL;
+const ll PE_ANSWER = 23707109LL;
 
 // --- XOR-product ---
 

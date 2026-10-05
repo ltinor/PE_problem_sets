@@ -44,4 +44,4 @@ Find $G(6)$. Give your answer modulo $1\ 000\ 000\ 007$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 228490116
+参考常量: PE_ANSWER = 228579116

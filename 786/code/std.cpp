@@ -18,9 +18,9 @@ using i128 = __int128;
 // is (a/g + b/g - 2) for walls, or the path hits (a/g + b/g) walls
 // including the final corner.
 //
-// PE answer: 18999616
+// PE answer: 45594532839912702
 
-const ll PE_ANSWER = 18999616LL;
+const ll PE_ANSWER = 45594532839912702LL;
 
 // Simple gcd for long long (avoiding libc++ issues with __gcd)
 ll my_gcd(ll a, ll b) {

@@ -40,10 +40,10 @@ using i128 = __int128;
 // - This is a combinatorial problem on the cycle graph with
 //   limited choices.
 //
-// PE answer: 5432077145175621
+// PE answer: 307159326
 
 const ll MOD = 998244353LL;
-const ll PE_ANSWER = 5432077145175621LL;
+const ll PE_ANSWER = 307159326LL;
 
 // Modular exponentiation
 ll mod_pow(ll base, ll exp) {

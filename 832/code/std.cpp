@@ -31,9 +31,9 @@ using ll = long long;
 //   ###          #         ##         ##
 //                          #           #
 //
-// PE answer: 595318643547
+// PE answer: 552839586
 
-const ll PE_ANSWER = 595318643547LL;
+const ll PE_ANSWER = 552839586LL;
 const ll MOD = 1000000007LL;
 
 // T-tetromino shapes: each is a set of (dr, dc) offsets relative to

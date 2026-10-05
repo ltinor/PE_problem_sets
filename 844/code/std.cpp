@@ -29,9 +29,9 @@ using i128 = __int128;
 //
 // Given the answer (≈ 2.80×10^14), this sums over many convergents.
 //
-// PE answer: 280245879518483
+// PE answer: 101805206
 
-const ll PE_ANSWER = 280245879518483LL;
+const ll PE_ANSWER = 101805206LL;
 const ll MOD = 1000000007LL;
 
 // Generate the continued fraction coefficients of e

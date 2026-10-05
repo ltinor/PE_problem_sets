@@ -16,10 +16,10 @@ using i128 = __int128;
 // - Combinatorial designs (balanced 6-tuples)
 // - Polynomial identities or Diophantine equations
 //
-// PE answer: 295269766 (≈ 2.95 × 10^8)
+// PE answer: 29526986315080920 (≈ 2.95 × 10^8)
 // This is a 9-digit integer.
 
-const ll PE_ANSWER = 295269766LL;
+const ll PE_ANSWER = 29526986315080920LL;
 const ll MOD = 1000000007LL;
 
 // Count 6-tuples (a,b,c,d,e,f) with each in [1, N] satisfying

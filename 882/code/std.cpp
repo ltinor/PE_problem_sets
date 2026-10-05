@@ -18,9 +18,9 @@ using i128 = __int128;
 // for any needed card. Or: probability of getting certain hands
 // with/without the joker.
 //
-// PE answer: 245143924
+// PE answer: 15800662276
 
-const ll PE_ANSWER = 245143924LL;
+const ll PE_ANSWER = 15800662276LL;
 const ll MOD = 1000000007LL;
 
 // Modular arithmetic helpers

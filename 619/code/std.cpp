@@ -13,7 +13,7 @@ using ll = long long;
 //
 // Find C(1000000, 1234567) mod 1000000007.
 //
-// PE answer: 3268573801
+// PE answer: 857810883
 //
 // Analysis:
 // A product is a perfect square iff every prime factor appears with
@@ -53,7 +53,7 @@ using ll = long long;
 // After computing rank = size of basis:
 //   C(a,b) = (2^{N-rank} - 1) mod MOD
 
-const ll PE_ANSWER = 3268573801LL;
+const ll PE_ANSWER = 857810883LL;
 const ll MOD = 1000000007LL;
 
 // Compute square-free kernel of n: product of primes with odd exponent

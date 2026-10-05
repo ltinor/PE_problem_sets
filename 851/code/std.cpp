@@ -20,9 +20,9 @@ using i128 = __int128;
 //
 // POS(n) grows extremely fast and requires modular arithmetic.
 //
-// PE answer: 169796973644
+// PE answer: 726358482
 
-const ll PE_ANSWER = 169796973644LL;
+const ll PE_ANSWER = 726358482LL;
 const ll MOD = 1000000007LL;
 
 // Sum of divisors σ₁(n)

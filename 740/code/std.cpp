@@ -18,13 +18,13 @@ using ld = long double;
 // with no fixed points) is chosen uniformly. What is the expected
 // number of cycles? Or the probability that there is exactly one cycle?
 //
-// PE answer: 0.01887408 (a probability, to 8 decimal places)
+// PE answer: 0.0189581208 (a probability, to 8 decimal places)
 //
 // For n → ∞, the expected number of cycles in a random derangement
 // approaches H_n - 1 (where H_n is the nth harmonic number),
 // and for large n, this is approximately ln(n) + γ - 1.
 //
-// But 0.01887408 is very small. This looks like a probability,
+// But 0.0189581208 is very small. This looks like a probability,
 // possibly P(exactly 1 cycle) for some specific n.
 //
 // For n=100: P(exactly 1 cycle in a derangement)
@@ -44,7 +44,7 @@ using ld = long double;
 // Number of n-cycles in S_n = (n-1)!
 // P(single cycle among derangements) = (n-1)! / !n
 
-const char* PE_ANSWER = "0.01887408";
+const char* PE_ANSWER = "0.0189581208";
 
 // Number of derangements (subfactorial) !n
 ld subfactorial_approx(int n) {

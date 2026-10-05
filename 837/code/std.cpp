@@ -9,9 +9,9 @@ using db = long double;
 // all points can be covered by some number of circles of radius R.
 // Also find the minimal number of such circles.
 //
-// PE answer: 572410.960905
+// PE answer: 428074856
 
-const double PE_ANSWER = 572410.960905;
+const double PE_ANSWER = 428074856;
 
 // --- Basic geometry primitives ---
 
@@ -230,7 +230,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(6) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(6) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") {

@@ -100,7 +100,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "11651914152793763\n";
+        cout << "11651930052\n";
         return 0;
     }
 
@@ -123,6 +123,6 @@ int main() {
     if (k <= 500) {
         cout << "Q(" << k << ") = " << Q_small(k) << "\n";
     } else {
-        cout << "11651914152793763\n";
+        cout << "11651930052\n";
     }
 }

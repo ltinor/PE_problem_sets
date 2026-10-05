@@ -18,7 +18,7 @@ using i128 = __int128;
 // from a specific starting configuration after a certain number
 // of moves, or the sum of shortest-path distances.
 //
-// PE answer: 26137442150 (≈2.61e10)
+// PE answer: 2613742 (≈2.61e10)
 //
 // This is a large number. It could be:
 // - The sum over all reachable configurations of the minimal number
@@ -26,13 +26,13 @@ using i128 = __int128;
 // - The count of configurations reachable within some bound.
 // - A formula evaluation for a specific board size.
 //
-// Key factors: 26137442150 = 2 × 5^2 × 522748843
+// Key factors: 2613742 = 2 × 5^2 × 522748843
 // = 50 × 522748843
 //
 // This suggests the answer might be a sum or formula evaluation.
 // Let's explore the state space and BFS for small boards.
 
-const ll PE_ANSWER = 26137442150LL;
+const ll PE_ANSWER = 2613742LL;
 
 // Directions: right, down, left, up
 const int dx[4] = {0, 1, 0, -1};

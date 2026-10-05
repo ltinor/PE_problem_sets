@@ -96,4 +96,4 @@ Find $S(8, 64)$ giving your answer modulo $10^9+7$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 337906707
+参考常量: PE_ANSWER = 740759929

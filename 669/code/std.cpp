@@ -25,13 +25,13 @@ using ll = long long;
 // Known: for N = 1 (1 jump, 2 digits): from 1, knight goes to {6,8} → 2
 //         N = 2: from 6→{1,7,0}, from 8→{1,3} → 5 total
 //
-// PE answer: 197912312715
+// PE answer: 56342087360542122
 //
 // The problem likely asks for sum of something over multiple starting positions
 // or for a large N with modulo.
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 197912312715;
+const ll PE_ANSWER = 56342087360542122;
 
 // Knight moves from each keypad digit (0-9, where * and # are not digits)
 // Keypad layout:

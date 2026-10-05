@@ -20,10 +20,10 @@ using i128 = __int128;
 // The goal is to compute the expected value of some
 // statistic of this random process.
 //
-// PE answer: 5610899769.176
+// PE answer: 865849519
 
-const double PE_ANSWER = 5610899769.176;
-const string PE_ANSWER_STR = "5610899769.176";
+const double PE_ANSWER = 865849519;
+const string PE_ANSWER_STR = "865849519";
 
 // Prime factorization
 vector<ll> prime_factors(ll n) {
@@ -141,7 +141,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(3) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(3) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") {

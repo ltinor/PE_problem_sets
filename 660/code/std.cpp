@@ -30,9 +30,9 @@ ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
 // For each n, enumerate possible digit allocations and check.
 // Since n ≤ 18 is small, we can iterate over m,n,t parameters.
 //
-// PE answer: 400107221768
+// PE answer: 474766783
 
-const ll PE_ANSWER = 400107221768LL;
+const ll PE_ANSWER = 474766783LL;
 
 // Check if a,b,c form an n-pandigital triple
 bool is_pandigital(ll a, ll b, ll c, ll n) {

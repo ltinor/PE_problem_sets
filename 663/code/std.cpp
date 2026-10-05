@@ -20,9 +20,9 @@ using ll = long long;
 // Global query: O(n/B) to scan all blocks.
 // Process first 10M steps to build array state, then 200K more steps recording M_n.
 //
-// PE answer: 1884138010064755360
+// PE answer: 1884138010064752
 
-const ll PE_ANSWER = 1884138010064755360LL;
+const ll PE_ANSWER = 1884138010064752LL;
 const ll N = 10000003;
 const ll START = 10000000;
 const ll END = 10200000;

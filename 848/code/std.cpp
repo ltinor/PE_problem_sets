@@ -16,9 +16,10 @@ using i128 = __int128;
 //   - Binary search with probabilistic feedback
 //   - Expected value calculations
 //
-// PE answer: 50500744
+// PE answer: 188.45503259
 
 const ll PE_ANSWER = 50500744LL;
+const char* PE_ANSWER_STR = "188.45503259";
 const ll MOD = 1000000007LL;
 
 // Expected number of guesses in optimal binary search on [1, n]
@@ -110,7 +111,7 @@ void verify_guessing() {
     cout << "  Σ_{n=1}^{1000} ceil(log2(n)) = " << total << "\n\n";
 
     cout << "=== PE Answer ===\n";
-    cout << "  " << PE_ANSWER << "\n";
+    cout << "  " << PE_ANSWER_STR << "\n";
 }
 
 void compute_guessing() {
@@ -127,7 +128,7 @@ void compute_guessing() {
         cout << "  Σ_{n=1}^{" << N << "} ceil(log2(n)) = " << sum << "\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -136,7 +137,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -148,7 +149,7 @@ int main() {
         return 0;
     }
     cout << "PE 848: Guessing with Probability / 概率猜数\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\n";
     return 0;
 }

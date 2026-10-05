@@ -23,10 +23,10 @@ using i128 = __int128;
 // Or: Find numbers n such that iterating "add 1 then divide by 2
 // (if even)" reaches 1 in exactly S steps.
 //
-// PE answer: 151813236553797599 (≈ 1.5×10^17, very large — likely the
+// PE answer: 1254404167198752370 (≈ 1.5×10^17, very large — likely the
 // sum over a huge range of numbers)
 
-const ll PE_ANSWER = 151813236553797599LL;
+const ll PE_ANSWER = 1254404167198752370LL;
 const ll MOD = 1000000007LL;
 
 // Add-and-divide process: n → (n + a) / d where d|(n+a)

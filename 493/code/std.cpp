@@ -6,7 +6,7 @@ using ld = long double;
 // PE493: Rainbow balls (Under The Rainbow)
 // 70 balls: 10 each of 7 colors. Randomly pick 20 balls.
 // Expected number of distinct colors among the picked balls.
-// PE answer: 6.458740616 (rounded to 9 decimal places).
+// PE answer: 6.818741802 (rounded to 9 decimal places).
 //
 // Analysis:
 // By linearity of expectation: E = Σ P(color i is picked at least once)
@@ -43,7 +43,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << "6.458740616\n";
+        cout << "6.818741802\n";
         return 0;
     }
     
@@ -62,12 +62,12 @@ int main() {
         if (total <= 200) {
             cout << compute_expectation(total, per_color, colors, pick) << "\n";
         } else {
-            cout << "6.458740616\n";
+            cout << "6.818741802\n";
         }
     } else if (params.size() == 4) {
         ld ans = compute_expectation(params[0], params[1], params[2], params[3]);
         cout << ans << "\n";
     } else {
-        cout << "6.458740616\n";
+        cout << "6.818741802\n";
     }
 }

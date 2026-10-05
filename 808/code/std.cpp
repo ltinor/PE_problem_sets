@@ -14,9 +14,9 @@ using i128 = __int128;
 // Examples: 13^2 = 169, reverse = 961 = 31^2, both 13 and 31 are prime.
 //           17^2 = 289, reverse = 982 = not a perfect square.
 //
-// PE answer: 380750427699465
+// PE answer: 3807504276997394
 
-const ll PE_ANSWER = 380750427699465LL;
+const ll PE_ANSWER = 3807504276997394LL;
 
 // Reverse an integer (decimal)
 ll reverse_num(ll n) {

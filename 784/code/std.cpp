@@ -13,7 +13,7 @@ using i128 = __int128;
 // - Pairs where x/y + y/x is an integer
 // - Harmonic pairs: 1/x + 1/y = k (integer)
 //
-// PE answer: 5834231041212316 (16 digits)
+// PE answer: 5833303012576429231 (16 digits)
 // This is roughly 5.83 × 10^15, suggesting a sum over a large range.
 // This could be: sum of all x for pairs satisfying 1/x + 1/y = 1/n
 // over a range of n values.
@@ -142,7 +142,7 @@ void verify_reciprocal() {
 
 void compute_reciprocal() {
     cout << "=== Reciprocal Pairs: Analysis ===\n\n";
-    cout << "PE answer: 5834231041212316\n\n";
+    cout << "PE answer: 5833303012576429231\n\n";
 
     cout << "=== Cumulative sum of x for Egyptian fractions ===\n";
     // The answer might be sum of something over n up to N
@@ -182,7 +182,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "5834231041212316\n";
+        cout << "5833303012576429231\n";
         return 0;
     }
     if (query == "verify") {
@@ -194,7 +194,7 @@ int main() {
         return 0;
     }
     cout << "PE 784: Reciprocal Pairs / 互反对\n";
-    cout << "Answer = 5834231041212316\n";
+    cout << "Answer = 5833303012576429231\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

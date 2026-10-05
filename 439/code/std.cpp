@@ -3,14 +3,14 @@
 // S(N) = Σ_{d=1}^N μ(d)·d · A(⌊N/d⌋)^2  mod 1e9
 // A(x) = Σ_{i=1}^x σ(i) = Σ_{d=1}^x d·⌊x/d⌋
 // 杜教筛: F(x) = Σ_{i=1}^x μ(i)·i,  F(x) = 1 - Σ_{i=2}^x i·F(⌊x/i⌋)
-// PE答案: 968697378680021
+// PE答案: 968697378
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 using i128 = __int128;
 
 const ll MOD = 1000000000;
-const ll PE_ANS = 968697378680021;
+const ll PE_ANS = 968697378;
 const ll PRE = 5000000; // 5e6
 
 vector<ll> primes;

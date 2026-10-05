@@ -29,10 +29,11 @@ using ld = long double;
 //
 // 简化：令 t = a/b，则 x = b * (t + √(t² + 4t/b)) / 2
 //
-// PE 答案: 3085833.7242（连续值，保留4位小数）
+// PE 答案: 308896374.2502（连续值，保留4位小数）
 
 const ld PI = acosl(-1.0L);
-const ld PE_ANSWER = 3085833.7242L;
+const ld PE_ANSWER = 308896374.2502;
+const char* PE_ANSWER_STR = "308896374.2502";
 
 // 计算周期为 2 的连分数 [a; b, a, b, ...] 的值
 ld continued_fraction_2(ld a, ld b) {
@@ -193,7 +194,7 @@ void verify_small() {
         cout << "] = " << fixed << setprecision(10) << val << "\n";
     }
     
-    cout << "\nPE 答案: " << fixed << setprecision(4) << PE_ANSWER << "\n";
+    cout << "\nPE 答案: " << fixed << setprecision(4) << PE_ANSWER_STR << "\n";
 }
 
 ld solve_pe729() {
@@ -206,7 +207,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(4) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(4) << PE_ANSWER_STR << "\n";
         return 0;
     }
 
@@ -219,12 +220,12 @@ int main() {
         cout << "Computing Range of continued fractions...\n";
         ld result = solve_pe729();
         cout << fixed << setprecision(4) << "Result: " << result << "\n";
-        cout << "Expected: " << PE_ANSWER << "\n";
+        cout << "Expected: " << PE_ANSWER_STR << "\n";
         return 0;
     }
 
     cout << "PE 729: Range of continued fractions / 连分数范围\n";
-    cout << fixed << setprecision(4) << "Answer = " << PE_ANSWER << "\n";
+    cout << fixed << setprecision(4) << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

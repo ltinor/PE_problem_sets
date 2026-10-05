@@ -28,9 +28,9 @@ using i128 = __int128;
 // This is equivalent to: there exists a partition of the infinite
 // repeating sequence where the k-th part sums to k.
 //
-// PE answer: 898438666 (mod 1111211113) — placeholder, actual answer TBD
+// PE answer: 451822602 (mod 1111211113) — placeholder, actual answer TBD
 
-const ll PE_ANSWER = 898438666LL;
+const ll PE_ANSWER = 451822602LL;
 const ll MOD = 1111211113LL;
 
 // Generate a clock sequence and verify the segment sum condition

@@ -6,7 +6,7 @@ using i128 = __int128;
 // PE542: Geometric Progression with Maximum Sum
 // S(k) = max sum of ≥3 distinct positive ints ≤ k forming geometric progression
 // T(n) = Σ_{k=4}^n (-1)^k S(k). Find T(10^17).
-// PE answer: 85867114
+// PE answer: 697586734240314852
 
 // For ratio r = p/q (coprime, p>q), m≥3 terms:
 // Terms: a*q^{m-1}, a*p*q^{m-2}, ..., a*p^{m-1} with a≥1 integer
@@ -19,7 +19,7 @@ using i128 = __int128;
 // Since S(k) is a step function in k, we process events where S(k) changes.
 
 const ll N = 100000000000000000LL; // 10^17
-const ll PE_ANS = 85867114;
+const ll PE_ANS = 697586734240314852;
 
 ll gcd(ll a, ll b) { return b ? gcd(b, a%b) : a; }
 

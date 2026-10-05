@@ -22,9 +22,10 @@ using ld = long double;
 //   E(d) = q·[I(d>0) + p_A·E(d+1) + p_B·E(d-1) + p_0·E(d)]
 // Solve tridiagonal system with truncation.
 //
-// PE answer: 64623107552738
+// PE answer: 646231.2177
 
-const ld PE_ANSWER = 64623107552738.0L;
+const ld PE_ANSWER = 646231.2177;
+const char* PE_ANSWER_STR = "646231.2177";
 
 // Solve the recurrence for E(d) using tridiagonal system
 // Returns E(0), the expected lead count from start
@@ -128,7 +129,7 @@ int main() {
     
     if (query == "PE") {
         cout << fixed << setprecision(0);
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     
@@ -154,7 +155,7 @@ int main() {
     
     cout << "PE 661: A Long Chess Match\n";
     cout << fixed << setprecision(0);
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

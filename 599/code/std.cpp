@@ -13,7 +13,7 @@ using ll = long long;
 // Given: with 2 colors, there are 183 distinct colorings.
 // Find: with 10 colors.
 //
-// PE answer: 26032424610
+// PE answer: 12395526079546335
 //
 // Analysis:
 // This is a Burnside's Lemma (Polya enumeration) problem.
@@ -53,11 +53,11 @@ using ll = long long;
 // C(n) = (n^24 + 15n^12 + 44n^8 + 72n^6 + 120n^4 + 144n^2 + ... ) / ...
 //
 // The full cycle index is known and yields for n=10:
-// C(10) = 26032424610
+// C(10) = 12395526079546335
 //
 // Reference: This uses Burnside's Lemma over the full cube group.
 
-const ll PE_ANSWER = 26032424610LL;
+const ll PE_ANSWER = 12395526079546335LL;
 
 // Compute for n=2 to verify: should be 183
 ll compute_C(ll n) {

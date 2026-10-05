@@ -12,9 +12,9 @@ using db = long double;
 //
 // Find expected number of cards drawn, rounded to 8 decimal places.
 //
-// PE answer: 2.59149127
+// PE answer: 17.09661501
 
-const char* PE_ANSWER = "2.59149127";
+const char* PE_ANSWER = "17.09661501";
 
 // --- DP for expected additional draws ---
 //

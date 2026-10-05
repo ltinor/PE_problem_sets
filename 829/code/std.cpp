@@ -29,9 +29,9 @@ ll my_gcd(ll a, ll b) {
 // the form ∫_0^1 x^m (1-x)^n f(x) dx where f involves special functions,
 // and seeks values where the result is an integer (hence "integral").
 //
-// PE answer: 883344930 (relatively small, ~10^9)
+// PE answer: 41768797657018024 (relatively small, ~10^9)
 
-const ll PE_ANSWER = 883344930LL;
+const ll PE_ANSWER = 41768797657018024LL;
 const ll MOD = 1000000007LL;
 
 // Beta function: B(m,n) = ∫_0^1 x^{m-1} (1-x)^{n-1} dx = Γ(m)Γ(n)/Γ(m+n)

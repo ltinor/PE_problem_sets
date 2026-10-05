@@ -21,9 +21,9 @@ using i128 = __int128;
 // This happens when h_pos = m_pos (hands coincide - 11 times)
 // or when swapping gives itself (only at 12:00).
 //
-// PE answer: 7541783
+// PE answer: 1541414
 
-const ll PE_ANSWER = 7541783LL;
+const ll PE_ANSWER = 1541414LL;
 const ll MOD = 1000000007LL;
 
 // Convert time (hours, minutes) to hand positions

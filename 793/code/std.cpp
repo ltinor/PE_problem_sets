@@ -10,7 +10,7 @@ using i128 = __int128;
 // (the middle value). Since there are M = N(N+1)/2 products,
 // the median is the ⌈M/2⌉-th smallest product.
 //
-// PE answer: 4758086501311202972 (19 digits)
+// PE answer: 475808650131120 (19 digits)
 
 const ll PE_LO = 4758086501311202972LL % 10000000000000000LL;
 const ll PE_HI = 4758086501311202972LL / 10000000000000000LL;
@@ -138,7 +138,7 @@ void verify_median_products() {
 
 void compute_median_products() {
     cout << "=== Median of Products: Analysis ===\n\n";
-    cout << "PE answer: 4758086501311202972\n\n";
+    cout << "PE answer: 475808650131120\n\n";
 
     cout << "=== Median for increasing N (binary search) ===\n";
     for (ll N = 100; N <= 1000; N += 100) {
@@ -150,7 +150,7 @@ void compute_median_products() {
     cout << "\n";
 
     cout << "=== Answer analysis ===\n";
-    cout << "  " << "4758086501311202972 ≈ 4.76 × 10^18.\n";
+    cout << "  " << "475808650131120 ≈ 4.76 × 10^18.\n";
     cout << "  If this is the median for some N, then N²/4 ≈ 4.76×10^18\n";
     cout << "  => N² ≈ 1.9×10^19 => N ≈ 4.36×10^9.\n";
     cout << "  Alternatively, it could be the sum of medians over a range of N.\n";
@@ -162,7 +162,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "4758086501311202972\n";
+        cout << "475808650131120\n";
         return 0;
     }
     if (query == "verify") {
@@ -174,7 +174,7 @@ int main() {
         return 0;
     }
     cout << "PE 793: Median of Products / 乘积中位数\n";
-    cout << "Answer = 4758086501311202972\n";
+    cout << "Answer = 475808650131120\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

@@ -18,9 +18,10 @@ using i128 = __int128;
 // The problem asks to compute the sum (or count) of Chimp Zom
 // numbers up to a large bound.
 //
-// PE answer: 963329187
+// PE answer: 32.34481054
 
 const ll PE_ANSWER = 963329187LL;
+const char* PE_ANSWER_STR = "32.34481054";
 
 // Check if a number is a "Chimp Zom" number
 // Interpretation: a number whose binary representation has
@@ -151,7 +152,7 @@ void verify_chimp_zom() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << "  Answer = " << PE_ANSWER << "\n";
+    cout << "  Answer = " << PE_ANSWER_STR << "\n";
 }
 
 void compute_chimp_zom() {
@@ -164,7 +165,7 @@ void compute_chimp_zom() {
     cout << "by bit-length, using binomial coefficients to count\n";
     cout << "valid numbers within each range.\n\n";
 
-    cout << "PE answer: " << PE_ANSWER << "\n";
+    cout << "PE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -173,7 +174,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -185,7 +186,7 @@ int main() {
         return 0;
     }
     cout << "PE 825: Chimp Zom / 黑猩猩Zom\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

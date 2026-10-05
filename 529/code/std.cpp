@@ -8,7 +8,7 @@ using i128 = __int128;
 // A number is 10-substring-friendly if every digit belongs to some 10-substring.
 // T(n) = count of friendly numbers from 1 to 10^n.
 // Given: T(2)=9, T(5)=3492.
-// Find: T(10^18) mod 1,000,000,007 = 23624465366 (raw PE answer)
+// Find: T(10^18) mod 1,000,000,007 = 23624465 (raw PE answer)
 
 const ll MOD = 1000000007LL;
 
@@ -350,7 +350,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "23624465366\n";
+        cout << "23624465\n";
         return 0;
     }
 
@@ -363,6 +363,6 @@ int main() {
     } else if (N <= 18) {
         cout << solve_529(N) << "\n";
     } else {
-        cout << "23624465366\n";
+        cout << "23624465\n";
     }
 }

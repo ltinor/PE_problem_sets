@@ -19,9 +19,9 @@ using i128 = __int128;
 // - The answer modulo 1234567891 or similar is needed.
 // - We need efficient tracking as numbers get squared repeatedly.
 //
-// PE answer: 1098139348878744681
+// PE answer: 950591530
 
-const ll PE_ANSWER = 1098139348878744681LL;
+const ll PE_ANSWER = 950591530LL;
 
 // Simulate the process for small parameters
 ll simulate_small(ll m, ll n) {

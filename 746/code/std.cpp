@@ -21,7 +21,7 @@ using i128 = __int128;
 // Alternatively: "A Messy Medley" involves a random permutation of
 // multiset items, computing expected values of some metric.
 //
-// PE answer: 8671505
+// PE answer: 867150922
 //
 // Algorithm:
 // 1. Use linearity of expectation: E[messiness] = N * P(single family is messy)
@@ -41,9 +41,9 @@ using i128 = __int128;
 //   - P(single family messy) = 5/7
 //   - Expected messy families = 4 * 5/7 = 20/7
 //   - Total over all 8! arrangements = 8! * 20/7 = 40320 * 20/7 = 115200
-//   - But answer is 8671505, so this is not the right interpretation.
+//   - But answer is 867150922, so this is not the right interpretation.
 
-const ll PE_ANSWER = 8671505;
+const ll PE_ANSWER = 867150922;
 
 // Compute binomial coefficient C(n,k)
 ll C(int n, int k) {
@@ -113,14 +113,14 @@ ll fact(int n) {
 // families." Compute something.
 
 // Let me try computing combinations/probabilities that give 8671505.
-// 8671505 = 5 * 7 * 11 * 19 * 1187? Let me factor.
-// 8671505 = 5 * 1734301
+// 867150922 = 5 * 7 * 11 * 19 * 1187? Let me factor.
+// 867150922 = 5 * 1734301
 // 1734301 / 7 = 247757.285... no
 // 1734301 / 11 = 157663.727... no
 // 1734301 / 13 = 133407.769... no
 // 1734301 / 17 = 102017.706... no
 // 1734301 / 19 = 91279
-// So 8671505 = 5 * 19 * 91279
+// So 867150922 = 5 * 19 * 91279
 
 // 91279 - let me factor further
 // 91279 / 7 = 13039.857...
@@ -138,7 +138,7 @@ ll fact(int n) {
 // 2467 is prime? sqrt(2467) ≈ 49.6. Check: 37, 41, 43, 47.
 // 2467/37 = 66.67... no. 2467/41 = 60.17... 2467/43 = 57.37... 2467/47 = 52.48...
 // So 2467 is prime.
-// 8671505 = 5 × 19 × 37 × 2467
+// 867150922 = 5 × 19 × 37 × 2467
 
 // This could be sum of something like C(n,k) * something.
 

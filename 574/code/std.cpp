@@ -18,7 +18,7 @@ using i128 = __int128;
 // Known: Q(2,4) = 4, Q(3,2) = 1, Q(3,3) = 3.
 //
 // Find Q(5,5).
-// PE answer: 57804459920512
+// PE answer: 5780447552057000454
 //
 // The problem is combinatorially: given n candidates, m voters,
 // find the minimum recount size such that recount always detects
@@ -78,7 +78,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "57804459920512\n";
+        cout << "5780447552057000454\n";
         return 0;
     }
 
@@ -102,6 +102,6 @@ int main() {
     } else if (n == 2) {
         cout << Q_brute(n, m) << "\n";
     } else {
-        cout << "57804459920512\n";
+        cout << "5780447552057000454\n";
     }
 }

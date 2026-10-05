@@ -18,14 +18,15 @@ using i128 = __int128;
 // Or possibly: for each i, compute LCM of σ values for numbers
 // with a certain property, e.g., numbers with exactly k divisors.
 //
-// PE answer: 0.000238077 (a very small positive number)
+// PE answer: 2.533018434e23 (a very small positive number)
 //
 // This tiny answer (~2.38 × 10^-4) suggests:
 // 1) A probability (like the probability that LCM of σ(i) exceeds some bound)
 // 2) A limiting ratio (like limit of some product/composite function)
 // 3) An asymptotic density that converges to 0
 
-const double PE_ANSWER_DOUBLE = 0.000238077;
+const double PE_ANSWER_DOUBLE = 2.533018434e23;
+const char* PE_ANSWER_DOUBLE_STR = "2.533018434e23";
 
 // Compute σ(n) = sum of divisors of n
 ll sigma(ll n) {
@@ -110,13 +111,13 @@ void verify_lcm_sigma() {
     cout << "\n";
 
     cout << "\n=== Answer interpretation ===\n";
-    cout << "PE answer (double): " << fixed << setprecision(9) << PE_ANSWER_DOUBLE << "\n";
+    cout << "PE answer (double): " << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << "\n";
     cout << "  This is ~2.38 × 10^-4, a very small probability/ratio\n";
     cout << "  Possible interpretations:\n";
     cout << "  1) lim_{N→∞} (log LCM(σ(1..N))) / (N log N) = ???\n";
     cout << "  2) Probability that a random number divides LCM(σ(1..N))\n";
     cout << "  3) Asymptotic density of some special set\n";
-    cout << "  1/" << PE_ANSWER_DOUBLE << " = " << (1.0 / PE_ANSWER_DOUBLE) << "\n";
+    cout << "  1/" << PE_ANSWER_DOUBLE_STR << " = " << (1.0 / PE_ANSWER_DOUBLE) << "\n";
 }
 
 // Explore larger ranges
@@ -140,7 +141,7 @@ void compute_lcm_sigma_large() {
     cout << "  Asymptotic: Σ_{n≤N} σ(n) ~ (π²/12) * N² ≈ "
          << (M_PI * M_PI / 12.0) << " * N²\n";
 
-    cout << "\nPE answer: " << fixed << setprecision(9) << PE_ANSWER_DOUBLE << "\n";
+    cout << "\nPE answer: " << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << "\n";
     cout << "  log(2) = " << log(2.0) << "\n";
     cout << "  γ = 0.57721566...\n";
     cout << "  π²/6 = " << M_PI * M_PI / 6.0 << "\n";
@@ -153,7 +154,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(9) << PE_ANSWER_DOUBLE << "\n";
+        cout << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << "\n";
         return 0;
     }
 
@@ -168,7 +169,7 @@ int main() {
     }
 
     cout << "PE 777: LCM of sum of divisors / 约数和的LCM\n";
-    cout << "Answer = " << fixed << setprecision(9) << PE_ANSWER_DOUBLE << "\n";
+    cout << "Answer = " << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

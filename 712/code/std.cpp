@@ -9,10 +9,10 @@ using ll = long long;
 // S(N) = Σ_{1≤n,m≤N} D(n,m).
 // S(10)=210, S(100)=37018.
 // Find S(10^12) mod 1,000,000,007.
-// PE answer: 4130210
+// PE answer: 413876461
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 4130210;
+const ll PE_ANSWER = 413876461;
 const ll N_MAX = 1000000000000LL; // 10^12
 
 // Key derivation:

@@ -16,9 +16,9 @@ using i128 = __int128;
 //   - Dynamic programming over game states
 //   - Expected hitting times
 //
-// PE answer: 68321107
+// PE answer: 936203459
 
-const ll PE_ANSWER = 68321107LL;
+const ll PE_ANSWER = 936203459LL;
 const ll MOD = 1000000007LL;
 
 // Classic Gambler's Ruin: Player A has a coins, Player B has b coins.

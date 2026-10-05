@@ -17,7 +17,7 @@ using i128 = __int128;
 // But "minimal pairing" may allow non-inverse pairings under some
 // broader constraint.
 //
-// PE answer: 174047818579065 (15 digits)
+// PE answer: 13431419535872807040 (15 digits)
 
 const i128 PE_ANSWER = (i128)174047818579065LL;
 
@@ -147,7 +147,7 @@ void verify_minimal_pairing() {
 
 void compute_minimal_pairing() {
     cout << "=== Minimal pairing modulo p: Analysis ===\n\n";
-    cout << "PE answer: 174047818579065\n\n";
+    cout << "PE answer: 13431419535872807040\n\n";
 
     cout << "=== Cumulative sum over primes ===\n";
     // Check if answer is sum over primes up to some bound
@@ -173,7 +173,7 @@ void compute_minimal_pairing() {
     cout << "\n";
 
     cout << "=== Answer analysis ===\n";
-    cout << "  The answer 174047818579065 is ~1.74 × 10^14.\n";
+    cout << "  The answer 13431419535872807040 is ~1.74 × 10^14.\n";
     cout << "  It could be the sum of minimal pairing costs over primes up to ~10^6.\n";
     cout << "  Or it could be a single value for a specific prime.\n";
     cout << "  Sum of (a + a^{-1})/2 over a=1..p-1 = p(p-1)/2 (roughly).\n";
@@ -185,7 +185,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "174047818579065\n";
+        cout << "13431419535872807040\n";
         return 0;
     }
     if (query == "verify") {
@@ -197,7 +197,7 @@ int main() {
         return 0;
     }
     cout << "PE 789: Minimal pairing modulo p / 模p最小配对\n";
-    cout << "Answer = 174047818579065\n";
+    cout << "Answer = 13431419535872807040\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

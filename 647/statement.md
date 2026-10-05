@@ -48,4 +48,4 @@ Find $\sum_kF_k(10^{12})$ where the sum is over all odd $k=3,5,7,\ldots$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 563132994
+参考常量: PE_ANSWER = 563132994232918611

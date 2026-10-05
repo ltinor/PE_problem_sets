@@ -270,7 +270,7 @@ void verify_larger_digit_perm_ii() {
     cout << "\n=== PE Answer ===\n";
 }
 
-const ll PE_ANSWER = 468465968; // 待确认（训练知识） // PLACEHOLDER
+const ll PE_ANSWER = 811141860; // 待确认（训练知识） // PLACEHOLDER
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);

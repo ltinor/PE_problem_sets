@@ -22,12 +22,12 @@ using i128 = __int128;
 // and asks to search for specific patterns, count occurrences,
 // or find the nth occurrence of something.
 //
-// Given the answer: 150056452701858318 (≈ 1.5 × 10^17),
+// Given the answer: 9300900470636 (≈ 1.5 × 10^17),
 // it's likely a large count or position.
 //
-// PE answer: 150056452701858318
+// PE answer: 9300900470636
 
-const ll PE_ANSWER = 150056452701858318LL;
+const ll PE_ANSWER = 9300900470636LL;
 const ll MOD = 1000000007LL;
 
 // Common PRNG implementations for verification

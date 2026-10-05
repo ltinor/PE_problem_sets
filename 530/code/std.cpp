@@ -7,7 +7,7 @@ using i128 = __int128;
 // f(n) = Σ_{d|n} gcd(d, n/d)
 // F(k) = Σ_{n=1}^k f(n)
 // Given: F(10)=32, F(1000)=12776.
-// Find: F(10^15) = 258416372748
+// Find: F(10^15) = 207366437157977206
 
 // Analysis:
 // f(n) = Σ_{d|n} gcd(d, n/d) = Σ_{g^2|n} g * 2^{ω(n/g^2)}
@@ -184,7 +184,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "258416372748\n";
+        cout << "207366437157977206\n";
         return 0;
     }
 

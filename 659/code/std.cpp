@@ -22,12 +22,12 @@ using i128 = __int128;
 // Then update P(k) = max(P(k), p) for all multiples.
 // Remaining cofactor > 1 after sieving is the final prime factor.
 //
-// PE answer: 796144972
+// PE answer: 238518915714422000
 
 const ll N = 10000000;
 const ll SQRT_MAX = 20000000; // sqrt(4·N²+1) ≈ 2N
 const i128 MOD_ANS = 1000000000000000000LL; // 10^18
-const ll PE_ANSWER = 796144972;
+const ll PE_ANSWER = 238518915714422000;
 
 // Modular exponentiation for Tonelli-Shanks
 ll mod_pow(ll a, ll e, ll mod) {

@@ -16,10 +16,10 @@ using i128 = __int128;
 // R(10000,10000) = 249275481640
 // R(10^18, 10^6) mod 10^9 = ?
 //
-// PE answer: 563420605084
+// PE answer: 563917241
 
 const ll MOD = 1000000000;
-const ll PE_ANSWER = 563420605084LL;
+const ll PE_ANSWER = 563917241LL;
 
 // ======= Implicit Treap for range reversals =======
 // Since N can be huge (10^18) but K is only 10^6,

@@ -20,10 +20,10 @@ using i128 = __int128;
 // T = {2,3,5,6,7,8,10,...,1000} — non-square integers ≤ 1000.
 // Find Σ_{β∈T} H₁₀₀(√β), last 15 digits.
 //
-// PE answer: 8888730
+// PE answer: 888873503555187
 
 const i128 MOD15 = 1000000000000000LL; // 10^15
-const ll PE_ANSWER = 8888730;
+const ll PE_ANSWER = 888873503555187;
 
 // Compute the continued fraction of sqrt(D).
 vector<ll> cf_sqrt(ll D) {

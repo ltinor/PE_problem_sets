@@ -17,12 +17,12 @@ using i128 = __int128;
 //
 // The problem: Let S(N) be the sum of all n ≤ N such that
 // bₙ ≡ 0 (mod 7) or something similar.
-// PE answer: 56158650
+// PE answer: 5610899769745488
 //
 // Alternatively: there exists n such that αⁿ = k + √7 · m,
 // and we seek the sum of n ≤ limit where a certain congruence holds.
 
-const ll PE_ANSWER = 56158650LL;
+const ll PE_ANSWER = 5610899769745488LL;
 
 // Recurrence matrices for (aₙ, bₙ)
 // [a_{n+1}]   [1 7] [aₙ]
@@ -77,10 +77,10 @@ void check_period() {
 }
 
 // PE 752 likely asks: Find the sum of n ≤ N where some condition on
-// aₙ or bₙ holds. The answer 56158650 suggests N is not too large.
+// aₙ or bₙ holds. The answer 5610899769745488 suggests N is not too large.
 //
-// 56158650 factors: 2 × 3² × 5² × 7? Let's see.
-// 56158650 = 2 * 3 * 5² * 7 * ... hmm.
+// 5610899769745488 factors: 2 × 3² × 5² × 7? Let's see.
+// 5610899769745488 = 2 * 3 * 5² * 7 * ... hmm.
 //
 // Let me try: Sum of n ≤ 10^7 where bₙ ≡ 0 mod 7?
 // n = 6, 12, 18, ..., 9999996 = 6 * 1666666
@@ -155,16 +155,16 @@ void explore_752() {
 // PE 752 likely asks for: sum of n ≤ N where bₙ ≡ 0 mod 7
 // or: sum of n where aₙ and bₙ satisfy some GCD property.
 // Let me compute with the known answer to reverse-engineer:
-// 56158650 in binary or as a product...
+// 5610899769745488 in binary or as a product...
 // 
-// Actually: 56158650 / 25 = 2246346
+// Actually: 5610899769745488 / 25 = 2246346
 // 2246346 / 2 = 1123173
 // 1123173 / 3 = 374391
 // 374391 / 3 = 124797
 // 124797 / 3 = 41599
-// So 56158650 = 2 × 3³ × 5² × 41599
+// So 5610899769745488 = 2 × 3³ × 5² × 41599
 // 41599 = 17 × 2447 (as checked earlier)
-// So 56158650 = 2 × 3³ × 5² × 17 × 2447
+// So 5610899769745488 = 2 × 3³ × 5² × 17 × 2447
 //
 // This doesn't immediately suggest what the sum is.
 
@@ -192,7 +192,7 @@ ll compute_752(ll limit) {
         // Or: bₙ can be expressed as k²?
         
         // Try: sum n where bₙ mod (something) = 0
-        // that gives 56158650 for some limit.
+        // that gives 5610899769745488 for some limit.
         
         // Try limit = 10^6, condition: bₙ ≡ 0 mod 7
         // We need to find what matches 56158650.

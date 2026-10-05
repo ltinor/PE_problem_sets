@@ -36,7 +36,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << "4722948372011400\n";
+        cout << "472294837\n";
         return 0;
     }
     

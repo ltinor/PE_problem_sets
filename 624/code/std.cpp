@@ -19,7 +19,7 @@ using ll = long long;
 //
 // Find: Q(P(10^18), 1,000,000,009).
 //
-// PE answer: 984568441
+// PE answer: 984524441
 //
 // Analysis:
 // Let f_k = P(M = k) = probability that we first get HH at
@@ -91,7 +91,7 @@ using ll = long long;
 // Then Q(a/b, p) = a · b^{-1} mod p.
 
 const ll MOD = 1000000009;
-const ll PE_ANSWER = 984568441;
+const ll PE_ANSWER = 984524441;
 
 // Modular arithmetic
 ll mod_pow(ll a, ll e) {

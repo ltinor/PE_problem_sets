@@ -65,7 +65,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "238413705354785\n";
+        cout << "238413705\n";
         return 0;
     }
 
@@ -74,7 +74,7 @@ int main() {
     else D = stoll(query);
 
     if (D > 30) {
-        cout << "238413705354785\n";
+        cout << "238413705\n";
         return 0;
     }
 

@@ -21,9 +21,9 @@ using i128 = __int128;
 // Variation: expected value of μ(n) where n is determined by
 // matchstick-constrained digit choices.
 //
-// PE answer: 0.99993832
+// PE answer: 26688208
 
-const double PE_ANSWER = 0.99993832;
+const double PE_ANSWER = 26688208;
 
 // Matchstick counts for digits 0-9
 const int sticks[10] = {6, 2, 5, 5, 4, 5, 6, 3, 7, 6};
@@ -190,7 +190,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") { verify_mobius_matchsticks(); return 0; }

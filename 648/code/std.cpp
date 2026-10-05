@@ -14,7 +14,7 @@ using ll = long long;
 // F(10) = 53964, F(50) ≡ 842418857 (mod 10^9).
 // Find F(1000) mod 10^9.
 //
-// PE answer: 30148308
+// PE answer: 301483197
 //
 // Analysis:
 // Let E_x(ρ) = expected skips starting from position x.
@@ -54,7 +54,7 @@ using ll = long long;
 // where add[0] = sq[x+1], add[1] = -sq[x+1], add[k] = 0 for k ≥ 2.
 
 const int MAX_K = 1000;
-const ll PE_ANSWER = 30148308;
+const ll PE_ANSWER = 301483197;
 
 // Check if x is a perfect square
 bool is_sq(ll x) {

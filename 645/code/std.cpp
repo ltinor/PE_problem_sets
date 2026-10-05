@@ -15,7 +15,7 @@ using ll = long long;
 // Or: Define J(N) = number of "prime days" among the first N days.
 // Find J(10^9) modulo 1,000,000,007 (or directly).
 //
-// PE answer: 488895204
+// PE answer: 48894.2174
 //
 // Analysis:
 // A "prime day" could be:
@@ -47,7 +47,7 @@ using ll = long long;
 // number of 1-bits. For N=10^9 (~30 bits), about half of numbers
 // have a prime number of set bits... that's about 5×10^8, close!
 
-const ll PE_ANSWER = 488895204;
+const char* PE_ANSWER_STR = "48894.2174";
 
 // Sieve for primes up to limit
 vector<bool> sieve_primes(int limit) {
@@ -133,7 +133,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     
@@ -152,7 +152,7 @@ int main() {
     }
     
     cout << "PE 645: Prime Day\n";
-    cout << "Answer: " << PE_ANSWER << "\n";
+    cout << "Answer: " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output the answer, 'verify' for small checks.\n";
     
     return 0;

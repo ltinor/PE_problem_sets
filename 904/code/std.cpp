@@ -21,9 +21,9 @@ using i128 = __int128;
 // The angle θ = arcsin(a/c) = arcsin((m^2-n^2)/(m^2+n^2)).
 // Summing floor(10^6 · θ) over all qualifying (m,n) pairs.
 //
-// PE answer: 795638489
+// PE answer: 880652522278760
 
-const ll PE_ANSWER = 795638489LL;
+const ll PE_ANSWER = 880652522278760LL;
 const ll MOD = 1000000000LL;
 const ll SCALE = 1000000LL;
 

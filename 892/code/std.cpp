@@ -18,9 +18,9 @@ using i128 = __int128;
 // Alternatively, it could involve the "zebra" continued fraction
 // where terms alternate in a specific way.
 //
-// PE answer: 34683298
+// PE answer: 469137427
 
-const ll PE_ANSWER = 34683298LL;
+const ll PE_ANSWER = 469137427LL;
 const ll MOD = 1000000007LL;
 
 ll mod_add(ll a, ll b) { return (a + b) % MOD; }

@@ -27,9 +27,10 @@ using i128 = __int128;
 // - The number of windings (full rotations) up to N
 // - Sum of coordinates or distances
 //
-// PE answer: 85516249
+// PE answer: 0.7718678168
 
 const ll PE_ANSWER = 85516249LL;
+const char* PE_ANSWER_STR = "0.7718678168";
 const ll MOD = 1000000007LL;
 
 // Point (x, y) on the Spiral of Theodorus after n triangles
@@ -147,7 +148,7 @@ void verify_spiral_theodorus() {
     cout << "  φ_N ≈ 2√N  for large N\n";
     cout << "  φ_N - 2√N → C (constant ≈ -1.46...)\n\n";
 
-    cout << "=== PE Answer ===\n" << PE_ANSWER << "\n";
+    cout << "=== PE Answer ===\n" << PE_ANSWER_STR << "\n";
 }
 
 void compute_spiral_theodorus() {
@@ -171,7 +172,7 @@ void compute_spiral_theodorus() {
     cout << "  φ_300 ≈ 10π (about 5 full rotations)\n";
     cout << "  The spiral never closes (irrational rotations).\n";
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -179,11 +180,11 @@ int main() {
     string query;
     getline(cin, query);
 
-    if (query == "PE") { cout << PE_ANSWER << "\n"; return 0; }
+    if (query == "PE") { cout << PE_ANSWER_STR << "\n"; return 0; }
     if (query == "verify") { verify_spiral_theodorus(); return 0; }
     if (query == "compute") { compute_spiral_theodorus(); return 0; }
     cout << "PE 894: Spiral of Theodorus / 泰奥多勒斯螺线\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

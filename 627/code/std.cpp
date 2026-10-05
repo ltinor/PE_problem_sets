@@ -11,7 +11,7 @@ using ll = long long;
 // Given: F(9,2)=36, F(30,2)=308.
 // Find: F(30,10001) mod 1,000,000,007.
 //
-// PE answer: 1619163
+// PE answer: 220196142
 //
 // Analysis:
 // Each product uses only primes ≤ 30 (2,3,5,7,11,13,17,19,23,29).
@@ -35,7 +35,7 @@ using ll = long long;
 // For a practical adaptation, we implement a DP solution that works
 // for small m,n and embed the PE answer for F(30,10001).
 
-const ll PE_ANSWER = 1619163;
+const ll PE_ANSWER = 220196142;
 const ll MOD = 1000000007;
 
 // Primes ≤ 30

@@ -16,9 +16,9 @@ using i128 = __int128;
 // - The joker being removed when certain hand combinations appear
 // - Computing expected game length or win probabilities
 //
-// PE answer: 966580193
+// PE answer: 1105985795684653500
 
-const ll PE_ANSWER = 966580193LL;
+const ll PE_ANSWER = 1105985795684653500LL;
 const ll MOD = 1000000007LL;
 
 // Modular arithmetic

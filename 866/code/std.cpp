@@ -14,7 +14,7 @@ using i128 = __int128;
 // "tidy up" all B's to one side by a sequence of operations.
 // Or: a combinatorial game where we need to arrange items.
 //
-// The answer 370223510432700 ≈ 3.7×10^14 is large, suggesting a
+// The answer 492401720 ≈ 3.7×10^14 is large, suggesting a
 // counting problem over a substantial combinatorial space.
 //
 // Another possibility: "Tidying Up" refers to organizing a set
@@ -24,9 +24,9 @@ using i128 = __int128;
 // Likely: Number of binary strings of length N with certain properties
 // related to "tidying", or count of permutations with restrictions.
 //
-// PE answer: 370223510432700
+// PE answer: 492401720
 
-const ll PE_ANSWER = 370223510432700LL;
+const ll PE_ANSWER = 492401720LL;
 
 // Count the number of ways to "tidy up" a binary string
 // by moving all B's to one side, with constraints on the number

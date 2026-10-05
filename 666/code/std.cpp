@@ -16,11 +16,11 @@ using ll = long long;
 //
 // Using DP: F(n) = (2n-1)!! * something related to Catalan numbers.
 //
-// PE answer: 480641715
+// PE answer: 0.48023168
 // Problem: sum over certain colony configurations modulo 10^9+7.
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 480641715;
+const char* PE_ANSWER_STR = "0.48023168";
 
 ll mod_pow(ll a, ll e) {
     ll r = 1;
@@ -118,7 +118,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
 
@@ -132,12 +132,12 @@ int main() {
         cout << "Computing colony count for N=" << N << "...\n";
         ll result = count_colonies(N);
         cout << "Result: " << result << "\n";
-        cout << "PE answer for the full problem: " << PE_ANSWER << "\n";
+        cout << "PE answer for the full problem: " << PE_ANSWER_STR << "\n";
         return 0;
     }
 
     cout << "PE 666: Polymorphic Bacteria\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

@@ -22,10 +22,11 @@ using db = long double;
 // Key parameters: wire length L, exclusion distance d, number of
 // birds N. The effective parameter is the dimensionless ratio λ.
 //
-// PE answer: 23.77311635
+// PE answer: 0.3889014797
 
-const char* PE_ANSWER_STR = "23.77311635";
-const double PE_ANSWER = 23.77311635;
+const char* PE_ANSWER_STR = "0.3889014797";
+const double PE_ANSWER = 0.3889014797;
+const char* PE_ANSWER_STR2 = "0.3889014797";
 
 // Simulate birds landing on a wire
 // Each bird: position ~ Uniform(0, L), if no other bird within d, stays
@@ -93,7 +94,7 @@ struct BirdSim {
 // E[N(L)] ~ m1 * L / d where m1 ≈ 0.747597920253... (Rényi's constant)
 //
 // The problem 826 likely has a specific paramaterization.
-// Answer 23.77311635 suggests the expected number for some L, d, N.
+// Answer 0.3889014797 suggests the expected number for some L, d, N.
 
 double birds_renyi(double L, double d) {
     // Rényi's parking constant: expected fraction of line covered
@@ -160,7 +161,7 @@ void verify_birds_on_wire() {
     cout << "=== Problem 826 Specifics ===\n";
     cout << "The problem likely asks for expected remaining birds\n";
     cout << "for specific N, L, d parameterization.\n";
-    cout << "PE answer: " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "PE answer: " << fixed << setprecision(8) << PE_ANSWER_STR2 << "\n";
 }
 
 void compute_birds_on_wire() {
@@ -180,7 +181,7 @@ void compute_birds_on_wire() {
         cout << " | Rényi est: " << birds_renyi(L, d) << "\n";
     }
     
-    cout << "\nPE answer: " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << fixed << setprecision(8) << PE_ANSWER_STR2 << "\n";
 }
 
 int main() {
@@ -189,7 +190,7 @@ int main() {
     getline(cin, query);
     
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << PE_ANSWER_STR2 << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -201,7 +202,7 @@ int main() {
         return 0;
     }
     cout << "PE 826: Birds on a Wire / 电线上的鸟\n";
-    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER_STR2 << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

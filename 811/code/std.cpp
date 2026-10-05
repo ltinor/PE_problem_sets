@@ -31,10 +31,10 @@ using i128 = __int128;
 // (2^t + 1)^r. Using the recurrence and DP with binary
 // decomposition, we can compute the answer efficiently.
 //
-// PE answer: 268760823
+// PE answer: 327287526
 
 const ll MOD = 1000062031LL;
-const ll PE_ANSWER = 268760823LL;
+const ll PE_ANSWER = 327287526LL;
 
 // Quick modular exponentiation
 ll mod_pow(ll base, ll exp) {

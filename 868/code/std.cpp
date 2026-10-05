@@ -17,7 +17,7 @@ using ll = long long;
 // 4. Given the problem number 868, it might involve the number 868
 //    itself in some transformation involving the word BELFORT.
 //
-// The answer 636384916 ≈ 6.36×10^8 is a moderate-sized integer.
+// The answer 3832914911887589 ≈ 6.36×10^8 is a moderate-sized integer.
 //
 // Another thought: B = 2, E = 5, L = 12, F = 6, O = 15, R = 18, T = 20
 // in alphabetical order. Perhaps compute something with these values.
@@ -26,9 +26,9 @@ using ll = long long;
 // named B, E, L, F, O, R, T in some order, and asks for the sum
 // over a range.
 //
-// PE answer: 636384916
+// PE answer: 3832914911887589
 
-const ll PE_ANSWER = 636384916LL;
+const ll PE_ANSWER = 3832914911887589LL;
 
 // BELFORT letter values (1-indexed)
 const int B = 2, E = 5, L = 12, F = 6, O = 15, R = 18, T = 20;

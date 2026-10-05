@@ -42,4 +42,4 @@ $S=\{x_1x_2\ldots x_n|1\le x_1,x_2,\ldots,x_n\le m\}.$
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 1619163
+参考常量: PE_ANSWER = 220196142

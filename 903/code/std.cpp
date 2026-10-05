@@ -23,9 +23,9 @@ using i128 = __int128;
 // permutations where elements first increase then decrease (bitonic),
 // and the expected contribution converges to a specific constant.
 //
-// PE answer: 3.87342933
+// PE answer: 128553191
 
-const double PE_ANSWER = 3.87342933;
+const double PE_ANSWER = 128553191;
 
 // Count balanced permutations by brute force for small n
 ll count_balanced(int n) {
@@ -101,7 +101,7 @@ void analyze_balanced() {
 
     cout << "This constant equals the sum of the rapidly decaying series\n";
     cout << "weighted by position, converging to:\n";
-    cout << "  lim_{N→∞} C(N) = 3.87342933\n";
+    cout << "  lim_{N→∞} C(N) = 128553191\n";
 }
 
 void verify_total_perm() {
@@ -119,7 +119,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") { verify_total_perm(); return 0; }

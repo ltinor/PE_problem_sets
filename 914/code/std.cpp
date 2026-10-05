@@ -15,9 +15,9 @@ using ll = long long;
 // The problem counts or sums specific geometric quantities
 // related to triangles on this surface.
 //
-// PE answer: 66514746
+// PE answer: 414213562371805310
 
-const string PE_ANSWER = "66514746";
+const string PE_ANSWER = "414213562371805310";
 
 void describe_problem() {
     cout << "PE 914: Triangle in the Saddle / 鞍中三角\n\n";

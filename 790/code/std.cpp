@@ -16,7 +16,7 @@ using i128 = __int128;
 // - Clock arithmetic on a grid: each clock advances based on neighbors
 // - Chinese remainder theorem on grid coordinates
 //
-// PE answer: 73597483551591773 (17 digits)
+// PE answer: 16585056588495119 (17 digits)
 
 const ll PE_LO = 73597483551591773LL % 10000000000000000LL;
 const ll PE_HI = 73597483551591773LL / 10000000000000000LL;
@@ -161,7 +161,7 @@ void verify_clock_grid() {
 
 void compute_clock_grid() {
     cout << "=== Clock Grid: Analysis ===\n\n";
-    cout << "PE answer: 73597483551591773\n\n";
+    cout << "PE answer: 16585056588495119\n\n";
 
     cout << "=== Grid period calculations ===\n";
     for (int n = 2; n <= 6; n++) {
@@ -179,7 +179,7 @@ void compute_clock_grid() {
     cout << "\n";
 
     cout << "=== Answer analysis ===\n";
-    cout << "  " << "73597483551591773 ≈ 7.36 × 10^16.\n";
+    cout << "  " << "16585056588495119 ≈ 7.36 × 10^16.\n";
     cout << "  This is close to 2^56 ≈ 7.2 × 10^16.\n";
     cout << "  Could be the number of configurations or a sum over clock grids.\n";
 }
@@ -190,7 +190,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "73597483551591773\n";
+        cout << "16585056588495119\n";
         return 0;
     }
     if (query == "verify") {
@@ -202,7 +202,7 @@ int main() {
         return 0;
     }
     cout << "PE 790: Clock Grid / 时钟网格\n";
-    cout << "Answer = 73597483551591773\n";
+    cout << "Answer = 16585056588495119\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

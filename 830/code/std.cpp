@@ -23,7 +23,7 @@ ll my_gcd(ll a, ll b) {
 // 3. Shifted powers modulo some number
 // 4. Sum of shifted powers: Σ (n+k)^m
 //
-// Given the large answer (6822681719333421 ≈ 6.8×10^15), this likely
+// Given the large answer (254179446930484376 ≈ 6.8×10^15), this likely
 // involves summing a large number of terms.
 //
 // Possible interpretation: Σ_{n=1}^{N} (n+k)^n mod M
@@ -32,9 +32,9 @@ ll my_gcd(ll a, ll b) {
 // Or: "Shifted exponentiation" could refer to the operation:
 // a ↑↑ b (tetration) shifted in some way.
 //
-// PE answer: 6822681719333421
+// PE answer: 254179446930484376
 
-const ll PE_ANSWER = 6822681719333421LL;
+const ll PE_ANSWER = 254179446930484376LL;
 const ll MOD = 1000000007LL;
 
 // Fast modular exponentiation

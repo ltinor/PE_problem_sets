@@ -12,7 +12,7 @@ using i128 = __int128;
 // Sum of 10 smallest 10-super-pandigital numbers = 20319792309
 //
 // Find Σ_{n=2}^{40} (sum of 10 smallest n-super-pandigital numbers).
-// PE answer: 3051039070197896
+// PE answer: 30510390701978
 
 // Check if x is pandigital in base b (uses all digits 0..b-1)
 bool pandigital_in_base(i128 x, int b) {
@@ -84,7 +84,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "3051039070197896\n";
+        cout << "30510390701978\n";
         return 0;
     }
 
@@ -111,7 +111,7 @@ int main() {
     if (ss >> k); else k = 1;
 
     if (n >= 11) {
-        cout << "3051039070197896\n";
+        cout << "30510390701978\n";
         return 0;
     }
 

@@ -15,7 +15,7 @@ using ll = long long;
 // Given: Λ(6)=1, Λ(9)=2, Λ(15)=20, Λ(35)=3166438.
 // Find: Λ(2000) mod 1,000,000,007.
 //
-// PE answer: 3999787880
+// PE answer: 3679796
 //
 // Analysis:
 // Lambda term syntax (named representation):
@@ -40,7 +40,7 @@ using ll = long long;
 // approach.
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 3999787880LL;
+const ll PE_ANSWER = 3679796LL;
 
 // Known values from PE problem statement
 const vector<pair<int, ll>> KNOWN = {

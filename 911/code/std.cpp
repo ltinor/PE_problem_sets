@@ -13,9 +13,9 @@ using ld = long double;
 // Specifically, let s_k be the first index where a_m ≥ k.
 // For large N, consider all 1 ≤ a,b ≤ N, and compute a limiting value.
 //
-// PE answer: 21.303979 (rounded to 6 decimal places)
+// PE answer: 5679.934966 (rounded to 6 decimal places)
 
-const string PE_ANSWER = "21.303979";
+const string PE_ANSWER = "5679.934966";
 
 void describe_problem() {
     cout << "PE 911: Khinchin's Constant / 辛钦常数\n\n";

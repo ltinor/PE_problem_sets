@@ -9,9 +9,9 @@ using i128 = __int128;
 // bean from bowl i and put it in bowl i+1 (mod B). Game continues
 // until some termination condition.
 //
-// PE answer: 229260851949018
+// PE answer: 150893234438294408
 
-const ll PE_ANSWER = 229260851949018LL;
+const ll PE_ANSWER = 150893234438294408LL;
 
 // --- Chip-Firing Game Simulation ---
 

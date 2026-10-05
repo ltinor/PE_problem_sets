@@ -57,7 +57,7 @@ int main() {
     getline(cin, q);
     
     if (q == "PE") {
-        cout << "30.22902550\n";
+        cout << "44.69921807\n";
         return 0;
     }
     

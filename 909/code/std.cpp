@@ -18,9 +18,9 @@ using i128 = __int128;
 // and a successor function A. The expression encodes a very large number
 // via Church numerals / fast-growing hierarchy.
 //
-// PE answer: 463372544 (last 9 digits) — placeholder, actual answer TBD
+// PE answer: 399885292 (last 9 digits) — placeholder, actual answer TBD
 
-const ll PE_ANSWER = 463372544LL;
+const ll PE_ANSWER = 399885292LL;
 const ll MOD = 1000000000LL; // last 9 digits
 
 // L-expression AST

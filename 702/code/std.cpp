@@ -14,7 +14,7 @@ using ll = long long;
 // Find the sum of all positive integers ≤ N that cannot be reached
 // by the flea, or the smallest unreachable position, or similar.
 //
-// PE answer: 62230560818495448
+// PE answer: 622305608172525546
 //
 // Notes:
 // - This is related to the "reachable set" of a function iteration.
@@ -22,7 +22,7 @@ using ll = long long;
 // - For n where S(n) divides n, G(n) is integer; the flea can reach G(n).
 // - We need to find all positions reachable from some starting point.
 
-const ll PE_ANSWER = 62230560818495448LL;
+const ll PE_ANSWER = 622305608172525546LL;
 const ll MOD = 1000000007;
 
 // Digit sum
@@ -53,7 +53,7 @@ ll G(ll n) {
 // The flea starts at 1 and never visits the same position twice.
 // Find the position after N jumps, or the sum of all visited positions.
 //
-// Given answer 62230560818495448 ≈ 6.22e16:
+// Given answer 622305608172525546 ≈ 6.22e16:
 // If we sum positions up to N = 10^6, average position ≈ 6e10, too high.
 // If N = 10^7, average ≈ 6e9, still too high unless positions grow linearly.
 // If N = 10^9, average ≈ 6e7... hmm, this is still ambiguous.
@@ -146,7 +146,7 @@ ll find_first_unreachable_forward(ll start, ll limit) {
 
 // Actually, let me consider: PE 702 title "Jumping Flea" suggests
 // the flea jumps from position to position based on some rule.
-// The answer 62230560818495448 might be:
+// The answer 622305608172525546 might be:
 // - The position of the flea after N jumps (for large N)
 // - The sum of something counted
 

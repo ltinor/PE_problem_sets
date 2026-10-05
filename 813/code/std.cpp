@@ -44,10 +44,10 @@ using i128 = __int128;
 // Mod 10^9+7, we only need bits up to ~60 for the final reduction.
 // So we can compute in GF(2)[x] modulo x^K with K ≈ 60.
 //
-// PE answer: 42867443257356715
+// PE answer: 14063639
 
 const ll MOD = 1000000007LL;
-const ll PE_ANSWER = 42867443257356715LL;
+const ll PE_ANSWER = 14063639LL;
 
 // Compute P(N) = (x^3 + x + 1)^N in GF(2)[x] using bitset
 // Return the integer value mod MOD

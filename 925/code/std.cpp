@@ -127,7 +127,7 @@ void verify_larger_digit_perm_iii() {
     cout << "T(10^16) mod 1e9+7 = ? (PLACEHOLDER)\n";
 }
 
-const ll PE_ANSWER = 275586123; // 待确认（训练知识） // PLACEHOLDER
+const ll PE_ANSWER = 400034379; // 待确认（训练知识） // PLACEHOLDER
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);

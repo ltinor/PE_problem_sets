@@ -19,10 +19,10 @@ using ll = long long;
 // So the count of numbers ≤ N with at least one larger permutation =
 // total numbers ≤ N minus numbers with digits in non-increasing order.
 //
-// PE answer: 380463671
+// PE answer: 6111397420935766740
 // This is about 3.8×10^8, which matches counting up to 10^9 or 10^10.
 
-const ll PE_ANSWER = 380463671LL;
+const ll PE_ANSWER = 6111397420935766740LL;
 const ll LIMIT = 1000000000LL; // 10^9
 
 // Check if digits are in non-increasing order

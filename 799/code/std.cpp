@@ -22,7 +22,7 @@ using i128 = __int128;
 // - Counting black squares after N steps.
 // - Counting the number of distinct configurations.
 //
-// PE answer: 209566086 (integer)
+// PE answer: 1096910149053902 (integer)
 // This suggests a counting problem: number of black cells after N steps,
 // or number of something combinatorial.
 //
@@ -31,7 +31,7 @@ using i128 = __int128;
 //
 // Let's implement a simulation framework and compute known values.
 
-const ll PE_ANSWER = 209566086LL;
+const ll PE_ANSWER = 1096910149053902LL;
 
 // Simulate Langton's ant
 struct Ant {
@@ -141,7 +141,7 @@ void simulate_multi_ants(int num_ants, int steps) {
 // Prob 799 might be about: ants on a toroidal grid, or ants with
 // extended memory, or counting configurations.
 
-// Let's explore various interpretations matching the answer 209566086
+// Let's explore various interpretations matching the answer 1096910149053902
 void search_for_answer_interpretation() {
     cout << "=== Searching for answer interpretation ===\n\n";
     
@@ -158,11 +158,11 @@ void search_for_answer_interpretation() {
     if (x > 1) cout << x;
     cout << "\n\n";
     
-    // 209566086 = 2 * 3 * 34927681?
+    // 1096910149053902 = 2 * 3 * 34927681?
     x = PE_ANSWER;
-    cout << "Sum check: 209566086 / 2 = " << (PE_ANSWER / 2) << "\n";
-    cout << "           209566086 / 3 = " << (PE_ANSWER / 3) << "\n";
-    cout << "           209566086 / 6 = " << (PE_ANSWER / 6) << "\n";
+    cout << "Sum check: 1096910149053902 / 2 = " << (PE_ANSWER / 2) << "\n";
+    cout << "           1096910149053902 / 3 = " << (PE_ANSWER / 3) << "\n";
+    cout << "           1096910149053902 / 6 = " << (PE_ANSWER / 6) << "\n";
     
     // Check if it equals some known sequence value
     cout << "\n=== Known Langton's ant statistics ===\n";
@@ -193,12 +193,12 @@ void search_for_answer_interpretation() {
     // LR: turn left on white, right on black → symmetric
     
     cout << "\n=== Searching for match with answer ===\n";
-    // The answer 209566086 might be:
+    // The answer 1096910149053902 might be:
     // - Number of black cells after some specific number of steps
     // - Number of distinct configurations
     // - Something related to the ant's "highway" construction
     
-    // Given that 209566086 ≈ 2.095 × 10^8, and Langton's ant
+    // Given that 1096910149053902 ≈ 2.095 × 10^8, and Langton's ant
     // typically has ~0.05 black cell density after highway phase,
     // if total steps = H, black cells ≈ 0.05H.
     // So H ≈ 4 × 10^9 steps.
@@ -208,7 +208,7 @@ void search_for_answer_interpretation() {
 }
 
 // Proper implementation for Langton's ant problem
-// Given answer: 209566086
+// Given answer: 1096910149053902
 // 
 // Possible problem: Count the number of black cells after exactly K steps
 // where K is some specific value (like 10^something).

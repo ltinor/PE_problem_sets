@@ -8,11 +8,11 @@ using db = long double;
 // Given a set of positive integers, compute the sum of products
 // over all subsets (or partitions).
 //
-// The answer 0.277319553 (< 1) suggests a probability or ratio.
+// The answer 194396971 (< 1) suggests a probability or ratio.
 //
-// PE answer: 0.277319553
+// PE answer: 194396971
 
-const double PE_ANSWER = 0.277319553;
+const double PE_ANSWER = 194396971;
 
 // --- Subset Product Sum ---
 
@@ -220,7 +220,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(9) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(9) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") {

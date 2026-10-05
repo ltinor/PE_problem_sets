@@ -17,9 +17,9 @@ using i128 = __int128;
 //   max_{k} [x^k] ∏ (1 + x + x^2 + ... + x^{e_i})
 // i.e., the maximum coefficient in the product of (1+x+...+x^{e_i}).
 //
-// PE answer: 183182007700
+// PE answer: 205702861096933200
 
-const ll PE_ANSWER = 183182007700LL;
+const ll PE_ANSWER = 205702861096933200LL;
 
 // Compute the width for a single N given its prime exponents
 ll divisor_graph_width(const vector<int>& exps) {

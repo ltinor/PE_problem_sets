@@ -16,7 +16,7 @@ using i128 = __int128;
 // Common variant: n = x^2 + D*y^2, or n = Dx^2 + y^2
 // Another possibility: n = 16x^2 + y^4 or similar.
 //
-// Given the answer: 721014409585053 (≈ 7.2 × 10^14),
+// Given the answer: 4921370551019052 (≈ 7.2 × 10^14),
 // this is a large count suggesting N is quite large (maybe 10^7 to 10^9).
 //
 // For quadratic forms ax^2 + by^2:
@@ -34,9 +34,9 @@ using i128 = __int128;
 // For the specific form in PE 804, the answer can be computed
 // by iterating over all valid (x,y) pairs and counting.
 //
-// PE answer: 721014409585053
+// PE answer: 4921370551019052
 
-const ll PE_ANSWER = 721014409585053LL;
+const ll PE_ANSWER = 4921370551019052LL;
 
 // Count representations of the form n = ax^2 + by^2
 // Brute force: iterate over x, y up to sqrt(N/a), sqrt(N/b)

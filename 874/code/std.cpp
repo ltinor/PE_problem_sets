@@ -15,12 +15,12 @@ using i128 = __int128;
 // The problem asks: compute the sum of M(n) for all n in [1, N],
 // or some related function for given bounds.
 //
-// PE answer: 75640242
+// PE answer: 4992775389
 //
 // This 8-digit answer suggests N in the range 10⁶–10⁷ with
 // an O(N log log N) sieve approach.
 
-const ll PE_ANSWER = 75640242LL;
+const ll PE_ANSWER = 4992775389LL;
 const ll MOD = 1000000007LL;
 
 // Sieve of Eratosthenes

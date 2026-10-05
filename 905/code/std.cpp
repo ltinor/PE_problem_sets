@@ -22,9 +22,9 @@ using i128 = __int128;
 // where the first digit is nonzero and all b digits appear at least once.
 // This is a classic inclusion-exclusion problem.
 //
-// PE answer: 40489374
+// PE answer: 70228218
 
-const ll PE_ANSWER = 40489374LL;
+const ll PE_ANSWER = 70228218LL;
 const ll MOD = 1000000007LL;
 
 // Modular exponentiation

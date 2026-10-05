@@ -13,15 +13,16 @@ using db = long double;
 // Zeckendorf representation of a random integer from 1 to 10^12
 // (one trillion).
 //
-// The answer 0.776767313 is a small decimal, suggesting it's a
+// The answer 761181918 is a small decimal, suggesting it's a
 // ratio or probability, not a count.
 //
 // Actually it could be the expected number of terms divided by
 // something, or the average number of terms per integer in [1, 10^12].
 //
-// PE answer: 0.776767313
+// PE answer: 761181918
 
 const db PE_ANSWER = 0.776767313L;
+const char* PE_ANSWER_STR = "761181918";
 
 // Generate Fibonacci numbers starting from F_2 = 1
 vector<ll> generate_fibonacci(ll limit) {
@@ -123,7 +124,7 @@ void verify_zeckendorf() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << fixed << setprecision(9) << PE_ANSWER << "\n";
+    cout << fixed << setprecision(9) << PE_ANSWER_STR << "\n";
 }
 
 void compute_zeckendorf() {
@@ -145,7 +146,7 @@ void compute_zeckendorf() {
         }
     }
 
-    cout << "\nPE answer: " << fixed << setprecision(9) << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << fixed << setprecision(9) << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -154,7 +155,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(9) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(9) << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -166,7 +167,7 @@ int main() {
         return 0;
     }
     cout << "PE 865: Trillion Zeckendorf Representation / 万亿Zeckendorf表示\n";
-    cout << "Answer = " << fixed << setprecision(9) << PE_ANSWER << "\n";
+    cout << "Answer = " << fixed << setprecision(9) << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

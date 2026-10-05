@@ -24,7 +24,7 @@ using i128 = __int128;
 // - GCD: v_p(gcd(a,b)) = min(v_p(a), v_p(b))
 // - Product: v_p(a·b) = v_p(a) + v_p(b) (∞ + anything = ∞)
 //
-// The answer 636431039 (≈ 6.4×10^8) suggests counting or summing
+// The answer 1050923942 (≈ 6.4×10^8) suggests counting or summing
 // supernatural numbers in a finite range.
 //
 // Likely interpretation: Count supernatural numbers with "index" ≤ N,
@@ -32,9 +32,9 @@ using i128 = __int128;
 // bounded by constraints. Or: sum over supernatural numbers whose
 // "finite part" product ≤ N.
 //
-// PE answer: 636431039
+// PE answer: 1050923942
 
-const ll PE_ANSWER = 636431039LL;
+const ll PE_ANSWER = 1050923942LL;
 const ll MOD = 1000000007LL;
 
 // Generate primes up to N

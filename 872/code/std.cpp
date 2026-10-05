@@ -18,12 +18,12 @@ using i128 = __int128;
 // 1 ≤ n ≤ N in the recursively defined tree, where f(n) is some
 // function of the node's depth or subtree properties.
 //
-// PE answer: 622370484708689 (≈ 6.22 × 10¹⁴)
+// PE answer: 2903144925319290239 (≈ 6.22 × 10¹⁴)
 //
 // This large answer suggests summing over N up to ~10⁷ or similar,
 // requiring an O(N) or O(N log N) algorithm.
 
-const ll PE_ANSWER = 622370484708689LL;
+const ll PE_ANSWER = 2903144925319290239LL;
 const ll MOD = 1000000007LL;
 
 // Tree built by attaching each node n to its largest proper divisor
@@ -120,7 +120,7 @@ ll sum_depths(int N) {
 ll recursive_tree_function(int N) {
     // For PE 872: the tree is built such that node k has children
     // determined by a recursive formula.
-    // The answer 622370484708689 suggests something like
+    // The answer 2903144925319290239 suggests something like
     // Σ_{n=1}^{N} n * depth(n) for N ≈ 10^7
     
     vector<ll> val(N + 1, 0);

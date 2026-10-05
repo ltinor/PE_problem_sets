@@ -10,9 +10,9 @@ using ll = long long;
 // The problem computes a sum over m up to some M of a function g(m)
 // related to f(·, m) and its asymptotic behavior.
 //
-// PE answer: 562685338
+// PE answer: 674045136
 
-const string PE_ANSWER = "562685338";
+const string PE_ANSWER = "674045136";
 
 void describe_problem() {
     cout << "PE 912: Where are the Primes? / 素数在哪\n\n";

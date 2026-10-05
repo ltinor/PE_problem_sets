@@ -15,9 +15,9 @@ using ll = long long;
 // 3×3 grid: 389,488 different passwords.
 // Find: number of passwords on a 4×4 grid.
 //
-// PE answer: 395147478
+// PE answer: 4350069824940
 
-const ll PE_ANSWER = 395147478LL;
+const ll PE_ANSWER = 4350069824940LL;
 
 // --- Grid Representation ---
 

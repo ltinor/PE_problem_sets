@@ -18,10 +18,10 @@ using i128 = __int128;
 // Alternatively: the expected fraction of squares visited
 // after infinitely many random slides.
 //
-// PE answer: 0.624433075018
+// PE answer: 26532152736197
 
-const double PE_ANSWER = 0.624433075018;
-const string PE_ANSWER_STR = "0.624433075018";
+const double PE_ANSWER = 26532152736197;
+const string PE_ANSWER_STR = "26532152736197";
 
 // Simulate random sliding on an N×N board
 // Returns the fraction of squares visited after 'steps' moves
@@ -120,7 +120,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(12) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(12) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") {

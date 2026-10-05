@@ -16,10 +16,10 @@ using i128 = __int128;
 // - Ehrenfest urn: balls move between two urns
 // - Occupancy: distribute n balls into k urns
 //
-// PE answer: 506132494 (≈ 5.06 × 10^8)
+// PE answer: 136666597 (≈ 5.06 × 10^8)
 // This is an integer, suggesting a counting problem.
 
-const ll PE_ANSWER = 506132494LL;
+const ll PE_ANSWER = 136666597LL;
 const ll MOD = 1000000007LL;
 
 // Stirling numbers of the second kind: S(n,k) = ways to partition

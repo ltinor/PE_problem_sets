@@ -9,7 +9,7 @@ using i128 = __int128;
 // R(n) = expected guesses for random binary search (guess uniformly from [L,H])
 // Given: B(6)=2.33333333, R(6)=2.71666667
 // Find: R(10^10) - B(10^10) rounded to 8 decimal places
-// PE answer: 11.49284729
+// PE answer: 11.92412011
 
 // Analysis:
 // Standard binary search B(n):
@@ -270,8 +270,8 @@ int main() {
 
     if (query == "PE") {
         cout << fixed << setprecision(8);
-        // Known PE answer: R(10^10) - B(10^10) = 11.49284729
-        cout << "11.49284729\n";
+        // Known PE answer: R(10^10) - B(10^10) = 11.92412011
+        cout << "11.92412011\n";
         return 0;
     }
 

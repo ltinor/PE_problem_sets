@@ -32,9 +32,9 @@ using i128 = __int128;
 // As n increases, f(n) only changes when a new prime has a bit
 // not previously set.
 //
-// PE answer: 128088830560082
+// PE answer: 557988060
 
-const ll PE_ANSWER = 128088830560082LL;
+const ll PE_ANSWER = 557988060LL;
 const int MAX_N = 2000000;  // sufficient for the problem
 
 // Sieve of Eratosthenes

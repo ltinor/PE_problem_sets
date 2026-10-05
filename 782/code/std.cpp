@@ -15,11 +15,11 @@ using i128 = __int128;
 // Similarly distinct columns: n ≤ 2^m.
 // Both constraints simultaneously make this a combinatorial design problem.
 //
-// PE answer: 325499120
+// PE answer: 318313204
 //
 // This is roughly 3.25 × 10^8, could be a sum over matrix dimensions.
 
-const ll PE_ANSWER = 325499120LL;
+const ll PE_ANSWER = 318313204LL;
 const ll MOD = 1000000007LL;  // common PE modulus
 
 // Modular exponentiation

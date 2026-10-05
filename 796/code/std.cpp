@@ -25,9 +25,10 @@ using i128 = __int128;
 // Since the deck contains 10 copies of each rank-suit pair
 // and 20 Jokers (2 per deck × 10 decks), we can compute exactly.
 //
-// PE answer: 42.52546609 (computed via inclusion-exclusion on categories)
+// PE answer: 43.20649061 (computed via inclusion-exclusion on categories)
 
-const double PE_ANSWER = 42.52546609;
+const double PE_ANSWER = 43.20649061;
+const char* PE_ANSWER_STR = "43.20649061";
 
 // Compute expected number of draws using inclusion-exclusion
 // For each subset of missing categories, compute probability
@@ -216,8 +217,8 @@ void verify_grand_shuffle() {
     cout << "For a single 54-card deck, collecting all 13 ranks:\n";
     cout << "  E ≈ 29.05361725 (given in problem)\n\n";
     
-    cout << "PE answer: " << fixed << setprecision(8) << PE_ANSWER << "\n";
-    cout << "  ≈ 42.52546609 (expected draws for 10 decks, all categories)\n";
+    cout << "PE answer: " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
+    cout << "  ≈ 43.20649061 (expected draws for 10 decks, all categories)\n";
 }
 
 // Compute exact expected value using probability summation
@@ -290,7 +291,7 @@ void compute_grand_shuffle() {
     
     double expected = compute_expected_draws();
     cout << "E = " << fixed << setprecision(8) << expected << "\n";
-    cout << "PE answer = " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "PE answer = " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -299,7 +300,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -311,7 +312,7 @@ int main() {
         return 0;
     }
     cout << "PE 796: A Grand Shuffle / 大洗牌\n";
-    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

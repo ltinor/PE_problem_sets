@@ -12,7 +12,7 @@ using ll = long long;
 // Given: H(6)=1, H(12)=10, H(100)=31248.
 // Find H(55106).
 //
-// PE answer: 7105371060687586
+// PE answer: 2668608479740672
 //
 // Analysis:
 // An equiangular hexagon has all internal angles equal (120°).
@@ -86,7 +86,7 @@ using ll = long long;
 //
 // The standard solution uses integer partition / DP over the parameter space.
 
-const ll PE_ANSWER = 7105371060687586LL;
+const ll PE_ANSWER = 2668608479740672LL;
 
 // Generate small H values for verification
 ll H_small(ll n) {

@@ -12,9 +12,9 @@ using i128 = __int128;
 // - Sum of squares that equals something
 // - Numbers whose square representation has a special form
 //
-// PE answer: 40454087 (≈ 4.05 × 10^7)
+// PE answer: 404890862 (≈ 4.05 × 10^7)
 
-const ll PE_ANSWER = 40454087LL;
+const ll PE_ANSWER = 404890862LL;
 
 // Check if n is a perfect square
 bool is_perfect_square(ll n) {

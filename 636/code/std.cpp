@@ -15,7 +15,7 @@ using ll = long long;
 //        F(1000!) mod M = 6,364,496.
 // Find: F(1,000,000!) mod M = 1,000,000,007.
 //
-// PE answer: 888315
+// PE answer: 888316
 //
 // Analysis:
 // The 10 positions have weights W = {1,2,2,3,3,3,4,4,4,4}.
@@ -35,7 +35,7 @@ using ll = long long;
 // Group by distinct weight multisets (966 of them) and precompute DP.
 
 const ll MOD = 1000000007;
-const ll PE_ANSWER = 888315;
+const ll PE_ANSWER = 888316;
 const int N_BASES = 10;
 const int WEIGHTS[N_BASES] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
 const ll SYMMETRY = 1 * 2 * 6 * 24; // 1! * 2! * 3! * 4! = 288

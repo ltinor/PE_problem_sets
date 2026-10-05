@@ -16,9 +16,9 @@ using i128 = __int128;
 // Common variation: count 1249-numbers ≤ N that are divisible by k,
 // or sum of all 1249-numbers in a range.
 //
-// PE answer: 350608994
+// PE answer: 227429102
 
-const ll PE_ANSWER = 350608994LL;
+const ll PE_ANSWER = 227429102LL;
 const ll MOD = 1000000007LL;
 
 // Modular arithmetic

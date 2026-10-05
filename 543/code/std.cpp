@@ -7,7 +7,7 @@ using i128 = __int128;
 // P(n,k)=1 if n = sum of k primes (repetition allowed)
 // S(n) = Σ_{1≤i,k≤n} P(i,k)
 // Find Σ_{k=3}^{44} S(F_k) where F_k is kth Fibonacci (F_0=0, F_1=1)
-// PE answer: 1990075970818614370
+// PE answer: 199007746081234640
 
 // Key observations:
 // - For k=1: P(n,1)=1 iff n is prime. Count = π(n)
@@ -28,7 +28,7 @@ using i128 = __int128;
 // F_44 ≈ 7·10⁸, manageable with Meissel-Lehmer or segmented sieve.
 
 const ll MOD = 1000000007; // not needed, answer is exact
-const ll PE_ANS = 1990075970818614370LL;
+const ll PE_ANS = 199007746081234640LL;
 
 // Prime counting using Meissel-Lehmer (simplified Legendre for N ≤ 10^9)
 // Actually, since max N = F_44 ≈ 7e8, we can use a segmented sieve

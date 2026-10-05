@@ -42,9 +42,9 @@ using ll = long long;
 //   the line structure, or via backtracking search with
 //   symmetry reduction.
 //
-// PE answer: 17423445763272143
+// PE answer: 11871909492066000
 
-const ll PE_ANSWER = 17423445763272143LL;
+const ll PE_ANSWER = 11871909492066000LL;
 
 // Encode card as integer 0..80: value = a + 3b + 9c + 27d
 // where a,b,c,d ∈ {0,1,2}

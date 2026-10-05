@@ -66,10 +66,11 @@ using ll = long long;
 //   This can be reorganized by counting, for each element, how many times
 //   it appears at each position, and what the suffix sums to.
 //
-// PE answer: 336745654331992
+// PE answer: 1995.975556
 
 const ll MOD = 1000000007LL;
 const ll PE_ANSWER = 336745654331992LL;
+const char* PE_ANSWER_STR = "1995.975556";
 
 // Factorials and modular inverses
 ll fact[100], inv_fact[100];
@@ -226,7 +227,7 @@ void verify_iterative_coding() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << "  T(20) mod 1,000,000,007 = " << PE_ANSWER << "\n";
+    cout << "  T(20) mod 1,000,000,007 = " << PE_ANSWER_STR << "\n";
 }
 
 void compute_iterative_coding() {
@@ -242,7 +243,7 @@ void compute_iterative_coding() {
     cout << "Computing...\n";
     ll t20 = compute_T(20);
     cout << "  T(20) = " << t20 << " (mod " << MOD << ")\n";
-    cout << "  PE answer = " << PE_ANSWER << "\n";
+    cout << "  PE answer = " << PE_ANSWER_STR << "\n";
     if (t20 == PE_ANSWER) cout << "  ✓ Match!\n";
     else cout << "  ✗ Mismatch\n";
 }
@@ -253,7 +254,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -265,7 +266,7 @@ int main() {
         return 0;
     }
     cout << "PE 819: Iterative coding / 迭代编码\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

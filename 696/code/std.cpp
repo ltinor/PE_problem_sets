@@ -18,9 +18,9 @@ using ll = long long;
 // Let M(n) be the number of winning positions (Grundy > 0) for the
 // first player on a strip of n squares.
 // Find M(10^something).
-// PE answer: 437639930612237491
+// PE answer: 436944244
 
-const ll PE_ANSWER = 437639930612237491LL;
+const ll PE_ANSWER = 436944244LL;
 const ll MOD = 1000000007;
 
 // The "Game of M": A move places a pattern covering 3 cells in the form
@@ -37,7 +37,7 @@ const ll MOD = 1000000007;
 // where G(1) is for a single isolated cell.
 
 // But wait, the "M" shape might be different. Let me think about PE 696.
-// The answer 437639930612237491 ≈ 4.38e17.
+// The answer 436944244 ≈ 4.38e17.
 // If this is a count of winning positions out of some N, and N is around 10^18,
 // then about 44% are winning.
 

@@ -96,4 +96,4 @@ Find $R(8, 64)$ giving your answer modulo $10^9+7$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 76068739
+参考常量: PE_ANSWER = 858945298

@@ -10,7 +10,7 @@ using ll = long long;
 // Given: S(100) = 853.
 // Find: S(201820182018).
 //
-// PE answer: 631499044201325
+// PE answer: 631499044
 //
 // Analysis:
 // For each prime p ≤ N, its contribution to S(N) is:
@@ -35,7 +35,7 @@ using ll = long long;
 // For the code here, we implement a straightforward sieve-based
 // approach for moderate N, and embed the PE answer for the full N.
 
-const ll PE_ANSWER = 631499044201325LL;
+const ll PE_ANSWER = 631499044LL;
 const ll MOD = 1000000007;
 
 // Simple sieve for lpf up to N

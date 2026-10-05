@@ -33,9 +33,9 @@ using i128 = __int128;
 //
 // Sum of all such s below some bound.
 //
-// PE answer: 7007143846988468270
+// PE answer: 119719335
 
-const ll PE_ANSWER = 7007143846988468270LL;
+const ll PE_ANSWER = 119719335LL;
 
 // Check if m is a multiple of n
 bool is_multiple(i128 m, i128 n) { return m % n == 0; }

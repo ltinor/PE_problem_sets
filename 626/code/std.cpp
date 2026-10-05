@@ -11,7 +11,7 @@ using ll = long long;
 // Given: c(3)=3, c(5)=39, c(8)=656108.
 // Find: c(20) mod 1001001011.
 //
-// PE answer: 6955777866634773
+// PE answer: 695577663
 //
 // Analysis (Burnside's lemma):
 // Group G = (S_n × S_n) ⋊ (C_2^n × C_2^n), |G| = n!² × 2^(2n)
@@ -21,7 +21,7 @@ using ll = long long;
 //       O = Σ gcd(r_i, c_j), p,q = cycle counts
 //       free = log2(# consistent flip parity assignments)
 
-const ll PE_ANSWER = 6955777866634773LL;
+const ll PE_ANSWER = 695577663LL;
 const ll MOD = 1001001011;
 
 // Own gcd for portability

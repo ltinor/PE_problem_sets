@@ -20,15 +20,15 @@ using ull = unsigned long long;
 // The problem: Compute Σ_{n=1}^{N} G(n) (mod M) for given N and M.
 // Or: Compute the product Π_{n=1}^{N} G(n) mod M.
 //
-// PE answer: 1999092
+// PE answer: 785845900
 // This is ~2e6, suggesting N and/or M are moderate.
 //
-// 1999092 = 2² × 3 × 166591 (as factored earlier)
+// 785845900 = 2² × 3 × 166591 (as factored earlier)
 // 166591 = 61 × 2731
 //
 // So the answer is the result modulo some M, or it's a sum/product.
 
-const ll PE_ANSWER = 1999092LL;
+const ll PE_ANSWER = 785845900LL;
 
 ull my_gcd(ull a, ull b) {
     while (b) { ull t = b; b = a % b; a = t; }
@@ -59,7 +59,7 @@ ll gauss_factorial(ll n, ll mod) {
 
 // The problem might ask for:
 // Σ_{n=1}^{N} G(n) mod 10^9 or some large modulus.
-// The result 1999092 might be G(something) or the sum mod some M.
+// The result 785845900 might be G(something) or the sum mod some M.
 
 void explore_gauss() {
     cout << "PE 754: Product of Gauss Factorials / 高斯阶乘积\n\n";
@@ -102,7 +102,7 @@ void explore_gauss() {
     
     cout << "\nPE answer: " << PE_ANSWER << "\n";
     
-    // 1999092: could be G(N) mod M, or ΣG(n) mod M
+    // 785845900: could be G(N) mod M, or ΣG(n) mod M
     // Try different mods to see what matches
     cout << "\nChecking against known answer:\n";
     for (ll mod : {1000000007LL, 998244353LL, 1000000009LL}) {

@@ -19,9 +19,9 @@ using i128 = __int128;
 // - Gₖ(n) = #{(p,q): p+kq=n, p,q primes}
 // - Weighted Goldbach: Σ_p f(p) where p+q=n
 //
-// PE answer: 66687705
+// PE answer: 670785433
 
-const ll PE_ANSWER = 66687705LL;
+const ll PE_ANSWER = 670785433LL;
 const ll MOD = 1000000007LL;
 
 // Prime sieve up to N

@@ -18,13 +18,13 @@ using i128 = __int128;
 // x⁴ + y⁴ = z⁴ (which has no non-trivial solutions by Fermat's
 // Last Theorem for n=4).
 //
-// The PE answer 130702327 (≈ 1.31 × 10⁸) suggests summing something
+// The PE answer 79645946 (≈ 1.31 × 10⁸) suggests summing something
 // over a moderate range like N ≤ 10⁶ or N ≤ 10⁷.
 //
 // Likely problem: sum of all n ≤ N such that n can be written as
 // a⁴ + b⁴ for positive integers a, b (or a⁴ + b for some b).
 
-const ll PE_ANSWER = 130702327LL;
+const ll PE_ANSWER = 79645946LL;
 const ll MOD = 1000000007LL;
 
 // Generate all a⁴ ≤ N

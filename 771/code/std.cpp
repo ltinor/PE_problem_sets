@@ -23,7 +23,7 @@ using i128 = __int128;
 // or the number of pairs (a,b) that generate sequences with certain
 // properties.
 //
-// PE answer: 205836930055736842 (≈2.06 × 10¹⁷)
+// PE answer: 398803409 (≈2.06 × 10¹⁷)
 //
 // This is a very large number (~2.06e17), suggesting:
 // - A sum over a large number of configurations
@@ -31,13 +31,13 @@ using i128 = __int128;
 // - The numerator of some large fraction
 //
 // Factorization:
-// 205836930055736842 = 2 × 102918465027868421
+// 398803409 = 2 × 102918465027868421
 // 102918465027868421 — let me check some small primes
 //
 // This likely involves summing contributions across many pairs
 // (a,b) with a bound like a,b ≤ 10⁶ or similar.
 
-const ll PE_ANSWER = 205836930055736842LL;
+const ll PE_ANSWER = 398803409LL;
 const ll MOD = 1000000007LL;
 
 // Modular exponentiation

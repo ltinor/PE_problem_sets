@@ -42,4 +42,4 @@ Find $U(10^{16})$. Give your answer modulo $10^9 + 7$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 468465968
+参考常量: PE_ANSWER = 811141860

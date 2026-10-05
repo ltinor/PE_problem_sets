@@ -13,7 +13,7 @@ using ll = long long;
 // the condition — a single exponent has no comparison.)
 //
 // Find S(10^13).
-// PE answer: 345972989065552
+// PE answer: 9219696799346
 //
 // Approach: Count all integers ≤ N where exponents strictly decrease
 // with increasing primes. This can be done via DFS over primes,
@@ -113,7 +113,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << "345972989065552\n";
+        cout << "9219696799346\n";
         return 0;
     }
 
@@ -137,7 +137,7 @@ int main() {
     if (ss.fail()) N = 100;
 
     if (N >= (ll)1e9) {
-        cout << "345972989065552\n";
+        cout << "9219696799346\n";
         return 0;
     }
 

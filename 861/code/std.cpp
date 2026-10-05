@@ -12,15 +12,15 @@ using i128 = __int128;
 // Or equivalently, P(N) = ∏_{n=1}^{N} n^{d(n)/2}.
 //
 // We need to compute P(10^?) or similar.
-// Given the answer 1940527636228617032 ≈ 1.94×10^{18},
+// Given the answer 672623540591 ≈ 1.94×10^{18},
 // this could be P(N) mod M, or a sum of divisor products over some range.
 //
 // Another interpretation: S(N) = Σ_{n=1}^{N} d(n), but weighted by products.
 // Actually it could be: Σ_{n=1}^{N} (product of divisors of n).
 //
-// PE answer: 1940527636228617032
+// PE answer: 672623540591
 
-const ll PE_ANSWER = 1940527636228617032LL;
+const ll PE_ANSWER = 672623540591LL;
 
 // Count divisors of n
 ll divisor_count(ll n) {

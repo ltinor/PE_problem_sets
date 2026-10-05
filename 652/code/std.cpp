@@ -30,9 +30,9 @@ ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
 // R_prim(N) = #primitive rational pairs = Σ f(k)·cnt_npp(N^{1/k})
 // P(N) = F(N) - R_prim(N)
 //
-// PE answer: 983358497
+// PE answer: 983924497
 
-const ll PE_ANSWER = 983358497;
+const ll PE_ANSWER = 983924497;
 const ll MOD9 = 1000000000;
 
 ll int_root(ll n, int k) {

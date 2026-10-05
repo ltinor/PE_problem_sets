@@ -27,9 +27,9 @@ using i128 = __int128;
 // Given the answer (≈ 1.57×10^10), this involves summing over
 // millions of primes or up to a large N.
 //
-// PE answer: 15705580991
+// PE answer: 45009328011709400
 
-const ll PE_ANSWER = 15705580991LL;
+const ll PE_ANSWER = 45009328011709400LL;
 const ll MOD = 1000000007LL;
 
 // Simple primality test for small numbers

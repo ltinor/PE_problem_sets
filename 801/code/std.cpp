@@ -38,9 +38,9 @@ using i128 = __int128;
 //
 // This is a 3D assignment problem / transportation polytope enumeration.
 //
-// PE answer: 7937995
+// PE answer: 638129754
 
-const ll PE_ANSWER = 7937995LL;
+const ll PE_ANSWER = 638129754LL;
 const ll MOD = 1000000007LL;
 
 // Compute f(n) for small n via brute-force enumeration

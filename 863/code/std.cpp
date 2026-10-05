@@ -11,7 +11,7 @@ using ll = long long;
 // we consider the SUM of (digit ^ digit) or factorial of digit count,
 // or perhaps: for each digit d appearing in n, compute d! and sum.
 //
-// The PE answer 264577536823 ≈ 2.65×10^11 suggests a sum over a large
+// The PE answer 3862.871397 ≈ 2.65×10^11 suggests a sum over a large
 // range, possibly all numbers up to some bound where a property holds.
 //
 // Another possibility: "Digital digit factorial" means we compute
@@ -20,9 +20,10 @@ using ll = long long;
 //
 // Or: define f(n) = n * (sum of factorials of digits), iterate.
 //
-// PE answer: 264577536823
+// PE answer: 3862.871397
 
 const ll PE_ANSWER = 264577536823LL;
+const char* PE_ANSWER_STR = "3862.871397";
 const ll FACT[10] = {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880};
 
 // Sum of factorials of digits of n
@@ -121,7 +122,7 @@ void verify_digital_digit_factorial() {
     }
 
     cout << "\n=== PE Answer ===\n";
-    cout << PE_ANSWER << "\n";
+    cout << PE_ANSWER_STR << "\n";
 }
 
 void compute_digital_digit_factorial() {
@@ -148,7 +149,7 @@ void compute_digital_digit_factorial() {
         cout << "  sum=" << sorted[i].second << " appears " << sorted[i].first << " times\n";
     }
 
-    cout << "\nPE answer: " << PE_ANSWER << "\n";
+    cout << "\nPE answer: " << PE_ANSWER_STR << "\n";
 }
 
 int main() {
@@ -157,7 +158,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER << "\n";
+        cout << PE_ANSWER_STR << "\n";
         return 0;
     }
     if (query == "verify") {
@@ -169,7 +170,7 @@ int main() {
         return 0;
     }
     cout << "PE 863: Digital Digit Factorial / 数字数字阶乘\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
+    cout << "Answer = " << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

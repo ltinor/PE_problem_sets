@@ -64,4 +64,4 @@ Find $C(10\ 000,20\ 000)$ giving your answer modulo $1\ 000\ 000\ 007$.
 ## 数据范围
 
 见原题参数范围。
-参考常量: PE_ANSWER = 23817519
+参考常量: PE_ANSWER = 238948623

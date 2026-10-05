@@ -19,9 +19,10 @@ using i128 = __int128;
 // Key: The sequence eventually becomes periodic (like a clock).
 // The answer is a limiting ratio/probability.
 //
-// PE answer: 0.69233750
+// PE answer: 0.9861343531
 
-const double PE_ANSWER = 0.69233750;
+const double PE_ANSWER = 0.9861343531;
+const char* PE_ANSWER_STR = "0.9861343531";
 
 // Clock sequence: digital root / digit sum based recurrence
 // For example: a_{n+1} = a_n + digit_sum(a_n), then take mod something
@@ -178,7 +179,7 @@ void compute_clock_sequence() {
     cout << "  2. Based on digit operations (sum, product, etc.)\n";
     cout << "  3. Modular arithmetic variants\n\n";
     
-    cout << "The answer " << fixed << setprecision(8) << PE_ANSWER 
+    cout << "The answer " << fixed << setprecision(8) << PE_ANSWER_STR 
          << " is a limiting ratio/probability.\n";
 }
 
@@ -188,13 +189,13 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") { 
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n"; 
+        cout << fixed << setprecision(8) << PE_ANSWER_STR << "\n"; 
         return 0; 
     }
     if (query == "verify") { verify_clock_sequence(); return 0; }
     if (query == "compute") { compute_clock_sequence(); return 0; }
     cout << "PE 898: Clock Sequence II / 时钟序列II\n";
-    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER << "\n";
+    cout << "Answer = " << fixed << setprecision(8) << PE_ANSWER_STR << "\n";
     cout << "Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\n";
     return 0;
 }

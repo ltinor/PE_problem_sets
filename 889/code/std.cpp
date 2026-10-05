@@ -18,9 +18,9 @@ using i128 = __int128;
 // Then for n ≥ a, 2^n * p/q mod 1 cycles with period equal to the
 // multiplicative order of 2 modulo b.
 //
-// PE answer: 0.00801483
+// PE answer: 424315113
 
-const double PE_ANSWER = 0.00801483;
+const double PE_ANSWER = 424315113;
 
 // Custom GCD for signed integers
 ll mygcd_ll(ll a, ll b) {
@@ -163,7 +163,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n";
+        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << "\n";
         return 0;
     }
     if (query == "verify") { verify_rational_blancmange(); return 0; }

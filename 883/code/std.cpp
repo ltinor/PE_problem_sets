@@ -15,9 +15,9 @@ using i128 = __int128;
 // A triangle with sides in harmonic progression has special geometric
 // properties related to the harmonic mean.
 //
-// PE answer: 196246694
+// PE answer: 14854003484704
 
-const ll PE_ANSWER = 196246694LL;
+const ll PE_ANSWER = 14854003484704LL;
 const ll MOD = 1000000007LL;
 
 // Check if three sides can form a valid triangle

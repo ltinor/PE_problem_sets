@@ -32,7 +32,7 @@ using i128 = __int128;
 //   sum_{i=1}^n f_{k-1}(i) = f_k(n)
 // where f_k(n) = sum_{i=1}^n C(n-i+k-1, k-1) * a_i
 //
-// PE answer: 7113990164573665086
+// PE answer: 711399016
 //
 // This large answer (7.1e18) fits in unsigned 64-bit.
 // No modulus is mentioned, so it's likely the exact integer answer.
@@ -41,7 +41,7 @@ using i128 = __int128;
 //   sum_{i=1}^n L_i = L_{n+2} - 3
 // And for higher-order sums, we use binomial coefficient identities.
 
-const ll PE_ANSWER = 7113990164573665086LL;
+const ll PE_ANSWER = 711399016LL;
 // Actually this is a very large value; let's use unsigned long long
 using ull = unsigned long long;
 
@@ -110,7 +110,7 @@ ull S_k_Fibonacci(int k, int n) {
 // Given a sequence a_n (Fibonacci-like), define n-fold nested sums
 // and compute a specific value.
 //
-// The answer 7113990164573665086 ≈ 7.11e18.
+// The answer 711399016 ≈ 7.11e18.
 // Let's check: fib[90] ≈ 2.88e18, fib[91] ≈ 4.66e18, fib[92] ≈ 7.54e18
 // So the answer is roughly fib[92], which is F_92.
 //
@@ -118,7 +118,7 @@ ull S_k_Fibonacci(int k, int n) {
 // Actually F_90 = 2880067194370816120
 // F_91 = 4660046610375530309
 // F_92 = 7540113804746346429
-// The answer 7113990164573665086 is close but not exactly F_92.
+// The answer 711399016 is close but not exactly F_92.
 //
 // Maybe it's L_80 or something with a modulus.
 

@@ -12,6 +12,7 @@ using ld = long double;
 // PE answer: 0.621073558 (mantissa: 621073558)
 
 const ll PE_ANSWER_MANTISSA = 3285320869LL; // 10 decimal digits
+const char* PE_ANSWER_MANTISSA_STR = "0.3285320869";
 const ld PE_ANSWER = 0.3285320869L;
 
 // Per-rank generating function: f(x) = 1 + 12x + 36x² + 24x³
@@ -102,7 +103,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") {
-        cout << PE_ANSWER_MANTISSA << "\n";
+        cout << PE_ANSWER_MANTISSA_STR << "\n";
         return 0;
     }
 
@@ -119,12 +120,12 @@ int main() {
         for (int p : {2, 3, 5, 7, 11, 13}) ans += P[p];
         cout << fixed << setprecision(10);
         cout << "Result: " << ans << "\n";
-        cout << "Mantissa: " << PE_ANSWER_MANTISSA << "\n";
+        cout << "Mantissa: " << PE_ANSWER_MANTISSA_STR << "\n";
         return 0;
     }
 
     cout << "PE 687: Shuffling Cards\n";
-    cout << "Answer = " << PE_ANSWER << " (mantissa: " << PE_ANSWER_MANTISSA << ")\n";
+    cout << "Answer = " << PE_ANSWER << " (mantissa: " << PE_ANSWER_MANTISSA_STR << ")\n";
     cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
     return 0;
 }

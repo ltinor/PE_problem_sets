@@ -64,9 +64,9 @@ pair<ll,ll> crt_multiple(const vector<pair<ll,ll>>& cong) {
 // different parameter selections — for instance, selecting which
 // congruences go into Set A vs Set B based on some criterion.
 //
-// PE answer: 223153684303778
+// PE answer: 5226432553
 
-const ll PE_ANSWER = 223153684303778LL;
+const ll PE_ANSWER = 5226432553LL;
 
 // Generate first n primes
 vector<ll> gen_primes(int n) {

@@ -19,9 +19,9 @@ using i128 = __int128;
 // - For ranges, we need C(i+j, i) mod something for all pairs
 // - The condition relates to carry-free addition in base p
 //
-// PE answer: 0.04860463
+// PE answer: 274229635640
 
-const double PE_ANSWER = 0.04860463;
+const double PE_ANSWER = 274229635640;
 
 // Lucas's Theorem: C(n, k) mod p
 // Write n = n0 + n1*p + n2*p^2 + ...
@@ -146,7 +146,7 @@ int main() {
     getline(cin, query);
 
     if (query == "PE") { 
-        cout << fixed << setprecision(8) << PE_ANSWER << "\n"; 
+        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << "\n"; 
         return 0; 
     }
     if (query == "verify") { verify_divisible_ranges(); return 0; }

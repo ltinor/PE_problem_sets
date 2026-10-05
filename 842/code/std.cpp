@@ -30,9 +30,9 @@ using i128 = __int128;
 // Given the answer size (≈ 3×10^14), the problem likely involves
 // summing or counting over many iterations of an irrational process.
 //
-// PE answer: 299724841336576
+// PE answer: 885226002
 
-const ll PE_ANSWER = 299724841336576LL;
+const ll PE_ANSWER = 885226002LL;
 const ll MOD = 1000000007LL;
 
 // Golden ratio φ = (1+√5)/2 ≈ 1.61803398874989...

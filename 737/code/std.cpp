@@ -19,7 +19,7 @@ using ll = long long;
 // representation. The number of coin loops for n coins equals the
 // number of distinct cycles in the permutation induced by the rule.
 //
-// The answer: for n = 30, there are 75779467 loops.
+// The answer: for n = 30, there are 757794899 loops.
 //
 // The rule is: treat the coin sequence as binary (H=1, T=0 from left to right)
 // and the operation is adding 1 modulo 2^n, but in a specific bit order.
@@ -31,7 +31,7 @@ using ll = long long;
 // which generates the binary reflected Gray code pattern.
 // Number of loops = number of cycles in the permutation.
 
-const ll PE_ANSWER = 75779467LL;
+const ll PE_ANSWER = 757794899LL;
 const int MAX_N = 30;
 
 // Brute force for small n: simulate the permutation and count cycles

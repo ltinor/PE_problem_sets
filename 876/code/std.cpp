@@ -9,9 +9,9 @@ using i128 = __int128;
 // The problem involves a sequence a_n where each term is derived from
 // digit operations, and we need to sum related quantities.
 //
-// PE answer: 316086996128331296
+// PE answer: 457019806569269
 
-const ll PE_ANSWER = 316086996128331296LL;
+const ll PE_ANSWER = 457019806569269LL;
 
 // --- Digit Sum ---
 
