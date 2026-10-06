@@ -12,6 +12,7 @@ int main(){
     // a has 1-2 digits (makes products manageable)
     for(int a=2;a<100;a++){
         string sa=to_string(a);
+        if (set<char>(sa.begin(), sa.end()).size() != sa.size()) continue; // a 含重复数字时无法删除到互异, 跳过(原代码 erase(npos) 崩溃)
         int da=sa.size();
         // Need at least 2 multipliers, total digits = 10
         // a+(m1+m2) = 10 digits, so m1+m2 digits = 10-da

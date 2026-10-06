@@ -8,8 +8,36 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
 GPP = r"F:\tools\mingw64\bin\g++.exe"
 pe_answers = json.load(open(os.path.join(ROOT, "_tools", "audit", "pe_answers.json")))
 
+def parse_samples(txt):
+    """样例提取(行状态机, 兼容 CRLF): 样例节止于下一个 '## ' 二级头,
+    内部 ### 输入/输出 + ``` 围栏配对。"""
+    txt = txt.replace("\r\n", "\n")
+    sm = re.search(r"##+\s*样例(.*?)(?=\n## |\Z)", txt, re.S)
+    if not sm: return []
+    lines = sm.group(1).split("\n")
+    pairs, kind, buf, fence = [], None, [], False
+    for ln in lines:
+        s = ln.strip()
+        if s.startswith("###") and not fence:
+            if kind and buf: pairs.append((kind, "\n".join(buf).strip("\n")))
+            kind = "in" if "输入" in s else ("out" if "输出" in s else None)
+            buf, fence = [], False
+        elif s == "```":
+            if fence:
+                if kind and buf: pairs.append((kind, "\n".join(buf).strip("\n")))
+                kind, buf, fence = None, [], False
+            else:
+                fence = True
+        elif fence and kind is not None:
+            buf.append(ln)
+    if fence and kind and buf: pairs.append((kind, "\n".join(buf).strip("\n")))
+    ins = [c for k, c in pairs if k == "in"]
+    outs = [c for k, c in pairs if k == "out"]
+    return list(zip(ins, outs))
+
 def parse_statement(txt):
     """返回 dict: skeleton, sections, samples=[(inp,out)], pe_answer_line"""
+    txt = txt.replace("\r\n", "\n")
     r = {"skeleton": bool(re.search(r"待人工|待补充|自动生成的骨架", txt)),
          "sections": {}, "samples": [], "pe_line": None}
     for sec in ["输入格式", "输出格式", "样例", "数据范围"]:
@@ -17,16 +45,7 @@ def parse_statement(txt):
         r["sections"][sec] = m is not None
     m = re.search(r"PE\s*答案[::]\s*([^\n]+)", txt)
     if m: r["pe_line"] = m.group(1).strip()
-    # 样例区内的 输入/输出 代码块对
-    sm = re.search(r"##+\s*样例(.*?)(?=\n##+\s*[^#\n]|\Z)", txt, re.S)
-    if sm:
-        body = sm.group(1)
-        ins = re.findall(r"###\s*输入[\s\S]*?```\n(.*?)```", body)
-        outs = re.findall(r"###\s*输出[\s\S]*?```\n(.*?)```", body)
-        for a, b in zip(ins, outs):
-            r["samples"].append((a, b))
-        if len(ins) != len(outs):
-            r["samples_mismatch"] = (len(ins), len(outs))
+    r["samples"] = parse_samples(txt)
     return r
 
 def norm(tok):

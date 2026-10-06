@@ -73,6 +73,12 @@ int main(){
                 alex.push_back((ll)A);
             }
         }
+        // 提前终止: 步骤 k 产生的 A >= 4k, 故 k 之后的新项均 > 4k;
+        // 若当前第 K 小已 < 4(k+1), 答案不可能再变 (不改变输出, 仅省时)
+        if (K >= 1 && alex.size() >= (size_t)K && (k & 16383) == 0) {
+            nth_element(alex.begin(), alex.begin() + (K - 1), alex.end());
+            if (alex[K - 1] < 4 * (k + 1)) break;
+        }
     }
 
     sort(alex.begin(), alex.end());
