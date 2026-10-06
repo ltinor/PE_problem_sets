@@ -79,7 +79,7 @@ void verify_chess_sliding() {
     cout << "that the piece eventually visits all squares, or the\n";
     cout << "expected fraction of squares visited.\n\n";
 
-    srand(time(0));
+    srand(12345); // 固定种子(原 time(0) 非确定)
 
     cout << "=== Simulation results ===\n";
     cout << fixed << setprecision(6);

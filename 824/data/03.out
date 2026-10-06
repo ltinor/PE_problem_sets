@@ -1,10 +1,19 @@
-=== Computing PE 824 ===
+PE 824: Chess Sliding / 象棋滑动
 
-The problem involves a Markov chain on the board.
-Each state is a square; transitions depend on
-the sliding rules and boundary effects.
+=== Problem Summary ===
+A chess piece slides on an N×N board, moving in a
+straight line until hitting the edge. At each step,
+a random direction is chosen. Compute the probability
+that the piece eventually visits all squares, or the
+expected fraction of squares visited.
 
-For large N, analytical methods or DP on the
-stationary distribution are needed.
+=== Simulation results ===
+  N=3 (3×3), 500 trials, 100 steps: fraction visited = 0.998444
+  N=4 (4×4), 500 trials, 100 steps: fraction visited = 0.998125
+  N=5 (5×5), 500 trials, 100 steps: fraction visited = 0.875600
 
-PE answer: 26532152736197.000000000000
+=== Longer simulation: N=8 ===
+  N=8, 200 trials, 200 steps: fraction visited = 0.682266
+
+=== PE Answer ===
+  Answer = 26532152736197.000000000000

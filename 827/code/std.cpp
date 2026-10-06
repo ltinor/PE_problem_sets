@@ -202,7 +202,7 @@ void verify_pseudoprime_nimbers() {
     }
     
     cout << "\n=== Divisor Game Grundy Values ===\n";
-    auto G = grundy_divisor_game(30);
+    auto G = grundy_divisor_game(50); // 需覆盖 find_pseudoprime_nimbers(50) 的读取范围(原只算到30, 越界读未初始化内存)
     cout << "n:    ";
     for (int n = 1; n <= 30; n++) cout << setw(3) << n;
     cout << "\nG(n): ";

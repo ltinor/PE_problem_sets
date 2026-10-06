@@ -131,7 +131,7 @@ ld monte_carlo_E(int N, int samples) {
             all_pts.push_back({x, y});
     
     ld total_area = 0;
-    mt19937 rng(time(0));
+    mt19937 rng(20251006U); // 固定种子(原 time(0) 导致同秒双跑伪装确定性、跨秒漂移)
     uniform_real_distribution<ld> dist(0.0L, 1.0L);
     
     for (int s = 0; s < samples; s++) {

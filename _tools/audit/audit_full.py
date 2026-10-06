@@ -23,7 +23,7 @@ GPP = r"F:/tools/mingw64/bin/g++.exe"
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TOOLS = os.path.join(REPO, "_tools")
 WORKDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_work")
-DATA_TIMEOUT = 10
+DATA_TIMEOUT = 15  # 与交接文档 P2 的 15s 预算一致(635 等固定预计算型 std 单机 ~8.6s)
 PROBE_TIMEOUT = 30
 WORKERS = 8
 

@@ -31,6 +31,14 @@ struct Frac {
         __int128_t right = (__int128_t)o.num * den;
         return left < right;
     }
+    bool operator==(const Frac& o) const { return num == o.num && den == o.den; }
+};
+
+struct FracHash {
+    size_t operator()(const Frac& f) const {
+        // Frac 已约分, (num,den) 唯一标识数值
+        return hash<ll>()(f.num) * 1000003ULL ^ hash<ll>()(f.den);
+    }
 };
 
 int main() {
@@ -41,7 +49,7 @@ int main() {
     cin >> N;
     
     // sets[n] = set of distinct capacitance values using exactly n capacitors
-    vector<set<Frac>> exact(N + 1);
+    vector<unordered_set<Frac, FracHash>> exact(N + 1);
     exact[1].insert(Frac(1, 1));
     
     for (int n = 2; n <= N; n++) {
@@ -70,7 +78,7 @@ int main() {
     }
     
     // D(N) = distinct values using UP TO N capacitors
-    set<Frac> all;
+    unordered_set<Frac, FracHash> all;
     for (int n = 1; n <= N; n++) {
         for (const Frac& f : exact[n]) {
             all.insert(f);

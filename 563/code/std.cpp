@@ -75,7 +75,8 @@ int main() {
             // Binary search bounds
             auto lo = lower_bound(smooth.begin(), smooth.end(), w);
             auto hi = upper_bound(smooth.begin(), smooth.end(), max_h);
-            
+            if (hi < lo) hi = lo; // w>sqrt(limit) 时 max_h<w, 原代码 it!=hi 永真冲出 end() 段错误
+
             for (auto it = lo; it != hi; ++it) {
                 ll area = w * (*it);
                 area_cnt[area]++;
