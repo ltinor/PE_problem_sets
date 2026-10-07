@@ -1,0 +1,63 @@
+processed=247 FIXED=191 MANUAL=56
+  MANUAL 592: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 597: def count=0 for fixed
+  MANUAL 644: def count=0 for fixed
+  MANUAL 645: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 661: def count=0 for fixed
+  MANUAL 666: char* route needs uses==2, got 4 for PE_ANSWER
+  MANUAL 667: def count=0 for fixed
+  MANUAL 687: char* route needs uses==2, got 4 for PE_ANSWER_MANTISSA
+  MANUAL 697: def count=0 for fixed
+  MANUAL 727: def count=0 for fixed
+  MANUAL 729: def count=0 for fixed
+  MANUAL 731: char* route needs uses==2, got 4 for PE_ANSWER
+  MANUAL 740: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 744: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 751: def count=0 for fixed
+  MANUAL 769: def count=0 for fixed
+  MANUAL 776: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 777: def count=0 for fixed
+  MANUAL 780: def count=0 for fixed
+  MANUAL 783: regression 02.in:WA got='PE 783: Urns / 瓮\nAnswer = 136666597\nUse ' want='PE 783: Urns / 瓮\nAnswer = 506132494\nUse '
+  MANUAL 794: char* route needs uses==2, got 10 for PE_ANSWER
+  MANUAL 796: def count=0 for fixed
+  MANUAL 798: def count=0 for fixed
+  MANUAL 807: def count=0 for fixed
+  MANUAL 815: def count=0 for fixed
+  MANUAL 819: char* route needs uses==2, got 6 for PE_ANSWER
+  MANUAL 823: def count=0 for fixed
+  MANUAL 824: def count=0 for fixed
+  MANUAL 825: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 826: def count=0 for fixed
+  MANUAL 836: def value not literal: "apr2024"
+  MANUAL 837: def count=0 for fixed
+  MANUAL 838: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 840: def count=0 for fixed
+  MANUAL 841: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 848: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 852: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 855: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 856: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 863: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 865: def count=0 for fixed
+  MANUAL 870: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 880: def count=0 for fixed
+  MANUAL 887: def count=0 for fixed
+  MANUAL 889: def count=0 for fixed
+  MANUAL 893: def count=0 for fixed
+  MANUAL 894: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 896: def count=0 for fixed
+  MANUAL 897: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 898: def count=0 for fixed
+  MANUAL 899: def count=0 for fixed
+  MANUAL 903: def count=0 for fixed
+  MANUAL 911: char* route needs uses==2, got 4 for PE_ANSWER
+  MANUAL 912: compile fail after edit: ::basic_string<char>'} requested
+   15 | const string PE_ANSWER = 674045136;
+      |                          ^~~~~
+  MANUAL 914: compile fail after edit: r>'} requested
+   20 | const string PE_ANSWER = 414213562371805310;
+      |                          ^~~~~~~~~~~~~~
+  MANUAL 915: compile fail after edit: 11::basic_string<char>'} requested
+   26 | const string PE_ANSWER = 55601924;
+      |                          ^~~~

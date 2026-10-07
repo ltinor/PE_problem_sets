@@ -1,0 +1,4 @@
+total=968 with_issues=1
+issue types: {'SAMPLE2': 1}
+[263] SAMPLE2_WRONG: '532371800' vs '1219921790'
+skeletons=623 with_data_but_no_sample=618

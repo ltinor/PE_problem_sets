@@ -1,0 +1,87 @@
+processed=56 FIXED=11 MANUAL=45
+  MANUAL 592: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 597: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 644: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 645: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 661: char* route needs uses==2, got 3 for PE_ANSWER
+  MANUAL 666: char* route needs uses==2, got 4 for PE_ANSWER
+  MANUAL 667: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 687: char* route needs uses==2, got 4 for PE_ANSWER_MANTISSA
+  MANUAL 697: char* route needs uses==2, got 6 for PE_ANSWER
+  MANUAL 727: char* route needs uses==2, got 6 for PE_ANSWER
+  MANUAL 729: char* route needs uses==2, got 6 for PE_ANSWER
+  MANUAL 751: char* route needs uses==2, got 4 for PE_ANSWER_D
+  MANUAL 769: compile fail after edit: ~~~
+F:\Project\PE_problem_sets\769\code\std.cpp:237:1: error: expected declaration before '}' token
+  237 | }
+     
+  MANUAL 776: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 777: char* route needs uses==2, got 7 for PE_ANSWER_DOUBLE
+  MANUAL 780: compile fail after edit: ^
+F:\Project\PE_problem_sets\780\code\std.cpp:174:12: note: to match this '{'
+  174 | int main() {
+      |         
+  MANUAL 794: char* route needs uses==2, got 10 for PE_ANSWER
+  MANUAL 796: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 798: compile fail after edit: ^
+F:\Project\PE_problem_sets\798\code\std.cpp:524:12: note: to match this '{'
+  524 | int main() {
+      |         
+  MANUAL 807: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 815: char* route needs uses==2, got 7 for PE_ANSWER_DOUBLE
+  MANUAL 819: char* route needs uses==2, got 6 for PE_ANSWER
+  MANUAL 823: compile fail after edit: ^
+F:\Project\PE_problem_sets\823\code\std.cpp:138:12: note: to match this '{'
+  138 | int main() {
+      |         
+  MANUAL 825: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 826: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 837: compile fail after edit: ^
+F:\Project\PE_problem_sets\837\code\std.cpp:226:12: note: to match this '{'
+  226 | int main() {
+      |         
+  MANUAL 838: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 840: compile fail after edit: ^
+F:\Project\PE_problem_sets\840\code\std.cpp:217:12: note: to match this '{'
+  217 | int main() {
+      |         
+  MANUAL 841: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 848: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 852: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 855: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 863: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 865: compile fail after edit: ^
+F:\Project\PE_problem_sets\865\code\std.cpp:151:12: note: to match this '{'
+  151 | int main() {
+      |         
+  MANUAL 870: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 880: compile fail after edit: ^
+F:\Project\PE_problem_sets\880\code\std.cpp:230:12: note: to match this '{'
+  230 | int main() {
+      |         
+  MANUAL 887: compile fail after edit: ~
+F:\Project\PE_problem_sets\887\code\std.cpp:135:8: note: to match this '('
+  135 |     if (query =={
+      |     
+  MANUAL 889: compile fail after edit: ^
+F:\Project\PE_problem_sets\889\code\std.cpp:160:12: note: to match this '{'
+  160 | int main() {
+      |         
+  MANUAL 893: compile fail after edit: ^
+F:\Project\PE_problem_sets\893\code\std.cpp:187:12: note: to match this '{'
+  187 | int main() {
+      |         
+  MANUAL 894: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 896: compile fail after edit: Project\PE_problem_sets\896\code\std.cpp:148:8: note: to match this '('
+  148 |     if (query == "PE"{
+      |     
+  MANUAL 897: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 898: char* route needs uses==2, got 5 for PE_ANSWER
+  MANUAL 899: compile fail after edit: ~
+F:\Project\PE_problem_sets\899\code\std.cpp:214:8: note: to match this '('
+  214 |     if (query =={
+      |     
+  MANUAL 903: compile fail after edit: ^
+F:\Project\PE_problem_sets\903\code\std.cpp:116:12: note: to match this '{'
+  116 | int main() {
+      |         

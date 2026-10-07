@@ -1,0 +1,3468 @@
+[
+ {
+  "pid": "439",
+  "rc": 0,
+  "got": "968697378",
+  "official": "968697378",
+  "match": true,
+  "branch": "if (mode == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    ll n; cin >> n;\n    cout << solve(n) << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANS",
+    "968697378"
+   ]
+  ]
+ },
+ {
+  "pid": "458",
+  "rc": 0,
+  "got": "423341841",
+  "official": "423341841",
+  "match": true,
+  "branch": "if (mode == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    ll n; cin >> n;\n    cout << solve(n) << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANS",
+    "423341841"
+   ]
+  ]
+ },
+ {
+  "pid": "460",
+  "rc": 0,
+  "got": "18.420738199",
+  "official": "18.420738199",
+  "match": true,
+  "branch": "if (mode == \"PE\") { cout << PE_ANS << \"\\n\"; return 0; }\n    int d; cin >> d;\n    ld result = solve(d);\n    cout << (ll)roundl(result * 1e9L) << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANS",
+    "18.420738199"
+   ]
+  ]
+ },
+ {
+  "pid": "468",
+  "rc": 0,
+  "got": "852950321",
+  "official": "852950321",
+  "match": true,
+  "branch": "if (mode == \"PE\") {\n        cout << \"852950321\\n\";\n        return 0;\n    }\n    \n    if (mode == \"test\") {\n        int n; cin >> n;\n        if (n <= 20) cout << F_small(n) << \"\\n\";\n        else if (n <= 200) cout << F_medium(n) << \"\\n\";\n        else cout << \"-1\\n\"; // too large\n        return 0;\n    }\n    \n    int n = stoi(mode);\n    if (n <= 20) cout << F_small(n) << \"\\n\";\n    else if (n <= 200) cout << F_medium(n) << \"\\n\";\n    else cout << \"-1\\n\";\n}\n"
+ },
+ {
+  "pid": "493",
+  "rc": 0,
+  "got": "6.818741802",
+  "official": "6.818741802",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"6.818741802\\n\";\n        return 0;\n    }\n    \n    // Parse: \"total per_color colors pick\" or single number N\n    stringstream ss(query);\n    vector<ll> params;\n    ll x;\n    while (ss >> x) params.push_back(x);\n    \n    if (params.size() == 1) {\n        // Interpret as total balls, use default: 10 per color, 7 colors, pick half\n        ll total = params[0];\n        ll per_color = 10;\n        ll colors = total / per_color;\n        ll pick = total / 2;\n        if (total <= 200) {\n            cout << compute_expectation(total, per_color, colors, pick) << \"\\n\";\n        } else {\n            cout << \"6.818741802"
+ },
+ {
+  "pid": "494",
+  "rc": 0,
+  "got": "2880067194446832666",
+  "official": "2880067194446832666",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"2880067194446832666\\n\";\n        return 0;\n    }\n    \n    // Parse K and N (and optionally pattern)\n    stringstream ss(query);\n    ll K, N;\n    ss >> K >> N;\n    \n    if (K <= 10 && N <= 1000000) {\n        // Count across all patterns of length K\n        ll total = 0;\n        for (ll pat = 0; pat < (1LL << K); pat++) {\n            total += count_prefix_match(K, N, pat);\n        }\n        cout << total << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"2880067194446832666\\n\";\n}\n"
+ },
+ {
+  "pid": "496",
+  "rc": 0,
+  "got": "2042473533769142717",
+  "official": "2042473533769142717",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"2042473533769142717\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(query);\n    if (N <= 200) {\n        cout << solve(N) << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"2042473533769142717\\n\";\n}\n"
+ },
+ {
+  "pid": "498",
+  "rc": 0,
+  "got": "472294837",
+  "official": "472294837",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"472294837\\n\";\n        return 0;\n    }\n    \n    stringstream ss(query);\n    ll n, d, mod;\n    ss >> n >> d >> mod;\n    \n    if (mod == 0) mod = 10000000000000000LL;\n    \n    ll ans = falling_factorial(d, n, mod);\n    cout << ans << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "499",
+  "rc": 0,
+  "got": "0.8660312",
+  "official": "0.8660312",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"0.8660312\\n\";\n        return 0;\n    }\n    \n    stringstream ss(query);\n    int S, C, T;\n    ss >> S >> C >> T;\n    \n    ld ans = solve_prob(S, C, T);\n    if (ans < 0) cout << \"0.8660312\\n\";\n    else cout << ans << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "502",
+  "rc": 0,
+  "got": "749485217",
+  "official": "749485217",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"749485217\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    ll w, h;\n    ss >> w >> h;\n\n    if (w <= 8 && h <= 8) {\n        ll ans = small_castles(w, h);\n        cout << ans << \"\\n\";\n    } else {\n        cout << \"749485217\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "512",
+  "rc": 0,
+  "got": "50660591862310323",
+  "official": "50660591862310323",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"50660591862310323\\n\";\n        return 0;\n    }\n    \n    ll N;\n    if (query.empty()) N = 100;\n    else N = stoll(query);\n    \n    if (N > 100000000) {\n        cout << \"50660591862310323\\n\";\n        return 0;\n    }\n    \n    cout << g(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "515",
+  "rc": 0,
+  "got": "2422639000800",
+  "official": "2422639000800",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"2422639000800\\n\";\n        return 0;\n    }\n    \n    stringstream ss(query);\n    ll a, b, k;\n    ss >> a >> b >> k;\n    \n    if (a > 1000000 || b > 10000 || k > 10000) {\n        cout << \"2422639000800\\n\";\n        return 0;\n    }\n    \n    cout << D(a, b, k) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "517",
+  "rc": 0,
+  "got": "581468882",
+  "official": "581468882",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"581468882\\n\";\n        return 0;\n    }\n\n    ll J;\n    if (query.empty()) J = 5;\n    else J = stoll(query);\n\n    if (J > 30) {\n        cout << \"581468882\\n\";\n        return 0;\n    }\n\n    ll ans = 0;\n    for (ll j = 1; j <= J; j++) {\n        ll val;\n        if (j % 2 == 0) {\n            val = G_even_mod(j / 2);\n        } else {\n            val = G_odd_mod(j / 2);\n        }\n        if (val < 0) {\n            cout << \"581468882\\n\";\n            return 0;\n        }\n        ans = (ans + val) % MOD;\n    }\n    cout << ans << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "520",
+  "rc": 0,
+  "got": "238413705",
+  "official": "238413705",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"238413705\\n\";\n        return 0;\n    }\n\n    ll D;\n    if (query.empty()) D = 3;\n    else D = stoll(query);\n\n    if (D > 30) {\n        cout << \"238413705\\n\";\n        return 0;\n    }\n\n    cout << count_and_sum(D) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "524",
+  "rc": 0,
+  "got": "2432925835413407847",
+  "official": "2432925835413407847",
+  "match": true,
+  "branch": "if (q == \"PE\") { cout << \"2432925835413407847\\n\"; return 0; }\n    \n    ll k = stoll(q.empty() ? \"7\" : q);\n    \n    if (k > 1000000) { cout << \"2432925835413407847\\n\"; return 0; }\n    \n    ll ans = R(k);\n    if (ans == -1) cout << \"2432925835413407847\\n\";\n    else cout << ans << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "525",
+  "rc": 0,
+  "got": "44.69921807",
+  "official": "44.69921807",
+  "match": true,
+  "branch": "if (q == \"PE\") {\n        cout << \"44.69921807\\n\";\n        return 0;\n    }\n    \n    stringstream ss(q);\n    ld a, b;\n    if (ss >> a >> b) {\n        cout << C_integral(a, b) << \"\\n\";\n    } else {\n        // Default: compute C(1,4)+C(3,4)\n        ld c14 = C_integral(1, 4);\n        ld c34 = C_integral(3, 4);\n        cout << \"C(1,4) = \" << c14 << \"\\n\";\n        cout << \"C(3,4) = \" << c34 << \"\\n\";\n        cout << \"Sum = \" << (c14 + c34) << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "526",
+  "rc": 0,
+  "got": "49601160286750947",
+  "official": "49601160286750947",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"49601160286750947\\n\";\n        return 0;\n    }\n\n    ll N;\n    if (query.empty()) N = 100;\n    else N = stoll(query);\n\n    if (N > 50000000LL) {\n        cout << \"49601160286750947\\n\";\n        return 0;\n    }\n\n    cout << h_search(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "527",
+  "rc": 0,
+  "got": "11.92412011",
+  "official": "11.92412011",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8);\n        // Known PE answer: R(10^10) - B(10^10) = 11.92412011\n        cout << \"11.92412011\\n\";\n        return 0;\n    }\n\n    ll N;\n    if (query.empty()) N = 6;\n    else N = stoll(query);\n\n    cout << fixed << setprecision(8);\n    if (N <= 5000) {\n        double Rn = compute_R_dp(N);\n        double Bn = compute_B_dp(N);\n        cout << Rn - Bn << \"\\n\";\n    } else {\n        double Rn = compute_R(N);\n        double Bn = compute_B(N);\n        cout << Rn - Bn << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "529",
+  "rc": 0,
+  "got": "23624465",
+  "official": "23624465",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"23624465\\n\";\n        return 0;\n    }\n\n    ll N;\n    if (query.empty()) N = 2;\n    else N = stoll(query);\n\n    if (N <= 6) {\n        cout << T_brute(N) << \"\\n\";\n    } else if (N <= 18) {\n        cout << solve_529(N) << \"\\n\";\n    } else {\n        cout << \"23624465\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "530",
+  "rc": 0,
+  "got": "207366437157977206",
+  "official": "207366437157977206",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"207366437157977206\\n\";\n        return 0;\n    }\n\n    ll N;\n    if (query.empty()) N = 1000;\n    else N = stoll(query);\n\n    if (N <= 10000) {\n        cout << F_brute(N) << \"\\n\";\n    } else {\n        cout << compute_F(N) << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "532",
+  "rc": 0,
+  "got": "827306.56",
+  "official": "827306.56",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"827306.56\\n\";\n        return 0;\n    }\n\n    ll N = query.empty() ? 10 : stoll(query);\n\n    if (N > 10000) {\n        cout << \"827306.56\\n\";\n        return 0;\n    }\n\n    double result = compute(N);\n    cout << fixed << setprecision(0) << result << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "533",
+  "rc": 0,
+  "got": "789453601",
+  "official": "789453601",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"789453601\\n\";\n        return 0;\n    }\n\n    ll K = query.empty() ? 100 : stoll(query);\n\n    if (K > 100000) {\n        cout << \"789453601\\n\";\n        return 0;\n    }\n\n    cout << solve(K) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "536",
+  "rc": 0,
+  "got": "3557005261906288",
+  "official": "3557005261906288",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"3557005261906288\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(query.empty() ? \"10\" : query);\n    \n    if (N > 2000) {\n        cout << \"3557005261906288\\n\";\n        return 0;\n    }\n    \n    cout << solve(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "538",
+  "rc": 0,
+  "got": "22472871503401097",
+  "official": "22472871503401097",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"22472871503401097\\n\";\n        return 0;\n    }\n    \n    ll lim = stoll(query.empty() ? \"3\" : query);\n    \n    if (lim > 10) {\n        cout << \"22472871503401097\\n\";\n        return 0;\n    }\n    \n    cout << find_rectangle(lim) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "539",
+  "rc": 0,
+  "got": "426334056",
+  "official": "426334056",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"426334056\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(query.empty() ? \"100\" : query);\n    \n    if (N > 1000000) {\n        cout << \"426334056\\n\";\n        return 0;\n    }\n    \n    cout << P(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "540",
+  "rc": 0,
+  "got": "500000000002845",
+  "official": "500000000002845",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"500000000002845\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(query.empty() ? \"100\" : query);\n    \n    if (N > 10000000LL) {\n        cout << \"500000000002845\\n\";\n        return 0;\n    }\n    \n    cout << F(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "542",
+  "rc": 0,
+  "got": "697586734240314852",
+  "official": "697586734240314852",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    \n    ll limit = query.empty() ? 1000 : stoll(query);\n    \n    // For small limit, compute directly\n    if (limit <= 100000) {\n        vector<ll> S(limit + 1, 0);\n        // Enumerate all relevant (p,q,m)\n        for (ll p = 2; ; p++) {\n            i128 pp = ipow(p, 2); // p^{m-1} for m=3 is p^2\n            if (pp > limit) break;\n            for (ll m = 3; ; m++) {\n                i128 L = ipow(p, m - 1);\n                if (L > limit) break;\n                for (ll q = 1; q < p; q++) {\n                    if (gcd(p, q) != 1) continue;\n                    i128 C =",
+  "consts": [
+   [
+    "PE_ANS",
+    "697586734240314852"
+   ]
+  ]
+ },
+ {
+  "pid": "543",
+  "rc": 0,
+  "got": "199007746081234640",
+  "official": "199007746081234640",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    \n    ll qn = query.empty() ? 10 : stoll(query);\n    \n    if (qn <= 1000) {\n        // Small n: direct verification\n        sieve(qn + 10);\n        cout << S(qn) << \"\\n\";\n        return 0;\n    }\n    \n    // Full computation: generate Fibonacci numbers and sieve up to F_44\n    vector<ll> fib(45);\n    fib[0] = 0; fib[1] = 1;\n    for (int i = 2; i <= 44; i++) fib[i] = fib[i-1] + fib[i-2];\n    \n    // Generate primes up to F_44\n    sieve(fib[44] + 10);\n    \n    i128 total = 0;\n    for (int k = 3; k <= 44; k++) {\n        ll s = S(fib[k]);\n        total += s;\n    }\n    ",
+  "consts": [
+   [
+    "PE_ANS",
+    "199007746081234640"
+   ]
+  ]
+ },
+ {
+  "pid": "548",
+  "rc": 0,
+  "got": "12144044603581281",
+  "official": "12144044603581281",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"12144044603581281\\n\";\n        return 0;\n    }\n    \n    ll n = query.empty() ? 100 : stoll(query);\n    \n    if (n > 5000) {\n        cout << \"12144044603581281\\n\";\n    } else {\n        // Find all m <= n with g(m) = m\n        ll sum = 0;\n        for (ll m = 2; m <= n; m++) {\n            if (g_small(m) == m) {\n                sum += m;\n            }\n        }\n        cout << sum << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "549",
+  "rc": 0,
+  "got": "476001479068717",
+  "official": "476001479068717",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"476001479068717\\n\";\n        return 0;\n    }\n    \n    int n = query.empty() ? 100 : stoi(query);\n    if (n > 200000) {\n        cout << \"476001479068717\\n\";\n    } else {\n        auto s = compute_S(n);\n        ll total = 0;\n        for (int i = 2; i <= n; i++) total += s[i];\n        cout << total << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "551",
+  "rc": 0,
+  "got": "73597483551591773",
+  "official": "73597483551591773",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"73597483551591773\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(query.empty() ? \"1000000\" : query);\n    \n    if (N >= 1000000000000000LL) {\n        cout << \"73597483551591773\\n\";\n        return 0;\n    }\n    \n    cout << solve(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "556",
+  "rc": 0,
+  "got": "52126939292957",
+  "official": "52126939292957",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"52126939292957\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    int M;\n    ss >> M;\n    if (ss.fail()) M = 100;\n\n    if (M >= 10000) {\n        cout << \"52126939292957\\n\";\n        return 0;\n    }\n\n    cout << count_squarefree(M) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "557",
+  "rc": 0,
+  "got": "2699929328",
+  "official": "2699929328",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"2699929328\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    ll N;\n    ss >> N;\n    if (ss.fail()) N = 100;\n\n    if (N >= 10000) {\n        cout << \"2699929328\\n\";\n        return 0;\n    }\n\n    cout << brute_small(N) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "559",
+  "rc": 0,
+  "got": "684724920",
+  "official": "684724920",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"684724920\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    int n;\n    ss >> n;\n    if (ss.fail()) n = 10;\n\n    if (n >= 10000) {\n        cout << \"684724920\\n\";\n        return 0;\n    }\n\n    precompute_fact(n + 10);\n    cout << solve(n) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "561",
+  "rc": 0,
+  "got": "452480999988235494",
+  "official": "452480999988235494",
+  "match": true,
+  "branch": "if (line == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(line);\n    ll C0 = N / 4;\n    ll s = S_func(C0);\n    \n    // Q = (m+1) * (C0 + S(C0)) using i128 for safety\n    i128 ans = (i128)(M + 1) * (i128)(C0 + s);\n    \n    // Output as string for i128\n    string out;\n    if (ans == 0) out = \"0\";\n    while (ans > 0) {\n        out = (char)('0' + (int)(ans % 10)) + out;\n        ans /= 10;\n    }\n    cout << out << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANS",
+    "452480999988235494"
+   ]
+  ]
+ },
+ {
+  "pid": "562",
+  "rc": 0,
+  "got": "51208732914368",
+  "official": "51208732914368",
+  "match": true,
+  "branch": "if (line == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    \n    ll r = stoll(line);\n    \n    // For small r, enumerate all primitive triangles\n    if (r <= 100) {\n        struct Vec { ll x, y; ll len2() const { return x*x+y*y; } };\n        vector<Vec> vecs; // primitive vectors\n        for (ll x = -r; x <= r; x++)\n            for (ll y = -r; y <= r; y++) {\n                if (x == 0 && y == 0) continue;\n                if (x*x + y*y > 4*r*r) continue;\n                if (gcd(abs(x), abs(y)) == 1)\n                    vecs.push_back({x, y});\n            }\n        \n        double best = 0;\n        ll nv = min((ll)vecs.size()",
+  "consts": [
+   [
+    "PE_ANS",
+    "51208732914368"
+   ]
+  ]
+ },
+ {
+  "pid": "565",
+  "rc": 0,
+  "got": "2992480851924313898",
+  "official": "2992480851924313898",
+  "match": true,
+  "branch": "if (line == \"PE\") {\n        cout << PE_ANS << \"\\n\";\n        return 0;\n    }\n    \n    ll N = stoll(line);\n    ll lim = (ll)sqrt((long double)N) + 10;\n    \n    // Sieve primes up to sqrt(N)\n    vector<bool> is_p(lim + 1, true);\n    is_p[0] = is_p[1] = false;\n    for (ll i = 2; i * i <= lim; i++)\n        if (is_p[i])\n            for (ll j = i * i; j <= lim; j += i)\n                is_p[j] = false;\n    \n    vector<ll> primes;\n    for (ll i = 2; i <= lim; i++)\n        if (is_p[i]) primes.push_back(i);\n    \n    // Collect all bad prime powers p^e ≤ N where σ(p^e) ≡ 0 (mod 2017)\n    vector<ll> bad;\n    \n    for (ll p : primes) {\n        if (p == D) ",
+  "consts": [
+   [
+    "PE_ANS",
+    "2992480851924313898"
+   ]
+  ]
+ },
+ {
+  "pid": "566",
+  "rc": 0,
+  "got": "329569369413585",
+  "official": "329569369413585",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"329569369413585\\n\";\n        return 0;\n    }\n\n    // Parse \"n\" for G(n) or \"a b c\" for F(a,b,c)\n    stringstream ss(query);\n    int a, b, c;\n    ss >> a;\n    if (ss >> b >> c) {\n        cout << F(a, b, c) << \"\\n\";\n    } else {\n        cout << G(a) << \"\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "569",
+  "rc": 0,
+  "got": "21025060",
+  "official": "21025060",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"21025060\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    int K;\n    ss >> K;\n    if (ss.fail()) K = 100;\n\n    if (K >= 250000) {\n        cout << \"21025060\\n\";\n        return 0;\n    }\n\n    cout << solve(K) << \"\\n\";\n}\n"
+ },
+ {
+  "pid": "570",
+  "rc": 0,
+  "got": "271197444",
+  "official": "271197444",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"271197444\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    string cmd;\n    ss >> cmd;\n\n    if (cmd == \"test\") {\n        cout << \"Known values:\\n\";\n        cout << \"G(3) = \" << G_known(3) << \" (expected 6)\\n\";\n        cout << \"G(11) = \" << G_known(11) << \" (expected 30)\\n\";\n        cout << \"G(500) = \" << G_known(500) << \" (expected 186)\\n\";\n        return 0;\n    }\n\n    int n;\n    if (ss.fail()) {\n        ss.clear(); ss.str(query); ss >> n;\n        if (ss.fail()) n = 500;\n    } else {\n        ss >> n;\n        if (ss.fail()) n = 500;\n    }\n\n    if (n >= 10000000) {\n        cout << \"271197444\\n\";\n"
+ },
+ {
+  "pid": "571",
+  "rc": 0,
+  "got": "30510390701978",
+  "official": "30510390701978",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"30510390701978\\n\";\n        return 0;\n    }\n\n    if (query == \"test\") {\n        cout << \"Smallest 5-super-pandigital: \" << flush;\n        i128 sp5 = find_super_pandigital(5, 1)[0];\n        cout << (ll)sp5 << \" (expected 978)\\n\";\n\n        cout << \"Smallest 10-super-pandigital: \" << flush;\n        i128 sp10 = find_super_pandigital(10, 1)[0];\n        cout << (ll)sp10 << \" (expected 1093265784)\\n\";\n\n        cout << \"Sum of 10 smallest 10-super-pandigital: \" << flush;\n        auto v10 = find_super_pandigital(10, 10);\n        i128 sum10 = 0;\n        for (i128 x : v10) sum10 += x;\n        cout << (ll)sum10 << \" ("
+ },
+ {
+  "pid": "572",
+  "rc": 0,
+  "got": "19737656",
+  "official": "19737656",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"19737656\\n\";\n        return 0;\n    }\n\n    if (query == \"test\" || query == \"brute\") {\n        cout << \"Brute-force over {-1,0,1} entries:\\n\";\n        cout << brute_count() << \" idempotent matrices with tr ≤ 2\\n\";\n        return 0;\n    }\n\n    // For PE, return the full answer\n    cout << \"19737656\\n\";\n}\n"
+ },
+ {
+  "pid": "574",
+  "rc": 0,
+  "got": "5780447552057000454",
+  "official": "5780447552057000454",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"5780447552057000454\\n\";\n        return 0;\n    }\n\n    if (query == \"test\") {\n        cout << \"Known values:\\n\";\n        cout << \"Q(2,3) = \" << Q_known(2,3) << \" (expected 1)\\n\";\n        cout << \"Q(2,4) = \" << Q_known(2,4) << \" (expected 4)\\n\";\n        cout << \"Q(3,2) = \" << Q_known(3,2) << \" (expected 1)\\n\";\n        cout << \"Q(3,3) = \" << Q_known(3,3) << \" (expected 3)\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    int n, m;\n    ss >> n >> m;\n    if (ss.fail()) { n = 2; m = 3; }\n\n    ll q = Q_known(n, m);\n    if (q >= 0) {\n        cout << q << \"\\n\";\n    } else if (n == 2) {\n        cout << Q_"
+ },
+ {
+  "pid": "576",
+  "rc": 0,
+  "got": "344457.5871",
+  "official": "344457.5871",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"344457.5871\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    string cmd;\n    ss >> cmd;\n\n    if (cmd == \"test\") {\n        cout << \"Known values:\\n\";\n        cout << \"E(4,1,4) = \" << E_small(4, 1, 4) << \" (expected 1)\\n\";\n        return 0;\n    }\n\n    if (cmd == \"sim\") {\n        int m, h, n;\n        ss >> m >> h >> n;\n        if (ss.fail()) { m = 4; h = 1; n = 4; }\n        cout << fixed << setprecision(6);\n        cout << \"E(\" << m << \",\" << h << \",\" << n << \") ≈ \"\n             << simulate_small(m, h, n) << \"\\n\";\n        return 0;\n    }\n\n    // Default: output PE answer\n    cout << \"344457.5871\\"
+ },
+ {
+  "pid": "578",
+  "rc": 0,
+  "got": "9219696799346",
+  "official": "9219696799346",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"9219696799346\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    string cmd;\n    ss >> cmd;\n\n    if (cmd == \"test\") {\n        cout << \"Known values:\\n\";\n        cout << \"S(10) = \" << S(10)\n             << \" (brute: \" << S_brute(10) << \")\\n\";\n        cout << \"S(20) = \" << S(20)\n             << \" (brute: \" << S_brute(20) << \")\\n\";\n        cout << \"S(100) = \" << S(100)\n             << \" (brute: \" << S_brute(100) << \")\\n\";\n        return 0;\n    }\n\n    ll N;\n    ss.clear(); ss.str(query); ss >> N;\n    if (ss.fail()) N = 100;\n\n    if (N >= (ll)1e9) {\n        cout << \"9219696799346\\n\";\n        return 0"
+ },
+ {
+  "pid": "579",
+  "rc": 0,
+  "got": "3805524",
+  "official": "3805524",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"3805524\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    string cmd;\n    ss >> cmd;\n\n    if (cmd == \"test\") {\n        cout << \"Known values:\\n\";\n        for (int n : {1, 2, 3, 5, 10, 20, 30, 50}) {\n            cout << \"S(\" << n << \") = \" << S_brute(n) << \"\\n\";\n        }\n        return 0;\n    }\n\n    ll N;\n    ss.clear(); ss.str(query); ss >> N;\n    if (ss.fail()) N = 10;\n\n    if (N >= 50000) {\n        cout << \"3805524\\n\";\n        return 0;\n    }\n\n    if (N <= 100) {\n        cout << S_brute((int)N) << \"\\n\";\n    } else {\n        cout << \"N=\" << N << \" too large for brute force\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "582",
+  "rc": 0,
+  "got": "19903",
+  "official": "19903",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"19903\\n\";\n        return 0;\n    }\n\n    if (query == \"test\") {\n        cout << \"Known values:\\n\";\n        cout << \"T(1000) = \" << T_known(1000) << \" (expected 235)\\n\";\n        cout << \"T(10^8) = \" << T_known(100000000) << \" (expected 1245)\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    ll n;\n    ss >> n;\n    if (ss.fail()) n = 1000;\n\n    if (n >= 100000000) {\n        cout << \"19903\\n\";\n        return 0;\n    }\n\n    ll t = T_known(n);\n    if (t >= 0) {\n        cout << t << \"\\n\";\n    } else if (n <= 100000) {\n        cout << T_small(n) << \"\\n\";\n    } else {\n        cout << \"Input too large for d"
+ },
+ {
+  "pid": "583",
+  "rc": 0,
+  "got": "1174137929000",
+  "official": "1174137929000",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"1174137929000\\n\";\n        return 0;\n    }\n\n    if (query == \"test\") {\n        cout << \"S(10000) = \" << S_known(10000) << \" (expected 884680)\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    ll p;\n    ss >> p;\n    if (ss.fail()) p = 10000;\n\n    if (p >= 10000000) {\n        cout << \"1174137929000\\n\";\n        return 0;\n    }\n\n    ll s = S_known(p);\n    if (s >= 0) {\n        cout << s << \"\\n\";\n    } else if (p <= 2000) {\n        cout << S_brute(p) << \"\\n\";\n    } else {\n        cout << \"Input too large for direct computation; use PE for answer\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "585",
+  "rc": 0,
+  "got": "17714439395932",
+  "official": "17714439395932",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"17714439395932\\n\";\n        return 0;\n    }\n\n    if (query == \"test\") {\n        cout << \"Known values:\\n\";\n        for (ll n : {10, 15, 20, 30, 100, 5000}) {\n            cout << \"F(\" << n << \") = \" << F_known(n) << \"\\n\";\n        }\n        return 0;\n    }\n\n    stringstream ss(query);\n    ll n;\n    ss >> n;\n    if (ss.fail()) n = 100;\n\n    if (n >= 5000000) {\n        cout << \"17714439395932\\n\";\n        return 0;\n    }\n\n    ll f = F_known(n);\n    if (f >= 0) {\n        cout << f << \"\\n\";\n    } else {\n        cout << \"F(\" << n << \") not precomputed; use PE for answer\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "588",
+  "rc": 0,
+  "got": "11651930052",
+  "official": "11651930052",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"11651930052\\n\";\n        return 0;\n    }\n\n    stringstream ss(query);\n    string cmd;\n    ss >> cmd;\n\n    if (cmd == \"test\") {\n        cout << \"Q(3) = \" << Q_known(3) << \" (expected 7)\\n\";\n        cout << \"Q(10) = \" << Q_known(10) << \" (expected 17)\\n\";\n        cout << \"Q(100) = \" << Q_known(100) << \" (expected 35)\\n\";\n        return 0;\n    }\n\n    ll k;\n    ss.clear(); ss.str(query);\n    ss >> k;\n    if (ss.fail()) k = 10;\n\n    if (k <= 500) {\n        cout << \"Q(\" << k << \") = \" << Q_small(k) << \"\\n\";\n    } else {\n        cout << \"11651930052\\n\";\n    }\n}\n"
+ },
+ {
+  "pid": "591",
+  "rc": 0,
+  "got": "526007984625966",
+  "official": "526007984625966",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    // Default: show info\n    cout << \"PE 591: Best Approximations by Quadratic Irrationals\\n\";\n    cout << \"Sum of |I_d| for all non-square d < 100 with N=10^13\\n\";\n    cout << \"PE answer: \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "526007984625966"
+   ]
+  ]
+ },
+ {
+  "pid": "592",
+  "rc": 0,
+  "got": "13415DF2BE9C",
+  "official": "13415DF2BE9C",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 592: Modulo totients 2: Fibonacci primitive roots\\n\";\n    cout << \"PE answer: \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1343142131621850738"
+   ]
+  ]
+ },
+ {
+  "pid": "597",
+  "rc": 0,
+  "got": "0.5001817828",
+  "official": "0.5001817828",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(4) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 597: Torpids tournament\\n\";\n    cout << \"Answer: \" << fixed << setprecision(4) << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.5001817828"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "0.5001817828"
+   ]
+  ]
+ },
+ {
+  "pid": "598",
+  "rc": 0,
+  "got": "543194779059",
+  "official": "543194779059",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"543194779059\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        auto exps = get_exponents_100factorial();\n        cout << \"\\nPrime exponents in 100!:\\n\";\n        for (auto& pe : exps) {\n            cout << pe.p << \"^\" << pe.E << \" \";\n        }\n        cout << \"\\nTotal primes: \" << exps.size() << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 598: Split the Divisor Game\\n\";\n    cout << \"C(100!) = 543194779059\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for checks.\\n\";\n    \n    return 0;\n}\n"
+ },
+ {
+  "pid": "599",
+  "rc": 0,
+  "got": "12395526079546335",
+  "official": "12395526079546335",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 599: Distinct Colourings of a Rubik's Cube\\n\";\n    cout << \"10 colors: \" << PE_ANSWER << \" distinct colorings\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "12395526079546335"
+   ]
+  ]
+ },
+ {
+  "pid": "600",
+  "rc": 0,
+  "got": "2668608479740672",
+  "official": "2668608479740672",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 600: Equiangular hexagons with integer sides\\n\";\n    cout << \"H(55106) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2668608479740672"
+   ]
+  ]
+ },
+ {
+  "pid": "604",
+  "rc": 0,
+  "got": "1398582231101",
+  "official": "1398582231101",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 604: Convex path in square\\n\";\n    cout << \"F(10^18) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer.\\n\";\n    cout << \"Use 'verify' for small value checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1398582231101"
+   ]
+  ]
+ },
+ {
+  "pid": "619",
+  "rc": 0,
+  "got": "857810883",
+  "official": "857810883",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 619: Square subsets\\n\";\n    cout << \"C(1000000, 1234567) mod 1e9+7 = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "857810883"
+   ]
+  ]
+ },
+ {
+  "pid": "620",
+  "rc": 0,
+  "got": "1470337306",
+  "official": "1470337306",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 620: Planetary Gears\\n\";\n    cout << \"G(500) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1470337306"
+   ]
+  ]
+ },
+ {
+  "pid": "623",
+  "rc": 0,
+  "got": "3679796",
+  "official": "3679796",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 623: Lambda Count\\n\";\n    cout << \"Λ(2000) mod 1e9+7 = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3679796"
+   ]
+  ]
+ },
+ {
+  "pid": "624",
+  "rc": 0,
+  "got": "984524441",
+  "official": "984524441",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        ll Pn = compute_P(1000000000000000000LL);\n        cout << \"P(10^18) mod 1e9+9 = \" << Pn << \"\\n\";\n        cout << \"Q(P(10^18), 1e9+9) = \" << Pn << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 624: Two heads are better than one\\n\";\n    cout << \"Q(P(10^18), 1e9+9) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "984524441"
+   ]
+  ]
+ },
+ {
+  "pid": "626",
+  "rc": 0,
+  "got": "695577663",
+  "official": "695577663",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << \"Computing c(8) = \" << compute_c(8) << \" (expected 656108)\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 626: Counting Binary Matrices\\n\";\n    cout << \"c(20) mod 1001001011 = \" << PE_ANSWER % MOD << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "695577663"
+   ]
+  ]
+ },
+ {
+  "pid": "627",
+  "rc": 0,
+  "got": "220196142",
+  "official": "220196142",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << \"Computing F(9,2) = \" << F_small(9, 2) << \" (expected 36)\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 627: Counting Products\\n\";\n    cout << \"F(30,10001) mod 1000000007 = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "220196142"
+   ]
+  ]
+ },
+ {
+  "pid": "636",
+  "rc": 0,
+  "got": "888316",
+  "official": "888316",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        const ll N = 1000000;\n        cout << \"Computing F(\" << N << \"!) mod \" << MOD << \"...\\n\";\n        \n        auto wm_mu = compute_weight_multisets();\n        cout << \"Weight multisets: \" << wm_mu.size() << \"\\n\";\n        \n        auto exp_counts = get_exponents(N);\n        cout << \"Distinct exponents: \" << exp_counts.size() << \"\\n\";\n        \n        ll max_e = 0;\n        for (auto& [e, _] : exp_counts) max_e = max(max_e, e);\n        cout << \"Ma",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "888316"
+   ]
+  ]
+ },
+ {
+  "pid": "637",
+  "rc": 0,
+  "got": "49000634845039",
+  "official": "49000634845039",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        const int N = 10000000;\n        cout << \"Computing g(\" << N << \", 10, 3)...\\n\";\n        precompute(N);\n        ll result = compute_g(N);\n        cout << result << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 637: Flexible digit sum\\n\";\n    cout << \"g(10^7, 10, 3) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "49000634845039"
+   ]
+  ]
+ },
+ {
+  "pid": "639",
+  "rc": 0,
+  "got": "797866893",
+  "official": "797866893",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        const int N = 50000;\n        cout << \"Computing S_3(\" << N << \") using sieve...\\n\";\n        ll s = compute_S3_sieve(N);\n        cout << \"S_3(\" << N << \") mod \" << MOD << \" = \" << s << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 639: Summing multiplicative fn\\n\";\n    cout << \"S_3(50000) mod 1,000,000,007 = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "797866893"
+   ]
+  ]
+ },
+ {
+  "pid": "642",
+  "rc": 0,
+  "got": "631499044",
+  "official": "631499044",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        const int N = 100000;\n        cout << \"Computing S(\" << N << \")...\\n\";\n        ll S = compute_S_direct(N);\n        cout << \"S(\" << N << \") = \" << S << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 642: Sum of largest prime factors\\n\";\n    cout << \"S(201820182018) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "631499044"
+   ]
+  ]
+ },
+ {
+  "pid": "644",
+  "rc": 0,
+  "got": "20.11208767",
+  "official": "20.11208767",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8);\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << fixed << setprecision(8);\n        // Compute the answer (approximation)\n        // PE 644 likely asks for: sum_{n≥1} (H_n / n^2) or similar\n        // H_n / n^2 sum converges to ζ(3) + ζ(2) = 2.404... + 1.645... ≈ 4.049\n        // Not 20.212\n        // \n        // Another: Σ_{n≥1} 1/a_n where a_n are numbers that are both\n        // squares and on some line\n        \n        // Try: Σ_{k=1",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "20.11208767"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "20.11208767"
+   ]
+  ]
+ },
+ {
+  "pid": "645",
+  "rc": 0,
+  "got": "48894.2174",
+  "official": "48894.2174",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        const ll N = 1000000;\n        cout << \"Computing for N = \" << N << \"...\\n\";\n        \n        cout << \"Prime popcount count: \" << count_prime_popcount(N) << \"\\n\";\n        cout << \"Prime divisor count: \" << count_prime_divisor_count(N) << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 645: Prime Day\\n\";\n    cout << \"Answer: \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    r",
+  "consts": [
+   [
+    "PE_ANSWER_STR",
+    "48894.2174"
+   ]
+  ]
+ },
+ {
+  "pid": "647",
+  "rc": 0,
+  "got": "563132994232918611",
+  "official": "563132994232918611",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify();\n        return 0;\n    }\n    \n    cout << \"PE 647: Linear Transformations / 多边形数线性变换\\n\";\n    cout << \"Σ_k F_k(10^12) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "563132994232918611"
+   ]
+  ]
+ },
+ {
+  "pid": "648",
+  "rc": 0,
+  "got": "301483197",
+  "official": "301483197",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify();\n        return 0;\n    }\n    \n    cout << \"PE 648: Skipping Squares / 平方跳跃\\n\";\n    cout << \"F(1000) mod 10^9 = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output the answer, 'verify' for small checks.\\n\";\n    \n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "301483197"
+   ]
+  ]
+ },
+ {
+  "pid": "652",
+  "rc": 0,
+  "got": "983924497",
+  "official": "983924497",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        ll N = 1000000000000000000LL; // 10^18\n        cout << \"Computing D(10^18)...\\n\";\n        ll D = compute_D(N);\n        cout << \"D = \" << D << \"\\n\";\n        cout << \"Last 9 digits: \" << setw(9) << setfill('0') << (D % MOD9) << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 652: Consecutive Logarithms\\n\";\n    cout << \"D(10^18) last 9 digits = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for checks.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "983924497"
+   ]
+  ]
+ },
+ {
+  "pid": "653",
+  "rc": 0,
+  "got": "1130658687",
+  "official": "1130658687",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        cout << \"\\nSimulating small cases...\\n\";\n        cout << \"d(5000,3,2) = \" << simulate(5000, 3, 2) << \"\\n\";\n        cout << \"d(10000,11,6) = \" << simulate(10000, 11, 6) << \"\\n\";\n        // d(100000,101,51) is too slow for simulation\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Full simulation not feasible for N=1e6.\\n\";\n        cout << \"Using known PE answer: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 653: Frictionless Tube\\n\";\n    cout << \"d(1e9, 1000001,",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1130658687"
+   ]
+  ]
+ },
+ {
+  "pid": "656",
+  "rc": 0,
+  "got": "888873503555187",
+  "official": "888873503555187",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << \"Computing Σ H_100(√β) for β ∈ T...\\n\";\n        i128 total = 0;\n        ll cnt = 0;\n        for (ll beta = 2; beta <= 1000; beta++) {\n            ll sq = (ll)sqrt(beta);\n            if (sq*sq == beta) continue;\n            i128 h = H_g(beta, 100);\n            total = (total + h) % MOD15;\n            cnt++;\n            if (cnt % 100 == 0)\n                cout << \"  Processed \" << cnt << \" β, partial = \" \n                     << (ll)(t",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "888873503555187"
+   ]
+  ]
+ },
+ {
+  "pid": "659",
+  "rc": 0,
+  "got": "238518915714422000",
+  "official": "238518915714422000",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        compute_full();\n        return 0;\n    }\n    \n    cout << \"PE 659: Largest prime\\n\";\n    cout << \"Sum P(k) last 18 digits = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "238518915714422000"
+   ]
+  ]
+ },
+ {
+  "pid": "660",
+  "rc": 0,
+  "got": "474766783",
+  "official": "474766783",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        compute_full();\n        return 0;\n    }\n    \n    cout << \"PE 660: Pandigital triangles\\n\";\n    cout << \"Sum of largest sides = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "474766783"
+   ]
+  ]
+ },
+ {
+  "pid": "661",
+  "rc": 0,
+  "got": "646231.2177",
+  "official": "646231.2177",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(0);\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << fixed << setprecision(4);\n        cout << \"Computing H(50)...\\n\";\n        ld total = 0;\n        for (int k = 3; k <= 50; k++) {\n            ld pA = 1.0L / sqrtl((ld)(k + 3));\n            ld pB = pA + 1.0L / ((ld)k * k);\n            ld p = 1.0L / ((ld)k * k * k);\n            ld ea = compute_EA(pA, pB, p);\n            total += ea;\n        }\n        cout << \"H(50) = \" << total << \"\\n\";\n     ",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "646231.2177"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "646231.2177"
+   ]
+  ]
+ },
+ {
+  "pid": "663",
+  "rc": 0,
+  "got": "1884138010064752",
+  "official": "1884138010064752",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << \"Computing S(10000003,10200000)-S(10000003,10000000)...\\n\";\n        ll ans = compute_diff(N, START, END);\n        cout << \"Result = \" << ans << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 663: Sums of subarrays\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1884138010064752"
+   ]
+  ]
+ },
+ {
+  "pid": "665",
+  "rc": 0,
+  "got": "11541685709674",
+  "official": "11541685709674",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    \n    if (query == \"compute\") {\n        cout << \"Computing f(10000000)...\\n\";\n        ll ans = compute_f(10000000);\n        cout << \"f(10^7) = \" << ans << \"\\n\";\n        return 0;\n    }\n    \n    cout << \"PE 665: Proportionate Nim\\n\";\n    cout << \"f(10^7) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "11541685709674"
+   ]
+  ]
+ },
+ {
+  "pid": "666",
+  "rc": 0,
+  "got": "0.48023168",
+  "official": "0.48023168",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        int N = 20; // example computation depth\n        cout << \"Computing colony count for N=\" << N << \"...\\n\";\n        ll result = count_colonies(N);\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"PE answer for the full problem: \" << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 666: Polymorphic Bacteria\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small c",
+  "consts": [
+   [
+    "PE_ANSWER_STR",
+    "0.48023168"
+   ]
+  ]
+ },
+ {
+  "pid": "667",
+  "rc": 0,
+  "got": "1.5276527928",
+  "official": "1.5276527928",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(6) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << fixed << setprecision(6);\n        cout << \"Computing expected cover time for pentagon variant...\\n\";\n        cout << \"Base cover time for cycle of 5: \" << expected_cover_time_cycle(5) << \"\\n\";\n        cout << \"PE answer (full problem): \" << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 667: Moving Pentagon\\n\";\n    cout << fixed << setprecision(6);\n    cout << \"Answer = \" << PE_ANSWER_STR << \"",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1.5276527928"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "1.5276527928"
+   ]
+  ]
+ },
+ {
+  "pid": "669",
+  "rc": 0,
+  "got": "56342087360542122",
+  "official": "56342087360542122",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing knight dial sequences...\\n\";\n        int N = 20;\n        cout << \"Sequences of \" << N << \" jumps from 1: \" << count_sequences(N, 1) << \"\\n\";\n        cout << \"PE answer: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 669: The Knight's Dial\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "56342087360542122"
+   ]
+  ]
+ },
+ {
+  "pid": "670",
+  "rc": 0,
+  "got": "551055065",
+  "official": "551055065",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        const ll M = 1000000007;\n        cout << \"Computing F(100, 10) mod 1e9+7...\\n\";\n        ll result = exactly_C_colors(100, 10, M);\n        cout << \"F(100,10) = \" << result << \"\\n\";\n        cout << \"PE answer: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 670: Colouring a Strip\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "551055065"
+   ]
+  ]
+ },
+ {
+  "pid": "673",
+  "rc": 0,
+  "got": "700325380",
+  "official": "700325380",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing PE 673...\\n\";\n        cout << \"Answer: \" << solve_pe673() << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 673: Beds and Desks\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "700325380"
+   ]
+  ]
+ },
+ {
+  "pid": "675",
+  "rc": 0,
+  "got": "416146418",
+  "official": "416146418",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing PE 675...\\n\";\n        cout << \"S(1000) = \" << fast_sum_pow2_omega(1000) << \"\\n\";\n        cout << \"Full answer: \" << solve_pe675() << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 675: 2^ω(n)\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "416146418"
+   ]
+  ]
+ },
+ {
+  "pid": "676",
+  "rc": 0,
+  "got": "3562668074339584",
+  "official": "3562668074339584",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing PE 676...\\n\";\n        cout << \"Sum over k=3..6, l=1..k-2 of M(10^16, 2^k, 2^l)\\n\";\n        cout << \"Full answer (last 16 digits): \" << solve_pe676() << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 676: Matching Digit Sums\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3562668074339584"
+   ]
+  ]
+ },
+ {
+  "pid": "680",
+  "rc": 0,
+  "got": "563917241",
+  "official": "563917241",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing PE 680...\\n\";\n        cout << \"R(10^18, 10^6) mod 10^9 = \" << solve_pe680() << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 680: Yarra Gxree\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "563917241"
+   ]
+  ]
+ },
+ {
+  "pid": "681",
+  "rc": 0,
+  "got": "2611227421428",
+  "official": "2611227421428",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing SP(1,000,000)...\\n\";\n        ll result = compute_SP(1000000);\n        cout << \"SP(1,000,000) = \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 681: Maximal Area\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2611227421428"
+   ]
+  ]
+ },
+ {
+  "pid": "687",
+  "rc": 0,
+  "got": "0.3285320869",
+  "official": "0.3285320869",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_MANTISSA_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing P(#perfect ranks is prime)...\\n\";\n        auto a = compute_a();\n        auto P = compute_distribution(a);\n        ld ans = 0;\n        for (int p : {2, 3, 5, 7, 11, 13}) ans += P[p];\n        cout << fixed << setprecision(10);\n        cout << \"Result: \" << ans << \"\\n\";\n        cout << \"Mantissa: \" << PE_ANSWER_MANTISSA_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 687: Shuffling Cards\\n\";\n    cout << \"Answer = \"",
+  "consts": [
+   [
+    "PE_ANSWER_MANTISSA",
+    "3285320869"
+   ],
+   [
+    "PE_ANSWER_MANTISSA_STR",
+    "0.3285320869"
+   ],
+   [
+    "PE_ANSWER",
+    "0.3285320869"
+   ]
+  ]
+ },
+ {
+  "pid": "696",
+  "rc": 0,
+  "got": "436944244",
+  "official": "436944244",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing...\\n\";\n        ll result = solve_pe696();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 696: The Game of M\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "436944244"
+   ]
+  ]
+ },
+ {
+  "pid": "697",
+  "rc": 0,
+  "got": "4343871.06",
+  "official": "4343871.06",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << fixed << setprecision(8);\n        cout << \"Computing expected sequence length...\\n\";\n        ld result = solve_pe697();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 697: Randomly Decay Sequence\\n\";\n    cout << fixed << setprecision(8);\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to outpu",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "4343871.06"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "4343871.06"
+   ]
+  ]
+ },
+ {
+  "pid": "702",
+  "rc": 0,
+  "got": "622305608172525546",
+  "official": "622305608172525546",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Jumping Flea...\\n\";\n        ll result = solve_pe702();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 702: Jumping Flea\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "622305608172525546"
+   ]
+  ]
+ },
+ {
+  "pid": "704",
+  "rc": 0,
+  "got": "501985601490518144",
+  "official": "501985601490518144",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Factors of Two...\\n\";\n        ll result = solve_pe704();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        cout << \"Match: \" << (result == PE_ANSWER ? \"YES\" : \"NO\") << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 704: Factors of Two in Binomial Coefficients\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'c",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "501985601490518144"
+   ]
+  ]
+ },
+ {
+  "pid": "712",
+  "rc": 0,
+  "got": "413876461",
+  "official": "413876461",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing S(10^12)...\\n\";\n        ll result = solve_pe712();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 712: Exponent Difference\\n\";\n    cout << \"Answer (mod 1e9+7) = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "413876461"
+   ]
+  ]
+ },
+ {
+  "pid": "716",
+  "rc": 0,
+  "got": "238948623",
+  "official": "238948623",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Grid Graphs...\\n\";\n        ll result = solve();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 716: Grid Graphs / 网格图\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "238948623"
+   ]
+  ]
+ },
+ {
+  "pid": "718",
+  "rc": 0,
+  "got": "228579116",
+  "official": "228579116",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Unreachable Numbers...\\n\";\n        ll result = solve_pe718();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 718: Unreachable Numbers / 不可达数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "228579116"
+   ]
+  ]
+ },
+ {
+  "pid": "720",
+  "rc": 0,
+  "got": "688081048",
+  "official": "688081048",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Unpredictable Permutations...\\n\";\n        ll result = solve_pe720();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 720: Unpredictable Permutations / 不可预测排列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "688081048"
+   ]
+  ]
+ },
+ {
+  "pid": "722",
+  "rc": 0,
+  "got": "3.376792776502e132",
+  "official": "3.376792776502e132",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        // Answer: 3.376792776502e132\n        cout << \"3.376792776502e132\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing E_15(1-2^{-25})...\\n\";\n        ld result = compute_Ek_optimized(K, Q_TARGET, M_EXP);\n        cout << \"Result: \" << to_scientific(result) << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 722: Slowly converging series / 缓慢收敛级数\\n\";\n    cout << \"Answer (mantissa) = 3.376792776502e132\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'compute' to calculate.\\n\";\n    return 0;\n}\n"
+ },
+ {
+  "pid": "723",
+  "rc": 0,
+  "got": "1395793419248",
+  "official": "1395793419248",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_small(); return 0; }\n    if (query == \"compute\") {\n        cout << \"Computing S(5^6·13^3·17^2·29·37·41·53·61)...\\n\";\n        ll result = compute_S();\n        cout << \"Result: \" << result << \"\\nExpected: \" << PE_ANSWER << \"\\n\";\n        if (result == PE_ANSWER) cout << \"✓ Match!\\n\";\n        else cout << \"✗ Mismatch\\n\";\n        return 0;\n    }\n    cout << \"PE 723: Pythagorean Quadrilaterals\\nAnswer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'compute' to calculate.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1395793419248"
+   ]
+  ]
+ },
+ {
+  "pid": "724",
+  "rc": 0,
+  "got": "18128250110",
+  "official": "18128250110",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    if (query == \"compute\") {\n        cout << \"Computing E(10^8)...\\n\";\n        ld result = compute_E(N);\n        ll rounded = (ll)roundl(result);\n        cout << \"E(10^8) = \" << fixed << setprecision(6) << result << \"\\n\";\n        cout << \"Rounded: \" << rounded << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        if (rounded == PE_ANSWER) cout << \"✓ Match!\\n\";\n        else cout << \"✗ Mismatch (diff: \" << (rounded - PE_ANSWER) << \")\\n\";\n        return 0;\n    }\n    cout << \"P",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "18128250110"
+   ]
+  ]
+ },
+ {
+  "pid": "726",
+  "rc": 0,
+  "got": "578040951",
+  "official": "578040951",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Falling Bottles...\\n\";\n        ll result = solve_pe726();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        if (result == PE_ANSWER) cout << \"✓ Match!\\n\";\n        else cout << \"✗ Mismatch\\n\";\n        return 0;\n    }\n\n    cout << \"PE 726: Falling Bottles / 落瓶\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'co",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "578040951"
+   ]
+  ]
+ },
+ {
+  "pid": "727",
+  "rc": 0,
+  "got": "3.64039141",
+  "official": "3.64039141",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Triangle of Circular Sectors...\\n\";\n        ld result = solve_pe727();\n        cout << fixed << setprecision(8) << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 727: Triangle of Circular Sectors / 圆扇三角形\\n\";\n    cout << fixed << setprecision(8) << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output answe",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3.64039141"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "3.64039141"
+   ]
+  ]
+ },
+ {
+  "pid": "728",
+  "rc": 0,
+  "got": "709874991",
+  "official": "709874991",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Circle of Coins...\\n\";\n        ll result = solve_pe728();\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        if (result == PE_ANSWER) cout << \"✓ Match!\\n\";\n        else cout << \"✗ Mismatch\\n\";\n        return 0;\n    }\n\n    cout << \"PE 728: Circle of Coins / 硬币圆\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' to output answer, 'verify' for small checks, 'c",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "709874991"
+   ]
+  ]
+ },
+ {
+  "pid": "729",
+  "rc": 0,
+  "got": "308896374.2502",
+  "official": "308896374.2502",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(4) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Range of continued fractions...\\n\";\n        ld result = solve_pe729();\n        cout << fixed << setprecision(4) << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 729: Range of continued fractions / 连分数范围\\n\";\n    cout << fixed << setprecision(4) << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' to output answe",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "308896374.2502"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "308896374.2502"
+   ]
+  ]
+ },
+ {
+  "pid": "731",
+  "rc": 0,
+  "got": "6086371427",
+  "official": "6086371427",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing Stoneham constant α_{10,3}...\\n\";\n        string result = compute_stoneham_precise(50);\n        cout << \"Result (50 digits): \" << result << \"\\n\";\n        cout << \"First 10 digits: \" << result.substr(0, 11) << \"\\n\";\n        return 0;\n    }\n\n    // Query digit n: compute prefix up to that digit\n    if (query.size() >= 5 && query.substr(0, 5) == \"digit\") {\n        int n = stoi(query.substr(6));\n        cout << \"Computing first \" << n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "6086371427"
+   ]
+  ]
+ },
+ {
+  "pid": "734",
+  "rc": 0,
+  "got": "557988060",
+  "official": "557988060",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing S(N) for various N...\\n\";\n        for (int e = 3; e <= 6; e++) {\n            ll N = 1;\n            for (int i = 0; i < e; i++) N *= 10;\n            ll s = solve_simple(N);\n            cout << \"  N=10^\" << e << \" = \" << N << \": S=\" << s << \"\\n\";\n        }\n        return 0;\n    }\n\n    if (query.find(\"simple\") == 0) {\n        ll N = stoll(query.substr(7));\n        ll s = solve_simple(N);\n        cout << \"S(\" << N << \") = \" << s << \"\\",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "557988060"
+   ]
+  ]
+ },
+ {
+  "pid": "735",
+  "rc": 0,
+  "got": "174848216767932",
+  "official": "174848216767932",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"Computing divisors of n²+1...\\n\";\n        ll N = 1000;\n        ll result = solve_large(N);\n        cout << \"N=\" << N << \": Σ #divisors≡1(mod4) = \" << result << \"\\n\";\n        N = 2000;\n        result = solve_large(N);\n        cout << \"N=\" << N << \": Σ #divisors≡1(mod4) = \" << result << \"\\n\";\n        return 0;\n    }\n\n    if (query.find(\"N=\") == 0) {\n        ll N = stoll(query.substr(2));\n        ll result = solve_large(N);\n        cout << \"Σ_",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "174848216767932"
+   ]
+  ]
+ },
+ {
+  "pid": "737",
+  "rc": 0,
+  "got": "757794899",
+  "official": "757794899",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        int N = 30;\n        cout << \"Computing coin loops for n=\" << N << \"...\\n\";\n        ll result = compute_loops(N);\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        cout << (result == PE_ANSWER ? \"✓ Match!\" : \"✗ Mismatch!\") << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 737: Coin Loops / 硬币循环\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small ",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "757794899"
+   ]
+  ]
+ },
+ {
+  "pid": "738",
+  "rc": 0,
+  "got": "143091030",
+  "official": "143091030",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        int N = 100; // adjust based on actual PE parameter\n        cout << \"Computing sum of D(i!) for i=1..\" << N << \"...\\n\";\n        ll result = sum_D_factorial(N, MOD);\n        cout << \"Result: \" << result << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        cout << (result == PE_ANSWER ? \"✓ Match!\" : \"✗ Mismatch!\") << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 738: Counting ordered factorisations / 有序因子分解计数\\n\";\n    cout << \"Answer = ",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "143091030"
+   ]
+  ]
+ },
+ {
+  "pid": "739",
+  "rc": 0,
+  "got": "711399016",
+  "official": "711399016",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        // The actual computation for the PE parameter\n        cout << \"PE 739: Summation of Summations\\n\";\n        cout << \"Computing full answer...\\n\";\n        cout << \"Result: \" << PE_ANSWER << \"\\n\";\n        cout << \"(Answer hardcoded from known PE solution)\\n\";\n        return 0;\n    }\n\n    cout << \"PE 739: Summation of Summations / 求和之求和\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compu",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "711399016"
+   ]
+  ]
+ },
+ {
+  "pid": "740",
+  "rc": 0,
+  "got": "0.0189581208",
+  "official": "0.0189581208",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"PE 740: Secret Santa\\n\";\n        cout << \"Computing probability for the target n...\\n\";\n        // The probability ≈ e/n for large n, or exact computation\n        cout << fixed << setprecision(10);\n        cout << \"For n=144: P(single cycle) ≈ \" << prob_one_cycle_approx(144) << \"\\n\";\n        cout << \"Expected: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 740: Secret Santa / 秘密圣诞老人\\n\";\n    cout << \"Answer = \" << PE_ANSWER",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.0189581208"
+   ]
+  ]
+ },
+ {
+  "pid": "744",
+  "rc": 0,
+  "got": "0.0001999600",
+  "official": "0.0001999600",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        cout << \"PE 744: \\\"What? Where? When?\\\"\\n\";\n        cout << \"f(10^11, 0.4999) = \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    cout << \"PE 744: \\\"What? Where? When?\\\" / 什么？哪里？何时？\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to recalc.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.0001999600"
+   ]
+  ]
+ },
+ {
+  "pid": "746",
+  "rc": 0,
+  "got": "867150922",
+  "official": "867150922",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_medley();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        explore_formulas();\n        return 0;\n    }\n\n    cout << \"PE 746: A Messy Medley / 杂乱混合\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "867150922"
+   ]
+  ]
+ },
+ {
+  "pid": "751",
+  "rc": 0,
+  "got": "2.223561019313554106173177",
+  "official": "2.223561019313554106173177",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_D_STR << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        verify_751();\n        return 0;\n    }\n    \n    cout << \"PE 751: Concatenation Coincidence / 拼接巧合\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_D_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_D",
+    "2.223561019313554106173177"
+   ],
+   [
+    "PE_ANSWER_D_STR",
+    "2.223561019313554106173177"
+   ]
+  ]
+ },
+ {
+  "pid": "752",
+  "rc": 0,
+  "got": "5610899769745488",
+  "official": "5610899769745488",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        explore_752();\n        return 0;\n    }\n    \n    if (query == \"period\") {\n        check_period();\n        return 0;\n    }\n    \n    cout << \"PE 752: Powers of 1+√7 / 1+√7的幂\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' to explore, 'period' for mod checks.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "5610899769745488"
+   ]
+  ]
+ },
+ {
+  "pid": "754",
+  "rc": 0,
+  "got": "785845900",
+  "official": "785845900",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    \n    if (query == \"verify\") {\n        explore_gauss();\n        return 0;\n    }\n    \n    cout << \"PE 754: Product of Gauss Factorials / 高斯阶乘积\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "785845900"
+   ]
+  ]
+ },
+ {
+  "pid": "766",
+  "rc": 0,
+  "got": "2613742",
+  "official": "2613742",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_sliding_blocks();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_sliding_blocks();\n        return 0;\n    }\n\n    cout << \"PE 766: Sliding Block Puzzle / 滑块拼图\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2613742"
+   ]
+  ]
+ },
+ {
+  "pid": "768",
+  "rc": 0,
+  "got": "14655308696436060",
+  "official": "14655308696436060",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_chandelier();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_chandelier();\n        return 0;\n    }\n\n    cout << \"PE 768: Chandelier / 吊灯\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "14655308696436060"
+   ]
+  ]
+ },
+ {
+  "pid": "769",
+  "rc": 0,
+  "got": "14246712611506",
+  "official": "14246712611506",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER_DOUBLE + 0.5) << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_binary_game();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_binary_game();\n        return 0;\n    }\n\n    cout << \"PE 769: Binary Guessing Game / 二进制猜数游戏\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_DOUBLE << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_DOUBLE",
+    "14246712611506"
+   ]
+  ]
+ },
+ {
+  "pid": "770",
+  "rc": 0,
+  "got": "127311223",
+  "official": "127311223",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_b_tourism();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_b_tourism();\n        return 0;\n    }\n\n    cout << \"PE 770: B-tourism / B旅游\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "127311223"
+   ]
+  ]
+ },
+ {
+  "pid": "771",
+  "rc": 0,
+  "got": "398803409",
+  "official": "398803409",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_pseudo_geometric();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_pseudo_geometric();\n        return 0;\n    }\n\n    cout << \"PE 771: Pseudo-geometric sequences / 伪几何序列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "398803409"
+   ]
+  ]
+ },
+ {
+  "pid": "773",
+  "rc": 0,
+  "got": "556206950",
+  "official": "556206950",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_ruffled();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_ruffled();\n        return 0;\n    }\n\n    cout << \"PE 773: Ruffled numbers / 褶皱数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "556206950"
+   ]
+  ]
+ },
+ {
+  "pid": "774",
+  "rc": 0,
+  "got": "459155763",
+  "official": "459155763",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_conjunctive();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_conjunctive();\n        return 0;\n    }\n\n    cout << \"PE 774: Conjunctive sequences / 合取序列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "459155763"
+   ]
+  ]
+ },
+ {
+  "pid": "776",
+  "rc": 0,
+  "got": "9.627509725002e33",
+  "official": "9.627509725002e33",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_digit_sum_division();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_digit_sum_division();\n        return 0;\n    }\n\n    cout << \"PE 776: Digit Sum Division / 数字和除法\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "201773590"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "9.627509725002e33"
+   ]
+  ]
+ },
+ {
+  "pid": "777",
+  "rc": 0,
+  "got": "2.533018434e23",
+  "official": "2.533018434e23",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_lcm_sigma();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_lcm_sigma_large();\n        return 0;\n    }\n\n    cout << \"PE 777: LCM of sum of divisors / 约数和的LCM\\n\";\n    cout << \"Answer = \" << fixed << setprecision(9) << PE_ANSWER_DOUBLE_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_DOUBLE",
+    "2.533018434e23"
+   ],
+   [
+    "PE_ANSWER_DOUBLE_STR",
+    "2.533018434e23"
+   ]
+  ]
+ },
+ {
+  "pid": "780",
+  "rc": 0,
+  "got": "613979935",
+  "official": "613979935",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(4) << (long long)(PE_ANSWER_DOUBLE + 0.5) << \"\\n\";\n        return 0;\n    }\n\n    if (query == \"verify\") {\n        verify_triangle_system();\n        return 0;\n    }\n\n    if (query == \"compute\") {\n        compute_triangle_system();\n        return 0;\n    }\n\n    cout << \"PE 780: Triangle System / 三角系统\\n\";\n    cout << \"Answer = \" << fixed << setprecision(4) << PE_ANSWER_DOUBLE << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_DOUBLE",
+    "613979935"
+   ]
+  ]
+ },
+ {
+  "pid": "781",
+  "rc": 0,
+  "got": "162450870",
+  "official": "162450870",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_feynman();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_feynman();\n        return 0;\n    }\n    cout << \"PE 781: Feynman diagram / 费曼图\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "162450870"
+   ]
+  ]
+ },
+ {
+  "pid": "782",
+  "rc": 0,
+  "got": "318313204",
+  "official": "318313204",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_distinct();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_distinct();\n        return 0;\n    }\n    cout << \"PE 782: Distinct Rows and Columns / 不同行列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "318313204"
+   ]
+  ]
+ },
+ {
+  "pid": "783",
+  "rc": 0,
+  "got": "136666597",
+  "official": "136666597",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_urns();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_urns();\n        return 0;\n    }\n    cout << \"PE 783: Urns / 瓮\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "136666597"
+   ]
+  ]
+ },
+ {
+  "pid": "784",
+  "rc": 0,
+  "got": "5833303012576429231",
+  "official": "5833303012576429231",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"5833303012576429231\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_reciprocal();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_reciprocal();\n        return 0;\n    }\n    cout << \"PE 784: Reciprocal Pairs / 互反对\\n\";\n    cout << \"Answer = 5833303012576429231\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_LO",
+    "5834231041212316"
+   ],
+   [
+    "PE_ANSWER_HI",
+    "5834231041212316"
+   ]
+  ]
+ },
+ {
+  "pid": "785",
+  "rc": 0,
+  "got": "29526986315080920",
+  "official": "29526986315080920",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_5sextuples();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_5sextuples();\n        return 0;\n    }\n    cout << \"PE 785: 5-sextuples / 五元组\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "29526986315080920"
+   ]
+  ]
+ },
+ {
+  "pid": "786",
+  "rc": 0,
+  "got": "45594532839912702",
+  "official": "45594532839912702",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_billiard();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_billiard();\n        return 0;\n    }\n    cout << \"PE 786: Billiard / 台球\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "45594532839912702"
+   ]
+  ]
+ },
+ {
+  "pid": "787",
+  "rc": 0,
+  "got": "202642367520564145",
+  "official": "202642367520564145",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_bezout();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_bezout();\n        return 0;\n    }\n    cout << \"PE 787: Bezout's Game / Bezout游戏\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "202642367520564145"
+   ]
+  ]
+ },
+ {
+  "pid": "789",
+  "rc": 0,
+  "got": "13431419535872807040",
+  "official": "13431419535872807040",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"13431419535872807040\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_minimal_pairing();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_minimal_pairing();\n        return 0;\n    }\n    cout << \"PE 789: Minimal pairing modulo p / 模p最小配对\\n\";\n    cout << \"Answer = 13431419535872807040\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n"
+ },
+ {
+  "pid": "790",
+  "rc": 0,
+  "got": "16585056588495119",
+  "official": "16585056588495119",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"16585056588495119\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_clock_grid();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_clock_grid();\n        return 0;\n    }\n    cout << \"PE 790: Clock Grid / 时钟网格\\n\";\n    cout << \"Answer = 16585056588495119\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_LO",
+    "73597483551591773"
+   ],
+   [
+    "PE_HI",
+    "73597483551591773"
+   ]
+  ]
+ },
+ {
+  "pid": "791",
+  "rc": 0,
+  "got": "404890862",
+  "official": "404890862",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_prefect();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_prefect();\n        return 0;\n    }\n    cout << \"PE 791: Prefect Squares / 完全平方\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "404890862"
+   ]
+  ]
+ },
+ {
+  "pid": "792",
+  "rc": 0,
+  "got": "2500500025183626",
+  "official": "2500500025183626",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_too_many_twos();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_too_many_twos();\n        return 0;\n    }\n    cout << \"PE 792: Too Many Twos / 太多2\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2500500025183626"
+   ]
+  ]
+ },
+ {
+  "pid": "793",
+  "rc": 0,
+  "got": "475808650131120",
+  "official": "475808650131120",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << \"475808650131120\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_median_products();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_median_products();\n        return 0;\n    }\n    cout << \"PE 793: Median of Products / 乘积中位数\\n\";\n    cout << \"Answer = 475808650131120\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_LO",
+    "4758086501311202972"
+   ],
+   [
+    "PE_HI",
+    "4758086501311202972"
+   ]
+  ]
+ },
+ {
+  "pid": "794",
+  "rc": 0,
+  "got": "8.146681749623",
+  "official": "8.146681749623",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_seventeen();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_seventeen();\n        return 0;\n    }\n    cout << \"PE 794: Seventeen points / 十七个点\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "56375722"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "8.146681749623"
+   ]
+  ]
+ },
+ {
+  "pid": "796",
+  "rc": 0,
+  "got": "43.20649061",
+  "official": "43.20649061",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_grand_shuffle();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_grand_shuffle();\n        return 0;\n    }\n    cout << \"PE 796: A Grand Shuffle / 大洗牌\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "43.20649061"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "43.20649061"
+   ]
+  ]
+ },
+ {
+  "pid": "797",
+  "rc": 0,
+  "got": "47722272",
+  "official": "47722272",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_cyclogenic();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_cyclogenic();\n        return 0;\n    }\n    cout << \"PE 797: Cyclogenic Polynomials / 循环多项式\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "47722272"
+   ]
+  ]
+ },
+ {
+  "pid": "798",
+  "rc": 0,
+  "got": "132996198",
+  "official": "132996198",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_card_game();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_card_game();\n        return 0;\n    }\n    cout << \"PE 798: Card Stacking Game / 堆牌游戏\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "132996198"
+   ]
+  ]
+ },
+ {
+  "pid": "799",
+  "rc": 0,
+  "got": "1096910149053902",
+  "official": "1096910149053902",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_langton();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_langton();\n        return 0;\n    }\n    cout << \"PE 799: Langton's ant II / 兰顿蚂蚁II\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1096910149053902"
+   ]
+  ]
+ },
+ {
+  "pid": "801",
+  "rc": 0,
+  "got": "638129754",
+  "official": "638129754",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_equable();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_equable();\n        return 0;\n    }\n    cout << \"PE 801: Equable Matrices / 公正矩阵\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "638129754"
+   ]
+  ]
+ },
+ {
+  "pid": "802",
+  "rc": 0,
+  "got": "973873727",
+  "official": "973873727",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_iterated();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_iterated();\n        return 0;\n    }\n    cout << \"PE 802: Iterated Composition / 迭代组合\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "973873727"
+   ]
+  ]
+ },
+ {
+  "pid": "803",
+  "rc": 0,
+  "got": "9300900470636",
+  "official": "9300900470636",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_pseudorandom();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_pseudorandom();\n        return 0;\n    }\n    cout << \"PE 803: Pseudorandom Sequence / 伪随机序列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "9300900470636"
+   ]
+  ]
+ },
+ {
+  "pid": "804",
+  "rc": 0,
+  "got": "4921370551019052",
+  "official": "4921370551019052",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_quadratic();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_quadratic();\n        return 0;\n    }\n    cout << \"PE 804: Count Binary Quadratic Representations / 二元二次型表示计数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "4921370551019052"
+   ]
+  ]
+ },
+ {
+  "pid": "805",
+  "rc": 0,
+  "got": "119719335",
+  "official": "119719335",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_shifted();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_shifted();\n        return 0;\n    }\n    cout << \"PE 805: Shifted Multiples / 平移倍数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "119719335"
+   ]
+  ]
+ },
+ {
+  "pid": "806",
+  "rc": 0,
+  "got": "94394343",
+  "official": "94394343",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_nim_triangular();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_nim_triangular();\n        return 0;\n    }\n    cout << \"PE 806: Nim on a Triangular Grid / 三角网格Nim\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "94394343"
+   ]
+  ]
+ },
+ {
+  "pid": "807",
+  "rc": 0,
+  "got": "0.1091523673",
+  "official": "0.1091523673",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(7) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_rododdle();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_rododdle();\n        return 0;\n    }\n    cout << \"PE 807: Rododdle / 杆旋转\\n\";\n    cout << \"Answer = \" << fixed << setprecision(7) << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.1091523673"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "0.1091523673"
+   ]
+  ]
+ },
+ {
+  "pid": "808",
+  "rc": 0,
+  "got": "3807504276997394",
+  "official": "3807504276997394",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_reversible_squares();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_reversible_squares();\n        return 0;\n    }\n    cout << \"PE 808: Reversible Prime Squares / 可逆素数平方\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3807504276997394"
+   ]
+  ]
+ },
+ {
+  "pid": "809",
+  "rc": 0,
+  "got": "75353432948733",
+  "official": "75353432948733",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_rational_polynomials();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_rational_polynomials();\n        return 0;\n    }\n    cout << \"PE 809: Rational Polynomials / 有理多项式\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "75353432948733"
+   ]
+  ]
+ },
+ {
+  "pid": "810",
+  "rc": 0,
+  "got": "124136381",
+  "official": "124136381",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_xor_primes();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_xor_primes();\n        return 0;\n    }\n    cout << \"PE 810: XOR-Primes / 异或素数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "124136381"
+   ]
+  ]
+ },
+ {
+  "pid": "811",
+  "rc": 0,
+  "got": "327287526",
+  "official": "327287526",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_bitwise();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_bitwise();\n        return 0;\n    }\n    cout << \"PE 811: Bitwise Recursion / 按位递归\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "327287526"
+   ]
+  ]
+ },
+ {
+  "pid": "812",
+  "rc": 0,
+  "got": "986262698",
+  "official": "986262698",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_dynamical();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_dynamical();\n        return 0;\n    }\n    cout << \"PE 812: Dynamical Polynomials / 动态多项式\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "986262698"
+   ]
+  ]
+ },
+ {
+  "pid": "813",
+  "rc": 0,
+  "got": "14063639",
+  "official": "14063639",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_xor_power();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_xor_power();\n        return 0;\n    }\n    cout << \"PE 813: XOR-Powers / 异或幂\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "14063639"
+   ]
+  ]
+ },
+ {
+  "pid": "814",
+  "rc": 0,
+  "got": "307159326",
+  "official": "307159326",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_mezzo_forte();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_mezzo_forte();\n        return 0;\n    }\n    cout << \"PE 814: Mezzo-forte / 中强音\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "307159326"
+   ]
+  ]
+ },
+ {
+  "pid": "815",
+  "rc": 0,
+  "got": "54.12691621",
+  "official": "54.12691621",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_DOUBLE_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_group_by_value();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_group_by_value();\n        return 0;\n    }\n    cout << \"PE 815: Group by Value / 点数分组\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_DOUBLE_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_DOUBLE",
+    "54.12691621"
+   ],
+   [
+    "PE_ANSWER_DOUBLE_STR",
+    "54.12691621"
+   ],
+   [
+    "PE_ANSWER_INT",
+    "263959319"
+   ]
+  ]
+ },
+ {
+  "pid": "817",
+  "rc": 0,
+  "got": "93158936107011",
+  "official": "93158936107011",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_digits_in_place();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_digits_in_place();\n        return 0;\n    }\n    cout << \"PE 817: Digits in their place / 数字到位\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "93158936107011"
+   ]
+  ]
+ },
+ {
+  "pid": "818",
+  "rc": 0,
+  "got": "11871909492066000",
+  "official": "11871909492066000",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_set();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_set();\n        return 0;\n    }\n    cout << \"PE 818: SET / SET游戏\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "11871909492066000"
+   ]
+  ]
+ },
+ {
+  "pid": "819",
+  "rc": 0,
+  "got": "1995.975556",
+  "official": "1995.975556",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_iterative_coding();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_iterative_coding();\n        return 0;\n    }\n    cout << \"PE 819: Iterative coding / 迭代编码\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "336745654331992"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "1995.975556"
+   ]
+  ]
+ },
+ {
+  "pid": "821",
+  "rc": 0,
+  "got": "9219661511328178",
+  "official": "9219661511328178",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_123_separated();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_123_separated();\n        return 0;\n    }\n    cout << \"PE 821: 123-Separeted / 123分隔\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "9219661511328178"
+   ]
+  ]
+ },
+ {
+  "pid": "822",
+  "rc": 0,
+  "got": "950591530",
+  "official": "950591530",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_square_smallest();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_square_smallest();\n        return 0;\n    }\n    cout << \"PE 822: Square the Smallest / 最小平方\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "950591530"
+   ]
+  ]
+ },
+ {
+  "pid": "823",
+  "rc": 0,
+  "got": "865849519",
+  "official": "865849519",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(3) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_factor_shuffle();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_factor_shuffle();\n        return 0;\n    }\n    cout << \"PE 823: Factor Shuffle / 因子洗牌\\n\";\n    cout << \"Answer = \" << fixed << setprecision(3) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "865849519"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "865849519"
+   ]
+  ]
+ },
+ {
+  "pid": "824",
+  "rc": 0,
+  "got": "26532152736197",
+  "official": "26532152736197",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(12) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_chess_sliding();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_chess_sliding();\n        return 0;\n    }\n    cout << \"PE 824: Chess Sliding / 象棋滑动\\n\";\n    cout << \"Answer = \" << fixed << setprecision(12) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "26532152736197"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "26532152736197"
+   ]
+  ]
+ },
+ {
+  "pid": "825",
+  "rc": 0,
+  "got": "32.34481054",
+  "official": "32.34481054",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_chimp_zom();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_chimp_zom();\n        return 0;\n    }\n    cout << \"PE 825: Chimp Zom / 黑猩猩Zom\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "963329187"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "32.34481054"
+   ]
+  ]
+ },
+ {
+  "pid": "826",
+  "rc": 0,
+  "got": "0.3889014797",
+  "official": "0.3889014797",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << PE_ANSWER_STR2 << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_birds_on_wire();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_birds_on_wire();\n        return 0;\n    }\n    cout << \"PE 826: Birds on a Wire / 电线上的鸟\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_STR2 << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER_STR",
+    "0.3889014797"
+   ],
+   [
+    "PE_ANSWER",
+    "0.3889014797"
+   ],
+   [
+    "PE_ANSWER_STR2",
+    "0.3889014797"
+   ]
+  ]
+ },
+ {
+  "pid": "827",
+  "rc": 0,
+  "got": "397289979",
+  "official": "397289979",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_pseudoprime_nimbers();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_pseudoprime_nimbers();\n        return 0;\n    }\n    cout << \"PE 827: Pseudoprime Nimbers / 伪素数Nim\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "397289979"
+   ]
+  ]
+ },
+ {
+  "pid": "828",
+  "rc": 0,
+  "got": "148693670",
+  "official": "148693670",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_numbers_challenge();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_numbers_challenge();\n        return 0;\n    }\n    cout << \"PE 828: Numbers Challenge / 数字挑战\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "148693670"
+   ]
+  ]
+ },
+ {
+  "pid": "829",
+  "rc": 0,
+  "got": "41768797657018024",
+  "official": "41768797657018024",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_integral_fusion();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_integral_fusion();\n        return 0;\n    }\n    cout << \"PE 829: Integral Fusion / 积分融合\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "41768797657018024"
+   ]
+  ]
+ },
+ {
+  "pid": "830",
+  "rc": 0,
+  "got": "254179446930484376",
+  "official": "254179446930484376",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_shifted_exp();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_shifted_exp();\n        return 0;\n    }\n    cout << \"PE 830: Shifted Exponentiation / 平移指数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "254179446930484376"
+   ]
+  ]
+ },
+ {
+  "pid": "831",
+  "rc": 0,
+  "got": "5226432553",
+  "official": "5226432553",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_crt_twice(); return 0; }\n    if (query == \"compute\") { compute_crt_twice(); return 0; }\n    cout << \"PE 831: Chinese Remainder Twice / 二次中国剩余\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "5226432553"
+   ]
+  ]
+ },
+ {
+  "pid": "832",
+  "rc": 0,
+  "got": "552839586",
+  "official": "552839586",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_totem_tiling(); return 0; }\n    if (query == \"compute\") { compute_totem_tiling(); return 0; }\n    cout << \"PE 832: Totem Tiling / 图腾铺砖\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "552839586"
+   ]
+  ]
+ },
+ {
+  "pid": "833",
+  "rc": 0,
+  "got": "43884302",
+  "official": "43884302",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_square_triangle_products(); return 0; }\n    if (query == \"compute\") { compute_square_triangle_products(); return 0; }\n    cout << \"PE 833: Square Triangle Products / 三角平方乘积\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "43884302"
+   ]
+  ]
+ },
+ {
+  "pid": "834",
+  "rc": 0,
+  "got": "1254404167198752370",
+  "official": "1254404167198752370",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_add_and_divide(); return 0; }\n    if (query == \"compute\") { compute_add_and_divide(); return 0; }\n    cout << \"PE 834: Add and Divide / 加与除\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1254404167198752370"
+   ]
+  ]
+ },
+ {
+  "pid": "835",
+  "rc": 0,
+  "got": "1050923942",
+  "official": "1050923942",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_supernatural(); return 0; }\n    if (query == \"compute\") { compute_supernatural(); return 0; }\n    cout << \"PE 835: Supernatural Numbers / 超自然数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1050923942"
+   ]
+  ]
+ },
+ {
+  "pid": "836",
+  "rc": 0,
+  "got": "aprilfoolsjoke",
+  "official": "aprilfoolsjoke",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_message_in_mess();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_message_in_mess();\n        return 0;\n    }\n    cout << \"PE 836: A Message in a Mess / 混乱中的信息\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n"
+ },
+ {
+  "pid": "837",
+  "rc": 0,
+  "got": "428074856",
+  "official": "428074856",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(6) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_minimal_circles();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_minimal_circles();\n        return 0;\n    }\n    cout << \"PE 837: Minimal Circles / 最小圆\\n\";\n    cout << \"Answer = \" << fixed << setprecision(6) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "428074856"
+   ]
+  ]
+ },
+ {
+  "pid": "838",
+  "rc": 0,
+  "got": "250591.442792",
+  "official": "250591.442792",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_not_relatively_prime();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_not_relatively_prime();\n        return 0;\n    }\n    cout << \"PE 838: Not Relatively Prime / 不互质\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3610283147900864"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "250591.442792"
+   ]
+  ]
+ },
+ {
+  "pid": "839",
+  "rc": 0,
+  "got": "150893234438294408",
+  "official": "150893234438294408",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_beans_in_bowls();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_beans_in_bowls();\n        return 0;\n    }\n    cout << \"PE 839: Beans in Bowls / 碗中豆\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "150893234438294408"
+   ]
+  ]
+ },
+ {
+  "pid": "840",
+  "rc": 0,
+  "got": "194396971",
+  "official": "194396971",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(9) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_sum_of_products();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_sum_of_products();\n        return 0;\n    }\n    cout << \"PE 840: Sum of Products / 乘积和\\n\";\n    cout << \"Answer = \" << fixed << setprecision(9) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "194396971"
+   ]
+  ]
+ },
+ {
+  "pid": "841",
+  "rc": 0,
+  "got": "381.7860132854",
+  "official": "381.7860132854",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_star_polygons();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_star_polygons();\n        return 0;\n    }\n    cout << \"PE 841: Regular Star Polygons / 正星多边形\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "540610990902316"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "381.7860132854"
+   ]
+  ]
+ },
+ {
+  "pid": "842",
+  "rc": 0,
+  "got": "885226002",
+  "official": "885226002",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_irrational_jumps();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_irrational_jumps();\n        return 0;\n    }\n    cout << \"PE 842: Irrational Jumps / 无理跳跃\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "885226002"
+   ]
+  ]
+ },
+ {
+  "pid": "843",
+  "rc": 0,
+  "got": "2816775424692",
+  "official": "2816775424692",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_periodic_circles();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_periodic_circles();\n        return 0;\n    }\n    cout << \"PE 843: Periodic Circles / 周期圆\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2816775424692"
+   ]
+  ]
+ },
+ {
+  "pid": "844",
+  "rc": 0,
+  "got": "101805206",
+  "official": "101805206",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_convergents_of_e();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_convergents_e();\n        return 0;\n    }\n    cout << \"PE 844: Convergents of e / e的渐近分数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "101805206"
+   ]
+  ]
+ },
+ {
+  "pid": "845",
+  "rc": 0,
+  "got": "45009328011709400",
+  "official": "45009328011709400",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_prime_digit_sum();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_prime_digit_sum();\n        return 0;\n    }\n    cout << \"PE 845: Prime Digit Sum / 素数位和\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "45009328011709400"
+   ]
+  ]
+ },
+ {
+  "pid": "846",
+  "rc": 0,
+  "got": "9851175623",
+  "official": "9851175623",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_magic_bracelets();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_magic_bracelets();\n        return 0;\n    }\n    cout << \"PE 846: Magic Bracelets / 魔法手环\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "9851175623"
+   ]
+  ]
+ },
+ {
+  "pid": "847",
+  "rc": 0,
+  "got": "381868244",
+  "official": "381868244",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_jacks_bean();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_jacks_bean();\n        return 0;\n    }\n    cout << \"PE 847: Jack's Bean / 杰克的豆子\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "381868244"
+   ]
+  ]
+ },
+ {
+  "pid": "848",
+  "rc": 0,
+  "got": "188.45503259",
+  "official": "188.45503259",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_guessing();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_guessing();\n        return 0;\n    }\n    cout << \"PE 848: Guessing with Probability / 概率猜数\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "50500744"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "188.45503259"
+   ]
+  ]
+ },
+ {
+  "pid": "849",
+  "rc": 0,
+  "got": "936203459",
+  "official": "936203459",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_race();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_race();\n        return 0;\n    }\n    cout << \"PE 849: Race to Strength / 力量竞赛\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "936203459"
+   ]
+  ]
+ },
+ {
+  "pid": "850",
+  "rc": 0,
+  "got": "878255725",
+  "official": "878255725",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_fractions();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_fractions();\n        return 0;\n    }\n    cout << \"PE 850: Fractions of Powers / 幂的分数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for exploration, 'compute' for stats.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "878255725"
+   ]
+  ]
+ },
+ {
+  "pid": "851",
+  "rc": 0,
+  "got": "726358482",
+  "official": "726358482",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_sop_pos();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_sop_pos();\n        return 0;\n    }\n    cout << \"PE 851: SOP and POS / 除数对的积与和\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "726358482"
+   ]
+  ]
+ },
+ {
+  "pid": "852",
+  "rc": 0,
+  "got": "130.313496",
+  "official": "130.313496",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_coins_box();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_coins_box();\n        return 0;\n    }\n    cout << \"PE 852: Coins in a Box / 盒中硬币\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "544106376"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "130.313496"
+   ]
+  ]
+ },
+ {
+  "pid": "854",
+  "rc": 0,
+  "got": "29894398",
+  "official": "29894398",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_pisano2();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_pisano2();\n        return 0;\n    }\n    cout << \"PE 854: Pisano Periods 2 / Pisano周期2\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "29894398"
+   ]
+  ]
+ },
+ {
+  "pid": "855",
+  "rc": 0,
+  "got": "6.8827571976e-57",
+  "official": "6.8827571976e-57",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_delphi();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_delphi();\n        return 0;\n    }\n    cout << \"PE 855: Delphi Paper / 德尔斐纸\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "999998093600"
+   ]
+  ]
+ },
+ {
+  "pid": "856",
+  "rc": 0,
+  "got": "17.09661501",
+  "official": "17.09661501",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_expected();\n        return 0;\n    }\n\n    cout << \"PE 856: Waiting for a Pair / 等待对子\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "17.09661501"
+   ]
+  ]
+ },
+ {
+  "pid": "857",
+  "rc": 0,
+  "got": "966332096",
+  "official": "966332096",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\" || query == \"compute\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 857: Beautiful Graphs / 美丽图\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "966332096"
+   ]
+  ]
+ },
+ {
+  "pid": "858",
+  "rc": 0,
+  "got": "973077199",
+  "official": "973077199",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_small();\n        return 0;\n    }\n    if (query == \"compute\") {\n        verify_small();\n        return 0;\n    }\n    \n    cout << \"PE 858: LCM / 最小公倍数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "973077199"
+   ]
+  ]
+ },
+ {
+  "pid": "859",
+  "rc": 0,
+  "got": "1527162658488196",
+  "official": "1527162658488196",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\" || query == \"compute\") {\n        analyze_game();\n        return 0;\n    }\n    \n    cout << \"PE 859: Cookie Game / 饼干游戏\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1527162658488196"
+   ]
+  ]
+ },
+ {
+  "pid": "860",
+  "rc": 0,
+  "got": "958666903",
+  "official": "958666903",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\" || query == \"compute\") {\n        analyze_game();\n        return 0;\n    }\n    \n    cout << \"PE 860: Gold and Silver Coin Game / 金银硬币游戏\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "958666903"
+   ]
+  ]
+ },
+ {
+  "pid": "861",
+  "rc": 0,
+  "got": "672623540591",
+  "official": "672623540591",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_products_of_divisors();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_products_of_divisors();\n        return 0;\n    }\n    cout << \"PE 861: Products of Divisors / 约数乘积\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "672623540591"
+   ]
+  ]
+ },
+ {
+  "pid": "862",
+  "rc": 0,
+  "got": "6111397420935766740",
+  "official": "6111397420935766740",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_larger_digit_permutations();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_larger_digit_permutations();\n        return 0;\n    }\n    cout << \"PE 862: Larger Digit Permutations / 较大数字排列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "6111397420935766740"
+   ]
+  ]
+ },
+ {
+  "pid": "863",
+  "rc": 0,
+  "got": "3862.871397",
+  "official": "3862.871397",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_digital_digit_factorial();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_digital_digit_factorial();\n        return 0;\n    }\n    cout << \"PE 863: Digital Digit Factorial / 数字数字阶乘\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "264577536823"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "3862.871397"
+   ]
+  ]
+ },
+ {
+  "pid": "864",
+  "rc": 0,
+  "got": "110572936177",
+  "official": "110572936177",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_square_plus_one();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_square_plus_one();\n        return 0;\n    }\n    cout << \"PE 864: Square + 1 / 平方+1\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "110572936177"
+   ]
+  ]
+ },
+ {
+  "pid": "865",
+  "rc": 0,
+  "got": "761181918",
+  "official": "761181918",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(9) << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_zeckendorf();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_zeckendorf();\n        return 0;\n    }\n    cout << \"PE 865: Trillion Zeckendorf Representation / 万亿Zeckendorf表示\\n\";\n    cout << \"Answer = \" << fixed << setprecision(9) << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.776767313"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "761181918"
+   ]
+  ]
+ },
+ {
+  "pid": "866",
+  "rc": 0,
+  "got": "492401720",
+  "official": "492401720",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_tidying_up();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_tidying_up();\n        return 0;\n    }\n    cout << \"PE 866: Tidying Up B / 整理B\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "492401720"
+   ]
+  ]
+ },
+ {
+  "pid": "867",
+  "rc": 0,
+  "got": "870557257",
+  "official": "870557257",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_t_polyominoes();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_t_polyominoes();\n        return 0;\n    }\n    cout << \"PE 867: T-polyominoes / T多联骨牌\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "870557257"
+   ]
+  ]
+ },
+ {
+  "pid": "868",
+  "rc": 0,
+  "got": "3832914911887589",
+  "official": "3832914911887589",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_belfort();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_belfort();\n        return 0;\n    }\n    cout << \"PE 868: BELFORT\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "3832914911887589"
+   ]
+  ]
+ },
+ {
+  "pid": "870",
+  "rc": 0,
+  "got": "229.9129353234",
+  "official": "229.9129353234",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER_STR << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_unbreaking();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_unbreaking();\n        return 0;\n    }\n    cout << \"PE 870: Unbreaking / 不打破\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "84618346"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "229.9129353234"
+   ]
+  ]
+ },
+ {
+  "pid": "871",
+  "rc": 0,
+  "got": "2848790",
+  "official": "2848790",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_drilling();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_drilling();\n        return 0;\n    }\n    cout << \"PE 871: Drilling / 钻孔\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2848790"
+   ]
+  ]
+ },
+ {
+  "pid": "872",
+  "rc": 0,
+  "got": "2903144925319290239",
+  "official": "2903144925319290239",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_recursive_tree();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_recursive_tree();\n        return 0;\n    }\n    cout << \"PE 872: Recursive tree / 递推树\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "2903144925319290239"
+   ]
+  ]
+ },
+ {
+  "pid": "873",
+  "rc": 0,
+  "got": "735131856",
+  "official": "735131856",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_make_it_one();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_make_it_one();\n        return 0;\n    }\n    cout << \"PE 873: Make it one / 变成1\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "735131856"
+   ]
+  ]
+ },
+ {
+  "pid": "874",
+  "rc": 0,
+  "got": "4992775389",
+  "official": "4992775389",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_max_prime_powers();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_max_prime_powers();\n        return 0;\n    }\n    cout << \"PE 874: Maximal prime powers / 最大素数幂\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "4992775389"
+   ]
+  ]
+ },
+ {
+  "pid": "875",
+  "rc": 0,
+  "got": "79645946",
+  "official": "79645946",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_quad_power();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_quad_power();\n        return 0;\n    }\n    cout << \"PE 875: Quad power / 四次幂\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "79645946"
+   ]
+  ]
+ },
+ {
+  "pid": "876",
+  "rc": 0,
+  "got": "457019806569269",
+  "official": "457019806569269",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_sequence();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_explore();\n        return 0;\n    }\n    cout << \"PE 876: Sum of Digits, Sequence of Numbers / 数字和数列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "457019806569269"
+   ]
+  ]
+ },
+ {
+  "pid": "877",
+  "rc": 0,
+  "got": "336785000760344621",
+  "official": "336785000760344621",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_xor_product();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_pattern();\n        return 0;\n    }\n    cout << \"PE 877: XOR Problem / 异或问题\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "336785000760344621"
+   ]
+  ]
+ },
+ {
+  "pid": "878",
+  "rc": 0,
+  "got": "23707109",
+  "official": "23707109",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_xor_decimals();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_distribution();\n        return 0;\n    }\n    cout << \"PE 878: XOR Decimals / 异或小数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "23707109"
+   ]
+  ]
+ },
+ {
+  "pid": "879",
+  "rc": 0,
+  "got": "4350069824940",
+  "official": "4350069824940",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_passwords();\n        return 0;\n    }\n    if (query == \"compute\") {\n        analyze_intermediates();\n        return 0;\n    }\n    cout << \"PE 879: Touch-screen Password / 触屏密码\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "4350069824940"
+   ]
+  ]
+ },
+ {
+  "pid": "880",
+  "rc": 0,
+  "got": "522095328",
+  "official": "522095328",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(9) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") {\n        verify_unraveled();\n        return 0;\n    }\n    if (query == \"compute\") {\n        compute_unravel();\n        return 0;\n    }\n    cout << \"PE 880: Unraveled Digits / 展开数字\\n\";\n    cout << \"Answer = \" << fixed << setprecision(9) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "522095328"
+   ]
+  ]
+ },
+ {
+  "pid": "881",
+  "rc": 0,
+  "got": "205702861096933200",
+  "official": "205702861096933200",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_divisor_graph(); return 0; }\n    if (query == \"compute\") { compute_divisor_graph(); return 0; }\n    cout << \"PE 881: Divisor Graph Width / 约数图宽度\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "205702861096933200"
+   ]
+  ]
+ },
+ {
+  "pid": "882",
+  "rc": 0,
+  "got": "15800662276",
+  "official": "15800662276",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_removing_joker(); return 0; }\n    if (query == \"compute\") { compute_removing_joker(); return 0; }\n    cout << \"PE 882: Removing the Joker / 去掉鬼牌\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "15800662276"
+   ]
+  ]
+ },
+ {
+  "pid": "883",
+  "rc": 0,
+  "got": "14854003484704",
+  "official": "14854003484704",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_harmonic_triangles(); return 0; }\n    if (query == \"compute\") { compute_harmonic_triangles(); return 0; }\n    cout << \"PE 883: Remarkable Harmonic Triangles / 显著调和三角形\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "14854003484704"
+   ]
+  ]
+ },
+ {
+  "pid": "884",
+  "rc": 0,
+  "got": "1105985795684653500",
+  "official": "1105985795684653500",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_joker_game(); return 0; }\n    if (query == \"compute\") { compute_joker_game_ext(); return 0; }\n    cout << \"PE 884: Removing the Joker from the Game / 游戏中去除鬼牌\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1105985795684653500"
+   ]
+  ]
+ },
+ {
+  "pid": "885",
+  "rc": 0,
+  "got": "827850196",
+  "official": "827850196",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_sorted_digits(); return 0; }\n    if (query == \"compute\") { compute_sorted_digits(); return 0; }\n    cout << \"PE 885: Sorted Digits / 排序数字\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "827850196"
+   ]
+  ]
+ },
+ {
+  "pid": "886",
+  "rc": 0,
+  "got": "5570163",
+  "official": "5570163",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_coprime_perms(); return 0; }\n    if (query == \"compute\") { compute_coprime_perms(); return 0; }\n    cout << \"PE 886: Coprime Permutations / 互质排列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "5570163"
+   ]
+  ]
+ },
+ {
+  "pid": "887",
+  "rc": 0,
+  "got": "39896187138661622",
+  "official": "39896187138661622",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(7) << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") { verify_bounded_primes(); return 0; }\n    if (query == \"compute\") { compute_bounded_primes(); return 0; }\n    cout << \"PE 887: Bounded Primes / 有界素数\\n\";\n    cout << \"Answer = \" << fixed << setprecision(7) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "39896187138661622"
+   ]
+  ]
+ },
+ {
+  "pid": "888",
+  "rc": 0,
+  "got": "227429102",
+  "official": "227429102",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_1249_numbers(); return 0; }\n    if (query == \"compute\") { compute_1249_numbers(); return 0; }\n    cout << \"PE 888: 1249 Numbers / 1249数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "227429102"
+   ]
+  ]
+ },
+ {
+  "pid": "889",
+  "rc": 0,
+  "got": "424315113",
+  "official": "424315113",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") { verify_rational_blancmange(); return 0; }\n    if (query == \"compute\") { compute_rational_blancmange(); return 0; }\n    cout << \"PE 889: Rational Blancmange / 有理牛奶冻\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "424315113"
+   ]
+  ]
+ },
+ {
+  "pid": "890",
+  "rc": 0,
+  "got": "820442179",
+  "official": "820442179",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_clock2(); return 0; }\n    if (query == \"compute\") { compute_clock2(); return 0; }\n    cout << \"PE 890: Clock II / 时钟II\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "820442179"
+   ]
+  ]
+ },
+ {
+  "pid": "891",
+  "rc": 0,
+  "got": "1541414",
+  "official": "1541414",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_unambiguous_clock(); return 0; }\n    if (query == \"compute\") { compute_unambiguous_clock(); return 0; }\n    cout << \"PE 891: Unambiguous Clock / 无歧义时钟\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1541414"
+   ]
+  ]
+ },
+ {
+  "pid": "892",
+  "rc": 0,
+  "got": "469137427",
+  "official": "469137427",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_zebra_irrationals(); return 0; }\n    if (query == \"compute\") { compute_zebra_irrationals(); return 0; }\n    cout << \"PE 892: Zebra Irrationals / 斑马无理数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "469137427"
+   ]
+  ]
+ },
+ {
+  "pid": "893",
+  "rc": 0,
+  "got": "26688208",
+  "official": "26688208",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") { verify_mobius_matchsticks(); return 0; }\n    if (query == \"compute\") { compute_mobius_matchsticks(); return 0; }\n    cout << \"PE 893: Möbius Matchsticks / 莫比乌斯火柴\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "26688208"
+   ]
+  ]
+ },
+ {
+  "pid": "894",
+  "rc": 0,
+  "got": "0.7718678168",
+  "official": "0.7718678168",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER_STR << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_spiral_theodorus(); return 0; }\n    if (query == \"compute\") { compute_spiral_theodorus(); return 0; }\n    cout << \"PE 894: Spiral of Theodorus / 泰奥多勒斯螺线\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "85516249"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "0.7718678168"
+   ]
+  ]
+ },
+ {
+  "pid": "895",
+  "rc": 0,
+  "got": "670785433",
+  "official": "670785433",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_goldbach_comet(); return 0; }\n    if (query == \"compute\") { compute_goldbach_comet(); return 0; }\n    cout << \"PE 895: Goldbach's Other Comet / 哥德巴赫的另一彗星\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "670785433"
+   ]
+  ]
+ },
+ {
+  "pid": "896",
+  "rc": 0,
+  "got": "274229635640",
+  "official": "274229635640",
+  "match": true,
+  "branch": "if (query == \"PE\") { \n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << \"\\n\"; \n        return 0; \n    }\n    if (query == \"verify\") { verify_divisible_ranges(); return 0; }\n    if (query == \"compute\") { compute_divisible_ranges(); return 0; }\n    cout << \"PE 896: Divisible Ranges / 整除区间\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "274229635640"
+   ]
+  ]
+ },
+ {
+  "pid": "897",
+  "rc": 0,
+  "got": "1.599827123",
+  "official": "1.599827123",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER_STR << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_prime_squares(); return 0; }\n    if (query == \"compute\") { compute_prime_squares(); return 0; }\n    cout << \"PE 897: Connected Prime Squares / 连通素数平方\\n\";\n    cout << \"Answer = \" << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "460088576432531620"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "1.599827123"
+   ]
+  ]
+ },
+ {
+  "pid": "898",
+  "rc": 0,
+  "got": "0.9861343531",
+  "official": "0.9861343531",
+  "match": true,
+  "branch": "if (query == \"PE\") { \n        cout << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\"; \n        return 0; \n    }\n    if (query == \"verify\") { verify_clock_sequence(); return 0; }\n    if (query == \"compute\") { compute_clock_sequence(); return 0; }\n    cout << \"PE 898: Clock Sequence II / 时钟序列II\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER_STR << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "0.9861343531"
+   ],
+   [
+    "PE_ANSWER_STR",
+    "0.9861343531"
+   ]
+  ]
+ },
+ {
+  "pid": "899",
+  "rc": 0,
+  "got": "10784223938983273",
+  "official": "10784223938983273",
+  "match": true,
+  "branch": "if (query == \"PE\") { \n        cout << fixed << setprecision(8) << PE_ANSWER << \"\\n\"; \n        return 0; \n    }\n    if (query == \"verify\") { verify_distribuition(); return 0; }\n    if (query == \"compute\") { compute_distribuition(); return 0; }\n    cout << \"PE 899: Distribuition / 分布\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "10784223938983273"
+   ]
+  ]
+ },
+ {
+  "pid": "900",
+  "rc": 0,
+  "got": "646900900",
+  "official": "646900900",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_cumulative_totient(); return 0; }\n    if (query == \"compute\") { compute_cumulative_totient_advanced(); return 0; }\n    cout << \"PE 900: Cumulative Totients / 累积欧拉函数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for small checks, 'compute' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "646900900"
+   ]
+  ]
+ },
+ {
+  "pid": "903",
+  "rc": 0,
+  "got": "128553191",
+  "official": "128553191",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << fixed << setprecision(8) << (long long)(PE_ANSWER + 0.5) << \"\\n\";\n        return 0;\n    }\n    if (query == \"verify\") { verify_total_perm(); return 0; }\n    if (query == \"analyze\") { analyze_balanced(); return 0; }\n    cout << \"PE 903: Total Permutation Count / 全排列计数\\n\";\n    cout << \"Answer = \" << fixed << setprecision(8) << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'analyze' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "128553191"
+   ]
+  ]
+ },
+ {
+  "pid": "904",
+  "rc": 0,
+  "got": "880652522278760",
+  "official": "880652522278760",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_pythagorean_angle(); return 0; }\n    if (query == \"analyze\") { analyze_asymptotic(); return 0; }\n    if (query == \"small\") { verify_small(); return 0; }\n    cout << \"PE 904: Pythagorean Triples Angle / 勾股三元组角\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'analyze' for theory.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "880652522278760"
+   ]
+  ]
+ },
+ {
+  "pid": "905",
+  "rc": 0,
+  "got": "70228218",
+  "official": "70228218",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_pandigital_param(); return 0; }\n    if (query == \"analyze\") { analyze_inclusion_exclusion(); return 0; }\n    if (query == \"small\") { verify_pandigital_counts(); return 0; }\n    cout << \"PE 905: Pandigital Parametrization / 全数字参数化\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'analyze' for theory.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "70228218"
+   ]
+  ]
+ },
+ {
+  "pid": "907",
+  "rc": 0,
+  "got": "196808901",
+  "official": "196808901",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_stacking_cups(); return 0; }\n    if (query == \"analyze\") { analyze_stacking(); return 0; }\n    cout << \"PE 907: Stacking Cups / 叠杯子\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'analyze' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "196808901"
+   ]
+  ]
+ },
+ {
+  "pid": "908",
+  "rc": 0,
+  "got": "451822602",
+  "official": "451822602",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_clock_sequence_ii(); return 0; }\n    if (query == \"analyze\") { analyze_clock_theory(); return 0; }\n    cout << \"PE 908: Clock Sequence II / 钟摆序列（二）\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'analyze' to explore.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "451822602"
+   ]
+  ]
+ },
+ {
+  "pid": "909",
+  "rc": 0,
+  "got": "399885292",
+  "official": "399885292",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_l_expressions_i(); return 0; }\n    if (query == \"compute\") {\n        cout << \"Evaluating target expression...\\n\";\n        Term* expr = build_expression();\n        ll result = eval_to_num(expr);\n        if (result >= 0) {\n            cout << \"Result = \" << result << \"\\n\";\n            cout << \"Last 9 digits: \" << result % MOD << \"\\n\";\n        } else {\n            cout << \"Could not evaluate (too many steps)\\n\";\n        }\n        return 0;\n    }\n    cout << \"PE 909: L-expressions I / L-表达式（一）\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout ",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "399885292"
+   ]
+  ]
+ },
+ {
+  "pid": "910",
+  "rc": 0,
+  "got": "547480666",
+  "official": "547480666",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_l_expressions_ii(); return 0; }\n    if (query == \"compute\") {\n        cout << \"Computing F(12, 345678, 9012345, 678, 90) mod 10^9...\\n\";\n        cout << \"Note: Full evaluation may require too many steps.\\n\";\n        cout << \"Using known PE answer: \" << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    cout << \"PE 910: L-expressions II / L-表达式（二）\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks, 'compute' to evaluate.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "547480666"
+   ]
+  ]
+ },
+ {
+  "pid": "911",
+  "rc": 0,
+  "got": "5679.934966",
+  "official": "5679.934966",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"describe\") {\n        describe_problem();\n        return 0;\n    }\n    cout << \"PE 911: Khinchin's Constant / 辛钦常数\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'describe' for details.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "5679.934966"
+   ]
+  ]
+ },
+ {
+  "pid": "912",
+  "rc": 0,
+  "got": "674045136",
+  "official": "674045136",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"describe\") {\n        describe_problem();\n        return 0;\n    }\n    cout << \"PE 912: Where are the Primes? / 素数在哪\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'describe' for details.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "674045136"
+   ]
+  ]
+ },
+ {
+  "pid": "914",
+  "rc": 0,
+  "got": "414213562371805310",
+  "official": "414213562371805310",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"describe\") {\n        describe_problem();\n        return 0;\n    }\n    cout << \"PE 914: Triangle in the Saddle / 鞍中三角\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'describe' for details.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "414213562371805310"
+   ]
+  ]
+ },
+ {
+  "pid": "915",
+  "rc": 0,
+  "got": "55601924",
+  "official": "55601924",
+  "match": true,
+  "branch": "if (query == \"PE\") {\n        cout << PE_ANSWER << \"\\n\";\n        return 0;\n    }\n    if (query == \"describe\") {\n        describe_problem();\n        return 0;\n    }\n    cout << \"PE 915: Sudoku Variant / 数独变种\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'describe' for details.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "55601924"
+   ]
+  ]
+ },
+ {
+  "pid": "916",
+  "rc": 0,
+  "got": "877789135",
+  "official": "877789135",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_restricted_permutations(); return 0; }\n    \n    cout << \"PE 916: Restricted Permutations / 有限制排列\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    cout << \"Use 'PE' for answer, 'verify' for checks.\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "877789135"
+   ]
+  ]
+ },
+ {
+  "pid": "917",
+  "rc": 0,
+  "got": "9986212680734636",
+  "official": "9986212680734636",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_minimal_path(); return 0; }\n    \n    cout << \"PE 917: Minimal Path Using Additive Cost\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "9986212680734636"
+   ]
+  ]
+ },
+ {
+  "pid": "920",
+  "rc": 0,
+  "got": "1154027691000533893",
+  "official": "1154027691000533893",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_tau_numbers(); return 0; }\n    \n    cout << \"PE 920: Tau Numbers\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "1154027691000533893"
+   ]
+  ]
+ },
+ {
+  "pid": "922",
+  "rc": 0,
+  "got": "858945298",
+  "official": "858945298",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { analyze_young_game_a(); return 0; }\n    \n    cout << \"PE 922: Young's Game A\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "858945298"
+   ]
+  ]
+ },
+ {
+  "pid": "923",
+  "rc": 0,
+  "got": "740759929",
+  "official": "740759929",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { analyze_young_game_b(); return 0; }\n    \n    cout << \"PE 923: Young's Game B\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "740759929"
+   ]
+  ]
+ },
+ {
+  "pid": "924",
+  "rc": 0,
+  "got": "811141860",
+  "official": "811141860",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_larger_digit_perm_ii(); return 0; }\n    \n    cout << \"PE 924: Larger Digit Permutation II\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "811141860"
+   ]
+  ]
+ },
+ {
+  "pid": "925",
+  "rc": 0,
+  "got": "400034379",
+  "official": "400034379",
+  "match": true,
+  "branch": "if (query == \"PE\") { cout << PE_ANSWER << \"\\n\"; return 0; }\n    if (query == \"verify\") { verify_larger_digit_perm_iii(); return 0; }\n    \n    cout << \"PE 925: Larger Digit Permutation III\\n\";\n    cout << \"Answer = \" << PE_ANSWER << \"\\n\";\n    return 0;\n}\n",
+  "consts": [
+   [
+    "PE_ANSWER",
+    "400034379"
+   ]
+  ]
+ }
+]
