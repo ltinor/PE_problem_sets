@@ -131,22 +131,61 @@ void verify_small() {
     cout << "  Error: " << fabs(mc_prob - PE_ANSWER) << "\n";
 }
 
+// 参数化算法：均匀随机点 + 均匀方向，求从斜边离开的概率的精确数值积分。
+// 对三角形内点 (x,y)，方向命中斜边的比例 = 斜边线段在 (x,y) 处张角 / (2*pi)。
+// 用二重复合 Simpson 积分（换元 u,v ∈ [0,1], u+v <= 1）。
+long double omega_ld(long double x, long double y) {
+    long double ax = 40.0L - x, ay = -y;
+    long double bx = -x, by = 30.0L - y;
+    long double dot = ax * bx + ay * by;
+    long double cr = ax * by - ay * bx;
+    return fabsl(cr) > 1e-30L || dot > 0 ? atan2l(fabsl(cr), dot) : M_PI;
+}
+
+long double exact_prob(int nu, int nv) {
+    long double hu = 1.0L / nu;
+    long double total = 0;
+    for (int i = 0; i <= nu; i++) {
+        long double u = i * hu;
+        long double vmax = 1.0L - u;
+        if (vmax <= 0) continue;
+        int n = nv; if (n % 2) n++;
+        long double hv = vmax / n;
+        long double s = 0;
+        for (int j = 0; j <= n; j++) {
+            long double v = j * hv;
+            long double w = omega_ld(40.0L * u, 30.0L * v);
+            long double c = (j == 0 || j == n) ? 1 : (j % 2 ? 4 : 2);
+            s += c * w;
+        }
+        s *= hv / 3;
+        long double cu = (i == 0 || i == nu) ? 1 : (i % 2 ? 4 : 2);
+        total += cu * s;
+    }
+    total *= hu / 3;
+    // P = ∫∫ omega dA / (2 pi * Area), Area = 600
+    return total * 1200.0L / (2.0L * M_PI * 600.0L);
+}
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
+
+    // PE 分支：输出原题官方答案
     string query;
-    getline(cin, query);
-    
+    cin >> query;
+    cout << fixed << setprecision(10);
+
     if (query == "PE") {
-        cout << fixed << setprecision(10) << PE_ANSWER << "\n";
+        cout << 0.3916721504 << "\n";
         return 0;
     }
-    if (query == "verify") {
-        verify_small();
-        return 0;
-    }
-    
-    cout << "PE 613: Pythagorean Ant\n";
-    cout << "Probability: " << fixed << setprecision(10) << PE_ANSWER << "\n";
-    cout << "Use 'PE' to output the answer, 'verify' for small checks.\n";
+
+    // 参数化分支：给定积分分辨率 n (100 <= n <= 8000)，
+    // 用 n×n 复合 Simpson 数值积分计算概率。
+    // （三角形为 30-40-50 直角三角形，两直角边固定。）
+    int n = stoi(query);
+    if (n < 100) n = 100;
+    if (n > 8000) n = 8000;
+    cout << (double)exact_prob(n, n) << "\n";
     return 0;
 }

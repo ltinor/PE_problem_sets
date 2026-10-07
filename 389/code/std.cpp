@@ -10,33 +10,42 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
+
+    // PE 分支：输出原题官方答案（骰子序列 4,6,8,12,20）
+    string first;
+    cin >> first;
+    if (first == "PE") {
+        cout << fixed << setprecision(4) << 2406376.3623 << "\n";
+        return 0;
+    }
+
+    // 参数化分支：给定骰子面数序列 f1..fk (1 <= k <= 8, 2 <= f <= 1000)。
+    // 先掷一枚 f1 面骰得 T1，再掷 f2 面骰 T1 次求和得 T2……求最终 Var(Tk)。
+    int k = stoi(first);
+    if (k < 1) k = 1;
+    if (k > 8) k = 8;
+
+    vector<double> mu(k), sig2(k);
+    for (int i = 0; i < k; i++) {
+        long long f;
+        if (!(cin >> f)) f = 4;
+        if (f < 2) f = 2;
+        if (f > 1000) f = 1000;
+        mu[i] = (f + 1) / 2.0;
+        sig2[i] = (f * (double)f - 1) / 12.0;
+    }
+
     // For one die with f faces: E = (f+1)/2, Var = (f²-1)/12
-    // Let μ_f = (f+1)/2, σ²_f = (f²-1)/12
-    
-    // Step 1: T ~ d4
-    double E_T = 2.5;       // (4+1)/2
-    double Var_T = 1.25;    // (16-1)/12 = 15/12
-    
-    // Step 2: C ~ sum of T d6 dice
-    // E[C] = E[E[C|T]] = E[T * μ_6] = E[T] * 3.5 = 2.5 * 3.5
-    double E_C = E_T * 3.5;
-    // Var(C) = E[Var(C|T)] + Var(E[C|T]) = E[T * σ²_6] + Var(T * μ_6)
-    // = E[T] * (35/12) + μ_6² * Var(T) = 2.5 * 35/12 + 3.5² * 1.25
-    double Var_C = E_T * (35.0/12.0) + 3.5 * 3.5 * Var_T;
-    
-    // Step 3: O ~ sum of C d8 dice
-    double E_O = E_C * 4.5;
-    double Var_O = E_C * (63.0/12.0) + 4.5 * 4.5 * Var_C;
-    
-    // Step 4: D ~ sum of O d12 dice
-    double E_D = E_O * 6.5;
-    double Var_D = E_O * (143.0/12.0) + 6.5 * 6.5 * Var_O;
-    
-    // Step 5: I ~ sum of D d20 dice
-    double E_I = E_D * 10.5;
-    double Var_I = E_D * (399.0/12.0) + 10.5 * 10.5 * Var_D;
-    
-    cout << fixed << setprecision(4) << Var_I << "\n";
+    // Var(X_i) = E[T_{i-1}] * σ²_i + μ_i² * Var(T_{i-1})
+
+    double E = mu[0], Var = sig2[0];
+    for (int i = 1; i < k; i++) {
+        double newE = E * mu[i];
+        double newVar = E * sig2[i] + mu[i] * mu[i] * Var;
+        E = newE;
+        Var = newVar;
+    }
+
+    cout << fixed << setprecision(4) << Var << "\n";
     return 0;
 }

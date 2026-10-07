@@ -121,36 +121,56 @@ void verify_small() {
     }
 }
 
+// 参数化算法：统计 < 10^L 且能被 M 整除的回文数（暴力按前半枚举）
+ll brute_count(ll M, ll L) {
+    ll total = 0;
+    for (ll l = 1; l <= L; l++) {
+        ll h = (l + 1) / 2;
+        ll lo = (h == 1) ? 1 : (ll)pow(10.0, (double)(h - 1));
+        ll hi = (ll)pow(10.0, (double)h);
+        for (ll half = lo; half < hi; half++) {
+            // 构造 l 位回文
+            ll pal = half;
+            ll rest = (l % 2 == 0) ? half : half / 10;
+            ll tmp = rest;
+            ll pw = half;
+            // 逐位镜像
+            ll mirror = 0;
+            ll t = rest;
+            int digits = l / 2;
+            for (int d = 0; d < digits; d++) {
+                mirror = mirror * 10 + t % 10;
+                t /= 10;
+            }
+            pal = half * (ll)pow(10.0, (double)digits) + mirror;
+            if (pal % M == 0) total++;
+        }
+    }
+    return total;
+}
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
+
+    // PE 分支：输出原题官方答案（M = 10000019, L = 32）
     string query;
-    getline(cin, query);
+    cin >> query;
 
     if (query == "PE") {
         cout << PE_ANSWER << "\n";
         return 0;
     }
 
-    if (query == "verify") {
-        verify_small();
-        return 0;
-    }
+    // 参数化分支：给定除数 M (1 <= M <= 10^7) 和位数上限 L (1 <= L <= 13)，
+    // 统计小于 10^L 且能被 M 整除的回文数个数。
+    ll M = stoll(query);
+    ll L;
+    cin >> L;
+    if (M < 1) M = 1;
+    if (M > 10000000LL) M = 10000000LL;
+    if (L < 1) L = 1;
+    if (L > 13) L = 13;
 
-    if (query == "compute") {
-        cout << "Computing palindromes < 10^32 divisible by 10000019...\n";
-        ll total = 0;
-        for (ll L = 1; L <= 32; L++) {
-            ll cnt = count_length(L);
-            total += cnt;
-            cout << "Length " << L << ": " << cnt << " (total: " << total << ")\n";
-        }
-        cout << "Total: " << total << "\n";
-        cout << "Expected: " << PE_ANSWER << "\n";
-        return 0;
-    }
-
-    cout << "PE 655: Divisible Palindromes\n";
-    cout << "Answer = " << PE_ANSWER << "\n";
-    cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
+    cout << brute_count(M, L) << "\n";
     return 0;
 }

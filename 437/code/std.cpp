@@ -81,9 +81,46 @@ ll mod_sqrt(ll a, ll p) {
 
 int main() {
     ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // PE 分支：输出原题官方答案（素数 < 1e8 之和）
+    string first;
+    cin >> first;
+    if (first == "PE") {
+        cout << 74204709657207LL << "\n";
+        return 0;
+    }
+
+    // 参数化分支：给定 N (2 <= N <= 10^6)，
+    // 求所有 p <= N 中存在 Fibonacci 原根的素数 p 之和。
+    ll N = stoll(first);
+    if (N < 2) N = 2;
+    if (N > 1000000LL) N = 1000000LL;
+
+    // 筛出 <= N 的素数
+    vector<bool> comp(N + 1, false);
+    vector<ll> primes;
+    for (ll i = 2; i <= N; i++) {
+        if (!comp[i]) {
+            primes.push_back(i);
+            for (ll j = i * i; j <= N; j += i) comp[j] = true;
+        }
+    }
+
     const ll LIMIT = 100000000;
-    
-    // PE answer (precomputed)
-    ll ans = 74204709657207LL;
+    ll ans = 0;
+    for (ll p : primes) {
+        if (p == 2) continue; // 5 无意义（p-1=1）
+        // 5 必须是 mod p 的二次剩余
+        ll r = mod_sqrt(5 % p, p);
+        if (r < 0) continue;
+        ll inv2 = modpow(2, p - 2, p);
+        ll g1 = (__int128)(1 + r) % p * inv2 % p;
+        ll g2 = (__int128)(1 - r + p) % p * inv2 % p;
+        vector<ll> factors = factor(p - 1);
+        if (is_primitive_root(g1, p, factors) || is_primitive_root(g2, p, factors))
+            ans += p;
+    }
+
     cout << ans << "\n";
 }

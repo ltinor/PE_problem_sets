@@ -1,75 +1,68 @@
 # 最后一问（PE 480）
 
-> ⚠️ 本题面为自动生成的骨架：题目描述取自 PE 原题（中文译文）。
-## 原题描述
-
-原题及更多讨论见 [https://projecteuler.net/problem=480](https://projecteuler.net/problem=480)。
+## 题目描述
 
 考虑所有从下面这个词组中选取字母并任意排列所能构成的词汇：
 
-<center>**thereisasyetinsufficientdataforameaningfulanswer**</center>
+**thereisasyetinsufficientdataforameaningfulanswer**
 
-将其中包括少于或等于15个字母的单词按照**字典序**排列，并且从1开始逐个编号。
-这个列表大致如下所示：
+（每个字母使用的次数不能超过它在词组中出现的次数。）
 
-1 : a
-2 : aa
-3 : aaa
-4 : aaaa
-5 : aaaaa
-6 : aaaaaa
-7 : aaaaaac
-8 : aaaaaacd
-9 : aaaaaacde
+将其中包括少于或等于 15 个字母的单词按照**字典序**排列，并且从 1 开始逐个编号。例如：
+
+```
+1  : a
+2  : aa
+6  : aaaaaa
 10 : aaaaaacdee
-11 : aaaaaacdeee
-12 : aaaaaacdeeee
-13 : aaaaaacdeeeee
-14 : aaaaaacdeeeeee
-15 : aaaaaacdeeeeeef
-16 : aaaaaacdeeeeeeg
-17 : aaaaaacdeeeeeeh
-...
-28 : aaaaaacdeeeeeey
-29 : aaaaaacdeeeeef
-30 : aaaaaacdeeeeefe
-...
-115246685191495242: euleoywuttttsss
-115246685191495243: euler
-115246685191495244: eulera
-...
-525069350231428029: ywuuttttssssrrr
+115246685191495243 : euler
+525069350231428029 : ywuuttttssssrrr
+```
 
-记P(w)是单词w在列表中的位置。
-记W(p)是列表中位置p上的单词。
-可以看出P(w)和W(p)互为反函数：P(W(p)) = p且W(P(w)) = w。
+记 $P(w)$ 是单词 $w$ 在列表中的位置，$W(p)$ 是列表中位置 $p$ 上的单词，两者互为反函数。
 
-举例如下：
+给定位置 $p$，输出 $W(p)$。
 
-W(10) = aaaaaacdee
-P(aaaaaacdee) = 10
-W(115246685191495243) = euler
-P(euler) = 115246685191495243
+原题（PE480）求
 
-求W(P(legionary) + P(calorimeters) - P(annihilate) + P(orchestrated) - P(fluttering))。
-你的答案中应只包含小写字母，没有空格和标点符号。
+$$W\big(P(\text{legionary}) + P(\text{calorimeters}) - P(\text{annihilate}) + P(\text{orchestrated}) - P(\text{fluttering})\big)$$
+
+其值为位置 $451023621685297214$ 上的单词，官方答案为 `turnthestarson`。
 
 ---
 
 ## 输入格式
 
-字符 `PE`：输出原题官方答案。
+第一行一个 token：
+
+- 若为 `PE`，输出原题官方答案 `turnthestarson`；
+- 否则为整数 $p$（$1 \le p \le 525069350231428029$），表示列表中的位置。
+
+---
 
 ## 输出格式
 
-原题官方答案。
+一行一个字符串：位置 $p$ 上的单词（仅小写字母）。
+
+---
 
 ## 样例
 
-（无 data 数据，参见原题样例。）
+### 输入
+
+```
+115246685191495243
+```
+
+### 输出
+
+```
+euler
+```
 
 ---
 
 ## 数据范围
 
-见原题参数范围。
+- 若输入为 `PE`，输出 `turnthestarson`；
+- 否则 $1 \le p \le 525069350231428029$（单词总数）。

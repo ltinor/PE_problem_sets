@@ -102,25 +102,43 @@ void verify_small() {
     }
 }
 
+// 参数化算法：f(N) = N! 去掉十六进制末尾零后的最后 12 个十六进制位
+// N! = 2^{v2} * D，十六进制末尾零个数 z = floor(v2/4)，
+// f(N) = D * 2^{v2 - 4z} mod 16^12（D 为奇部）。
+string solve_f(ll N) {
+    const unsigned long long MOD = 1ULL << 48;
+    ll v2 = 0;
+    for (ll t = N / 2; t > 0; t /= 2) v2 += t;
+    unsigned long long d = 1;
+    for (ll i = 1; i <= N; i++) {
+        unsigned long long x = i;
+        while ((x & 1) == 0) x >>= 1;
+        d = (unsigned __int128)d * x % MOD;   // 防溢出：__int128 中间量
+    }
+    ll z = v2 / 4;
+    unsigned long long res = d;
+    for (ll i = 0; i < v2 - 4 * z; i++) res = (res << 1) % MOD;
+    char buf[32];
+    snprintf(buf, sizeof(buf), "%012llX", res);
+    return string(buf);
+}
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
-    
+
+    // PE 分支：输出原题官方答案（f(20!)）
     string query;
-    getline(cin, query);
-    
+    cin >> query;
+
     if (query == "PE") {
         cout << PE_ANSWER_STR << "\n";
         return 0;
     }
-    
-    if (query == "verify") {
-        verify_small();
-        return 0;
-    }
-    
-    cout << "PE 592: Modulo totients 2: Fibonacci primitive roots\n";
-    cout << "PE answer: " << PE_ANSWER_STR << "\n";
-    cout << "Use 'PE' to output the answer, 'verify' for small checks.\n";
-    
+
+    // 参数化分支：给定 N (1 <= N <= 10^6)，输出 f(N)
+    ll N = stoll(query);
+    if (N < 1) N = 1;
+    if (N > 1000000LL) N = 1000000LL;
+    cout << solve_f(N) << "\n";
     return 0;
 }

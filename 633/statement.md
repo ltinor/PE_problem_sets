@@ -49,19 +49,42 @@ Find $c_7^\infty$. Give the result in scientific notation rounded to $5$ signifi
 
 ## 输入格式
 
-字符 `PE`：输出原题官方答案。
+第一行一个 token：
+
+- 若为 `PE`，输出原题（$k=7$）官方答案；
+- 否则为整数 $k$（$0 \le k \le 7$）。
 
 ## 输出格式
 
-原题官方答案。
+一行一个字符串：$c_k^\infty$，科学计数法保留 5 位有效数字，用 `e` 分隔尾数与指数（如 `1.2346e-4`）。
 
 ## 样例
 
-（无 data 数据，参见原题样例。）
+### 输入
+
+```
+4
+```
+
+### 输出
+
+```
+9.7046e-5
+```
+
+（与原题表格一致：$c_1^\infty = 3.3539	imes10^{-1}$，$c_4^\infty = 9.7046	imes10^{-5}$。）
 
 ---
 
 ## 数据范围
 
-见原题参数范围。
-参考常量: MAX_PRIME = 10000000
+- 若输入为 `PE`，输出 `1.0012e-10`；
+- 否则 $0 \le k \le 7$。
+
+## 提示
+
+由欧拉乘积 $\prod_p \left(1 + rac{x-1}{p^2}ight) = \sum_k c_k^\infty x^k$，可得
+
+$$c_k^\infty = rac{6}{\pi^2}\, e_k\left(\left\{rac{1}{p^2-1}ight\}_{p 	ext{ prime}}ight)$$
+
+其中 $e_k$ 为初等对称多项式。由于 $1/(p^2-1)$ 衰减极快，对 $p \le 10^7$ 做 DP 即可精确到 5 位有效数字。

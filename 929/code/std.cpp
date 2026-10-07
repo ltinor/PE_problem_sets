@@ -12,39 +12,39 @@ const int N = 100000;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(nullptr);
+
+    // PE 分支：输出原题官方答案（F(100000)）
     string query;
-    getline(cin, query);
+    cin >> query;
 
     if (query == "PE") {
-        // 官方答案 (由下方 compute 分支独立计算验证)
         cout << 57322484LL << endl;
         return 0;
     }
-    if (query == "compute") {
-        // W(m) = sum_{d|m} s(d)*Fib(d)
-        vector<ll> fib(N + 1);
-        fib[1] = 1; fib[2] = 1;
-        for (int i = 3; i <= N; i++) fib[i] = (fib[i-1] + fib[i-2]) % MOD;
-        vector<ll> W(N + 1, 0);
-        for (int d = 1; d <= N; d++) {
-            ll t = (d % 2 == 1) ? fib[d] : (MOD - fib[d]) % MOD;
-            for (int m = d; m <= N; m += d) W[m] = (W[m] + t) % MOD;
-        }
-        // F(n) = sum_m W(m) F(n-m); i128 块累加避免逐项取模 (5e9 项, 14s -> ~4s)
-        vector<ll> F(N + 1, 0);
-        F[0] = 1;
-        for (int n = 1; n <= N; n++) {
-            __int128 acc = 0;
-            for (int m = 1; m <= n; m++)
-                acc += (ll)W[m] * F[n - m];
-            F[n] = (ll)(acc % MOD);
-        }
-        cout << F[N] << "\n";
-        return 0;
-    }
 
-    cout << "PE 929: Odd-Run Compositions\n";
-    cout << "F(5) = 10; find F(100000) mod 1111124111\n";
-    cout << "Use 'PE' or 'compute'.\n";
+    // 参数化分支：给定 n (1 <= n <= 100000)，输出 F(n) mod 1111124111。
+    int n = stoi(query);
+    if (n < 1) n = 1;
+    if (n > 100000) n = 100000;
+
+    // W(m) = sum_{d|m} s(d)*Fib(d)
+    vector<ll> fib(n + 1);
+    fib[1] = 1; fib[2] = 1;
+    for (int i = 3; i <= n; i++) fib[i] = (fib[i-1] + fib[i-2]) % MOD;
+    vector<ll> W(n + 1, 0);
+    for (int d = 1; d <= n; d++) {
+        ll t = (d % 2 == 1) ? fib[d] : (MOD - fib[d]) % MOD;
+        for (int m = d; m <= n; m += d) W[m] = (W[m] + t) % MOD;
+    }
+    // F(n) = sum_m W(m) F(n-m)
+    vector<ll> F(n + 1, 0);
+    F[0] = 1;
+    for (int nn = 1; nn <= n; nn++) {
+        __int128 acc = 0;
+        for (int m = 1; m <= nn; m++)
+            acc += (ll)W[m] * F[nn - m];
+        F[nn] = (ll)(acc % MOD);
+    }
+    cout << F[n] << "\n";
     return 0;
 }

@@ -112,32 +112,58 @@ void verify_small() {
     cout << "These are distinct genotype-labeled binary trees.\n";
 }
 
+// 参数化算法：多类型分支过程灭绝概率（母函数不动点迭代，自 0 单调上升）
+double P_extinct(int k, int m) {
+    vector<ll> r(1, 306);
+    while ((int)r.size() < k * m) r.push_back((long long)r.back() * r.back() % 10007);
+
+    vector<long double> p(k, 0.0L), np(k, 0.0L);
+    for (int it = 1; it <= 5000000; it++) {
+        for (int i = 0; i < k; i++) {
+            long double sm = 0;
+            for (int j = 0; j < m; j++) {
+                int q = (int)(r[(size_t)i * m + j] % 5);
+                long double v;
+                if (q == 0) v = 1.0L;                          // 死亡：空乘积
+                else if (q == 1) v = p[i] * p[i];              // 克隆
+                else if (q == 2) v = p[(2 * i) % k];           // 变异
+                else if (q == 3) v = p[(i * i + 1) % k];       // 一分为三
+                else v = p[i] * p[(i + 1) % k];                // 生殖
+                if (q == 3) v = v * v * v;
+                sm += v;
+            }
+            np[i] = sm / m;
+        }
+        long double err = 0;
+        for (int i = 0; i < k; i++) err = max(err, fabsl(np[i] - p[i]));
+        p = np;
+        if (err < 1e-14L) break;
+    }
+    return (double)p[0];
+}
+
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
+    cout << fixed << setprecision(8);
+
+    // PE 分支：输出原题官方答案（P(500,10)）
     string query;
-    getline(cin, query);
+    cin >> query;
 
     if (query == "PE") {
-        cout << PE_ANSWER_STR << "\n";
+        cout << 0.48023168 << "\n";
         return 0;
     }
 
-    if (query == "verify") {
-        verify_small();
-        return 0;
-    }
+    // 参数化分支：给定 k (1 <= k <= 500) 和 m (1 <= m <= 10)，输出 P(k,m)。
+    int k = stoi(query);
+    int m;
+    cin >> m;
+    if (k < 1) k = 1;
+    if (k > 500) k = 500;
+    if (m < 1) m = 1;
+    if (m > 10) m = 10;
 
-    if (query == "compute") {
-        int N = 20; // example computation depth
-        cout << "Computing colony count for N=" << N << "...\n";
-        ll result = count_colonies(N);
-        cout << "Result: " << result << "\n";
-        cout << "PE answer for the full problem: " << PE_ANSWER_STR << "\n";
-        return 0;
-    }
-
-    cout << "PE 666: Polymorphic Bacteria\n";
-    cout << "Answer = " << PE_ANSWER_STR << "\n";
-    cout << "Use 'PE' to output answer, 'verify' for small checks, 'compute' to recalc.\n";
+    cout << P_extinct(k, m) << "\n";
     return 0;
 }
